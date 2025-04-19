@@ -3,7 +3,7 @@ import json
 import os
 from pathlib import Path
 
-# Model IDs should be consistent across runs
+# Model IDs (stable across builds)
 BASIC_MODEL_ID = 1607392319
 CLOZE_MODEL_ID = 1378438319
 
