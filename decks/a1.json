@@ -1,0 +1,16 @@
+{
+  "name": "Italiano::A1",
+  "cards": [
+    {
+      "model": "cloze",
+      "front": "{{c1::al}} = a + il",
+      "back": "Used for masculine singular nouns starting with a consonant.",
+      "tags": ["a1", "grammar_note", "preposizione"]
+    },
+    {
+      "front": "🍝 <b>mangiare</b> — to eat<br><br><i>Example:</i><br>Io <b>mangio</b> una mela.",
+      "back": "Definition: to eat<br>Present tense: <b>mangio</b> = I eat<br>Example: Io mangio una mela = I eat an apple",
+      "tags": ["a1", "verb", "presente"]
+    }
+  ]
+}
