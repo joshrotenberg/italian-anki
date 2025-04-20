@@ -5,6 +5,7 @@ on:
     paths: ["decks/**/*.json", "generate.py"]
   pull_request:
     paths: ["decks/**/*.json", "generate.py"]
+  workflow_dispatch:
 
 jobs:
   validate:
