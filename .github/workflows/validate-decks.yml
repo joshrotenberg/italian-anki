@@ -24,9 +24,9 @@ jobs:
 
       - name: Validate JSON format
         run: |
-          for f in decks/**/*.json; do
-            echo "Validating $f"
-            python -m json.tool < "$f" > /dev/null
+          find decks/ -name "*.json" | while read f; do
+           echo "Validating $f"
+           python -m json.tool < "$f" > /dev/null
           done
 
       - name: Build all decks
