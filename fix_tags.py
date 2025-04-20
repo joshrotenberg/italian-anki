@@ -5,7 +5,8 @@ import glob, json, os, sys
 for path in glob.glob('decks/a1/*.json'):
     level = os.path.basename(os.path.dirname(path))
     topic = os.path.splitext(os.path.basename(path))[0]
-    data = json.load(open(path, encoding='utf-8'))
+    with open(path, encoding='utf-8') as f:
+        data = json.load(f)
     # Set tags to [level, topic]
     for card in data.get('cards', []):
         card['tags'] = [level, topic]
