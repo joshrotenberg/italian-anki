@@ -2,7 +2,7 @@
   "cards": [
     {
       "model": "cloze",
-      "front": "Ieri ho {{c1::mangiato}} una pizza.",
+      "front": "Ieri ho {{c1::mangiato}} una pasta.",
       "back": "<b>mangiato</b> = passato prossimo di mangiare (io)",
       "tags": [
         "a2",
@@ -20,7 +20,7 @@
     },
     {
       "model": "cloze",
-      "front": "Ieri ho {{c1::parlato}} con Maria.",
+      "front": "Ieri ho {{c1::parlato}} al telefono.",
       "back": "<b>parlato</b> = passato prossimo di parlare (io)",
       "tags": [
         "a2",
@@ -29,7 +29,7 @@
     },
     {
       "model": "cloze",
-      "front": "Ieri ho {{c1::bevuto}} del vino.",
+      "front": "Ieri ho {{c1::bevuto}} un caffè.",
       "back": "<b>bevuto</b> = passato prossimo di bere (io)",
       "tags": [
         "a2",
@@ -38,34 +38,7 @@
     },
     {
       "model": "cloze",
-      "front": "Ieri ho {{c1::scritto}} una email.",
-      "back": "<b>scritto</b> = passato prossimo di scrivere (io)",
-      "tags": [
-        "a2",
-        "verbi_passato_prossimo"
-      ]
-    },
-    {
-      "model": "cloze",
-      "front": "Ieri ho {{c1::visto}} un film.",
-      "back": "<b>visto</b> = passato prossimo di vedere (io)",
-      "tags": [
-        "a2",
-        "verbi_passato_prossimo"
-      ]
-    },
-    {
-      "model": "cloze",
-      "front": "Ieri ho {{c1::preso}} l'autobus.",
-      "back": "<b>preso</b> = passato prossimo di prendere (io)",
-      "tags": [
-        "a2",
-        "verbi_passato_prossimo"
-      ]
-    },
-    {
-      "model": "cloze",
-      "front": "Ieri ho {{c1::fatto}} una passeggiata.",
+      "front": "Ieri ho {{c1::fatto}} i compiti.",
       "back": "<b>fatto</b> = passato prossimo di fare (io)",
       "tags": [
         "a2",
@@ -74,7 +47,7 @@
     },
     {
       "model": "cloze",
-      "front": "Ieri sono {{c1::andato}} al mare.",
+      "front": "Ieri sono {{c1::andato}} al cinema.",
       "back": "<b>andato</b> = passato prossimo di andare (io)",
       "tags": [
         "a2",
@@ -92,8 +65,8 @@
     },
     {
       "model": "cloze",
-      "front": "Ieri sono {{c1::arrivato}} in tempo.",
-      "back": "<b>arrivato</b> = passato prossimo di arrivare (io)",
+      "front": "Ieri ho {{c1::visto}} un documentario.",
+      "back": "<b>visto</b> = passato prossimo di vedere (io)",
       "tags": [
         "a2",
         "verbi_passato_prossimo"
@@ -101,8 +74,8 @@
     },
     {
       "model": "cloze",
-      "front": "Ieri sono {{c1::partito}} presto.",
-      "back": "<b>partito</b> = passato prossimo di partire (io)",
+      "front": "Ieri ho {{c1::preso}} l'autobus.",
+      "back": "<b>preso</b> = passato prossimo di prendere (io)",
       "tags": [
         "a2",
         "verbi_passato_prossimo"
@@ -110,8 +83,17 @@
     },
     {
       "model": "cloze",
-      "front": "Ieri sono {{c1::entrato}} in ufficio.",
-      "back": "<b>entrato</b> = passato prossimo di entrare (io)",
+      "front": "Ieri ho {{c1::detto}} la verità.",
+      "back": "<b>detto</b> = passato prossimo di dire (io)",
+      "tags": [
+        "a2",
+        "verbi_passato_prossimo"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Ieri ho {{c1::rimasto}} a casa.",
+      "back": "<b>rimasto</b> = passato prossimo di rimanere (io)",
       "tags": [
         "a2",
         "verbi_passato_prossimo"
@@ -128,7 +110,7 @@
     },
     {
       "model": "cloze",
-      "front": "Ieri ho {{c1::dormito}} fino a tardi.",
+      "front": "Ieri ho {{c1::dormito}} profondamente.",
       "back": "<b>dormito</b> = passato prossimo di dormire (io)",
       "tags": [
         "a2",
@@ -137,8 +119,8 @@
     },
     {
       "model": "cloze",
-      "front": "Ieri ho {{c1::viaggiato}} in treno.",
-      "back": "<b>viaggiato</b> = passato prossimo di viaggiare (io)",
+      "front": "Ieri ho {{c1::guardato}} la TV.",
+      "back": "<b>guardato</b> = passato prossimo di guardare (io)",
       "tags": [
         "a2",
         "verbi_passato_prossimo"
@@ -146,8 +128,8 @@
     },
     {
       "model": "cloze",
-      "front": "Ieri ho {{c1::ascoltato}} musica.",
-      "back": "<b>ascoltato</b> = passato prossimo di ascoltare (io)",
+      "front": "Ieri ho {{c1::completato}} il progetto.",
+      "back": "<b>completato</b> = passato prossimo di completare (io)",
       "tags": [
         "a2",
         "verbi_passato_prossimo"
@@ -155,8 +137,8 @@
     },
     {
       "model": "cloze",
-      "front": "Ieri ho {{c1::capito}} la lezione.",
-      "back": "<b>capito</b> = passato prossimo di capire (io)",
+      "front": "Ieri ho {{c1::aspettato}} l'autobus.",
+      "back": "<b>aspettato</b> = passato prossimo di aspettare (io)",
       "tags": [
         "a2",
         "verbi_passato_prossimo"
@@ -164,8 +146,8 @@
     },
     {
       "model": "cloze",
-      "front": "Ieri ho {{c1::conosciuto}} molti studenti.",
-      "back": "<b>conosciuto</b> = passato prossimo di conoscere (io)",
+      "front": "Ieri ho {{c1::pagato}} il conto.",
+      "back": "<b>pagato</b> = passato prossimo di pagare (io)",
       "tags": [
         "a2",
         "verbi_passato_prossimo"
@@ -173,8 +155,26 @@
     },
     {
       "model": "cloze",
-      "front": "Ieri ho {{c1::trovato}} le chiavi.",
-      "back": "<b>trovato</b> = passato prossimo di trovare (io)",
+      "front": "Ieri ho {{c1::disegnato}} un paesaggio.",
+      "back": "<b>disegnato</b> = passato prossimo di disegnare (io)",
+      "tags": [
+        "a2",
+        "verbi_passato_prossimo"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Ieri ho {{c1::costruito}} un castello di sabbia.",
+      "back": "<b>costruito</b> = passato prossimo di costruire (io)",
+      "tags": [
+        "a2",
+        "verbi_passato_prossimo"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Ieri ho {{c1::pulito}} la casa.",
+      "back": "<b>pulito</b> = passato prossimo di pulire (io)",
       "tags": [
         "a2",
         "verbi_passato_prossimo"

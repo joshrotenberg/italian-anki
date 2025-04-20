@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "Mario è <b>più alto</b> di Luca.",
+      "back": "Comparativo di maggioranza",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "Luca è <b>meno alto</b> di Mario.",
+      "back": "Comparativo di minoranza",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "Maria è <b>tanto intelligente quanto</b> Giulia.",
+      "back": "Comparativo di uguaglianza",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "Questo libro è il <b>più interessante</b> che abbia mai letto.",
+      "back": "Superlativo relativo di maggioranza",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "È il film <b>meno costoso</b> del catalogo.",
+      "back": "Superlativo relativo di minoranza",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "Sono <b>importantissimo</b> per il progetto.",
+      "back": "Superlativo assoluto con -issimo",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "È <b>bellissima</b> quella ragazza.",
+      "back": "Superlativo assoluto",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "Oggi sono <b>poco stanco</b>.",
+      "back": "Comparativo di minoranza con avverbio",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "Lavora <b>più velocemente</b> di me.",
+      "back": "Comparativo di maggioranza con avverbio",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "Lui è <b>meno gentile</b> del solito.",
+      "back": "Comparativo di minoranza con aggettivo",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "Maria è <b>più felice</b> oggi.",
+      "back": "Comparativo di maggioranza semplice",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "Questa pizza è <b>meno buona</b> della tua.",
+      "back": "Comparativo di minoranza semplice",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "Sono <b>moltissimo grato</b>.",
+      "back": "Superlativo assoluto con molto",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "Questo compito è <b>facilissimo</b>.",
+      "back": "Superlativo assoluto in -issimo",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "Oggi sono <b>più coraggioso</b> che mai.",
+      "back": "Comparativo di maggioranza enfatico",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "È il giorno <b>meno importante</b> dell'anno.",
+      "back": "Superlativo relativo di minoranza",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "Questo è un piatto <b>deliziosissimo</b>.",
+      "back": "Superlativo assoluto in -issimo",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "Lei è <b>più esperta</b> di me.",
+      "back": "Comparativo di maggioranza semplice",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "Questo problema è il <b>più difficile</b> che abbia mai affrontato.",
+      "back": "Superlativo relativo di maggioranza",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "Oggi sono <b>più felice</b> di ieri.",
+      "back": "Comparativo di maggioranza semplice",
+      "tags": [
+        "a2",
+        "comparativi_superlativi"
+      ]
+    }
+  ]
+}

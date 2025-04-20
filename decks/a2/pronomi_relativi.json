@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "model": "cloze",
+      "front": "Il libro {{c1::che}} leggo è interessante.",
+      "back": "<b>che</b> = that, which",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "La casa in {{c1::cui}} vivo è vecchia.",
+      "back": "<b>cui</b> = in which",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "L'uomo {{c1::il quale}} parla è mio zio.",
+      "back": "<b>il quale</b> = who, which",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "La donna {{c1::la quale}} ho visto è anziana.",
+      "back": "<b>la quale</b> = who, which",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "I ragazzi {{c1::i quali}} studiano sono in biblioteca.",
+      "back": "<b>i quali</b> = who",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Le ragazze {{c1::le quali}} cantano sono talentuose.",
+      "back": "<b>le quali</b> = who",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "La città {{c1::dove}} sono nato è bellissima.",
+      "back": "<b>dove</b> = where",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Il posto in {{c1::cui}} mangio spesso è chiuso.",
+      "back": "<b>cui</b> = where",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Il motivo per {{c1::cui}} sono qui è importante.",
+      "back": "<b>cui</b> = for which",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Il libro di {{c1::cui}} ti ho parlato è nuovo.",
+      "back": "<b>cui</b> = of which",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Ho incontrato un amico {{c1::che}} vive all'estero.",
+      "back": "<b>che</b> = who",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "L'auto con {{c1::cui}} viaggio è efficiente.",
+      "back": "<b>cui</b> = with which",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "La strada per {{c1::la quale}} abbiamo camminato è lunga.",
+      "back": "<b>la quale</b> = for which",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "I dettagli sui {{c1::quali}} hai lavorato sono nel report.",
+      "back": "<b>quali</b> = which",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "La persona da {{c1::cui}} ho ricevuto aiuto è gentile.",
+      "back": "<b>cui</b> = from whom",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Ho visitato il museo {{c1::che}} hai scelto.",
+      "back": "<b>che</b> = that",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "L'articolo nel {{c1::quale}} trovi informazioni.",
+      "back": "<b>quale</b> = in which",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "La casa in {{c1::cui}} abito è antica.",
+      "back": "<b>cui</b> = in which",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Ieri ho incontrato chi {{c1::che}} pensavo.",
+      "back": "<b>che</b> = that",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Il problema per {{c1::cui}} lavoro è complesso.",
+      "back": "<b>cui</b> = for which",
+      "tags": [
+        "a2",
+        "pronomi_relativi"
+      ]
+    }
+  ]
+}
