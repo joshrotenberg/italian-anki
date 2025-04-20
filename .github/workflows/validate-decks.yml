@@ -31,3 +31,6 @@ jobs:
 
       - name: Validate decks
         run: python validate.py
+
+      - name: Run tests
+        run: pytest --maxfail=1 --disable-warnings -q
