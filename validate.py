@@ -4,7 +4,8 @@ exit_code = 0
 for path in glob.glob("decks/*/*.json"):
     level = os.path.basename(os.path.dirname(path))
     topic = os.path.splitext(os.path.basename(path))[0]
-    data = json.load(open(path, encoding="utf-8"))
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
     for idx, card in enumerate(data.get("cards", []), start=1):
         tags = card.get("tags")
         if not (isinstance(tags, list) and len(tags) == 2):
