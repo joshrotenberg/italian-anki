@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "model": "cloze",
+      "front": "Quando ero piccolo, {{c1::andavo}} al parco.",
+      "back": "<b>andavo</b> = imperfetto di andare (io)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Da giovane, {{c1::leggevo}} molti libri.",
+      "back": "<b>leggevo</b> = imperfetto di leggere (io)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Ogni estate {{c1::nuotavamo}} in mare.",
+      "back": "<b>nuotavamo</b> = imperfetto di nuotare (noi)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Da bambino, {{c1::giocavo}} a calcio.",
+      "back": "<b>giocavo</b> = imperfetto di giocare (io)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Spesso {{c1::scrivevo}} lettere.",
+      "back": "<b>scrivevo</b> = imperfetto di scrivere (io)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Ogni giorno {{c1::parlavano}} al telefono.",
+      "back": "<b>parlavano</b> = imperfetto di parlare (loro)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Quando pioveva, {{c1::restavamo}} a casa.",
+      "back": "<b>restavamo</b> = imperfetto di restare (noi)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Spesso {{c1::facevo}} dolci con mia madre.",
+      "back": "<b>facevo</b> = imperfetto di fare (io)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Ogni mattina {{c1::bevevo}} un caffè.",
+      "back": "<b>bevevo</b> = imperfetto di bere (io)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Quando studiavo, {{c1::ascoltavo}} musica.",
+      "back": "<b>ascoltavo</b> = imperfetto di ascoltare (io)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Da piccolo {{c1::dormivo}} presto.",
+      "back": "<b>dormivo</b> = imperfetto di dormire (io)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Spesso {{c1::sceglievi}} un gelato.",
+      "back": "<b>sceglievi</b> = imperfetto di scegliere (tu)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Ogni sera {{c1::cantavamo}} insieme.",
+      "back": "<b>cantavamo</b> = imperfetto di cantare (noi)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Quando vivevo a Roma, {{c1::conoscevo}} molte persone.",
+      "back": "<b>conoscevo</b> = imperfetto di conoscere (io)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Ogni anno {{c1::viaggiavano}} in Italia.",
+      "back": "<b>viaggiavano</b> = imperfetto di viaggiare (loro)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Spesso {{c1::capivamo}} la situazione.",
+      "back": "<b>capivamo</b> = imperfetto di capire (noi)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Quando ero stanco, {{c1::riposavo}} un po'.",
+      "back": "<b>riposavo</b> = imperfetto di riposare (io)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Da ragazzo {{c1::suonavi}} la chitarra.",
+      "back": "<b>suonavi</b> = imperfetto di suonare (tu)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Spesso {{c1::benediceva}} la tavola.",
+      "back": "<b>benediceva</b> = imperfetto di benedire (lui)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Ogni domenica {{c1::mangiavamo}} insieme.",
+      "back": "<b>mangiavamo</b> = imperfetto di mangiare (noi)",
+      "tags": [
+        "a2",
+        "verbi_imperfetto"
+      ]
+    }
+  ]
+}

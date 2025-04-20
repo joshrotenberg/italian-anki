@@ -1,65 +1,64 @@
-# Italian Anki Deck: A1–B1 Vocabulary & Grammar
+# Italian Anki Decks
 
-This repository contains a structured and taggable set of Anki decks for Italian learners, from **A1 through B1**.
-Each level lives under `decks/{a1,a2,b1}/` with ~20‑card JSON files per topic.
+A collection of JSON files and scripts for generating Anki decks to learn Italian at different proficiency levels.
 
-## Structure
-
-Each Anki subdeck lives in:
+## Repository Structure
 
 ```
-decks/a1/
-├── verbi_presente.json
-├── aggettivi.json
-└── …
-decks/a2/
-├── passato_prossimo.json
-├── imperfetto.json
-└── …
-decks/b1/
-└── …
+italian-anki/
+├── decks/
+│   ├── a1/           # A1-level JSON deck files
+│   └── a2/           # A2-level JSON deck files
+├── generate.py       # Script to build .apkg Anki decks from JSON
+├── validate.py       # Script to validate JSON deck format
+├── requirements.txt  # Python dependencies
+└── tests/            # Automated tests
 ```
 
-## Tags
+## Requirements
 
-Each card **must** have **exactly two** tags:
-1. The level tag: `a1`, `a2`, or `b1`
-2. The topic tag: the filename without `.json` (e.g. `verbi_presente`)
+- Python 3.8+
+- Install dependencies:
+  ```bash
+  pip install -r requirements.txt
+  ```
 
-## Dependencies
+## Usage
 
-Install the pinned versions:
+Generate Anki decks:
 
-`pip install -r requirements.txt`
+```bash
+# Build A1 decks:
+python generate.py --level a1
 
-This brings in:
-	•	genanki (for building .apkg files)
-	•	jsonschema (for JSON schema validation)
+# Build A2 decks (core + extras):
+python generate.py --level a2
 
-Validation
+# Build all levels (if available):
+python generate.py --level all
+```
 
-Run:
+Validate JSON files:
 
-`python validate.py`
+```bash
+# Validate A1 decks
+python validate.py decks/a1
 
-	•	Checks JSON structure against deck.schema.json
-	•	Enforces the two‑tag convention (level + topic)
-	•	Exits nonzero on any error
+# Validate A2 decks
+python validate.py decks/a2
+```
 
-CI automatically invokes this on every push/PR touching decks/**/*.json.
+## Contributing
 
-Building Decks
-
-To generate .apkg files:
-
-# Build only A1 decks
-`python generate.py --level a1`
-
-# Build all levels (A1–B1)
-`python generate.py --all`
-
-Outputs appear in output/.
-
-Helpers
-	•	fix_tags.py: auto‑resets all card tags to [level, topic] for decks in any decks/<level>/ folder.
-	•	requirements.txt: pins dependencies for consistent CI builds.
+1. Add new JSON file under `decks/<level>/`.
+2. Follow naming: `<topic>.json`.
+3. Each card must include:
+   - `model`: `basic` or `cloze`
+   - `front` and `back` HTML strings
+   - `tags`: `["<level>", "<topic>"]`
+4. Run validation:
+   ```bash
+   python validate.py decks/<level>
+   ```
+5. Update `generate.py` if adding new levels or modes.
+6. Submit a pull request.

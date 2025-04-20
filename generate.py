@@ -1,108 +1,158 @@
-import genanki
+#!/usr/bin/env python3
+"""
+generate.py
+
+Builds Anki .apkg decks from JSON definitions under decks/<level>/*.json.
+Supports per-file, per-level, uber (all-in-one), and chunked modes.
+Embeds repo VERSION into deck titles and filenames.
+Usage examples:
+  python generate.py --level a1                     # per-file on a1
+  python generate.py --all                         # per-file on all levels
+  python generate.py --mode per-level              # one deck per level
+  python generate.py --mode uber                   # one big deck with all cards
+  python generate.py --mode chunk --chunk-size 10  # decks of 10 files each
+  python generate.py --mode per-file --level a2    # per-file on a2
+"""
+import os
 import json
 import argparse
 import hashlib
-from pathlib import Path
+import genanki
 
-# Load styling from styles.css if it exists
-styles_path = Path("styles.css")
-card_style = styles_path.read_text(encoding="utf-8") if styles_path.exists() else ""
+# Ensure script runs from its own directory
+SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
+os.chdir(SCRIPT_DIR)
 
-BASIC_MODEL_ID = 1607392319
-CLOZE_MODEL_ID = 1378438319
+# Read version from the VERSION file
+def read_version():
+    version_file = os.path.join(SCRIPT_DIR, 'VERSION')
+    try:
+        with open(version_file, encoding='utf-8') as vf:
+            return vf.read().strip()
+    except FileNotFoundError:
+        return '0.0.0'
 
-BASIC_MODEL = genanki.Model(
-    BASIC_MODEL_ID,
-    'Italiano Basic Model',
-    css=card_style,
-    fields=[{"name": "Front"}, {"name": "Back"}],
-    templates=[{
-        "name": "Basic Card",
-        "qfmt": "{{Front}}",
-        "afmt": "{{FrontSide}}<hr id='answer'>{{Back}}",
-    }],
-)
+VERSION = read_version()
 
-CLOZE_MODEL = genanki.Model(
-    CLOZE_MODEL_ID,
-    'Italiano Cloze Model',
-    css=card_style,
-    fields=[{"name": "Text"}, {"name": "Extra"}],
-    templates=[{
-        "name": "Cloze Card",
-        "qfmt": "{{cloze:Text}}",
-        "afmt": "{{cloze:Text}}<br><br>{{Extra}}",
-    }],
-    model_type=genanki.Model.CLOZE,
-)
+# Stable deck ID based on MD5 of name
+def stable_id(name: str) -> int:
+    digest = hashlib.md5(name.encode('utf-8')).hexdigest()
+    return int(digest[:10], 16)
 
-def load_cards_from_directory(directory: Path):
-    cards = []
-    for json_file in sorted(directory.glob("*.json")):
-        print(f"📄 Reading file: {json_file}")
-        with open(json_file, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            count = len(data.get("cards", []))
-            print(f"  → Loaded {count} cards from {json_file.name}")
-            cards.extend(data["cards"])
-    return cards
+# Shared models
+MODELS = {
+    'basic': genanki.Model(
+        stable_id('basic-model'), 'Basic Model',
+        fields=[{'name': 'Front'}, {'name': 'Back'}],
+        templates=[{
+            'name': 'Card 1',
+            'qfmt': '{{Front}}',
+            'afmt': '{{FrontSide}}<hr id="answer">{{Back}}',
+        }]
+    ),
+    'cloze': genanki.Model(
+        stable_id('cloze-model'), 'Cloze Model',
+        fields=[{'name': 'Text'}],
+        templates=[{
+            'name': 'Cloze Card',
+            'qfmt': '{{cloze:Text}}',
+            'afmt': '{{cloze:Text}}',
+        }],
+        model_type=genanki.Model.CLOZE
+    )
+}
 
-def generate_deck(deck_name: str, cards: list, output_path: Path):
-    if not cards:
-        print(f"⚠️ No cards found for {deck_name}. Skipping.")
-        return
-
-    digest = hashlib.md5(deck_name.encode("utf‑8")).hexdigest()
-    deck_id = int(digest[:10], 16)
-    deck = genanki.Deck(deck_id, deck_name)
+# Build and write one deck
+def build_deck(level: str, topic: str, cards: list):
+    deck_name = f"Italiano::{level}/{topic}"
+    deck_id = stable_id(deck_name)
+    deck_title = f"{deck_name} v{VERSION}"
+    deck = genanki.Deck(deck_id, deck_title)
 
     for card in cards:
-        model_type = card.get("model", "basic")
-        if model_type == "cloze":
-            note = genanki.Note(
-                model=CLOZE_MODEL,
-                fields=[card["front"], card.get("back", "")],
-                tags=card.get("tags", []),
-            )
-        else:
-            note = genanki.Note(
-                model=BASIC_MODEL,
-                fields=[card["front"], card["back"]],
-                tags=card.get("tags", []),
-            )
+        model_key = card.get('model')
+        model = MODELS.get(model_key)
+        if not model:
+            raise ValueError(f"Unknown model '{model_key}' in card: {card}")
+        fields = [card.get('front', ''), card.get('back', '')] if model_key=='basic' else [card.get('front','')]
+        note = genanki.Note(model=model, fields=fields, tags=card.get('tags', []))
         deck.add_note(note)
 
-    output_file = output_path / f"{deck_name.replace('::', '_')}.apkg"
-    genanki.Package(deck).write_to_file(output_file)
-    print(f"✅ Wrote {len(deck.notes)} notes to {output_file}")
+    out_dir = os.path.join(SCRIPT_DIR, 'output')
+    os.makedirs(out_dir, exist_ok=True)
+    filename = f"{level}-{topic}-v{VERSION}.apkg"
+    path = os.path.join(out_dir, filename)
+    genanki.Package(deck).write_to_file(path)
+    print(f"Wrote {path}")
 
-def build_all_levels(decks_base: Path, output_path: Path):
-    for level_dir in sorted(decks_base.glob("*")):
-        if level_dir.is_dir():
-            level = level_dir.name
-            print(f"📘 Building deck for level '{level}'...")
-            cards = load_cards_from_directory(level_dir)
-            generate_deck(f"Italiano::{level.upper()}", cards, output_path)
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--level", "-l", help="CEFR level (e.g. a1, a2)")
-    parser.add_argument("--all", action="store_true", help="Build all levels")
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Generate Anki decks')
+    parser.add_argument('--level', choices=['a1','a2','b1'], help='legacy: per-file on a single level')
+    parser.add_argument('--all', action='store_true', help='legacy: per-file on all levels')
+    parser.add_argument('--mode', choices=['per-file','per-level','uber','chunk'], help='build mode')
+    parser.add_argument('--chunk-size', type=int, default=0, help='number of files per deck in chunk mode')
     args = parser.parse_args()
 
-    decks_dir = Path("decks")
-    output_dir = Path("output")
-    output_dir.mkdir(exist_ok=True)
-
-    if args.all:
-        build_all_levels(decks_dir, output_dir)
-    elif args.level:
-        level_path = decks_dir / args.level.lower()
-        if not level_path.exists():
-            print(f"❌ Deck folder not found: {level_path}")
-            exit(1)
-        cards = load_cards_from_directory(level_path)
-        generate_deck(f"Italiano::{args.level.upper()}", cards, output_dir)
+    # Determine levels
+    all_levels = sorted([d for d in os.listdir('decks') if os.path.isdir(os.path.join('decks', d))])
+    if args.level:
+        levels = [args.level]
+    elif args.all or args.mode:
+        levels = all_levels
     else:
-        print("❌ You must specify either --level or --all")
-        exit(1)
+        parser.error('Specify --level, --all, or --mode')
+
+    mode = args.mode or ('per-file')
+
+    # Per-file mode
+    if mode=='per-file':
+        for lvl in levels:
+            lvl_dir = os.path.join('decks', lvl)
+            for fname in sorted(os.listdir(lvl_dir)):
+                if not fname.endswith('.json'): continue
+                topic = os.path.splitext(fname)[0]
+                data = json.load(open(os.path.join(lvl_dir, fname), encoding='utf-8'))
+                cards = data.get('cards', [])
+                if cards: build_deck(lvl, topic, cards)
+
+    # Per-level mode
+    elif mode=='per-level':
+        for lvl in levels:
+            cards=[]
+            for fname in sorted(os.listdir(os.path.join('decks', lvl))):
+                if not fname.endswith('.json'): continue
+                data = json.load(open(os.path.join('decks', lvl, fname), encoding='utf-8'))
+                cards.extend(data.get('cards', []))
+            if cards: build_deck(lvl, lvl, cards)
+
+    # Uber mode
+    elif mode=='uber':
+        cards=[]
+        for lvl in levels:
+            for fname in sorted(os.listdir(os.path.join('decks', lvl))):
+                if not fname.endswith('.json'): continue
+                data = json.load(open(os.path.join('decks', lvl, fname), encoding='utf-8'))
+                cards.extend(data.get('cards', []))
+        if cards: build_deck('all', 'all', cards)
+
+    # Chunk mode
+    elif mode=='chunk':
+        n = args.chunk_size
+        if n<=0:
+            parser.error('--chunk-size must be >0 for chunk mode')
+        for lvl in levels:
+            files = [f for f in sorted(os.listdir(os.path.join('decks', lvl))) if f.endswith('.json')]
+            for i in range(0, len(files), n):
+                chunk = files[i:i+n]
+                cards=[]
+                topics=[]
+                for fname in chunk:
+                    topic = os.path.splitext(fname)[0]
+                    topics.append(topic)
+                    data = json.load(open(os.path.join('decks', lvl, fname), encoding='utf-8'))
+                    cards.extend(data.get('cards', []))
+                deck_topic = '_'.join(topics)
+                if cards: build_deck(lvl, deck_topic, cards)
+
+    else:
+        parser.error(f"Unknown mode '{mode}'")

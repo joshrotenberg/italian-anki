@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "model": "cloze",
+      "front": "Vorrei {{c1::parlare}} con te.",
+      "back": "<b>parlare</b> = condizionale presente di parlare (io)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Mi piacerebbe {{c1::viaggiare}} in Grecia.",
+      "back": "<b>viaggiare</b> = condizionale di viaggiare (io)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Potrei {{c1::spedire}} il pacco domani.",
+      "back": "<b>spedire</b> = condizionale di spedire (io)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Vorremmo {{c1::visitare}} il museo.",
+      "back": "<b>visitare</b> = condizionale di visitare (noi)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Potrebbero {{c1::aiutare}} tutti.",
+      "back": "<b>aiutare</b> = condizionale di aiutare (loro)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Sarebbe {{c1::meglio}} studiare ora.",
+      "back": "<b>meglio</b> = condizionale di essere (imp.)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Dovresti {{c1::fare}} più esercizio.",
+      "back": "<b>fare</b> = condizionale di fare (tu)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Potresti {{c1::chiamarmi}} più tardi?",
+      "back": "<b>chiamarmi</b> = condizionale di chiamare (tu)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Vorrebbero {{c1::mangiare}} fuori.",
+      "back": "<b>mangiare</b> = condizionale di mangiare (loro)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Sarei {{c1::felice}} di aiutarti.",
+      "back": "<b>felice</b> = condizionale di essere (io)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Ci piacerebbe {{c1::partecipare}}.",
+      "back": "<b>partecipare</b> = condizionale di partecipare (noi)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Potremmo {{c1::comprare}} un regalo.",
+      "back": "<b>comprare</b> = condizionale di comprare (noi)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Dovrebbero {{c1::arrivare}} presto.",
+      "back": "<b>arrivare</b> = condizionale di arrivare (loro)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Potrei {{c1::chiedere}} un favore.",
+      "back": "<b>chiedere</b> = condizionale di chiedere (io)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Sarebbe {{c1::utile}} sapere.",
+      "back": "<b>utile</b> = condizionale di essere (imp.)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Vorresti {{c1::venire}} con noi?",
+      "back": "<b>venire</b> = condizionale di venire (tu)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Potrebbero {{c1::studiare}} insieme.",
+      "back": "<b>studiare</b> = condizionale di studiare (loro)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Saremmo {{c1::interessati}} all'offerta.",
+      "back": "<b>interessati</b> = condizionale di essere (noi)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Potrei {{c1::prendere}} un giorno di ferie.",
+      "back": "<b>prendere</b> = condizionale di prendere (io)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Vorrei {{c1::sapere}} di più.",
+      "back": "<b>sapere</b> = condizionale di sapere (io)",
+      "tags": [
+        "a2",
+        "verbi_condizionale"
+      ]
+    }
+  ]
+}

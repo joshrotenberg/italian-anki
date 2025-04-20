@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "model": "cloze",
+      "front": "Vedo {{c1::il libro}} ogni giorno.",
+      "back": "<b>il libro</b> = lo (I see it every day)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Ho chiamato {{c1::Maria}} ieri.",
+      "back": "<b>Maria</b> = la (I called her yesterday)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Ho visto {{c1::i ragazzi}} al parco.",
+      "back": "<b>i ragazzi</b> = li (I saw them at the park)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Conosco {{c1::le ragazze}}.",
+      "back": "<b>le ragazze</b> = le (I know them)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Mangio {{c1::la mela}} ogni giorno.",
+      "back": "<b>la mela</b> = la (I eat it every day)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Prendo {{c1::l'autobus}} ogni mattina.",
+      "back": "<b>l'autobus</b> = lo (I take it every morning)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Chiedo {{c1::il permesso}} al docente.",
+      "back": "<b>il permesso</b> = lo (I ask for it)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Cerco {{c1::le chiavi}}.",
+      "back": "<b>le chiavi</b> = le (I'm looking for them)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Accendo {{c1::la luce}}.",
+      "back": "<b>la luce</b> = la (I turn it on)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Ascolto {{c1::la musica}}.",
+      "back": "<b>la musica</b> = la (I listen to it)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Prendo {{c1::i biscotti}}.",
+      "back": "<b>i biscotti</b> = li (I take them)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Mangio {{c1::gli spaghetti}}.",
+      "back": "<b>gli spaghetti</b> = li (I eat them)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Bevo {{c1::il caffè}}.",
+      "back": "<b>il caffè</b> = lo (I drink it)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Invito {{c1::i miei amici}}.",
+      "back": "<b>i miei amici</b> = li (I invite them)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Guardo {{c1::il film}} stasera.",
+      "back": "<b>il film</b> = lo (I watch it tonight)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Apro {{c1::la porta}}.",
+      "back": "<b>la porta</b> = la (I open it)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Lascio {{c1::le scarpe}} fuori.",
+      "back": "<b>le scarpe</b> = le (I leave them outside)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Cerco {{c1::un lavoro}}.",
+      "back": "<b>un lavoro</b> = lo (I'm looking for it)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Porto {{c1::il cane}} al parco.",
+      "back": "<b>il cane</b> = lo (I take him to the park)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Saluto {{c1::i vicini}}.",
+      "back": "<b>i vicini</b> = li (I greet them)",
+      "tags": [
+        "a2",
+        "pronomi_oggetto_diretto"
+      ]
+    }
+  ]
+}

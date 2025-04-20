@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "model": "cloze",
+      "front": "Io {{c1::preferisco}} il tè al caffè.",
+      "back": "<b>preferisco</b> = preferire (isc)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Noi {{c1::finivamo}} sempre tardi.",
+      "back": "<b>finivamo</b> = finire (isc)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Loro {{c1::pulivano}} la casa ogni settimana.",
+      "back": "<b>pulivano</b> = pulire (isc)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Tu {{c1::capisci}} la lezione?",
+      "back": "<b>capisci</b> = capire (isc)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Lei {{c1::costruisce}} castelli di sabbia.",
+      "back": "<b>costruisce</b> = costruire (isc)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Mi {{c1::sveglio}} alle 7:00.",
+      "back": "<b>sveglio</b> = svegliarsi (riflessivo)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Ci {{c1::incontriamo}} ogni lunedì.",
+      "back": "<b>incontriamo</b> = incontrarsi (riflessivo)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Mi {{c1::diverto}} al cinema.",
+      "back": "<b>diverto</b> = divertirsi (riflessivo)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Ci {{c1::ricordiamo}} del compleanno.",
+      "back": "<b>ricordiamo</b> = ricordarsi (riflessivo)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Loro si {{c1::sono lamentati}} del servizio.",
+      "back": "<b>si sono lamentati</b> = lamentarsi (riflessivo passato)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Io {{c1::ho deciso}} di partire.",
+      "back": "<b>ho deciso</b> = decidere (composto)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Tu {{c1::hai promesso}} di aiutarmi.",
+      "back": "<b>hai promesso</b> = promettere (composto)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Lei {{c1::ha scelto}} un vestito elegante.",
+      "back": "<b>ha scelto</b> = scegliere (composto)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Noi {{c1::abbiamo scoperto}} un errore.",
+      "back": "<b>abbiamo scoperto</b> = scoprire (composto)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Loro {{c1::hanno deciso}} di restare.",
+      "back": "<b>hanno deciso</b> = decidere (composto)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Io {{c1::mi sono alzato}} presto.",
+      "back": "<b>mi sono alzato</b> = alzarsi (riflessivo passato)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Tu {{c1::ti sei vestito}} in fretta.",
+      "back": "<b>ti sei vestito</b> = vestirsi (riflessivo passato)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Lei {{c1::si è addormentata}} subito.",
+      "back": "<b>si è addormentata</b> = addormentarsi (riflessivo passato)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Ci {{c1::siamo divertiti}} alla festa.",
+      "back": "<b>siamo divertiti</b> = divertirsi (riflessivo passato)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Loro {{c1::si ricordano}} di noi.",
+      "back": "<b>si ricordano</b> = ricordarsi (riflessivo)",
+      "tags": [
+        "a2",
+        "verbi_avanzati"
+      ]
+    }
+  ]
+}

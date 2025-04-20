@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "➡️ <b>Gira a destra</b>",
+      "back": "Meaning: Turn right<br>Example: Gira a destra dopo il semaforo",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⬅️ <b>Gira a sinistra</b>",
+      "back": "Meaning: Turn left<br>Example: Gira a sinistra in via Roma",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⬆️ <b>Vai dritto</b>",
+      "back": "Meaning: Go straight<br>Example: Vai dritto fino alla piazza",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "↗️ <b>Prendi la seconda a destra</b>",
+      "back": "Meaning: Take the second right<br>Example: Prendi la seconda a destra dopo il bar",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "↖️ <b>Prendi la prima a sinistra</b>",
+      "back": "Meaning: Take the first left<br>Example: Prendi la prima a sinistra dopo il negozio",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⛔️ <b>Non è permesso girare qui</b>",
+      "back": "Meaning: You cannot turn here<br>Example: È un senso unico, non è permesso girare qui",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚧 <b>Attraversa la strada</b>",
+      "back": "Meaning: Cross the street<br>Example: Attraversa la strada con cautela",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔝 <b>Arriva in cima</b>",
+      "back": "Meaning: Reach the top<br>Example: Arriva in cima alla collina",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔙 <b>Torna indietro</b>",
+      "back": "Meaning: Go back<br>Example: Se sbagli strada, torna indietro",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "↔️ <b>Prosegui parallelo</b>",
+      "back": "Meaning: Continue parallel<br>Example: Prosegui parallelo al fiume",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🏞️ <b>Segui il cartello</b>",
+      "back": "Meaning: Follow the sign<br>Example: Segui il cartello per il museo",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚏 <b>Scendi alla fermata</b>",
+      "back": "Meaning: Get off at the stop<br>Example: Scendi alla fermata successiva",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🏠 <b>Svolta davanti alla casa gialla</b>",
+      "back": "Meaning: Turn in front of the yellow house<br>Example: Svolta davanti alla casa gialla",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🛣️ <b>Segui la strada principale</b>",
+      "back": "Meaning: Follow the main road<br>Example: Segui la strada principale fino al ponte",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🛤️ <b>Attraversa il ponte</b>",
+      "back": "Meaning: Cross the bridge<br>Example: Attraversa il ponte, poi gira a destra",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚶‍♂️ <b>Passeggia lungo il fiume</b>",
+      "back": "Meaning: Walk along the river<br>Example: Passeggia lungo il fiume fino al parco",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🗺️ <b>Consulta la mappa</b>",
+      "back": "Meaning: Check the map<br>Example: Consulta la mappa per le indicazioni",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📍 <b>Segna il punto di arrivo</b>",
+      "back": "Meaning: Mark the arrival point<br>Example: Segna il punto di arrivo sulla mappa",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📏 <b>È a 200 metri</b>",
+      "back": "Meaning: It's 200 meters away<br>Example: L'ufficio è a 200 metri da qui",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>Ci vorranno 5 minuti</b>",
+      "back": "Meaning: It will take 5 minutes<br>Example: Ci vorranno 5 minuti a piedi",
+      "tags": [
+        "a2",
+        "direzioni_stradali"
+      ]
+    }
+  ]
+}

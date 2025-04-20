@@ -1,0 +1,124 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "🍲 <b>la pentola</b>",
+      "back": "Meaning: pot<br>Example: Metto l'acqua nella <b>pentola</b> per la pasta",
+      "tags": ["a2","vocab_cucina"]
+    },
+    {
+      "model": "basic",
+      "front": "🍳 <b>la padella</b>",
+      "back": "Meaning: frying pan<br>Example: Riscaldo l'olio nella <b>padella</b>",
+      "tags": ["a2","vocab_cucina"]
+    },
+    {
+      "model": "basic",
+      "front": "🔪 <b>il coltello</b>",
+      "back": "Meaning: knife<br>Example: Taglio il pane con il <b>coltello</b>",
+      "tags": ["a2","vocab_cucina"]
+    },
+    {
+      "model": "basic",
+      "front": "🍴 <b>la forchetta</b>",
+      "back": "Meaning: fork<br>Example: Mangio la pasta con la <b>forchetta</b>",
+      "tags": ["a2","vocab_cucina"]
+    },
+    {
+      "model": "basic",
+      "front": "🥄 <b>il cucchiaio</b>",
+      "back": "Meaning: spoon<br>Example: Mescolo la zuppa con il <b>cucchiaio</b>",
+      "tags": ["a2","vocab_cucina"]
+    },
+    {
+      "model": "basic",
+      "front": "🍽️ <b>il piatto</b>",
+      "back": "Meaning: plate<br>Example: Metto il dolce sul <b>piatto</b>",
+      "tags": ["a2","vocab_cucina"]
+    },
+    {
+      "model": "basic",
+      "front": "🥛 <b>il bicchiere</b>",
+      "back": "Meaning: glass<br>Example: Riempio il <b>bicchiere</b> di acqua",
+      "tags": ["a2","vocab_cucina"]
+    },
+    {
+      "model": "basic",
+      "front": "☕ <b>la tazza</b>",
+      "back": "Meaning: cup<br>Example: Bevo il caffè nella <b>tazza</b>",
+      "tags": ["a2","vocab_cucina"]
+    },
+    {
+      "model": "basic",
+      "front": "🔥 <b>il forno</b>",
+      "back": "Meaning: oven<br>Example: Inforno la torta nel <b>forno</b>",
+      "tags": ["a2","vocab_cucina"]
+    },
+    {
+      "model": "basic",
+      "front": "❄️ <b>il frigorifero</b>",
+      "back": "Meaning: refrigerator<br>Example: Metto il latte nel <b>frigorifero</b>",
+      "tags": ["a2","vocab_cucina"]
+    },
+    {
+      "model": "basic",
+      "front": "📡 <b>il microonde</b>",
+      "back": "Meaning: microwave<br>Example: Scaldo la minestra nel <b>microonde</b>",
+      "tags": ["a2","vocab_cucina"]
+    },
+    {
+      "model": "basic",
+      "front": "🍽️ <b>il tavolo</b>",
+      "back": "Meaning: table<br>Example: Apparecchio il <b>tavolo</b> per cena",
+      "tags": ["a2","vocab_cucina"]
+    },
+    {
+      "model": "basic",
+      "front": "💺 <b>la sedia</b>",
+      "back": "Meaning: chair<br>Example: Sposto la <b>sedia</b> vicino al tavolo",
+      "tags": ["a2","vocab_cucina"]
+    },
+    {
+      "model": "basic",
+      "front": "🏠 <b>la cucina</b>",
+      "back": "Meaning: kitchen<br>Example: Passo molto tempo in <b>cucina</b>",
+      "tags": ["a2","vocab_cucina"]
+    },
+    {
+      "model": "basic",
+      "front": "🚰 <b>il lavandino</b>",
+      "back": "Meaning: sink<br>Example: Lavo i piatti nel <b>lavandino</b>",
+      "tags": ["a2","vocab_cucina"]
+    },
+    {
+      "model": "basic",
+      "front": "🔪 <b>il tagliere</b>",
+      "back": "Meaning: cutting board<br>Example: Taglio le verdure sul <b>tagliere</b>",
+      "tags": ["a2","vocab_cucina"]
+    },
+    {
+      "model": "basic",
+      "front": "🥄 <b>il mestolo</b>",
+      "back": "Meaning: ladle<br>Example: Servo la zuppa con il <b>mestolo</b>",
+      "tags": ["a2","vocab_cucina"]
+    },
+    {
+      "model": "basic",
+      "front": "🧀 <b>la grattugia</b>",
+      "back": "Meaning: grater<br>Example: Grattugio il formaggio con la <b>grattugia</b>",
+      "tags": ["a2","vocab_cucina"]
+    },
+    {
+      "model": "basic",
+      "front": "⚖️ <b>la bilancia</b>",
+      "back": "Meaning: scale<br>Example: Peso gli ingredienti con la <b>bilancia</b>",
+      "tags": ["a2","vocab_cucina"]
+    },
+    {
+      "model": "basic",
+      "front": "🥤 <b>il frullatore</b>",
+      "back": "Meaning: blender<br>Example: Preparo un frullato con il <b>frullatore</b>",
+      "tags": ["a2","vocab_cucina"]
+    }
+  ]
+}

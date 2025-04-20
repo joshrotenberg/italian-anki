@@ -1,75 +1,49 @@
-# Contributing to the Italian Anki Deck (A1–B1)
+# Contributing
 
-Thank you for helping grow this multi‑level Anki resource!
+Thanks for helping improve the Italian‑Anki project! Please follow these guidelines:
 
-## Folder Structure
+## 1. Add or update a deck
 
-```
-decks/
-├── a1/
-├── a2/
-└── b1/
-```
+1. Place your JSON file in the correct folder: `decks/<level>/` (e.g., `decks/a1/` or `decks/a2/`).
+2. Name it `<topic>.json` (e.g., `vocab_alimentari.json`).
+3. Follow the JSON schema:
+   ```json
+   {
+     "cards": [
+       {
+         "model": "basic" | "cloze",
+         "front": "...",
+         "back": "...",
+         "tags": ["<level>", "<topic>"]
+       }
+     ]
+   }
+   ```
+4. Validate your file:
+   ```bash
+   python validate.py decks/<level>
+   ```
 
-## Prerequisites
+## 2. Generate Anki decks
 
-`pip install -r requirements.txt`
-
-Running Validation
-
-After editing JSON files:
-
-`python validate.py`
-
-CI will automatically validate your changes on every PR.
-If you need to mass‑reset tags in a folder:
-
-`python fix_tags.py`
-
-✅ Style Guide
-	•	Models: use only basic or cloze.
-	•	No placeholders: every card must have real, pedagogical content.
-	•	Tags: exactly two tags per card:
-	1.	The level ("a1", "a2", "b1")
-	2.	The topic (filename without .json)
-	•	Size: aim for ~20 cards per JSON file for balance.
-	•	Whole‑file updates: overwrite complete files—do not submit diffs inside a file.
-
-Adding New Content
-	1.	Create a new JSON file under decks/<level>/ (e.g. decks/a2/nuovi_verbi.json).
-	2.	Name the file to match the topic tag exactly.
-	3.	Structure your file like:
-
-```json
-{
-  "cards": [
-    {
-      "model": "basic",
-      "front": "<b>parlare</b>",
-      "back": "Meaning: to speak<br>Example: Io parlo italiano",
-      "tags": ["a1","verbi_presente"]
-    }
-  ]
-}
+Use `generate.py` to build `.apkg` files:
+```bash
+python generate.py --level <level>
+# e.g.
+python generate.py --level a1
+python generate.py --level a2
+python generate.py --level all
 ```
 
-	4.	Validate locally:
+## 3. Run tests
 
-`python validate.py`
+Ensure everything passes:
+```bash
+pytest
+```
 
-	5.	Build to preview in Anki:
+## 4. Update scripts
 
-`python generate.py --level a1`
+If you add new levels or change output modes, update `generate.py` accordingly.
 
-	6.	Commit and open a PR against main.
-
-Workflow
-	1.	Fork & clone this repo.
-	2.	Create a branch: feature/<level>-<topic>.
-	3.	Add/update JSON files under decks/<level>/.
-	4.	Run python validate.py to catch errors.
-	5.	Optionally build with python generate.py.
-	6.	Commit, push, and open a PR.
-	7.	CI will run validation; once it’s green, we’ll merge!
-
-Thank you for contributing, and happy card‑making!
+Once all checks pass, submit a pull request. Thank you! 🎉
