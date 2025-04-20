@@ -1,3 +1,24 @@
+# 🇮🇹 Italian Anki Decks
+
+This project contains structured Anki decks for learning Italian, organized by CEFR levels (A1, A2, etc.). Each deck is built from a JSON file and converted to `.apkg` using [`genanki`](https://github.com/kerrickstaley/genanki).
+
+## 📦 Project Structure
+
+```
+italian-anki/
+├── decks/
+│   └── a1/
+│       ├── verbi_presente.json
+│       ├── espressioni_fare.json
+│       ├── modi_di_dire.json
+│       ├── antonomi.json
+│       ├── sostantivi.json
+│       └── preposizioni.json
+├── output/
+├── generate.py
+└── README.md
+
+
 ## 🧱 JSON Format & Schemas by Category
 
 Each `.json` file under `decks/a1/` should have this structure:
