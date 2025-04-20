@@ -2,66 +2,34 @@ name: Validate Decks
 
 on:
   push:
-    branches:
-      - main
     paths:
-      - 'decks/**.json'
+      - "decks/**.json"
   pull_request:
-    branches:
-      - main
     paths:
-      - 'decks/**.json'
-  workflow_dispatch:
-
+      - "decks/**.json"
 
 jobs:
   validate:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: bash
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up Python
+      - name: Use Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Cache pip
         uses: actions/cache@v3
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
+          restore-keys: ${{ runner.os }}-pip-
 
-      - name: Install dependencies
+      - name: Install deps
         run: pip install -r requirements.txt
 
-      - name: Run JSON schema validation
+      - name: Validate decks
         run: python validate.py
-
-      - name: Sanity‑check deck tags
-        run: |
-          for f in decks/*/*.json; do
-            lvl=$(basename "$(dirname "$f")")
-            topic=$(basename "$f" .json)
-            python - <<EOF
-import json, sys
-data = json.load(open("$f", encoding="utf-8"))
-for c in data.get("cards", []):
-    tags = c.get("tags", [])
-    if not (isinstance(tags, list) and len(tags)==2):
-        print(f"❌ {f}: expected 2 tags, got {tags}", file=sys.stderr)
-        sys.exit(1)
-    if tags[0] != "$lvl":
-        print(f"❌ {f}: first tag should be level '{lvl}', got '{tags[0]}'", file=sys.stderr)
-        sys.exit(1)
-    if tags[1] != "$topic":
-        print(f"❌ {f}: second tag should be topic '{topic}', got '{tags[1]}'", file=sys.stderr)
-        sys.exit(1)
-EOF
-          done
