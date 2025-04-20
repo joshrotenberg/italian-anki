@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "➕ <b>inoltre</b>",
+      "back": "Meaning: moreover<br>Example: Studio, inoltre lavoro part-time",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "➖ <b>tuttavia</b>",
+      "back": "Meaning: however<br>Example: È carino, tuttavia caro",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⚖️ <b>perciò</b>",
+      "back": "Meaning: therefore<br>Example: Piove, perciò resto a casa",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔄 <b>comunque</b>",
+      "back": "Meaning: anyway<br>Example: Comunque verrò più tardi",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🎯 <b>infatti</b>",
+      "back": "Meaning: in fact<br>Example: Infatti ho ragione",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚀 <b>dunque</b>",
+      "back": "Meaning: thus<br>Example: Dunque partiamo domani",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📍 <b>ossia</b>",
+      "back": "Meaning: that is<br>Example: Parlo d'italiano, ossia la lingua",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📌 <b>cioè</b>",
+      "back": "Meaning: that is to say<br>Example: Studio, cioè imparo",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔗 <b>pertanto</b>",
+      "back": "Meaning: therefore<br>Example: Studio, pertanto imparo",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⚔️ <b>nonostante</b>",
+      "back": "Meaning: despite<br>Example: Nonostante piova, esco",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⚠️ <b>poiché</b>",
+      "back": "Meaning: since/because<br>Example: Non vado poiché piove",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🌟 <b>in primo luogo</b>",
+      "back": "Meaning: in the first place<br>Example: In primo luogo studio italiano",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔚 <b>in secondo luogo</b>",
+      "back": "Meaning: secondly<br>Example: In secondo luogo pratico la lingua",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🏁 <b>in conclusione</b>",
+      "back": "Meaning: in conclusion<br>Example: In conclusione, bene così",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔄 <b>quindi</b>",
+      "back": "Meaning: so/therefore<br>Example: Piove, quindi resto a casa",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⚙️ <b>conseguentemente</b>",
+      "back": "Meaning: consequently<br>Example: Conseguentemente, agisco",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🗣️ <b>a proposito</b>",
+      "back": "Meaning: by the way<br>Example: A proposito, hai visto?",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📝 <b>in realtà</b>",
+      "back": "Meaning: actually<br>Example: In realtà ho sbagliato",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "❓ <b>a tal proposito</b>",
+      "back": "Meaning: on that note<br>Example: A tal proposito, ti ricordi?",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔄 <b>d'altronde</b>",
+      "back": "Meaning: on the other hand<br>Example: D'altronde, hai ragione",
+      "tags": [
+        "a2",
+        "connettivi"
+      ]
+    }
+  ]
+}

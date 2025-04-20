@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "🐢 <b>Chi va piano va sano e va lontano</b>",
+      "back": "Meaning: Slow and steady wins the race",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⏳ <b>Meglio tardi che mai</b>",
+      "back": "Meaning: Better late than never",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "💧 <b>Ogni lasciata è persa</b>",
+      "back": "Meaning: You snooze you lose",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🌧️ <b>Non c'è rosa senza spine</b>",
+      "back": "Meaning: Every rose has its thorn",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🗣️ <b>Chi dorme non piglia pesci</b>",
+      "back": "Meaning: He who sleeps catches no fish",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🍎 <b>Pane al pane, vino al vino</b>",
+      "back": "Meaning: Call a spade a spade",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👥 <b>L'unione fa la forza</b>",
+      "back": "Meaning: Unity is strength",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📚 <b>Impara l'arte e mettila da parte</b>",
+      "back": "Meaning: Learn a skill and keep it",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🤑 <b>Soldi non fanno la felicità</b>",
+      "back": "Meaning: Money doesn't buy happiness",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🌲 <b>Tra il dire e il fare c'è di mezzo il mare</b>",
+      "back": "Meaning: Easier said than done",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🏃 <b>Chi cerca trova</b>",
+      "back": "Meaning: Seek and you shall find",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "💡 <b>Non tutte le ciambelle escono col buco</b>",
+      "back": "Meaning: You can't always get what you want",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⛈️ <b>Dopo la pioggia torna il sereno</b>",
+      "back": "Meaning: After the rain comes the sun",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🐑 <b>Occhio non vede, cuore non duole</b>",
+      "back": "Meaning: Ignorance is bliss",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🦺 <b>Prevenire è meglio che curare</b>",
+      "back": "Meaning: Prevention is better than cure",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🎁 <b>Non è tutto oro quel che luccica</b>",
+      "back": "Meaning: All that glitters is not gold",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>Chi ha tempo non aspetti tempo</b>",
+      "back": "Meaning: Make hay while the sun shines",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔒 <b>Tra moglie e marito non mettere il dito</b>",
+      "back": "Meaning: Don't interfere in others' disputes",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🍵 <b>Chi ben comincia è a metà dell'opera</b>",
+      "back": "Meaning: A good start is half the work",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🥇 <b>La pratica rende perfetti</b>",
+      "back": "Meaning: Practice makes perfect",
+      "tags": [
+        "a2",
+        "proverbi_modi_dire"
+      ]
+    }
+  ]
+}
