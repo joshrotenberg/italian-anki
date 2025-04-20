@@ -120,6 +120,36 @@
       "front": "💬 <b>parlare</b> in passato prossimo<br><br><i>Example:</i><br>Io <b>ho parlato</b> con Maria.",
       "back": "Tense: Passato Prossimo<br><b>ho parlato</b> = I spoke<br>Example: Io ho parlato con Maria = I spoke with Maria",
       "tags": ["a1", "verb", "passato_prossimo"]
+    },
+    {
+      "model": "basic",
+      "front": "🚪 <b>porta</b>",
+      "back": "Meaning: door<br>Example: La porta è aperta = The door is open",
+      "tags": ["a1", "noun", "sostantivo"]
+    },
+    {
+      "model": "basic",
+      "front": "🍷 <b>bere</b> — to drink<br><br><i>Present:</i><br>Io <b>bevo</b> acqua.",
+      "back": "Definition: to drink<br>Present tense: <b>bevo</b> = I drink<br>Example: Io bevo acqua = I drink water",
+      "tags": ["a1", "verb", "presente", "verbi_irregolari"]
+    },
+    {
+      "model": "cloze",
+      "front": "Il libro è {{c1::sul}} tavolo.",
+      "back": "Grammar: <b>sul</b> = su + il<br>Example meaning: The book is on the table.",
+      "tags": ["a1", "grammar_note", "preposizione"]
+    },
+    {
+      "model": "basic",
+      "front": "💤 <b>stanco</b> (adj)",
+      "back": "Meaning: tired<br>Example: Sono stanco dopo il lavoro = I am tired after work",
+      "tags": ["a1", "adjective", "aggettivo"]
+    },
+    {
+      "model": "basic",
+      "front": "🛒 <b>Fare la spesa</b>",
+      "back": "Expression: to do the grocery shopping<br>Example: Domani faccio la spesa = Tomorrow I’m doing the grocery shopping",
+      "tags": ["a1", "expression"]
     }
   ]
 }
