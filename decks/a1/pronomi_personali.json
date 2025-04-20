@@ -1,67 +1,24 @@
 {
-  "cards": [
-    {
-      "model": "basic",
-      "front": "👤 <b>io</b>",
-      "back": "Meaning: I<br>Example: <b>Io</b> abito a Bologna",
-      "tags": [
-        "a1",
-        "pronomi_personali"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🧑 <b>tu</b>",
-      "back": "Meaning: you (singular informal)<br>Example: <b>Tu</b> studi l’italiano?",
-      "tags": [
-        "a1",
-        "pronomi_personali"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "👨‍🦱 <b>lui</b>",
-      "back": "Meaning: he<br>Example: <b>Lui</b> lavora in un ufficio",
-      "tags": [
-        "a1",
-        "pronomi_personali"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "👩 <b>lei</b>",
-      "back": "Meaning: she<br>Example: <b>Lei</b> si chiama Marta",
-      "tags": [
-        "a1",
-        "pronomi_personali"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "👥 <b>noi</b>",
-      "back": "Meaning: we<br>Example: <b>Noi</b> andiamo a scuola insieme",
-      "tags": [
-        "a1",
-        "pronomi_personali"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "👨‍👩‍👧‍👦 <b>voi</b>",
-      "back": "Meaning: you all (plural)<br>Example: <b>Voi</b> parlate inglese?",
-      "tags": [
-        "a1",
-        "pronomi_personali"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "👨‍👩‍👧 <b>loro</b>",
-      "back": "Meaning: they<br>Example: <b>Loro</b> vivono in Italia",
-      "tags": [
-        "a1",
-        "pronomi_personali"
-      ]
-    }
+  "cards":[
+    {"model":"basic","front":"👤 <b>io</b>","back":"Meaning: I<br>Example: Io vado a scuola","tags":["a1","pronomi_personali"]},
+    {"model":"basic","front":"🧑 <b>tu</b>","back":"Meaning: you (sing.)<br>Example: Tu mangi una mela","tags":["a1","pronomi_personali"]},
+    {"model":"basic","front":"👨‍🦱 <b>lui</b>","back":"Meaning: he<br>Example: Lui è italiano","tags":["a1","pronomi_personali"]},
+    {"model":"basic","front":"👩 <b>lei</b>","back":"Meaning: she<br>Example: Lei parla inglese","tags":["a1","pronomi_personali"]},
+    {"model":"basic","front":"👥 <b>noi</b>","back":"Meaning: we<br>Example: Noi andiamo al mare","tags":["a1","pronomi_personali"]},
+    {"model":"basic","front":"👨‍👩‍👧‍👦 <b>voi</b>","back":"Meaning: you (pl.)<br>Example: Voi leggete libri","tags":["a1","pronomi_personali"]},
+    {"model":"basic","front":"🌍 <b>loro</b>","back":"Meaning: they<br>Example: Loro vivono qui","tags":["a1","pronomi_personali"]},
+    {"model":"basic","front":"🫱 <b>mi</b>","back":"Meaning: me (dir. obj.)<br>Example: Vedi mi?","tags":["a1","pronomi_personali"]},
+    {"model":"basic","front":"🫵 <b>ti</b>","back":"Meaning: you (dir.)<br>Example: Ti ascolto","tags":["a1","pronomi_personali"]},
+    {"model":"basic","front":"📍 <b>lo</b>","back":"Meaning: him/it (m.obj.)<br>Example: Lo vedo","tags":["a1","pronomi_personali"]},
+    {"model":"basic","front":"📍 <b>la</b>","back":"Meaning: her/it (f.obj.)<br>Example: La compri","tags":["a1","pronomi_personali"]},
+    {"model":"basic","front":"🏠 <b>ci</b>","back":"Meaning: us (dir.)<br>Example: Ci vedi?","tags":["a1","pronomi_personali"]},
+    {"model":"basic","front":"🏘 <b>vi</b>","back":"Meaning: you (pl.dir.)<br>Example: Vi chiamo domani","tags":["a1","pronomi_personali"]},
+    {"model":"basic","front":"📕 <b>li</b>","back":"Meaning: them (m.obj.)<br>Example: Li incontro spesso","tags":["a1","pronomi_personali"]},
+    {"model":"basic","front":"📗 <b>le</b>","back":"Meaning: them (f.obj.)<br>Example: Le vedo al parco","tags":["a1","pronomi_personali"]},
+    {"model":"basic","front":"📞 <b>gli</b>","back":"Meaning: to him (indir.)<br>Example: Gli telefono stasera","tags":["a1","pronomi_personali"]},
+    {"model":"basic","front":"📞 <b>le</b>","back":"Meaning: to her (indir.)<br>Example: Le scrivo una lettera","tags":["a1","pronomi_personali"]},
+    {"model":"basic","front":"🍎 <b>ne</b>","back":"Meaning: of them<br>Example: Ne ho due","tags":["a1","pronomi_personali"]},
+    {"model":"basic","front":"🚶 <b>ci</b>","back":"Meaning: there<br>Example: Ci vado domani","tags":["a1","pronomi_personali"]},
+    {"model":"basic","front":"🪞 <b>se</b>","back":"Meaning: oneself<br>Example: Se lava le mani","tags":["a1","pronomi_personali"]}
   ]
 }

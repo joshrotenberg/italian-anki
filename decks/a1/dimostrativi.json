@@ -3,7 +3,7 @@
     {
       "model": "basic",
       "front": "📘 <b>questo libro</b>",
-      "back": "Meaning: this book<br>Example: <b>Questo</b> libro è interessante",
+      "back": "Meaning: this book<br>Example: Prendo <b>questo libro</b>",
       "tags": [
         "a1",
         "dimostrativi"
@@ -12,7 +12,7 @@
     {
       "model": "basic",
       "front": "👗 <b>questa gonna</b>",
-      "back": "Meaning: this skirt<br>Example: <b>Questa</b> gonna è nuova",
+      "back": "Meaning: this skirt<br>Example: Provo <b>questa gonna</b>",
       "tags": [
         "a1",
         "dimostrativi"
@@ -21,7 +21,7 @@
     {
       "model": "basic",
       "front": "📚 <b>questi libri</b>",
-      "back": "Meaning: these books<br>Example: <b>Questi</b> libri sono difficili",
+      "back": "Meaning: these books<br>Example: Leggo <b>questi libri</b>",
       "tags": [
         "a1",
         "dimostrativi"
@@ -30,7 +30,7 @@
     {
       "model": "basic",
       "front": "👠 <b>queste scarpe</b>",
-      "back": "Meaning: these shoes<br>Example: <b>Queste</b> scarpe sono comode",
+      "back": "Meaning: these shoes<br>Example: Indosso <b>queste scarpe</b>",
       "tags": [
         "a1",
         "dimostrativi"
@@ -39,7 +39,7 @@
     {
       "model": "basic",
       "front": "📕 <b>quel libro</b>",
-      "back": "Meaning: that book<br>Example: <b>Quel</b> libro è noioso",
+      "back": "Meaning: that book<br>Example: Vedo <b>quel libro</b>",
       "tags": [
         "a1",
         "dimostrativi"
@@ -48,7 +48,7 @@
     {
       "model": "basic",
       "front": "🏠 <b>quella casa</b>",
-      "back": "Meaning: that house<br>Example: <b>Quella</b> casa è molto vecchia",
+      "back": "Meaning: that house<br>Example: Visito <b>quella casa</b>",
       "tags": [
         "a1",
         "dimostrativi"
@@ -57,7 +57,7 @@
     {
       "model": "basic",
       "front": "👞 <b>quei pantaloni</b>",
-      "back": "Meaning: those pants<br>Example: <b>Quei</b> pantaloni non mi piacciono",
+      "back": "Meaning: those trousers<br>Example: Lavo <b>quei pantaloni</b>",
       "tags": [
         "a1",
         "dimostrativi"
@@ -66,7 +66,115 @@
     {
       "model": "basic",
       "front": "🌷 <b>quelle rose</b>",
-      "back": "Meaning: those roses<br>Example: <b>Quelle</b> rose sono per te",
+      "back": "Meaning: those roses<br>Example: Colgo <b>quelle rose</b>",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👨‍🦳 <b>quest'uomo</b>",
+      "back": "Meaning: this man<br>Example: Parlo con <b>quest'uomo</b>",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👩‍🦰 <b>quest'amica</b>",
+      "back": "Meaning: this friend (f.)<br>Example: Vedo <b>quest'amica</b>",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👨 <b>quell'uomo</b>",
+      "back": "Meaning: that man<br>Example: Conosco <b>quell'uomo</b>",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👩 <b>quell'amica</b>",
+      "back": "Meaning: that friend (f.)<br>Example: Invito <b>quell'amica</b>",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🌞 <b>questo giorno</b>",
+      "back": "Meaning: this day<br>Example: Amo <b>questo giorno</b>",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🌛 <b>quella sera</b>",
+      "back": "Meaning: that evening<br>Example: Ricordo <b>quella sera</b>",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🗓 <b>questi giorni</b>",
+      "back": "Meaning: these days<br>Example: Studio <b>questi giorni</b>",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🌙 <b>quelle sere</b>",
+      "back": "Meaning: those evenings<br>Example: Esco <b>quelle sere</b>",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⏰ <b>quest'ora</b>",
+      "back": "Meaning: this hour<br>Example: Aspetta <b>quest'ora</b>",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🕰 <b>quell'ora</b>",
+      "back": "Meaning: that hour<br>Example: Arrivo a <b>quell'ora</b>",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👫 <b>questi amici</b>",
+      "back": "Meaning: these friends<br>Example: Invito <b>questi amici</b>",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👥 <b>quelle persone</b>",
+      "back": "Meaning: those people<br>Example: Incontro <b>quelle persone</b>",
       "tags": [
         "a1",
         "dimostrativi"

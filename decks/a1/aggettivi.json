@@ -1,49 +1,24 @@
 {
-  "cards": [
-    {
-      "model": "basic",
-      "front": "📚 <b>interessante</b>",
-      "back": "Meaning: interesting<br>Example: Il libro è molto <b>interessante</b>",
-      "tags": [
-        "a1",
-        "aggettivi"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🧊 <b>freddo</b>",
-      "back": "Meaning: cold<br>Example: Il gelato è <b>freddo</b>",
-      "tags": [
-        "a1",
-        "aggettivi"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🌡 <b>caldo</b>",
-      "back": "Meaning: hot<br>Example: L'estate è <b>calda</b> in Italia",
-      "tags": [
-        "a1",
-        "aggettivi"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🕊 <b>tranquillo</b>",
-      "back": "Meaning: calm<br>Example: Il villaggio è <b>tranquillo</b>",
-      "tags": [
-        "a1",
-        "aggettivi"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🕺 <b>divertente</b>",
-      "back": "Meaning: fun<br>Example: La festa era <b>divertente</b>",
-      "tags": [
-        "a1",
-        "aggettivi"
-      ]
-    }
+  "cards":[
+    {"model":"basic","front":"😊 <b>bello</b>","back":"Meaning: beautiful<br>Example: Il fiore è <b>bello</b>","tags":["a1","aggettivi"]},
+    {"model":"basic","front":"😞 <b>brutto</b>","back":"Meaning: ugly/bad<br>Example: Che giorno <b>brutto</b>!","tags":["a1","aggettivi"]},
+    {"model":"basic","front":"🧒 <b>piccolo</b>","back":"Meaning: small<br>Example: Ho un cane <b>piccolo</b>","tags":["a1","aggettivi"]},
+    {"model":"basic","front":"🦍 <b>grande</b>","back":"Meaning: big<br>Example: La montagna è <b>grande</b>","tags":["a1","aggettivi"]},
+    {"model":"basic","front":"🆕 <b>nuovo</b>","back":"Meaning: new<br>Example: Ho comprato un <b>libro</b> nuovo","tags":["a1","aggettivi"]},
+    {"model":"basic","front":"📚 <b>vecchio</b>","back":"Meaning: old<br>Example: Questo giornale è <b>vecchio</b>","tags":["a1","aggettivi"]},
+    {"model":"basic","front":"↔️ <b>lungo</b>","back":"Meaning: long<br>Example: Ha un vestito <b>lungo</b>","tags":["a1","aggettivi"]},
+    {"model":"basic","front":"↕️ <b>corto</b>","back":"Meaning: short<br>Example: Ha capelli <b>corti</b>","tags":["a1","aggettivi"]},
+    {"model":"basic","front":"🏔 <b>alto</b>","back":"Meaning: tall/high<br>Example: Il muro è <b>alto</b>","tags":["a1","aggettivi"]},
+    {"model":"basic","front":"📉 <b>basso</b>","back":"Meaning: low/short<br>Example: Il tavolo è <b>basso</b>","tags":["a1","aggettivi"]},
+    {"model":"basic","front":"🏎 <b>veloce</b>","back":"Meaning: fast<br>Example: La macchina è <b>veloce</b>","tags":["a1","aggettivi"]},
+    {"model":"basic","front":"🐢 <b>lento</b>","back":"Meaning: slow<br>Example: Il treno è <b>lento</b>","tags":["a1","aggettivi"]},
+    {"model":"basic","front":"😃 <b>simpatico</b>","back":"Meaning: nice/friendly<br>Example: Il professore è <b>simpatico</b>","tags":["a1","aggettivi"]},
+    {"model":"basic","front":"🏋️‍♂️ <b>difficile</b>","back":"Meaning: difficult<br>Example: Questo esercizio è <b>difficile</b>","tags":["a1","aggettivi"]},
+    {"model":"basic","front":"🆗 <b>facile</b>","back":"Meaning: easy<br>Example: La domanda è <b>facile</b>","tags":["a1","aggettivi"]},
+    {"model":"basic","front":"😌 <b>calmo</b>","back":"Meaning: calm<br>Example: Il lago è <b>calmo</b>","tags":["a1","aggettivi"]},
+    {"model":"basic","front":"🎉 <b>rumoroso</b>","back":"Meaning: noisy<br>Example: Il mercato è <b>rumoroso</b>","tags":["a1","aggettivi"]},
+    {"model":"basic","front":"💰 <b>caro</b>","back":"Meaning: expensive<br>Example: Questo ristorante è <b>caro</b>","tags":["a1","aggettivi"]},
+    {"model":"basic","front":"💸 <b>economico</b>","back":"Meaning: cheap<br>Example: Il biglietto è <b>economico</b>","tags":["a1","aggettivi"]},
+    {"model":"basic","front":"🙂 <b>felice</b>","back":"Meaning: happy<br>Example: Sono <b>felice</b> oggi","tags":["a1","aggettivi"]}
   ]
 }

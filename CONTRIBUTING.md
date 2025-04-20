@@ -1,13 +1,14 @@
-# 🧠 Contributing to the Italian A1 Anki Deck
+# 🧠 Contributing to the Italian Anki Deck (A1–B1)
 
 We welcome expansions and new cards, especially for levels A1 and A2. This project is optimized for Anki learners who want high-quality, realistic, and well-structured decks.
 
 ## ✅ Style Guide
 
-- Use only `"basic"` or `"cloze"` models
-- Do not use placeholders — all cards must be real, useful examples
-- Tag all cards with their level and category
-- Each file should contain the **full content** for that category (not diffs)
+* Use only `"basic"` or `"cloze"` models
+* Do not use placeholders — all cards must be real, useful examples
+* Tag all cards with their level and category
+* Tag cards with the correct level (`"a1"`, `"a2"`, `"b1"`) **and** the subcategory
+* Each file should contain the **full content** for that category (not diffs)
 
 ## 🧱 Folder Structure
 

@@ -1,76 +1,24 @@
 {
-  "cards": [
-    {
-      "model": "basic",
-      "front": "📅 <b>Quando</b>",
-      "back": "Meaning: When<br>Example: <b>Quando</b> torni a casa?",
-      "tags": [
-        "a1",
-        "interrogativi"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "📦 <b>Cosa</b>",
-      "back": "Meaning: What<br>Example: <b>Cosa</b> vuoi mangiare?",
-      "tags": [
-        "a1",
-        "interrogativi"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "❓ <b>Perché</b>",
-      "back": "Meaning: Why<br>Example: <b>Perché</b> studi l'italiano?",
-      "tags": [
-        "a1",
-        "interrogativi"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🗺 <b>Dove</b>",
-      "back": "Meaning: Where<br>Example: <b>Dove</b> abiti?",
-      "tags": [
-        "a1",
-        "interrogativi"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "👥 <b>Chi</b>",
-      "back": "Meaning: Who<br>Example: <b>Chi</b> è lui?",
-      "tags": [
-        "a1",
-        "interrogativi"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🤔 <b>Come</b>",
-      "back": "Meaning: How<br>Example: <b>Come</b> ti chiami?",
-      "tags": [
-        "a1",
-        "interrogativi"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🧍‍♂️ <b>Con chi</b>",
-      "back": "Meaning: With whom<br>Example: <b>Con chi</b> vai al cinema?",
-      "tags": [
-        "a1",
-        "interrogativi"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🕒 <b>A che ora</b>",
-      "back": "Meaning: At what time<br>Example: <b>A che ora</b> inizia il film?",
-      "tags": [
-        "a1",
-        "interrogativi"
-      ]
-    }
+  "cards":[
+    {"model":"basic","front":"📅 <b>Quando</b>","back":"Meaning: when<br>Example: Quando parti?","tags":["a1","interrogativi"]},
+    {"model":"basic","front":"📦 <b>Cosa</b>","back":"Meaning: what<br>Example: Cosa fai?","tags":["a1","interrogativi"]},
+    {"model":"basic","front":"❓ <b>Perché</b>","back":"Meaning: why<br>Example: Perché ridi?","tags":["a1","interrogativi"]},
+    {"model":"basic","front":"🗺 <b>Dove</b>","back":"Meaning: where<br>Example: Dove abiti?","tags":["a1","interrogativi"]},
+    {"model":"basic","front":"👥 <b>Chi</b>","back":"Meaning: who<br>Example: Chi è?","tags":["a1","interrogativi"]},
+    {"model":"basic","front":"🤔 <b>Come</b>","back":"Meaning: how<br>Example: Come stai?","tags":["a1","interrogativi"]},
+    {"model":"basic","front":"💵 <b>Quanto</b>","back":"Meaning: how much<br>Example: Quanto costa?","tags":["a1","interrogativi"]},
+    {"model":"basic","front":"✉️ <b>A che ora</b>","back":"Meaning: at what time<br>Example: A che ora arrivi?","tags":["a1","interrogativi"]},
+    {"model":"basic","front":"👤 <b>Di chi</b>","back":"Meaning: whose<br>Example: Di chi è questo?","tags":["a1","interrogativi"]},
+    {"model":"basic","front":"🤝 <b>Con chi</b>","back":"Meaning: with whom<br>Example: Con chi vai?","tags":["a1","interrogativi"]},
+    {"model":"basic","front":"🏠 <b>Da dove</b>","back":"Meaning: from where<br>Example: Da dove vieni?","tags":["a1","interrogativi"]},
+    {"model":"basic","front":"📚 <b>Su cosa</b>","back":"Meaning: about what<br>Example: Su cosa studi?","tags":["a1","interrogativi"]},
+    {"model":"basic","front":"🗓 <b>Fino a quando</b>","back":"Meaning: until when<br>Example: Fino a quando resti?","tags":["a1","interrogativi"]},
+    {"model":"basic","front":"⏳ <b>Per quanto tempo</b>","back":"Meaning: for how long<br>Example: Per quanto tempo studi?","tags":["a1","interrogativi"]},
+    {"model":"basic","front":"🏃‍♂️ <b>Verso chi</b>","back":"Meaning: towards whom<br>Example: Verso chi corri?","tags":["a1","interrogativi"]},
+    {"model":"basic","front":"🏡 <b>Su chi</b>","back":"Meaning: on whom<br>Example: Su chi conti?","tags":["a1","interrogativi"]},
+    {"model":"basic","front":"🌍 <b>Di cosa</b>","back":"Meaning: about what<br>Example: Di cosa parli?","tags":["a1","interrogativi"]},
+    {"model":"basic","front":"📦 <b>Quale</b>","back":"Meaning: which<br>Example: Quale preferisci?","tags":["a1","interrogativi"]},
+    {"model":"basic","front":"📦 <b>Quali</b>","back":"Meaning: which (pl.)<br>Example: Quali libri hai?","tags":["a1","interrogativi"]},
+    {"model":"basic","front":"🚪 <b>A chi</b>","back":"Meaning: to whom<br>Example: A chi dai il libro?","tags":["a1","interrogativi"]}
   ]
 }

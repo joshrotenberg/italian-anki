@@ -1,54 +1,24 @@
 {
-  "cards": [
-    {
-      "model": "cloze",
-      "front": "Vado {{c1::al}} ristorante.",
-      "back": "<b>al</b> = a + il = to the<br>Example: Vado <b>al</b> ristorante",
-      "tags": [
-        "a1",
-        "preposizioni_articolate",
-        "cloze"
-      ]
-    },
-    {
-      "model": "cloze",
-      "front": "Studio {{c1::nel}} pomeriggio.",
-      "back": "<b>nel</b> = in + il = in the<br>Example: Studio <b>nel</b> pomeriggio",
-      "tags": [
-        "a1",
-        "preposizioni_articolate",
-        "cloze"
-      ]
-    },
-    {
-      "model": "cloze",
-      "front": "Il libro è {{c1::sul}} tavolo.",
-      "back": "<b>sul</b> = su + il = on the<br>Example: Il libro è <b>sul</b> tavolo",
-      "tags": [
-        "a1",
-        "preposizioni_articolate",
-        "cloze"
-      ]
-    },
-    {
-      "model": "cloze",
-      "front": "Vengo {{c1::dalla}} scuola.",
-      "back": "<b>dalla</b> = da + la = from the<br>Example: Vengo <b>dalla</b> scuola",
-      "tags": [
-        "a1",
-        "preposizioni_articolate",
-        "cloze"
-      ]
-    },
-    {
-      "model": "cloze",
-      "front": "Passeggio {{c1::tra}} gli alberi.",
-      "back": "<b>tra</b> = between<br>Example: Passeggio <b>tra</b> gli alberi",
-      "tags": [
-        "a1",
-        "preposizioni_articolate",
-        "cloze"
-      ]
-    }
+  "cards":[
+    {"model":"cloze","front":"Vado {{c1::al}} cinema.","back":"<b>al</b> = a + il = to the","tags":["a1","preposizioni_articolate","cloze"]},
+    {"model":"cloze","front":"Torno {{c1::alla}} stazione.","back":"<b>alla</b> = a + la = to the","tags":["a1","preposizioni_articolate","cloze"]},
+    {"model":"cloze","front":"Gioco {{c1::allo}} stadio.","back":"<b>allo</b> = a + lo = to the","tags":["a1","preposizioni_articolate","cloze"]},
+    {"model":"cloze","front":"Dò i fiori {{c1::ai}} miei amici.","back":"<b>ai</b> = a + i = to the","tags":["a1","preposizioni_articolate","cloze"]},
+    {"model":"cloze","front":"Parlo {{c1::agli}} studenti.","back":"<b>agli</b> = a + gli = to the","tags":["a1","preposizioni_articolate","cloze"]},
+    {"model":"cloze","front":"Scrivo {{c1::alle}} ragazze.","back":"<b>alle</b> = a + le = to the","tags":["a1","preposizioni_articolate","cloze"]},
+    {"model":"cloze","front":"Il titolo {{c1::del}} libro.","back":"<b>del</b> = di + il = of the","tags":["a1","preposizioni_articolate","cloze"]},
+    {"model":"cloze","front":"La copertina {{c1::della}} rivista.","back":"<b>della</b> = di + la = of the","tags":["a1","preposizioni_articolate","cloze"]},
+    {"model":"cloze","front":"Il fondo {{c1::dello}} schermo.","back":"<b>dello</b> = di + lo = of the","tags":["a1","preposizioni_articolate","cloze"]},
+    {"model":"cloze","front":"Le pagine {{c1::dei}} documenti.","back":"<b>dei</b> = di + i = of the","tags":["a1","preposizioni_articolate","cloze"]},
+    {"model":"cloze","front":"Le foto {{c1::degli}} amici.","back":"<b>degli</b> = di + gli = of the","tags":["a1","preposizioni_articolate","cloze"]},
+    {"model":"cloze","front":"La fine {{c1::delle}} storie.","back":"<b>delle</b> = di + le = of the","tags":["a1","preposizioni_articolate","cloze"]},
+    {"model":"cloze","front":"Abito {{c1::nel}} centro.","back":"<b>nel</b> = in + il = in the","tags":["a1","preposizioni_articolate","cloze"]},
+    {"model":"cloze","front":"Studio {{c1::nella}} biblioteca.","back":"<b>nella</b> = in + la = in the","tags":["a1","preposizioni_articolate","cloze"]},
+    {"model":"cloze","front":"Il numero {{c1::nello}} specchio.","back":"<b>nello</b> = in + lo = in the","tags":["a1","preposizioni_articolate","cloze"]},
+    {"model":"cloze","front":"I libri {{c1::nei}} scaffali.","back":"<b>nei</b> = in + i = in the","tags":["a1","preposizioni_articolate","cloze"]},
+    {"model":"cloze","front":"Le chiavi {{c1::nelle}} tasche.","back":"<b>nelle</b> = in + le = in the","tags":["a1","preposizioni_articolate","cloze"]},
+    {"model":"cloze","front":"Il gatto {{c1::sul}} divano.","back":"<b> sul</b> = su + il = on the","tags":["a1","preposizioni_articolate","cloze"]},
+    {"model":"cloze","front":"La tazza {{c1::sulla}} scrivania.","back":"<b>sulla</b> = su + la = on the","tags":["a1","preposizioni_articolate","cloze"]},
+    {"model":"cloze","front":"Il logo {{c1::sullo}} sfondo.","back":"<b>sullo</b> = su + lo = on the","tags":["a1","preposizioni_articolate","cloze"]}
   ]
 }
