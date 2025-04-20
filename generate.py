@@ -32,12 +32,19 @@ CLOZE_MODEL = genanki.Model(
 def load_cards_from_directory(directory: Path):
     cards = []
     for json_file in sorted(directory.glob("*.json")):
+        print(f"📄 Reading file: {json_file}")
         with open(json_file, "r", encoding="utf-8") as f:
             data = json.load(f)
+            count = len(data.get("cards", []))
+            print(f"  → Loaded {count} cards from {json_file.name}")
             cards.extend(data["cards"])
     return cards
 
 def generate_deck(deck_name: str, cards: list, output_path: Path):
+    if not cards:
+        print(f"⚠️ No cards found for {deck_name}. Skipping.")
+        return
+
     deck_id = abs(hash(deck_name)) % (10 ** 10)
     deck = genanki.Deck(deck_id, deck_name)
 
@@ -59,12 +66,13 @@ def generate_deck(deck_name: str, cards: list, output_path: Path):
 
     output_file = output_path / f"{deck_name.replace('::', '_')}.apkg"
     genanki.Package(deck).write_to_file(output_file)
-    print(f"✅ Deck written to {output_file}")
+    print(f"✅ Wrote {len(deck.notes)} notes to {output_file}")
 
 def build_all_levels(decks_base: Path, output_path: Path):
     for level_dir in sorted(decks_base.glob("*")):
         if level_dir.is_dir():
             level = level_dir.name
+            print(f"📘 Building deck for level '{level}'...")
             cards = load_cards_from_directory(level_dir)
             generate_deck(f"Italiano::{level.upper()}", cards, output_path)
 
