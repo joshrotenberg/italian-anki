@@ -30,3 +30,14 @@ jobs:
 
       - name: Run generator
         run: python generate.py
+
+      - name: Confirm .apkg file was generated
+        run: |
+          ls -lh output
+          test -f output/Italiano_A1.apkg || (echo "❌ No .apkg file found!" && exit 1)
+
+      - name: Upload .apkg as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: italiano-a1-deck
+          path: output/Italiano_A1.apkg
