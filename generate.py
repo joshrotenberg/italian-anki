@@ -1,6 +1,7 @@
 import genanki
 import json
 import argparse
+import hashlib
 from pathlib import Path
 
 # Load styling from styles.css if it exists
@@ -51,7 +52,8 @@ def generate_deck(deck_name: str, cards: list, output_path: Path):
         print(f"⚠️ No cards found for {deck_name}. Skipping.")
         return
 
-    deck_id = abs(hash(deck_name)) % (10 ** 10)
+    digest = hashlib.md5(deck_name.encode("utf‑8")).hexdigest()
+    deck_id = int(digest[:10], 16)
     deck = genanki.Deck(deck_id, deck_name)
 
     for card in cards:
