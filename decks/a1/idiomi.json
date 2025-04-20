@@ -1,0 +1,24 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "🐺 <b>In bocca al lupo</b>",
+      "back": "Idiom: Good luck (lit. into the wolf’s mouth)<br>Response: <b>Crepi!</b>",
+      "tags": [
+        "a1",
+        "expression",
+        "idiom"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "💸 <b>Avere le mani bucate</b>",
+      "back": "Idiom: to be a big spender (lit. to have holes in one’s hands)<br>Example: Mario ha le mani bucate!",
+      "tags": [
+        "a1",
+        "expression",
+        "idiom"
+      ]
+    }
+  ]
+}

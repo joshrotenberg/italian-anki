@@ -6,30 +6,47 @@ This project contains structured Anki decks for learning Italian, organized by C
 
 ```
 italian-anki/
-├── decks/              # JSON source files
-│   └── a1.json
-├── output/             # Exported Anki decks (.apkg)
-├── generate.py         # Deck generator script
-└── .github/workflows/  # Validation CI (see below)
+├── decks/
+│   └── a1/
+│       ├── verbi_presente.json
+│       ├── idiomi.json
+│       ├── fare.json
+├── output/
+├── generate.py
+└── README.md
 ```
 
-## 🃏 Deck Format
+## 🧱 JSON Format & Schema
 
-- Each card uses either a **basic** or **cloze** model
-- Cards support **bold**, *italic*, and 🎉 emoji for clarity and fun
-- Cards are tagged with CEFR level and part of speech (e.g. `a1`, `verb`, `presente`)
+Each file in `decks/a1/` should look like:
 
-## 🚀 Usage
+```json
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "🍎 <b>mela</b>",
+      "back": "Meaning: apple<br>Example: Mangio una mela = I eat an apple",
+      "tags": ["a1", "noun", "sostantivo"]
+    },
+    {
+      "model": "basic",
+      "front": "🗣 <b>parlare</b>",
+      "back": "Definition: to speak<br>Present tense:<br><b>io parlo</b><br>Example: Io parlo italiano = I speak Italian",
+      "tags": ["a1", "verb", "presente"]
+    },
+    {
+      "model": "cloze",
+      "front": "Io {{c1::mangio}} una mela.",
+      "back": "Verb: mangiare (to eat)<br>Translation: I eat an apple.",
+      "tags": ["a1", "verb", "presente", "cloze"]
+    }
+  ]
+}
+```
+
+## 🚀 Build Decks
 
 ```bash
-pip install genanki
-python generate.py
+python generate.py --level a1
 ```
-
-## ✅ Validation
-
-This repo includes a GitHub Action to ensure your deck JSON files are valid before merging. See below.
-
-## 📋 License
-
-MIT License unless otherwise noted.
