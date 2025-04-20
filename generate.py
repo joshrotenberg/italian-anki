@@ -3,12 +3,17 @@ import json
 import argparse
 from pathlib import Path
 
+# Load styling from styles.css if it exists
+styles_path = Path("styles.css")
+card_style = styles_path.read_text(encoding="utf-8") if styles_path.exists() else ""
+
 BASIC_MODEL_ID = 1607392319
 CLOZE_MODEL_ID = 1378438319
 
 BASIC_MODEL = genanki.Model(
     BASIC_MODEL_ID,
     'Italiano Basic Model',
+    css=card_style,
     fields=[{"name": "Front"}, {"name": "Back"}],
     templates=[{
         "name": "Basic Card",
@@ -20,6 +25,7 @@ BASIC_MODEL = genanki.Model(
 CLOZE_MODEL = genanki.Model(
     CLOZE_MODEL_ID,
     'Italiano Cloze Model',
+    css=card_style,
     fields=[{"name": "Text"}, {"name": "Extra"}],
     templates=[{
         "name": "Cloze Card",

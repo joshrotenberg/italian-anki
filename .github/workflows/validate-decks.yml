@@ -2,10 +2,9 @@ name: Validate Anki Decks
 
 on:
   push:
-    paths: ["decks/**/*.json", "generate.py"]
+    paths: ["decks/**/*.json", "generate.py", "deck.schema.json"]
   pull_request:
-    paths: ["decks/**/*.json", "generate.py"]
-  workflow_dispatch:
+    paths: ["decks/**/*.json", "generate.py", "deck.schema.json"]
 
 jobs:
   validate:
@@ -17,22 +16,29 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
+          python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install genanki
+        run: pip install genanki jsonschema
 
-      - name: Validate JSON format
+      - name: Validate JSON syntax
         run: |
           find decks/ -name "*.json" | while read f; do
-           echo "Validating $f"
-           python -m json.tool < "$f" > /dev/null
+            echo "Checking syntax: $f"
+            python -m json.tool < "$f" > /dev/null
+          done
+
+      - name: Validate card schema
+        run: |
+          for f in decks/**/*.json; do
+            echo "Schema checking $f"
+            python -c "import json, jsonschema; jsonschema.validate(json.load(open('$f')), json.load(open('deck.schema.json')))"
           done
 
       - name: Build all decks
         run: python generate.py --all
 
-      - name: Upload all .apkg files
+      - name: Upload .apkg decks
         uses: actions/upload-artifact@v4
         with:
           name: anki-decks
