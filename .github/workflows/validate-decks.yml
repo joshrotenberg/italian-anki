@@ -2,11 +2,9 @@ name: Validate Decks
 
 on:
   push:
-    paths:
-      - "decks/**.json"
+    paths: ["decks/**/*.json", "generate.py", "validate.py", "deck.schema.json"]
   pull_request:
-    paths:
-      - "decks/**.json"
+    paths: ["decks/**/*.json", "generate.py", "validate.py", "deck.schema.json"]
 
 jobs:
   validate:
