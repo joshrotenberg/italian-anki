@@ -9,10 +9,7 @@
         "properties": {
           "model": {
             "type": "string",
-            "enum": [
-              "basic",
-              "cloze"
-            ]
+            "enum": ["basic", "cloze"]
           },
           "front": {
             "type": "string"
@@ -22,21 +19,17 @@
           },
           "tags": {
             "type": "array",
-            "items": {
-              "type": "string"
-            }
+            "minItems": 2,
+            "maxItems": 2,
+            "items": [
+              { "type": "string", "pattern": "^(a1|a2|b1)$" },
+              { "type": "string", "pattern": "^[a-z0-9_]+$" }
+            ]
           }
         },
-        "required": [
-          "model",
-          "front",
-          "back",
-          "tags"
-        ]
+        "required": ["model", "front", "back", "tags"]
       }
     }
   },
-  "required": [
-    "cards"
-  ]
+  "required": ["cards"]
 }

@@ -1,45 +1,61 @@
-name: Validate Anki Decks
+name: CI
 
 on:
   push:
-    paths: ["decks/**/*.json", "generate.py", "deck.schema.json"]
+    branches:
+      - main
   pull_request:
-    paths: ["decks/**/*.json", "generate.py", "deck.schema.json"]
+  workflow_run:
+
 
 jobs:
-  validate:
+  build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.x'
+
+      - name: Cache pip
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
       - name: Install dependencies
-        run: pip install genanki jsonschema
+        run: pip install -r requirements.txt
 
-      - name: Validate JSON syntax
-        run: |
-          find decks/ -name "*.json" | while read f; do
-            echo "Checking syntax: $f"
-            python -m json.tool < "$f" > /dev/null
-          done
+      - name: Validate JSON schema
+        run: python validate.py
 
-      - name: Validate card schema
-        run: |
-          for f in decks/**/*.json; do
-            echo "Schema checking $f"
-            python -c "import json, jsonschema; jsonschema.validate(json.load(open('$f')), json.load(open('deck.schema.json')))"
-          done
-
-      - name: Build all decks
+      - name: Generate all decks
         run: python generate.py --all
 
-      - name: Upload .apkg decks
-        uses: actions/upload-artifact@v4
-        with:
-          name: anki-decks
-          path: output/*.apkg
+      - name: Sanity‑check tags
+        run: |
+          for f in decks/*/*.json; do
+            lvl=$(basename "$(dirname "$f")")
+            topic=$(basename "$f" .json)
+            python - <<EOF
+import json, sys
+data = json.load(open("$f", encoding="utf-8"))
+for c in data.get("cards", []):
+    tags = c.get("tags", [])
+    if not (isinstance(tags, list) and len(tags)==2):
+        print(f"❌ {f}: expected 2 tags, got {tags}", file=sys.stderr); sys.exit(1)
+    if tags[0] != "$lvl":
+        print(f"❌ {f}: first tag should be level '{lvl}', got '{tags[0]}'", file=sys.stderr); sys.exit(1)
+    if tags[1] != "$topic":
+        print(f"❌ {f}: second tag should be topic '{topic}', got '{tags[1]}'", file=sys.stderr); sys.exit(1)
+EOF
+          done
