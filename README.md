@@ -1,74 +1,65 @@
-# 🇮🇹 Italian Anki Deck: A1-B1 Vocabulary & Grammar
+# Italian Anki Deck: A1–B1 Vocabulary & Grammar
 
-This repository contains a structured and taggable set of Anki decks for Italian learners, from A1 through B1.
+This repository contains a structured and taggable set of Anki decks for Italian learners, from **A1 through B1**.
+Each level lives under `decks/{a1,a2,b1}/` with ~20‑card JSON files per topic.
 
-## 📁 Structure
+## Structure
 
 Each Anki subdeck lives in:
 
 ```
 decks/a1/
-  ├── verbi_presente.json
-  ├── aggettivi.json
-  └── ...
+├── verbi_presente.json
+├── aggettivi.json
+└── …
 decks/a2/
-  ├── passato_prossimo.json
-  ├── imperfetto.json
-  └── ...
+├── passato_prossimo.json
+├── imperfetto.json
+└── …
+decks/b1/
+└── …
 ```
 
-Each JSON file includes a single object with a `cards` array. Each card must include:
-- a `model`: "basic" or "cloze"
-- a `front`: front side HTML
-- a `back`: back side HTML
-- a `tags` array with `a1` and the subcategory
+## Tags
 
-## 🃏 Card Models
+Each card **must** have **exactly two** tags:
+1. The level tag: `a1`, `a2`, or `b1`
+2. The topic tag: the filename without `.json` (e.g. `verbi_presente`)
 
-### Basic
+## Dependencies
 
-```json
-{
-  "model": "basic",
-  "front": "🎨 <b>bello</b>",
-  "back": "Meaning: beautiful<br>Example: Questo quadro è <b>bello</b>",
-  "tags": ["a1", "aggettivi"]
-}
-```
+Install the pinned versions:
 
-### Cloze
+`pip install -r requirements.txt`
 
-```json
-{
-  "model": "cloze",
-  "front": "Vado {{c1::al}} mercato.",
-  "back": "<b>al</b> = a + il = to the<br>Example: Vado al mercato = I go to the market.",
-  "tags": ["a1", "preposizioni_articolate", "cloze"]
-}
-```
+This brings in:
+	•	genanki (for building .apkg files)
+	•	jsonschema (for JSON schema validation)
 
-## 🏷 Tags
+Validation
 
-Each card must have:
-  * `"a1"` (or `"a2"`, `"b1"`, etc.)
-  * A second tag matching its subdeck
+Run:
 
-You can optionally add part-of-speech or grammar function tags like `"verb"`, `"expression"`, `"cloze"`, `"noun"`, etc.
+`python validate.py`
 
-## 🚀 Build Tools
+	•	Checks JSON structure against deck.schema.json
+	•	Enforces the two‑tag convention (level + topic)
+	•	Exits nonzero on any error
 
-- `generate.py` — Builds `.apkg` from folders by level (`--level a1`, `--all`)
-- `validate.py` — Ensures all `.json` files are valid
-- GitHub Actions workflow validates structure and builds `.apkg` from each push
+CI automatically invokes this on every push/PR touching decks/**/*.json.
 
-## ✅ Writing Guidelines
+Building Decks
 
-- Use simple vocabulary and grammar (A1 level)
-- One concept per card
-- Use natural, full-sentence examples in Italian
-- Use emojis, bold, and line breaks to aid readability
-- Avoid duplicate examples or overloading the same term
+To generate .apkg files:
 
-## 🤖 Model Integration Tips
+# Build only A1 decks
+`python generate.py --level a1`
 
-If you're using a new model like `o3-mini-high`, read all `*.json` files and continue adding new cards in the same format. You can regenerate any file with a complete overwrite — we do not merge. All card text must be realistic and well-formed.
+# Build all levels (A1–B1)
+`python generate.py --all`
+
+Outputs appear in output/.
+
+Helpers
+	•	fix_tags.py: auto‑resets all card tags to [level, topic] for decks in any decks/<level>/ folder.
+	•	requirements.txt: pins dependencies for consistent CI builds.
