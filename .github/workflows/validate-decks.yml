@@ -32,7 +32,7 @@ jobs:
         run: python generate.py --all
 
       - name: Upload all .apkg files
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: anki-decks
           path: output/*.apkg
