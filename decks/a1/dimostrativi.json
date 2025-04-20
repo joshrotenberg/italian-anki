@@ -1,0 +1,76 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "📘 <b>questo libro</b>",
+      "back": "Meaning: this book<br>Example: <b>Questo</b> libro è interessante",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👗 <b>questa gonna</b>",
+      "back": "Meaning: this skirt<br>Example: <b>Questa</b> gonna è nuova",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📚 <b>questi libri</b>",
+      "back": "Meaning: these books<br>Example: <b>Questi</b> libri sono difficili",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👠 <b>queste scarpe</b>",
+      "back": "Meaning: these shoes<br>Example: <b>Queste</b> scarpe sono comode",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📕 <b>quel libro</b>",
+      "back": "Meaning: that book<br>Example: <b>Quel</b> libro è noioso",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🏠 <b>quella casa</b>",
+      "back": "Meaning: that house<br>Example: <b>Quella</b> casa è molto vecchia",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👞 <b>quei pantaloni</b>",
+      "back": "Meaning: those pants<br>Example: <b>Quei</b> pantaloni non mi piacciono",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🌷 <b>quelle rose</b>",
+      "back": "Meaning: those roses<br>Example: <b>Quelle</b> rose sono per te",
+      "tags": [
+        "a1",
+        "dimostrativi"
+      ]
+    }
+  ]
+}

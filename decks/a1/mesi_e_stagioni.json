@@ -2,8 +2,143 @@
   "cards": [
     {
       "model": "basic",
-      "front": "🎁 <b>dicembre</b>",
-      "back": "Meaning: December<br>Example: Natale è in <b>dicembre</b>",
+      "front": "🗓 <b>gennaio</b>",
+      "back": "Meaning: January<br>Example: Il mio compleanno è a <b>gennaio</b>",
+      "tags": [
+        "a1",
+        "mesi_e_stagioni"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🗓 <b>febbraio</b>",
+      "back": "Meaning: February<br>Example: San Valentino è a <b>febbraio</b>",
+      "tags": [
+        "a1",
+        "mesi_e_stagioni"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🗓 <b>marzo</b>",
+      "back": "Meaning: March<br>Example: <b>Marzo</b> è il mese della primavera",
+      "tags": [
+        "a1",
+        "mesi_e_stagioni"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🗓 <b>aprile</b>",
+      "back": "Meaning: April<br>Example: A <b>aprile</b> piove spesso",
+      "tags": [
+        "a1",
+        "mesi_e_stagioni"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🗓 <b>maggio</b>",
+      "back": "Meaning: May<br>Example: <b>Maggio</b> è il mese dei fiori",
+      "tags": [
+        "a1",
+        "mesi_e_stagioni"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🗓 <b>giugno</b>",
+      "back": "Meaning: June<br>Example: La scuola finisce a <b>giugno</b>",
+      "tags": [
+        "a1",
+        "mesi_e_stagioni"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🗓 <b>luglio</b>",
+      "back": "Meaning: July<br>Example: In <b>luglio</b> fa molto caldo",
+      "tags": [
+        "a1",
+        "mesi_e_stagioni"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🗓 <b>agosto</b>",
+      "back": "Meaning: August<br>Example: <b>Agosto</b> è il mese delle vacanze",
+      "tags": [
+        "a1",
+        "mesi_e_stagioni"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🗓 <b>settembre</b>",
+      "back": "Meaning: September<br>Example: Inizia la scuola a <b>settembre</b>",
+      "tags": [
+        "a1",
+        "mesi_e_stagioni"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🗓 <b>ottobre</b>",
+      "back": "Meaning: October<br>Example: Halloween è a <b>ottobre</b>",
+      "tags": [
+        "a1",
+        "mesi_e_stagioni"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🗓 <b>novembre</b>",
+      "back": "Meaning: November<br>Example: A <b>novembre</b> fa freddo",
+      "tags": [
+        "a1",
+        "mesi_e_stagioni"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🗓 <b>dicembre</b>",
+      "back": "Meaning: December<br>Example: Natale è a <b>dicembre</b>",
+      "tags": [
+        "a1",
+        "mesi_e_stagioni"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "❄️ <b>inverno</b>",
+      "back": "Meaning: winter<br>Example: In <b>inverno</b> nevica",
+      "tags": [
+        "a1",
+        "mesi_e_stagioni"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🌸 <b>primavera</b>",
+      "back": "Meaning: spring<br>Example: In <b>primavera</b> fioriscono i fiori",
+      "tags": [
+        "a1",
+        "mesi_e_stagioni"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🌞 <b>estate</b>",
+      "back": "Meaning: summer<br>Example: Andiamo al mare in <b>estate</b>",
+      "tags": [
+        "a1",
+        "mesi_e_stagioni"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🍂 <b>autunno</b>",
+      "back": "Meaning: autumn<br>Example: Le foglie cadono in <b>autunno</b>",
       "tags": [
         "a1",
         "mesi_e_stagioni"

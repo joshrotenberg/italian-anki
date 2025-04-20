@@ -2,8 +2,71 @@
   "cards": [
     {
       "model": "basic",
+      "front": "📅 <b>Quando</b>",
+      "back": "Meaning: When<br>Example: <b>Quando</b> torni a casa?",
+      "tags": [
+        "a1",
+        "interrogativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📦 <b>Cosa</b>",
+      "back": "Meaning: What<br>Example: <b>Cosa</b> vuoi mangiare?",
+      "tags": [
+        "a1",
+        "interrogativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "❓ <b>Perché</b>",
+      "back": "Meaning: Why<br>Example: <b>Perché</b> studi l'italiano?",
+      "tags": [
+        "a1",
+        "interrogativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🗺 <b>Dove</b>",
+      "back": "Meaning: Where<br>Example: <b>Dove</b> abiti?",
+      "tags": [
+        "a1",
+        "interrogativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👥 <b>Chi</b>",
+      "back": "Meaning: Who<br>Example: <b>Chi</b> è lui?",
+      "tags": [
+        "a1",
+        "interrogativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🤔 <b>Come</b>",
+      "back": "Meaning: How<br>Example: <b>Come</b> ti chiami?",
+      "tags": [
+        "a1",
+        "interrogativi"
+      ]
+    },
+    {
+      "model": "basic",
       "front": "🧍‍♂️ <b>Con chi</b>",
-      "back": "Meaning: with whom<br>Example: <b>Con chi</b> vai al cinema?",
+      "back": "Meaning: With whom<br>Example: <b>Con chi</b> vai al cinema?",
+      "tags": [
+        "a1",
+        "interrogativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🕒 <b>A che ora</b>",
+      "back": "Meaning: At what time<br>Example: <b>A che ora</b> inizia il film?",
       "tags": [
         "a1",
         "interrogativi"
