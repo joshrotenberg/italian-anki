@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "⌛ <b>ieri</b>",
+      "back": "Meaning: yesterday<br>Example: Ieri sono andato al cinema",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>l'altro ieri</b>",
+      "back": "Meaning: the day before yesterday<br>Example: L'altro ieri ho incontrato Marco",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>stamattina</b>",
+      "back": "Meaning: this morning<br>Example: Stamattina ho fatto colazione tardi",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>ieri sera</b>",
+      "back": "Meaning: last night<br>Example: Ieri sera ho studiato fino a tardi",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>già</b>",
+      "back": "Meaning: already<br>Example: Ho già finito il lavoro",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>appena</b>",
+      "back": "Meaning: just (recently)<br>Example: Sono appena arrivato",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>ancora</b>",
+      "back": "Meaning: still<br>Example: Non ho ancora visto il film",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>prima</b>",
+      "back": "Meaning: before<br>Example: Prima di uscire, chiudo la porta",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>dopo</b>",
+      "back": "Meaning: after<br>Example: Dopo cena guardo la TV",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>poco fa</b>",
+      "back": "Meaning: a little while ago<br>Example: Poco fa ho sentito un rumore",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>da poco</b>",
+      "back": "Meaning: recently<br>Example: Studio italiano da poco",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>da quando</b>",
+      "back": "Meaning: since<br>Example: Non ci vediamo da quando era bambino",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>finora</b>",
+      "back": "Meaning: until now<br>Example: Finora tutto bene",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>mai</b>",
+      "back": "Meaning: never (in past sense)<br>Example: Non ho mai visitato Roma",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>spesso</b>",
+      "back": "Meaning: often (past contexts)<br>Example: Spesso andavo al mare da piccolo",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>raramente</b>",
+      "back": "Meaning: rarely<br>Example: Raramente mangiavo fuori",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>ultimamente</b>",
+      "back": "Meaning: lately<br>Example: Ultimamente non ho tempo libero",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>qualche volta</b>",
+      "back": "Meaning: sometimes (past)<br>Example: Qualche volta studiavo fino a tardi",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>spesso</b>",
+      "back": "Meaning: often<br>Example: Spesso ascoltavo la musica",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⌛ <b>tardi</b>",
+      "back": "Meaning: late (past contexts)<br>Example: Arrivavo tardi a scuola",
+      "tags": [
+        "a2",
+        "temp_passato"
+      ]
+    }
+  ]
+}

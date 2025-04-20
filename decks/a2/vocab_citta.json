@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "🏛️ <b>la piazza</b>",
+      "back": "Meaning: square<br>Example: Tutti si incontrano in <b>la piazza</b>",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🏘️ <b>il quartiere</b>",
+      "back": "Meaning: neighborhood<br>Example: Vivo in questo <b>quartiere</b>",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🏙️ <b>il centro</b>",
+      "back": "Meaning: downtown<br>Example: Abito nel <b>centro</b> storico",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🌳 <b>la periferia</b>",
+      "back": "Meaning: outskirts<br>Example: La mia casa è in <b>periferia</b>",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚶 <b>la strada</b>",
+      "back": "Meaning: street<br>Example: La <b>strada</b> è molto trafficata",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔎 <b>il vicolo</b>",
+      "back": "Meaning: alley<br>Example: Il <b>vicolo</b> è stretto",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚦 <b>il traffico</b>",
+      "back": "Meaning: traffic<br>Example: C'è molto <b>traffico</b> oggi",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🌳 <b>il parco</b>",
+      "back": "Meaning: park<br>Example: Giochiamo nel <b>parco</b>",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚏 <b>la fermata</b>",
+      "back": "Meaning: (bus/tram) stop<br>Example: Aspetto alla <b>fermata</b>",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚥 <b>il semaforo</b>",
+      "back": "Meaning: traffic light<br>Example: Il <b>semaforo</b> è rosso",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⛲️ <b>la fontana</b>",
+      "back": "Meaning: fountain<br>Example: La <b>fontana</b> è antica",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🛣️ <b>la via</b>",
+      "back": "Meaning: road<br>Example: Questa <b>via</b> è lunga",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🛍️ <b>il negozio</b>",
+      "back": "Meaning: shop<br>Example: Visito il <b>negozio</b> di scarpe",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🍝 <b>il ristorante</b>",
+      "back": "Meaning: restaurant<br>Example: Ceniamo al <b>ristorante</b>",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🏛️ <b>il monumento</b>",
+      "back": "Meaning: monument<br>Example: Adoro il <b>monumento</b> storico",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🍏 <b>il mercato</b>",
+      "back": "Meaning: market<br>Example: Vado al <b>mercato</b> ogni sabato",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🏢 <b>il municipio</b>",
+      "back": "Meaning: town hall<br>Example: Il <b>municipio</b> è vicino",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⛪️ <b>la chiesa</b>",
+      "back": "Meaning: church<br>Example: La <b>chiesa</b> è aperta",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🎥 <b>il cinema</b>",
+      "back": "Meaning: cinema<br>Example: Andiamo al <b>cinema</b> stasera",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📚 <b>la biblioteca</b>",
+      "back": "Meaning: library<br>Example: Studio in <b>biblioteca</b>",
+      "tags": [
+        "a2",
+        "vocab_citta"
+      ]
+    }
+  ]
+}
