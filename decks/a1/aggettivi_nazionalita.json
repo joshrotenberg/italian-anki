@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "🇮🇹 <b>italiano</b>",
+      "back": "Meaning: Italian (m.)<br>Example: Lui è <b>italiano</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🇮🇹 <b>italiana</b>",
+      "back": "Meaning: Italian (f.)<br>Example: Lei è <b>italiana</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🇫🇷 <b>francese</b>",
+      "back": "Meaning: French (m/f)<br>Example: Sono <b>francese</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🇪🇸 <b>spagnolo</b>",
+      "back": "Meaning: Spanish (m.)<br>Example: Amico <b>spagnolo</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🇪🇸 <b>spagnola</b>",
+      "back": "Meaning: Spanish (f.)<br>Example: Insegnante <b>spagnola</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🇩🇪 <b>tedesco</b>",
+      "back": "Meaning: German (m.)<br>Example: Lui parla <b>tedesco</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🇩🇪 <b>tedesca</b>",
+      "back": "Meaning: German (f.)<br>Example: Lei è <b>tedesca</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🇬🇧 <b>inglese</b>",
+      "back": "Meaning: English (m/f)<br>Example: Lei è <b>inglese</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🇺🇸 <b>americano</b>",
+      "back": "Meaning: American (m.)<br>Example: Amico <b>americano</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🇺🇸 <b>americana</b>",
+      "back": "Meaning: American (f.)<br>Example: Studentessa <b>americana</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🇨🇳 <b>cinese</b>",
+      "back": "Meaning: Chinese (m/f)<br>Example: Collega <b>cinese</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🇯🇵 <b>giapponese</b>",
+      "back": "Meaning: Japanese (m/f)<br>Example: Studente <b>giapponese</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🇷🇺 <b>russo</b>",
+      "back": "Meaning: Russian (m.)<br>Example: Lui è <b>russo</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🇷🇺 <b>russa</b>",
+      "back": "Meaning: Russian (f.)<br>Example: Lei è <b>russa</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🇧🇷 <b>brasiliano</b>",
+      "back": "Meaning: Brazilian (m.)<br>Example: Amico <b>brasiliano</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🇧🇷 <b>brasiliana</b>",
+      "back": "Meaning: Brazilian (f.)<br>Example: Lei è <b>brasiliana</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🇲🇽 <b>messicano</b>",
+      "back": "Meaning: Mexican (m.)<br>Example: Lui è <b>messicano</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🇲🇽 <b>messicana</b>",
+      "back": "Meaning: Mexican (f.)<br>Example: Lei è <b>messicana</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🇨🇦 <b>canadese</b>",
+      "back": "Meaning: Canadian (m/f)<br>Example: Studente <b>canadese</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🇦🇺 <b>australiano</b>",
+      "back": "Meaning: Australian (m.)<br>Example: Lui è <b>australiano</b>",
+      "tags": [
+        "a1",
+        "aggettivi_nazionalita"
+      ]
+    }
+  ]
+}

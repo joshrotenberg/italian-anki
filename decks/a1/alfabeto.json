@@ -1,0 +1,193 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "A",
+      "back": "Pronunciation: /a/<br>Example: A come <b>albero</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "B",
+      "back": "Pronunciation: /bi/<br>Example: B come <b>bicicletta</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "C",
+      "back": "Pronunciation: /tʃi/<br>Example: C come <b>casa</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "D",
+      "back": "Pronunciation: /di/<br>Example: D come <b>dado</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "E",
+      "back": "Pronunciation: /e/<br>Example: E come <b>elefante</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "F",
+      "back": "Pronunciation: /ɛffe/<br>Example: F come <b>fiore</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "G",
+      "back": "Pronunciation: /dʒi/<br>Example: G come <b>gatto</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "H",
+      "back": "Pronunciation: /akka/<br>Example: H muette",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "I",
+      "back": "Pronunciation: /i/<br>Example: I come <b>isola</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "L",
+      "back": "Pronunciation: /elle/<br>Example: L come <b>luna</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "M",
+      "back": "Pronunciation: /emme/<br>Example: M come <b>mare</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "N",
+      "back": "Pronunciation: /enne/<br>Example: N come <b>nave</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "O",
+      "back": "Pronunciation: /o/<br>Example: O come <b>orologio</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "P",
+      "back": "Pronunciation: /pi/<br>Example: P come <b>pane</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "Q",
+      "back": "Pronunciation: /ku/<br>Example: Q come <b>quadro</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "R",
+      "back": "Pronunciation: /erre/<br>Example: R come <b>rosa</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "S",
+      "back": "Pronunciation: /esse/<br>Example: S come <b>sole</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "T",
+      "back": "Pronunciation: /ti/<br>Example: T come <b>tavolo</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "U",
+      "back": "Pronunciation: /u/<br>Example: U come <b>uva</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "V",
+      "back": "Pronunciation: /vu/<br>Example: V come <b>vino</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "Z",
+      "back": "Pronunciation: /dzeta/<br>Example: Z come <b>zucchero</b>",
+      "tags": [
+        "a1",
+        "alfabeto"
+      ]
+    }
+  ]
+}

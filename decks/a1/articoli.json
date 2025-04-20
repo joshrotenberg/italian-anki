@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "📖 <b>il</b>",
+      "back": "Meaning: the (masc. sing.)<br>Example: il libro",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📖 <b>lo</b>",
+      "back": "Meaning: the (masc. sing. before s+cons./z)<br>Example: lo studente",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📖 <b>la</b>",
+      "back": "Meaning: the (fem. sing.)<br>Example: la casa",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📖 <b>l’</b>",
+      "back": "Meaning: the (before vowel)<br>Example: l’amico",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📖 <b>i</b>",
+      "back": "Meaning: the (masc. pl.)<br>Example: i libri",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📖 <b>gli</b>",
+      "back": "Meaning: the (masc. pl. before vowel/s+cons.)<br>Example: gli studenti",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📖 <b>le</b>",
+      "back": "Meaning: the (fem. pl.)<br>Example: le case",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "➕ <b>un</b>",
+      "back": "Meaning: a/an (masc.)<br>Example: un gatto",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "➕ <b>uno</b>",
+      "back": "Meaning: a/an (masc. before s+cons./z)<br>Example: uno studente",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "➕ <b>una</b>",
+      "back": "Meaning: a/an (fem.)<br>Example: una mela",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "➕ <b>un’</b>",
+      "back": "Meaning: a/an (fem. before vowel)<br>Example: un’amica",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔄 <b>del</b>",
+      "back": "Meaning: some (masc. sing.)<br>Example: del pane",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔄 <b>dello</b>",
+      "back": "Meaning: some (masc. sing. s+cons./z)<br>Example: dello zucchero",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔄 <b>della</b>",
+      "back": "Meaning: some (fem. sing.)<br>Example: della frutta",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔄 <b>dell’</b>",
+      "back": "Meaning: some (before vowel)<br>Example: dell’acqua",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔄 <b>dei</b>",
+      "back": "Meaning: some (masc. pl.)<br>Example: dei libri",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔄 <b>degli</b>",
+      "back": "Meaning: some (masc. pl. s+cons./vowel)<br>Example: degli studenti",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔄 <b>delle</b>",
+      "back": "Meaning: some (fem. pl.)<br>Example: delle case",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "❓ <b>Quale articolo</b> per \"amico\"?",
+      "back": "Example: l’amico",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "❓ <b>Quale articolo</b> per \"scuola\"?",
+      "back": "Example: la scuola",
+      "tags": [
+        "a1",
+        "articoli"
+      ]
+    }
+  ]
+}

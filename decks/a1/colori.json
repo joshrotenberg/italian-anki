@@ -1,13 +1,24 @@
 {
   "cards": [
-    {
-      "model": "basic",
-      "front": "🟢 <b>verde</b>",
-      "back": "Meaning: green<br>Example: La mela è <b>verde</b>",
-      "tags": [
-        "a1",
-        "colori"
-      ]
-    }
+    {"model":"basic","front":"🔴 <b>rosso</b>","back":"Meaning: red<br>Example: Il semaforo è <b>rosso</b>","tags":["a1","colori"]},
+    {"model":"basic","front":"🟠 <b>arancione</b>","back":"Meaning: orange<br>Example: L’auto è <b>arancione</b>","tags":["a1","colori"]},
+    {"model":"basic","front":"🟡 <b>giallo</b>","back":"Meaning: yellow<br>Example: Il sole è <b>giallo</b>","tags":["a1","colori"]},
+    {"model":"basic","front":"🟢 <b>verde</b>","back":"Meaning: green<br>Example: L’erba è <b>verde</b>","tags":["a1","colori"]},
+    {"model":"basic","front":"🔵 <b>blu</b>","back":"Meaning: blue<br>Example: Il cielo è <b>blu</b>","tags":["a1","colori"]},
+    {"model":"basic","front":"🟣 <b>viola</b>","back":"Meaning: purple<br>Example: La maglietta è <b>viola</b>","tags":["a1","colori"]},
+    {"model":"basic","front":"🟤 <b>marrone</b>","back":"Meaning: brown<br>Example: Il tavolo è <b>marrone</b>","tags":["a1","colori"]},
+    {"model":"basic","front":"⚫ <b>nero</b>","back":"Meaning: black<br>Example: La scarpa è <b>nera</b>","tags":["a1","colori"]},
+    {"model":"basic","front":"⚪ <b>bianco</b>","back":"Meaning: white<br>Example: Il muro è <b>bianco</b>","tags":["a1","colori"]},
+    {"model":"basic","front":"🔘 <b>grigio</b>","back":"Meaning: gray<br>Example: Il gatto è <b>grigio</b>","tags":["a1","colori"]},
+    {"model":"basic","front":"🌸 <b>rosa</b>","back":"Meaning: pink<br>Example: La maglia è <b>rosa</b>","tags":["a1","colori"]},
+    {"model":"basic","front":"☀️ <b>giallo chiaro</b>","back":"Meaning: light yellow<br>Example: Il vestito è <b>giallo chiaro</b>","tags":["a1","colori"]},
+    {"model":"basic","front":"🌊 <b>azzurro</b>","back":"Meaning: light blue<br>Example: La piscina è <b>azzurra</b>","tags":["a1","colori"]},
+    {"model":"basic","front":"🦄 <b>turchese</b>","back":"Meaning: turquoise<br>Example: Le onde sono <b>turchesi</b>","tags":["a1","colori"]},
+    {"model":"basic","front":"✨ <b>oro</b>","back":"Meaning: gold<br>Example: L’anello è <b>d’oro</b>","tags":["a1","colori"]},
+    {"model":"basic","front":"🌟 <b>argento</b>","back":"Meaning: silver<br>Example: Il bracciale è <b>argento</b>","tags":["a1","colori"]},
+    {"model":"basic","front":"🤎 <b>beige</b>","back":"Meaning: beige<br>Example: Il divano è <b>beige</b>","tags":["a1","colori"]},
+    {"model":"basic","front":"🎀 <b>lilla</b>","back":"Meaning: lilac<br>Example: La sciarpa è <b>lilla</b>","tags":["a1","colori"]},
+    {"model":"basic","front":"💖 <b>fucsia</b>","back":"Meaning: fuchsia<br>Example: La borsa è <b>fucsia</b>","tags":["a1","colori"]},
+    {"model":"basic","front":"🍃 <b>verde scuro</b>","back":"Meaning: dark green<br>Example: La foresta è <b>verde scuro</b>","tags":["a1","colori"]}
   ]
 }

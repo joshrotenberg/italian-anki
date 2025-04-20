@@ -3,7 +3,7 @@
     {
       "model": "basic",
       "front": "🗓 <b>gennaio</b>",
-      "back": "Meaning: January<br>Example: Il mio compleanno è a <b>gennaio</b>",
+      "back": "Meaning: January<br>Example: Gennaio è freddo",
       "tags": [
         "a1",
         "mesi_e_stagioni"
@@ -12,7 +12,7 @@
     {
       "model": "basic",
       "front": "🗓 <b>febbraio</b>",
-      "back": "Meaning: February<br>Example: San Valentino è a <b>febbraio</b>",
+      "back": "Meaning: February<br>Example: Febbraio ha 28 giorni",
       "tags": [
         "a1",
         "mesi_e_stagioni"
@@ -21,7 +21,7 @@
     {
       "model": "basic",
       "front": "🗓 <b>marzo</b>",
-      "back": "Meaning: March<br>Example: <b>Marzo</b> è il mese della primavera",
+      "back": "Meaning: March<br>Example: Marzo è primavera",
       "tags": [
         "a1",
         "mesi_e_stagioni"
@@ -30,7 +30,7 @@
     {
       "model": "basic",
       "front": "🗓 <b>aprile</b>",
-      "back": "Meaning: April<br>Example: A <b>aprile</b> piove spesso",
+      "back": "Meaning: April<br>Example: Ad aprile piove spesso",
       "tags": [
         "a1",
         "mesi_e_stagioni"
@@ -39,7 +39,7 @@
     {
       "model": "basic",
       "front": "🗓 <b>maggio</b>",
-      "back": "Meaning: May<br>Example: <b>Maggio</b> è il mese dei fiori",
+      "back": "Meaning: May<br>Example: Maggio è mese dei fiori",
       "tags": [
         "a1",
         "mesi_e_stagioni"
@@ -48,7 +48,7 @@
     {
       "model": "basic",
       "front": "🗓 <b>giugno</b>",
-      "back": "Meaning: June<br>Example: La scuola finisce a <b>giugno</b>",
+      "back": "Meaning: June<br>Example: Giugno è estate",
       "tags": [
         "a1",
         "mesi_e_stagioni"
@@ -57,7 +57,7 @@
     {
       "model": "basic",
       "front": "🗓 <b>luglio</b>",
-      "back": "Meaning: July<br>Example: In <b>luglio</b> fa molto caldo",
+      "back": "Meaning: July<br>Example: A luglio fa molto caldo",
       "tags": [
         "a1",
         "mesi_e_stagioni"
@@ -66,7 +66,7 @@
     {
       "model": "basic",
       "front": "🗓 <b>agosto</b>",
-      "back": "Meaning: August<br>Example: <b>Agosto</b> è il mese delle vacanze",
+      "back": "Meaning: August<br>Example: Agosto è mese di ferie",
       "tags": [
         "a1",
         "mesi_e_stagioni"
@@ -75,7 +75,7 @@
     {
       "model": "basic",
       "front": "🗓 <b>settembre</b>",
-      "back": "Meaning: September<br>Example: Inizia la scuola a <b>settembre</b>",
+      "back": "Meaning: September<br>Example: A settembre inizia la scuola",
       "tags": [
         "a1",
         "mesi_e_stagioni"
@@ -84,7 +84,7 @@
     {
       "model": "basic",
       "front": "🗓 <b>ottobre</b>",
-      "back": "Meaning: October<br>Example: Halloween è a <b>ottobre</b>",
+      "back": "Meaning: October<br>Example: Ottobre è autunnale",
       "tags": [
         "a1",
         "mesi_e_stagioni"
@@ -93,7 +93,7 @@
     {
       "model": "basic",
       "front": "🗓 <b>novembre</b>",
-      "back": "Meaning: November<br>Example: A <b>novembre</b> fa freddo",
+      "back": "Meaning: November<br>Example: Novembre è piovoso",
       "tags": [
         "a1",
         "mesi_e_stagioni"
@@ -102,7 +102,7 @@
     {
       "model": "basic",
       "front": "🗓 <b>dicembre</b>",
-      "back": "Meaning: December<br>Example: Natale è a <b>dicembre</b>",
+      "back": "Meaning: December<br>Example: Dicembre ha il Natale",
       "tags": [
         "a1",
         "mesi_e_stagioni"
@@ -111,7 +111,7 @@
     {
       "model": "basic",
       "front": "❄️ <b>inverno</b>",
-      "back": "Meaning: winter<br>Example: In <b>inverno</b> nevica",
+      "back": "Meaning: winter<br>Example: L’inverno è freddo",
       "tags": [
         "a1",
         "mesi_e_stagioni"
@@ -120,7 +120,7 @@
     {
       "model": "basic",
       "front": "🌸 <b>primavera</b>",
-      "back": "Meaning: spring<br>Example: In <b>primavera</b> fioriscono i fiori",
+      "back": "Meaning: spring<br>Example: La primavera è fiorita",
       "tags": [
         "a1",
         "mesi_e_stagioni"
@@ -129,7 +129,7 @@
     {
       "model": "basic",
       "front": "🌞 <b>estate</b>",
-      "back": "Meaning: summer<br>Example: Andiamo al mare in <b>estate</b>",
+      "back": "Meaning: summer<br>Example: L’estate è calda",
       "tags": [
         "a1",
         "mesi_e_stagioni"
@@ -138,7 +138,43 @@
     {
       "model": "basic",
       "front": "🍂 <b>autunno</b>",
-      "back": "Meaning: autumn<br>Example: Le foglie cadono in <b>autunno</b>",
+      "back": "Meaning: autumn<br>Example: L’autunno è ventoso",
+      "tags": [
+        "a1",
+        "mesi_e_stagioni"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📆 <b>ogni mese</b>",
+      "back": "Meaning: every month<br>Example: Visito nonno <b>ogni mese</b>",
+      "tags": [
+        "a1",
+        "mesi_e_stagioni"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📅 <b>questo mese</b>",
+      "back": "Meaning: this month<br>Example: <b>Questo mese</b> imparo l’italiano",
+      "tags": [
+        "a1",
+        "mesi_e_stagioni"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📉 <b>mese scorso</b>",
+      "back": "Meaning: last month<br>Example: <b>Mese scorso</b> ho viaggiato",
+      "tags": [
+        "a1",
+        "mesi_e_stagioni"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📈 <b>mese prossimo</b>",
+      "back": "Meaning: next month<br>Example: <b>Mese prossimo</b> farò una festa",
       "tags": [
         "a1",
         "mesi_e_stagioni"

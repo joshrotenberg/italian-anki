@@ -3,7 +3,7 @@
     {
       "model": "basic",
       "front": "🔁 <b>sempre</b>",
-      "back": "Meaning: always<br>Example: Studio <b>sempre</b> la sera",
+      "back": "Meaning: always<br>Example: Vado <b>sempre</b> a scuola",
       "tags": [
         "a1",
         "avverbi"
@@ -12,7 +12,7 @@
     {
       "model": "basic",
       "front": "❌ <b>mai</b>",
-      "back": "Meaning: never<br>Example: Non bevo <b>mai</b> il caffè",
+      "back": "Meaning: never<br>Example: Non parlo <b>mai</b> spagnolo",
       "tags": [
         "a1",
         "avverbi"
@@ -20,8 +20,8 @@
     },
     {
       "model": "basic",
-      "front": "🕒 <b>spesso</b>",
-      "back": "Meaning: often<br>Example: Vado <b>spesso</b> al parco",
+      "front": "🔄 <b>spesso</b>",
+      "back": "Meaning: often<br>Example: Vado <b>spesso</b> al cinema",
       "tags": [
         "a1",
         "avverbi"
@@ -29,8 +29,8 @@
     },
     {
       "model": "basic",
-      "front": "🔄 <b>qualche volta</b>",
-      "back": "Meaning: sometimes<br>Example: <b>Qualche volta</b> cucino la cena",
+      "front": "⏳ <b>qualche volta</b>",
+      "back": "Meaning: sometimes<br>Example: <b>Qualche volta</b> mangio cioccolato",
       "tags": [
         "a1",
         "avverbi"
@@ -38,8 +38,152 @@
     },
     {
       "model": "basic",
-      "front": "🕗 <b>presto</b>",
-      "back": "Meaning: early<br>Example: Mi sveglio <b>presto</b> ogni giorno",
+      "front": "⏰ <b>presto</b>",
+      "back": "Meaning: early/soon<br>Example: Arrivo <b>presto</b> domani",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🕒 <b>tardi</b>",
+      "back": "Meaning: late<br>Example: Torno <b>tardi</b> stasera",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🗓️ <b>oggi</b>",
+      "back": "Meaning: today<br>Example: Studio italiano <b>oggi</b>",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🌅 <b>domani</b>",
+      "back": "Meaning: tomorrow<br>Example: <b>Domani</b> vado al mare",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🕰️ <b>ieri</b>",
+      "back": "Meaning: yesterday<br>Example: Sono stato a casa <b>ieri</b>",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📍 <b>qui</b>",
+      "back": "Meaning: here<br>Example: Aspettami <b>qui</b>",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📍 <b>lì</b>",
+      "back": "Meaning: there<br>Example: Il libro è <b>lì</b>",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔁 <b>ancora</b>",
+      "back": "Meaning: again/still<br>Example: Voglio <b>ancora</b> un gelato",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "✔️ <b>già</b>",
+      "back": "Meaning: already<br>Example: Ho <b>già</b> mangiato",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔝 <b>molto</b>",
+      "back": "Meaning: very/much<br>Example: Sono <b>molto</b> felice",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "➖ <b>poco</b>",
+      "back": "Meaning: little<br>Example: Ho <b>poco</b> tempo",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👍 <b>bene</b>",
+      "back": "Meaning: well<br>Example: Sto <b>bene</b>, grazie",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👎 <b>male</b>",
+      "back": "Meaning: badly<br>Example: Oggi sto <b>male</b>",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "😊 <b>volentieri</b>",
+      "back": "Meaning: gladly<br>Example: Vengo <b>volentieri</b> con te",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚀 <b>subito</b>",
+      "back": "Meaning: immediately<br>Example: Faccio la doccia <b>subito</b>",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⏮️ <b>prima</b>",
+      "back": "Meaning: before<br>Example: Arriva <b>prima</b> di me",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⏭️ <b>dopo</b>",
+      "back": "Meaning: after<br>Example: Mangio <b>dopo</b> aver lavorato",
       "tags": [
         "a1",
         "avverbi"

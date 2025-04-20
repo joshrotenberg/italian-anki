@@ -1,49 +1,24 @@
 {
-  "cards": [
-    {
-      "model": "basic",
-      "front": "🪙 <b>il denaro</b>",
-      "back": "Meaning: money<br>Example: Ho bisogno di <b>denaro</b>",
-      "tags": [
-        "a1",
-        "sostantivi"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "📅 <b>il calendario</b>",
-      "back": "Meaning: calendar<br>Example: Il <b>calendario</b> è sul muro",
-      "tags": [
-        "a1",
-        "sostantivi"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🚪 <b>la porta</b>",
-      "back": "Meaning: door<br>Example: Chiudi <b>la porta</b>, per favore",
-      "tags": [
-        "a1",
-        "sostantivi"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🖼 <b>il quadro</b>",
-      "back": "Meaning: painting<br>Example: Il <b>quadro</b> è molto bello",
-      "tags": [
-        "a1",
-        "sostantivi"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🪞 <b>lo specchio</b>",
-      "back": "Meaning: mirror<br>Example: Guardo <b>lo specchio</b> ogni mattina",
-      "tags": [
-        "a1",
-        "sostantivi"
-      ]
-    }
+  "cards":[
+    {"model":"basic","front":"🏠 <b>casa</b>","back":"Meaning: house<br>Example: La mia <b>casa</b> è grande","tags":["a1","sostantivi"]},
+    {"model":"basic","front":"🚗 <b>macchina</b>","back":"Meaning: car<br>Example: La <b>macchina</b> è nuova","tags":["a1","sostantivi"]},
+    {"model":"basic","front":"🏫 <b>scuola</b>","back":"Meaning: school<br>Example: Vado a <b>scuola</b> ogni giorno","tags":["a1","sostantivi"]},
+    {"model":"basic","front":"👫 <b>amico</b>","back":"Meaning: friend<br>Example: Ho un <b>amico</b> italiano","tags":["a1","sostantivi"]},
+    {"model":"basic","front":"👪 <b>famiglia</b>","back":"Meaning: family<br>Example: La mia <b>famiglia</b> è numerosa","tags":["a1","sostantivi"]},
+    {"model":"basic","front":"🍽 <b>tavolo</b>","back":"Meaning: table<br>Example: Il <b>tavolo</b> è di legno","tags":["a1","sostantivi"]},
+    {"model":"basic","front":"🪑 <b>sedia</b>","back":"Meaning: chair<br>Example: La <b>sedia</b> è comoda","tags":["a1","sostantivi"]},
+    {"model":"basic","front":"📖 <b>libro</b>","back":"Meaning: book<br>Example: Leggo un <b>libro</b>","tags":["a1","sostantivi"]},
+    {"model":"basic","front":"🖊 <b>penna</b>","back":"Meaning: pen<br>Example: Scrivo con una <b>penna</b>","tags":["a1","sostantivi"]},
+    {"model":"basic","front":"🛣 <b>strada</b>","back":"Meaning: road<br>Example: La <b>strada</b> è larga","tags":["a1","sostantivi"]},
+    {"model":"basic","front":"🍎 <b>cibo</b>","back":"Meaning: food<br>Example: Il <b>cibo</b> è delizioso","tags":["a1","sostantivi"]},
+    {"model":"basic","front":"💧 <b>acqua</b>","back":"Meaning: water<br>Example: Bevo <b>acqua</b> fredda","tags":["a1","sostantivi"]},
+    {"model":"basic","front":"🚪 <b>porta</b>","back":"Meaning: door<br>Example: Apri la <b>porta</b>","tags":["a1","sostantivi"]},
+    {"model":"basic","front":"🪟 <b>finestra</b>","back":"Meaning: window<br>Example: La <b>finestra</b> è aperta","tags":["a1","sostantivi"]},
+    {"model":"basic","front":"🌌 <b>spazio</b>","back":"Meaning: space<br>Example: C’è molto <b>spazio</b> qui","tags":["a1","sostantivi"]},
+    {"model":"basic","front":"⏳ <b>tempo</b>","back":"Meaning: time<br>Example: Non ho abbastanza <b>tempo</b>","tags":["a1","sostantivi"]},
+    {"model":"basic","front":"💼 <b>lavoro</b>","back":"Meaning: work<br>Example: Il <b>lavoro</b> è impegnativo","tags":["a1","sostantivi"]},
+    {"model":"basic","front":"💶 <b>soldi</b>","back":"Meaning: money<br>Example: Non ho molti <b>soldi</b>","tags":["a1","sostantivi"]},
+    {"model":"basic","front":"🏙 <b>città</b>","back":"Meaning: city<br>Example: Amo la mia <b>città</b>","tags":["a1","sostantivi"]},
+    {"model":"basic","front":"🌄 <b>paese</b>","back":"Meaning: village/country<br>Example: Vivo in un piccolo <b>paese</b>","tags":["a1","sostantivi"]}
   ]
 }

@@ -2,52 +2,191 @@
   "cards": [
     {
       "model": "basic",
+      "front": "👤 <b>essere</b> — presente",
+      "back": "Meaning: to be<br>Example: Io sono felice",
+      "tags": [
+        "a1",
+        "verbi_irregolari"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📦 <b>avere</b> — presente",
+      "back": "Meaning: to have<br>Example: Tu hai un amico",
+      "tags": [
+        "a1",
+        "verbi_irregolari"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚶 <b>andare</b> — presente",
+      "back": "Meaning: to go<br>Example: Lui va al lavoro",
+      "tags": [
+        "a1",
+        "verbi_irregolari"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🏃 <b>venire</b> — presente",
+      "back": "Meaning: to come<br>Example: Noi veniamo con te",
+      "tags": [
+        "a1",
+        "verbi_irregolari"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "💼 <b>fare</b> — presente",
+      "back": "Meaning: to do/make<br>Example: Voi fate la spesa",
+      "tags": [
+        "a1",
+        "verbi_irregolari"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🏠 <b>stare</b> — presente",
+      "back": "Meaning: to stay/be<br>Example: Loro stanno a casa",
+      "tags": [
+        "a1",
+        "verbi_irregolari"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🤲 <b>dare</b> — presente",
+      "back": "Meaning: to give<br>Example: Io do un regalo",
+      "tags": [
+        "a1",
+        "verbi_irregolari"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🗣 <b>dire</b> — presente",
+      "back": "Meaning: to say<br>Example: Tu dici la verità",
+      "tags": [
+        "a1",
+        "verbi_irregolari"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👁 <b>vedere</b> — presente",
+      "back": "Meaning: to see<br>Example: Lui vede le stelle",
+      "tags": [
+        "a1",
+        "verbi_irregolari"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🧠 <b>sapere</b> — presente",
+      "back": "Meaning: to know<br>Example: Noi sappiamo la risposta",
+      "tags": [
+        "a1",
+        "verbi_irregolari"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚪 <b>uscire</b> — presente",
+      "back": "Meaning: to go out<br>Example: Voi uscite stasera",
+      "tags": [
+        "a1",
+        "verbi_irregolari"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⏳ <b>rimanere</b> — presente",
+      "back": "Meaning: to remain<br>Example: Loro rimangono qui",
+      "tags": [
+        "a1",
+        "verbi_irregolari"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔀 <b>scegliere</b> — presente",
+      "back": "Meaning: to choose<br>Example: Io scelgo un libro",
+      "tags": [
+        "a1",
+        "verbi_irregolari"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🤝 <b>tenere</b> — presente",
+      "back": "Meaning: to hold<br>Example: Tu tieni la porta",
+      "tags": [
+        "a1",
+        "verbi_irregolari"
+      ]
+    },
+    {
+      "model": "basic",
       "front": "🍷 <b>bere</b> — presente",
-      "back": "Definition: to drink<br><b>io bevo</b><br>Example: Bevo un bicchiere di vino",
+      "back": "Meaning: to drink<br>Example: Lui beve acqua",
       "tags": [
         "a1",
-        "verbi_irregolari",
-        "verb"
+        "verbi_irregolari"
       ]
     },
     {
       "model": "basic",
-      "front": "🛠 <b>fare</b> — presente",
-      "back": "Definition: to do/make<br><b>tu fai</b><br>Example: Cosa <b>fai</b> domani?",
+      "front": "❤️ <b>piacere</b> — presente",
+      "back": "Meaning: to like<br>Example: Mi piace la pizza",
       "tags": [
         "a1",
-        "verbi_irregolari",
-        "verb"
+        "verbi_irregolari"
       ]
     },
     {
       "model": "basic",
-      "front": "📍 <b>stare</b> — presente",
-      "back": "Definition: to stay / to be<br><b>lui sta</b><br>Example: Lui <b>sta</b> a casa oggi",
+      "front": "📦 <b>mettere</b> — presente",
+      "back": "Meaning: to put<br>Example: Noi mettiamo i libri",
       "tags": [
         "a1",
-        "verbi_irregolari",
-        "verb"
+        "verbi_irregolari"
       ]
     },
     {
       "model": "basic",
-      "front": "🛫 <b>andare</b> — presente",
-      "back": "Definition: to go<br><b>noi andiamo</b><br>Example: Andiamo al cinema",
+      "front": "🏆 <b>vincere</b> — presente",
+      "back": "Meaning: to win<br>Example: Voi vincete spesso",
       "tags": [
         "a1",
-        "verbi_irregolari",
-        "verb"
+        "verbi_irregolari"
       ]
     },
     {
       "model": "basic",
-      "front": "👂 <b>dire</b> — presente",
-      "back": "Definition: to say / tell<br><b>voi dite</b><br>Example: Cosa <b>dite</b> sempre?",
+      "front": "⚰️ <b>morire</b> — presente",
+      "back": "Meaning: to die<br>Example: Questa pianta muore presto",
       "tags": [
         "a1",
-        "verbi_irregolari",
-        "verb"
+        "verbi_irregolari"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📍 <b>porre</b> — presente",
+      "back": "Meaning: to place<br>Example: Loro pongono attenzione",
+      "tags": [
+        "a1",
+        "verbi_irregolari"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🤔 <b>conoscere</b> — presente",
+      "back": "Meaning: to know (a person/place)<br>Example: Conosco Roma",
+      "tags": [
+        "a1",
+        "verbi_irregolari"
       ]
     }
   ]

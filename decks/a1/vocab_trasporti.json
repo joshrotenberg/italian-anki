@@ -1,0 +1,193 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "🚗 <b>macchina</b>",
+      "back": "Meaning: car<br>Example: Vado in <b>macchina</b>",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚌 <b>autobus</b>",
+      "back": "Meaning: bus<br>Example: Prendo l’<b>autobus</b> per andare al lavoro",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚆 <b>treno</b>",
+      "back": "Meaning: train<br>Example: Il <b>treno</b> parte alle otto",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚕 <b>taxi</b>",
+      "back": "Meaning: taxi<br>Example: Chiamo un <b>taxi</b>",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚲 <b>bicicletta</b>",
+      "back": "Meaning: bicycle<br>Example: Vado in <b>bicicletta</b> al parco",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "✈️ <b>aereo</b>",
+      "back": "Meaning: plane<br>Example: Prenoto un biglietto per l’<b>aereo</b>",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚢 <b>nave</b>",
+      "back": "Meaning: ship<br>Example: Partiamo in <b>nave</b> domani",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🏍 <b>moto</b>",
+      "back": "Meaning: motorcycle<br>Example: Guida la <b>moto</b> con casco",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚈 <b>metropolitana</b>",
+      "back": "Meaning: subway<br>Example: Prendo la <b>metropolitana</b> a Milano",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚞 <b>tram</b>",
+      "back": "Meaning: tram<br>Example: Salgo sul <b>tram</b>",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚏 <b>fermata</b>",
+      "back": "Meaning: stop (bus/tram)<br>Example: Aspetto alla <b>fermata</b>",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🗺 <b>dritto</b>",
+      "back": "Meaning: straight<br>Example: Vai <b>dritto</b> fino al semaforo",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "➡️ <b>a destra</b>",
+      "back": "Meaning: to the right<br>Example: Svolta <b>a destra</b>",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⬅️ <b>a sinistra</b>",
+      "back": "Meaning: to the left<br>Example: Gira <b>a sinistra</b>",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔙 <b>indietro</b>",
+      "back": "Meaning: back<br>Example: Torna <b>indietro</b> un attimo",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "↗️ <b>in alto</b>",
+      "back": "Meaning: up<br>Example: Guarda <b>in alto</b>",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "↘️ <b>in basso</b>",
+      "back": "Meaning: down<br>Example: Guarda <b>in basso</b>",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🛣 <b>strada</b>",
+      "back": "Meaning: road<br>Example: La <b>strada</b> è lunga",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🛤 <b>binario</b>",
+      "back": "Meaning: platform/track<br>Example: Il treno è al <b>binario</b> 5",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📍 <b>mappa</b>",
+      "back": "Meaning: map<br>Example: Consulta la <b>mappa</b>",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⏱ <b>ritardo</b>",
+      "back": "Meaning: delay<br>Example: Il treno ha un <b>ritardo</b>",
+      "tags": [
+        "a1",
+        "vocab_trasporti"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
-# 🇮🇹 Italian Anki Deck: A1 Vocabulary & Grammar
+# 🇮🇹 Italian Anki Deck: A1-B1 Vocabulary & Grammar
 
-This repository contains a structured and taggable set of Anki decks for Italian learners, starting at the A1 level.
+This repository contains a structured and taggable set of Anki decks for Italian learners, from A1 through B1.
 
 ## 📁 Structure
 
@@ -10,6 +10,10 @@ Each Anki subdeck lives in:
 decks/a1/
   ├── verbi_presente.json
   ├── aggettivi.json
+  └── ...
+decks/a2/
+  ├── passato_prossimo.json
+  ├── imperfetto.json
   └── ...
 ```
 
@@ -46,8 +50,8 @@ Each JSON file includes a single object with a `cards` array. Each card must inc
 ## 🏷 Tags
 
 Each card must have:
-- `"a1"` (or `"a2"`, etc. when we expand)
-- A second tag matching its subdeck: e.g. `"verbi_presente"`, `"avverbi"`, etc.
+  * `"a1"` (or `"a2"`, `"b1"`, etc.)
+  * A second tag matching its subdeck
 
 You can optionally add part-of-speech or grammar function tags like `"verb"`, `"expression"`, `"cloze"`, `"noun"`, etc.
 

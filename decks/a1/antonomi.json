@@ -2,8 +2,8 @@
   "cards": [
     {
       "model": "basic",
-      "front": "🔥 <b>caldo</b> ↔ ❄️ <b>freddo</b>",
-      "back": "caldo = hot, freddo = cold<br>Example: Il tè è <b>caldo</b>, il gelato è <b>freddo</b>",
+      "front": "☀️ <b>caldo</b> ↔ ❄️ <b>freddo</b>",
+      "back": "Meaning: hot ↔ cold<br>Example: In casa fa <b>caldo</b>, ma fuori è <b>freddo</b>",
       "tags": [
         "a1",
         "antonomi"
@@ -12,7 +12,7 @@
     {
       "model": "basic",
       "front": "😀 <b>felice</b> ↔ 😞 <b>triste</b>",
-      "back": "felice = happy, triste = sad<br>Example: Lei è <b>felice</b>, lui è <b>triste</b>",
+      "back": "Meaning: happy ↔ sad<br>Example: Sono <b>felice</b>, non <b>triste</b>",
       "tags": [
         "a1",
         "antonomi"
@@ -20,8 +20,8 @@
     },
     {
       "model": "basic",
-      "front": "🚪 <b>aperto</b> ↔ 🔒 <b>chiuso</b>",
-      "back": "aperto = open, chiuso = closed<br>Example: Il negozio è <b>aperto</b>, la banca è <b>chiusa</b>",
+      "front": "📖 <b>aperto</b> ↔ 🔒 <b>chiuso</b>",
+      "back": "Meaning: open ↔ closed<br>Example: La porta è <b>aperta</b> o <b>chiusa</b>?",
       "tags": [
         "a1",
         "antonomi"
@@ -30,7 +30,7 @@
     {
       "model": "basic",
       "front": "📈 <b>alto</b> ↔ 📉 <b>basso</b>",
-      "back": "alto = high/tall, basso = low/short<br>Example: La torre è <b>alta</b>, la sedia è <b>bassa</b>",
+      "back": "Meaning: tall/high ↔ low/short<br>Example: Il muro è <b>alto</b>, non <b>basso</b>",
       "tags": [
         "a1",
         "antonomi"
@@ -39,7 +39,133 @@
     {
       "model": "basic",
       "front": "💪 <b>forte</b> ↔ 💤 <b>debole</b>",
-      "back": "forte = strong, debole = weak<br>Example: È un atleta <b>forte</b>, non è <b>debole</b>",
+      "back": "Meaning: strong ↔ weak<br>Example: Mi sento <b>forte</b>, non <b>debole</b>",
+      "tags": [
+        "a1",
+        "antonomi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🍽 <b>buono</b> ↔ 🤢 <b>cattivo</b>",
+      "back": "Meaning: good ↔ bad<br>Example: Il cibo è <b>buono</b>, non <b>cattivo</b>",
+      "tags": [
+        "a1",
+        "antonomi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👶 <b>giovane</b> ↔ 👴 <b>vecchio</b>",
+      "back": "Meaning: young ↔ old<br>Example: Mio nonno è <b>vecchio</b>, io sono <b>giovane</b>",
+      "tags": [
+        "a1",
+        "antonomi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "↔️ <b>lungo</b> ↔ ↕️ <b>corto</b>",
+      "back": "Meaning: long ↔ short<br>Example: Il vestito è <b>lungo</b>, non <b>corto</b>",
+      "tags": [
+        "a1",
+        "antonomi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "⚖️ <b>leggero</b> ↔ ⚖️ <b>pesante</b>",
+      "back": "Meaning: light ↔ heavy<br>Example: La valigia è <b>pesante</b>, non <b>leggera</b>",
+      "tags": [
+        "a1",
+        "antonomi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🧳 <b>pieno</b> ↔ 🕳 <b>vuoto</b>",
+      "back": "Meaning: full ↔ empty<br>Example: Il bicchiere è <b>pieno</b>, non <b>vuoto</b>",
+      "tags": [
+        "a1",
+        "antonomi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🏠 <b>vicino</b> ↔ 🌄 <b>lontano</b>",
+      "back": "Meaning: near ↔ far<br>Example: La scuola è <b>vicina</b>, non <b>lontana</b>",
+      "tags": [
+        "a1",
+        "antonomi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🧼 <b>pulito</b> ↔ 🧹 <b>sporco</b>",
+      "back": "Meaning: clean ↔ dirty<br>Example: La stanza è <b>pulita</b>, non <b>sporca</b>",
+      "tags": [
+        "a1",
+        "antonomi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "✔️ <b>giusto</b> ↔ ❌ <b>sbagliato</b>",
+      "back": "Meaning: right ↔ wrong<br>Example: La risposta è <b>giusta</b>, non <b>sbagliata</b>",
+      "tags": [
+        "a1",
+        "antonomi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "💰 <b>ricco</b> ↔ 💸 <b>povero</b>",
+      "back": "Meaning: rich ↔ poor<br>Example: Molti sono <b>ricchi</b>, altri <b>poveri</b>",
+      "tags": [
+        "a1",
+        "antonomi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "❤️ <b>sano</b> ↔ 🤒 <b>malato</b>",
+      "back": "Meaning: healthy ↔ sick<br>Example: Oggi sto <b>sano</b>, non <b>malato</b>",
+      "tags": [
+        "a1",
+        "antonomi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🍔 <b>grasso</b> ↔ 🥗 <b>magro</b>",
+      "back": "Meaning: fat ↔ thin<br>Example: Il burro è <b>grasso</b>, l’insalata è <b>magra</b>",
+      "tags": [
+        "a1",
+        "antonomi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🏃‍♂️ <b>stretto</b> ↔ 🏰 <b>largo</b>",
+      "back": "Meaning: tight ↔ wide<br>Example: Il corridoio è <b>stretto</b>, la piazza è <b>larga</b>",
+      "tags": [
+        "a1",
+        "antonomi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚪 <b>dentro</b> ↔ 🚪 <b>fuori</b>",
+      "back": "Meaning: inside ↔ outside<br>Example: Vieni <b>dentro</b>, non <b>fuori</b>",
+      "tags": [
+        "a1",
+        "antonomi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🍯 <b>dolce</b> ↔ ☕️ <b>amaro</b>",
+      "back": "Meaning: sweet ↔ bitter<br>Example: Il cioccolato è <b>dolce</b>, il caffè è <b>amaro</b>",
       "tags": [
         "a1",
         "antonomi"
