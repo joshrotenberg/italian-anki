@@ -1,0 +1,13 @@
+.card {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 22px;
+  text-align: left;
+  color: #333;
+  background-color: #fff;
+}
+
+.card code {
+  background: #f4f4f4;
+  padding: 2px 4px;
+  font-family: Menlo, monospace;
+}
