@@ -2,8 +2,8 @@
   "cards": [
     {
       "model": "basic",
-      "front": "🎨 <b>bello</b>",
-      "back": "Meaning: beautiful<br>Example: Questo quadro è <b>bello</b>",
+      "front": "📚 <b>interessante</b>",
+      "back": "Meaning: interesting<br>Example: Il libro è molto <b>interessante</b>",
       "tags": [
         "a1",
         "aggettivi"
@@ -11,8 +11,8 @@
     },
     {
       "model": "basic",
-      "front": "🏠 <b>grande</b>",
-      "back": "Meaning: big<br>Example: La mia casa è molto <b>grande</b>",
+      "front": "🧊 <b>freddo</b>",
+      "back": "Meaning: cold<br>Example: Il gelato è <b>freddo</b>",
       "tags": [
         "a1",
         "aggettivi"
@@ -20,8 +20,8 @@
     },
     {
       "model": "basic",
-      "front": "📏 <b>lungo</b>",
-      "back": "Meaning: long<br>Example: Il fiume è <b>lungo</b> e stretto",
+      "front": "🌡 <b>caldo</b>",
+      "back": "Meaning: hot<br>Example: L'estate è <b>calda</b> in Italia",
       "tags": [
         "a1",
         "aggettivi"
@@ -29,8 +29,8 @@
     },
     {
       "model": "basic",
-      "front": "💡 <b>interessante</b>",
-      "back": "Meaning: interesting<br>Example: Il libro è <b>interessante</b>",
+      "front": "🕊 <b>tranquillo</b>",
+      "back": "Meaning: calm<br>Example: Il villaggio è <b>tranquillo</b>",
       "tags": [
         "a1",
         "aggettivi"
@@ -38,8 +38,8 @@
     },
     {
       "model": "basic",
-      "front": "😄 <b>felice</b>",
-      "back": "Meaning: happy<br>Example: Oggi mi sento <b>felice</b>",
+      "front": "🕺 <b>divertente</b>",
+      "back": "Meaning: fun<br>Example: La festa era <b>divertente</b>",
       "tags": [
         "a1",
         "aggettivi"

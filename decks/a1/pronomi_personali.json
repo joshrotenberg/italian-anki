@@ -1,0 +1,67 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "👤 <b>io</b>",
+      "back": "Meaning: I<br>Example: <b>Io</b> abito a Bologna",
+      "tags": [
+        "a1",
+        "pronomi_personali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🧑 <b>tu</b>",
+      "back": "Meaning: you (singular informal)<br>Example: <b>Tu</b> studi l’italiano?",
+      "tags": [
+        "a1",
+        "pronomi_personali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👨‍🦱 <b>lui</b>",
+      "back": "Meaning: he<br>Example: <b>Lui</b> lavora in un ufficio",
+      "tags": [
+        "a1",
+        "pronomi_personali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👩 <b>lei</b>",
+      "back": "Meaning: she<br>Example: <b>Lei</b> si chiama Marta",
+      "tags": [
+        "a1",
+        "pronomi_personali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👥 <b>noi</b>",
+      "back": "Meaning: we<br>Example: <b>Noi</b> andiamo a scuola insieme",
+      "tags": [
+        "a1",
+        "pronomi_personali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👨‍👩‍👧‍👦 <b>voi</b>",
+      "back": "Meaning: you all (plural)<br>Example: <b>Voi</b> parlate inglese?",
+      "tags": [
+        "a1",
+        "pronomi_personali"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👨‍👩‍👧 <b>loro</b>",
+      "back": "Meaning: they<br>Example: <b>Loro</b> vivono in Italia",
+      "tags": [
+        "a1",
+        "pronomi_personali"
+      ]
+    }
+  ]
+}

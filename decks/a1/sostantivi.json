@@ -2,8 +2,8 @@
   "cards": [
     {
       "model": "basic",
-      "front": "📚 <b>il libro</b>",
-      "back": "Meaning: the book<br>Example: Leggo <b>un libro</b> interessante",
+      "front": "🪙 <b>il denaro</b>",
+      "back": "Meaning: money<br>Example: Ho bisogno di <b>denaro</b>",
       "tags": [
         "a1",
         "sostantivi"
@@ -11,8 +11,8 @@
     },
     {
       "model": "basic",
-      "front": "🏠 <b>la casa</b>",
-      "back": "Meaning: the house<br>Example: Vivo in <b>una casa</b> grande",
+      "front": "📅 <b>il calendario</b>",
+      "back": "Meaning: calendar<br>Example: Il <b>calendario</b> è sul muro",
       "tags": [
         "a1",
         "sostantivi"
@@ -20,8 +20,8 @@
     },
     {
       "model": "basic",
-      "front": "👨‍🏫 <b>l'insegnante</b>",
-      "back": "Meaning: the teacher<br>Example: L'<b>insegnante</b> è molto gentile",
+      "front": "🚪 <b>la porta</b>",
+      "back": "Meaning: door<br>Example: Chiudi <b>la porta</b>, per favore",
       "tags": [
         "a1",
         "sostantivi"
@@ -29,8 +29,8 @@
     },
     {
       "model": "basic",
-      "front": "🐶 <b>il cane</b>",
-      "back": "Meaning: the dog<br>Example: Il mio <b>cane</b> è simpatico",
+      "front": "🖼 <b>il quadro</b>",
+      "back": "Meaning: painting<br>Example: Il <b>quadro</b> è molto bello",
       "tags": [
         "a1",
         "sostantivi"
@@ -38,8 +38,8 @@
     },
     {
       "model": "basic",
-      "front": "🍎 <b>la mela</b>",
-      "back": "Meaning: the apple<br>Example: Mangio <b>una mela</b>",
+      "front": "🪞 <b>lo specchio</b>",
+      "back": "Meaning: mirror<br>Example: Guardo <b>lo specchio</b> ogni mattina",
       "tags": [
         "a1",
         "sostantivi"

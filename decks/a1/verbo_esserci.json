@@ -2,8 +2,8 @@
   "cards": [
     {
       "model": "basic",
-      "front": "🏡 <b>C’è</b> — singolare",
-      "back": "Meaning: there is<br>Example: <b>C’è</b> un problema",
+      "front": "🏠 <b>C’è</b> una casa",
+      "back": "Meaning: there is<br>Example: <b>C’è</b> una casa vicino al fiume",
       "tags": [
         "a1",
         "verbo_esserci"
@@ -11,8 +11,8 @@
     },
     {
       "model": "basic",
-      "front": "🏬 <b>Ci sono</b> — plurale",
-      "back": "Meaning: there are<br>Example: <b>Ci sono</b> molte persone",
+      "front": "📚 <b>Ci sono</b> molti libri",
+      "back": "Meaning: there are<br>Example: <b>Ci sono</b> molti libri sullo scaffale",
       "tags": [
         "a1",
         "verbo_esserci"
@@ -20,8 +20,8 @@
     },
     {
       "model": "basic",
-      "front": "🎉 <b>C’è</b> una festa",
-      "back": "Meaning: There is a party<br>Example: <b>C’è</b> una festa stasera",
+      "front": "🎟 <b>C’è</b> un biglietto",
+      "back": "Meaning: there is<br>Example: <b>C’è</b> un biglietto per te",
       "tags": [
         "a1",
         "verbo_esserci"
@@ -29,8 +29,8 @@
     },
     {
       "model": "basic",
-      "front": "📚 <b>Ci sono</b> dei libri",
-      "back": "Meaning: There are some books<br>Example: <b>Ci sono</b> dei libri sul tavolo",
+      "front": "👨‍👩‍👧‍👦 <b>Ci sono</b> i miei amici",
+      "back": "Meaning: there are<br>Example: <b>Ci sono</b> i miei amici alla festa",
       "tags": [
         "a1",
         "verbo_esserci"
@@ -38,8 +38,8 @@
     },
     {
       "model": "basic",
-      "front": "🚫 <b>Non c’è</b> nessuno",
-      "back": "Meaning: There is no one<br>Example: <b>Non c’è</b> nessuno in classe",
+      "front": "🚫 <b>Non c’è</b> nulla da fare",
+      "back": "Meaning: there is nothing<br>Example: <b>Non c’è</b> nulla da fare qui",
       "tags": [
         "a1",
         "verbo_esserci"

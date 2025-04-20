@@ -2,44 +2,8 @@
   "cards": [
     {
       "model": "basic",
-      "front": "💸 <b>essere al verde</b>",
-      "back": "Meaning: to be broke<br>Example: Dopo le vacanze, sono <b>al verde</b>",
-      "tags": [
-        "a1",
-        "modi_di_dire"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🤲 <b>avere le mani bucate</b>",
-      "back": "Meaning: to be a big spender<br>Example: Marco <b>ha le mani bucate</b>",
-      "tags": [
-        "a1",
-        "modi_di_dire"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🦊 <b>essere una volpe</b>",
-      "back": "Meaning: to be clever (like a fox)<br>Example: Lucia <b>è una volpe</b>",
-      "tags": [
-        "a1",
-        "modi_di_dire"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🐺 <b>in bocca al lupo</b>",
-      "back": "Meaning: good luck (literally: into the wolf’s mouth)<br>Response: <b>Crepi!</b>",
-      "tags": [
-        "a1",
-        "modi_di_dire"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🛌 <b>alzarsi con il piede sbagliato</b>",
-      "back": "Meaning: to get up on the wrong side of the bed<br>Example: Oggi mi sono alzato <b>con il piede sbagliato</b>",
+      "front": "⏳ <b>essere in ritardo</b>",
+      "back": "Meaning: to be late<br>Example: Siamo <b>in ritardo</b> per la lezione",
       "tags": [
         "a1",
         "modi_di_dire"

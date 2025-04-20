@@ -2,44 +2,8 @@
   "cards": [
     {
       "model": "basic",
-      "front": "❄️ <b>inverno</b>",
-      "back": "Meaning: winter<br>Example: In <b>inverno</b> fa freddo",
-      "tags": [
-        "a1",
-        "mesi_e_stagioni"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🌸 <b>primavera</b>",
-      "back": "Meaning: spring<br>Example: In <b>primavera</b> fioriscono i fiori",
-      "tags": [
-        "a1",
-        "mesi_e_stagioni"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🌞 <b>estate</b>",
-      "back": "Meaning: summer<br>Example: In <b>estate</b> andiamo al mare",
-      "tags": [
-        "a1",
-        "mesi_e_stagioni"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🍂 <b>autunno</b>",
-      "back": "Meaning: autumn<br>Example: In <b>autunno</b> cadono le foglie",
-      "tags": [
-        "a1",
-        "mesi_e_stagioni"
-      ]
-    },
-    {
-      "model": "basic",
-      "front": "🗓 <b>gennaio</b>",
-      "back": "Meaning: January<br>Example: Il mio compleanno è in <b>gennaio</b>",
+      "front": "🎁 <b>dicembre</b>",
+      "back": "Meaning: December<br>Example: Natale è in <b>dicembre</b>",
       "tags": [
         "a1",
         "mesi_e_stagioni"

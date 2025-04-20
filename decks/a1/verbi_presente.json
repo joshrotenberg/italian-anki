@@ -2,52 +2,47 @@
   "cards": [
     {
       "model": "basic",
-      "front": "🗣 <b>parlare</b> — presente",
-      "back": "Definition: to speak<br><b>io parlo</b><br>Example: Io parlo italiano",
+      "front": "🧼 <b>pulire</b> — presente",
+      "back": "Definition: to clean<br><b>io pulisco</b><br>Example: Pulisco la mia stanza",
       "tags": [
         "a1",
-        "verbi_presente",
-        "verb"
+        "verbi_presente"
       ]
     },
     {
       "model": "basic",
-      "front": "✍️ <b>scrivere</b> — presente",
-      "back": "Definition: to write<br><b>tu scrivi</b><br>Example: Tu scrivi una cartolina",
+      "front": "📞 <b>chiamare</b> — presente",
+      "back": "Definition: to call<br><b>tu chiami</b><br>Example: Chiami tua madre ogni giorno?",
       "tags": [
         "a1",
-        "verbi_presente",
-        "verb"
+        "verbi_presente"
       ]
     },
     {
       "model": "basic",
-      "front": "🏃 <b>correre</b> — presente",
-      "back": "Definition: to run<br><b>lui corre</b><br>Example: Marco corre ogni mattina",
+      "front": "🛒 <b>comprare</b> — presente",
+      "back": "Definition: to buy<br><b>noi compriamo</b><br>Example: Compriamo frutta al mercato",
       "tags": [
         "a1",
-        "verbi_presente",
-        "verb"
+        "verbi_presente"
       ]
     },
     {
       "model": "basic",
-      "front": "📚 <b>studiare</b> — presente",
-      "back": "Definition: to study<br><b>noi studiamo</b><br>Example: Noi studiamo insieme",
+      "front": "🎧 <b>ascoltare</b> — presente",
+      "back": "Definition: to listen<br><b>lui ascolta</b><br>Example: Ascolta musica italiana",
       "tags": [
         "a1",
-        "verbi_presente",
-        "verb"
+        "verbi_presente"
       ]
     },
     {
       "model": "basic",
-      "front": "🍝 <b>mangiare</b> — presente",
-      "back": "Definition: to eat<br><b>voi mangiate</b><br>Example: Voi mangiate la pasta",
+      "front": "🏊 <b>nuotare</b> — presente",
+      "back": "Definition: to swim<br><b>voi nuotate</b><br>Example: Nuotate in piscina ogni domenica",
       "tags": [
         "a1",
-        "verbi_presente",
-        "verb"
+        "verbi_presente"
       ]
     }
   ]

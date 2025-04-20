@@ -2,52 +2,47 @@
   "cards": [
     {
       "model": "basic",
-      "front": "📚 <b>studiare</b> — passato prossimo",
-      "back": "Definition: to study<br>Infinitivo + participio: <b>avere studiato</b><br>Example: Ho studiato italiano",
+      "front": "📺 <b>guardare</b> — passato prossimo",
+      "back": "Definition: to watch<br>avere guardato<br>Example: Ho guardato un film italiano",
       "tags": [
         "a1",
-        "verbi_passato_prossimo",
-        "verb"
+        "verbi_passato_prossimo"
       ]
     },
     {
       "model": "basic",
-      "front": "🚗 <b>andare</b> — passato prossimo",
-      "back": "Definition: to go<br>Infinitivo + participio: <b>essere andato/a</b><br>Example: Sono andato al mercato",
+      "front": "📞 <b>telefonare</b> — passato prossimo",
+      "back": "Definition: to call<br>avere telefonato<br>Example: Hai telefonato a tua madre?",
       "tags": [
         "a1",
-        "verbi_passato_prossimo",
-        "verb"
+        "verbi_passato_prossimo"
       ]
     },
     {
       "model": "basic",
-      "front": "📝 <b>scrivere</b> — passato prossimo",
-      "back": "Definition: to write<br>Infinitivo + participio: <b>avere scritto</b><br>Example: Ho scritto una lettera",
+      "front": "💬 <b>parlare</b> — passato prossimo",
+      "back": "Definition: to speak<br>avere parlato<br>Example: Abbiamo parlato di lavoro",
       "tags": [
         "a1",
-        "verbi_passato_prossimo",
-        "verb"
+        "verbi_passato_prossimo"
       ]
     },
     {
       "model": "basic",
-      "front": "📖 <b>leggere</b> — passato prossimo",
-      "back": "Definition: to read<br>Infinitivo + participio: <b>avere letto</b><br>Example: Hai letto quel libro?",
+      "front": "🛌 <b>dormire</b> — passato prossimo",
+      "back": "Definition: to sleep<br>avere dormito<br>Example: Ieri ho dormito molto bene",
       "tags": [
         "a1",
-        "verbi_passato_prossimo",
-        "verb"
+        "verbi_passato_prossimo"
       ]
     },
     {
       "model": "basic",
-      "front": "🏡 <b>tornare</b> — passato prossimo",
-      "back": "Definition: to return<br>Infinitivo + participio: <b>essere tornato/a</b><br>Example: Siamo tornati a casa tardi",
+      "front": "✈️ <b>partire</b> — passato prossimo",
+      "back": "Definition: to leave<br>essere partito/a<br>Example: È partito per Roma",
       "tags": [
         "a1",
-        "verbi_passato_prossimo",
-        "verb"
+        "verbi_passato_prossimo"
       ]
     }
   ]
