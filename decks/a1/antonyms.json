@@ -1,0 +1,14 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "🔁 <b>alto</b> ↔ <b>basso</b>",
+      "back": "alto = tall/high<br>basso = short/low<br>Example: La montagna è alta, la valle è bassa.",
+      "tags": [
+        "a1",
+        "vocabulary",
+        "antonym"
+      ]
+    }
+  ]
+}

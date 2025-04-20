@@ -1,0 +1,14 @@
+{
+  "cards": [
+    {
+      "model": "cloze",
+      "front": "Vado {{c1::al}} mercato.",
+      "back": "al = a + il = to the<br>Example: Vado al mercato = I go to the market.",
+      "tags": [
+        "a1",
+        "preposition",
+        "cloze"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "🍎 <b>mela</b>",
+      "back": "Meaning: apple<br>Example: Mangio una mela = I eat an apple",
+      "tags": [
+        "a1",
+        "noun",
+        "sostantivo"
+      ]
+    }
+  ]
+}

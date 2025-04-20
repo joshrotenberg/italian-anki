@@ -1,0 +1,14 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "🗣 <b>parlare</b>",
+      "back": "Definition: to speak<br>Present tense:<br><b>io parlo</b><br>Example: Io parlo italiano = I speak Italian",
+      "tags": [
+        "a1",
+        "verb",
+        "presente"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "🍽 <b>Fare colazione</b>",
+      "back": "Meaning: to have breakfast<br>Example: Faccio colazione alle otto.",
+      "tags": [
+        "a1",
+        "expression",
+        "fare"
+      ]
+    }
+  ]
+}
