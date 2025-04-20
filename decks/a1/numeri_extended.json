@@ -6,7 +6,7 @@
       "back": "Meaning: zero<br>Example: Ho <b>zero</b> euro",
       "tags": [
         "a1",
-        "numeri"
+        "numeri_extended"
       ]
     },
     {
@@ -15,7 +15,7 @@
       "back": "Meaning: twenty<br>Example: Ho <b>venti</b> anni",
       "tags": [
         "a1",
-        "numeri"
+        "numeri_extended"
       ]
     },
     {
@@ -24,7 +24,7 @@
       "back": "Meaning: thirty<br>Example: Sono <b>trenta</b> giorni",
       "tags": [
         "a1",
-        "numeri"
+        "numeri_extended"
       ]
     },
     {
@@ -33,7 +33,7 @@
       "back": "Meaning: forty<br>Example: Ho <b>quaranta</b> libri",
       "tags": [
         "a1",
-        "numeri"
+        "numeri_extended"
       ]
     },
     {
@@ -42,7 +42,7 @@
       "back": "Meaning: fifty<br>Example: Ci sono <b>cinquanta</b> persone",
       "tags": [
         "a1",
-        "numeri"
+        "numeri_extended"
       ]
     },
     {
@@ -51,7 +51,7 @@
       "back": "Meaning: sixty<br>Example: Ha <b>sessanta</b> minuti",
       "tags": [
         "a1",
-        "numeri"
+        "numeri_extended"
       ]
     },
     {
@@ -60,7 +60,7 @@
       "back": "Meaning: seventy<br>Example: Settanta è un numero",
       "tags": [
         "a1",
-        "numeri"
+        "numeri_extended"
       ]
     },
     {
@@ -69,7 +69,7 @@
       "back": "Meaning: eighty<br>Example: Ci vuole <b>ottanta</b> euro",
       "tags": [
         "a1",
-        "numeri"
+        "numeri_extended"
       ]
     },
     {
@@ -78,7 +78,7 @@
       "back": "Meaning: ninety<br>Example: Novanta minuti di partita",
       "tags": [
         "a1",
-        "numeri"
+        "numeri_extended"
       ]
     },
     {
@@ -87,7 +87,7 @@
       "back": "Meaning: hundred<br>Example: Costo <b>cento</b> euro",
       "tags": [
         "a1",
-        "numeri"
+        "numeri_extended"
       ]
     }
   ]

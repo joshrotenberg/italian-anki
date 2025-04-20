@@ -1,58 +1,75 @@
-# 🧠 Contributing to the Italian Anki Deck (A1–B1)
+# Contributing to the Italian Anki Deck (A1–B1)
 
-We welcome expansions and new cards, especially for levels A1 and A2. This project is optimized for Anki learners who want high-quality, realistic, and well-structured decks.
+Thank you for helping grow this multi‑level Anki resource!
 
-## ✅ Style Guide
-
-* Use only `"basic"` or `"cloze"` models
-* Do not use placeholders — all cards must be real, useful examples
-* Tag all cards with their level and category
-* Tag cards with the correct level (`"a1"`, `"a2"`, `"b1"`) **and** the subcategory
-* Each file should contain the **full content** for that category (not diffs)
-
-## 🧱 Folder Structure
+## Folder Structure
 
 ```
 decks/
-  └── a1/
-        aggettivi.json
-        verbi_presente.json
-        ...
+├── a1/
+├── a2/
+└── b1/
 ```
 
-## 🗂 File Format
+## Prerequisites
+
+`pip install -r requirements.txt`
+
+Running Validation
+
+After editing JSON files:
+
+`python validate.py`
+
+CI will automatically validate your changes on every PR.
+If you need to mass‑reset tags in a folder:
+
+`python fix_tags.py`
+
+✅ Style Guide
+	•	Models: use only basic or cloze.
+	•	No placeholders: every card must have real, pedagogical content.
+	•	Tags: exactly two tags per card:
+	1.	The level ("a1", "a2", "b1")
+	2.	The topic (filename without .json)
+	•	Size: aim for ~20 cards per JSON file for balance.
+	•	Whole‑file updates: overwrite complete files—do not submit diffs inside a file.
+
+Adding New Content
+	1.	Create a new JSON file under decks/<level>/ (e.g. decks/a2/nuovi_verbi.json).
+	2.	Name the file to match the topic tag exactly.
+	3.	Structure your file like:
 
 ```json
 {
   "cards": [
     {
       "model": "basic",
-      "front": "📚 <b>libro</b>",
-      "back": "Meaning: book<br>Example: Ho letto un <b>libro</b>",
-      "tags": ["a1", "sostantivi"]
+      "front": "<b>parlare</b>",
+      "back": "Meaning: to speak<br>Example: Io parlo italiano",
+      "tags": ["a1","verbi_presente"]
     }
   ]
 }
 ```
 
-## 🧪 Validation
+	4.	Validate locally:
 
-You can run:
+`python validate.py`
 
-```
-python validate.py
-```
+	5.	Build to preview in Anki:
 
-Or just push — CI will check and reject invalid JSON, missing tags, or bad card shapes.
+`python generate.py --level a1`
 
-## 🧠 Tips for Expanding
+	6.	Commit and open a PR against main.
 
-- Add new categories in `decks/a1/`
-- Match the file and tag to the topic
-- Try to get ~20 quality cards per category
+Workflow
+	1.	Fork & clone this repo.
+	2.	Create a branch: feature/<level>-<topic>.
+	3.	Add/update JSON files under decks/<level>/.
+	4.	Run python validate.py to catch errors.
+	5.	Optionally build with python generate.py.
+	6.	Commit, push, and open a PR.
+	7.	CI will run validation; once it’s green, we’ll merge!
 
-## 🔄 Replacements, Not Diffs
-
-All PRs should replace full files. This avoids merge conflicts and keeps the deck consistent.
-
-Grazie!
+Thank you for contributing, and happy card‑making!
