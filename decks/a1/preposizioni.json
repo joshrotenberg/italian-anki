@@ -3,7 +3,17 @@
     {
       "model": "cloze",
       "front": "Vado {{c1::al}} mercato.",
-      "back": "al = a + il = to the<br>Example: Vado al mercato = I go to the market.",
+      "back": "<b>al</b> = a + il = to the<br>Example: Vado <b>al</b> mercato = I go to the market.",
+      "tags": [
+        "a1",
+        "preposition",
+        "cloze"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Metto il libro {{c1::sul}} tavolo.",
+      "back": "<b>sul</b> = su + il = on the<br>Example: Il libro è <b>sul</b> tavolo = The book is on the table.",
       "tags": [
         "a1",
         "preposition",

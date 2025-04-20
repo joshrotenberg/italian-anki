@@ -1,0 +1,74 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "📚 <b>studiare</b> — passato prossimo",
+      "back": "Definition: to study<br>Infinitivo + participio: <b>avere studiato</b><br>⚖️ Rule: Transitive verb → uses <i>avere</i><br>Example: Ho studiato italiano = I studied Italian",
+      "tags": [
+        "a1",
+        "verb",
+        "passato_prossimo"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🛬 <b>arrivare</b> — passato prossimo",
+      "back": "Definition: to arrive<br>Infinitivo + participio: <b>essere arrivato/a</b><br>⚖️ Rule: Movement verb → uses <i>essere</i><br>Example: Sono arrivato alle otto = I arrived at 8",
+      "tags": [
+        "a1",
+        "verb",
+        "passato_prossimo"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👀 <b>vedere</b> — passato prossimo",
+      "back": "Definition: to see<br>Infinitivo + participio: <b>avere visto</b><br>⚖️ Rule: Irregular verb → uses <i>avere</i><br>Example: Ho visto un bel film = I saw a good movie",
+      "tags": [
+        "a1",
+        "verb",
+        "passato_prossimo"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🛒 <b>comprare</b> — passato prossimo",
+      "back": "Definition: to buy<br>Infinitivo + participio: <b>avere comprato</b><br>⚖️ Rule: Transitive verb → uses <i>avere</i><br>Example: Ho comprato il pane = I bought the bread",
+      "tags": [
+        "a1",
+        "verb",
+        "passato_prossimo"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🏡 <b>entrare</b> — passato prossimo",
+      "back": "Definition: to enter<br>Infinitivo + participio: <b>essere entrato/a</b><br>⚖️ Rule: Movement verb → uses <i>essere</i><br>Example: Sono entrato in casa = I entered the house",
+      "tags": [
+        "a1",
+        "verb",
+        "passato_prossimo"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📝 <b>scrivere</b> — passato prossimo",
+      "back": "Definition: to write<br>Infinitivo + participio: <b>avere scritto</b><br>⚖️ Rule: Transitive + irregular verb → uses <i>avere</i><br>Example: Ho scritto una lettera = I wrote a letter",
+      "tags": [
+        "a1",
+        "verb",
+        "passato_prossimo"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "💤 <b>dormire</b> — passato prossimo",
+      "back": "Definition: to sleep<br>Infinitivo + participio: <b>avere dormito</b><br>⚖️ Rule: Intransitive verb → uses <i>avere</i><br>Example: Ho dormito bene = I slept well",
+      "tags": [
+        "a1",
+        "verb",
+        "passato_prossimo"
+      ]
+    }
+  ]
+}

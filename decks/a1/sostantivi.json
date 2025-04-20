@@ -2,8 +2,18 @@
   "cards": [
     {
       "model": "basic",
-      "front": "🍎 <b>mela</b>",
-      "back": "Meaning: apple<br>Example: Mangio una mela = I eat an apple",
+      "front": "🏫 <b>scuola</b>",
+      "back": "Meaning: school<br>Example: Vado a scuola ogni giorno = I go to school every day",
+      "tags": [
+        "a1",
+        "noun",
+        "sostantivo"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👦 <b>ragazzo</b>",
+      "back": "Meaning: boy<br>Example: Il ragazzo mangia una mela = The boy eats an apple",
       "tags": [
         "a1",
         "noun",

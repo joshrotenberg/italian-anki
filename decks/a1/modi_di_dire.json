@@ -3,7 +3,17 @@
     {
       "model": "basic",
       "front": "🐺 <b>In bocca al lupo</b>",
-      "back": "Meaning: Good luck (literally: into the wolf's mouth)<br>Response: <b>Crepi!</b>",
+      "back": "Meaning: Good luck (lit. into the wolf’s mouth)<br>Response: <b>Crepi!</b>",
+      "tags": [
+        "a1",
+        "expression",
+        "idiom"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "💰 <b>Essere al verde</b>",
+      "back": "Meaning: to be broke<br>Example: Dopo le vacanze sono al verde.",
       "tags": [
         "a1",
         "expression",

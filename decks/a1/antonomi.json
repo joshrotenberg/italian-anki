@@ -3,7 +3,17 @@
     {
       "model": "basic",
       "front": "🔁 <b>alto</b> ↔ <b>basso</b>",
-      "back": "alto = tall/high<br>basso = short/low<br>Example: La montagna è alta, la valle è bassa.",
+      "back": "<b>alto</b> = tall/high<br><b>basso</b> = short/low<br>Example: Il palazzo è alto, la casa è bassa.",
+      "tags": [
+        "a1",
+        "vocabulary",
+        "antonym"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🌡️ <b>caldo</b> ↔ <b>freddo</b>",
+      "back": "<b>caldo</b> = hot<br><b>freddo</b> = cold<br>Example: Il caffè è caldo, l’acqua è fredda.",
       "tags": [
         "a1",
         "vocabulary",

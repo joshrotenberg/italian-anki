@@ -9,6 +9,16 @@
         "expression",
         "fare"
       ]
+    },
+    {
+      "model": "basic",
+      "front": "🧺 <b>Fare la spesa</b>",
+      "back": "Meaning: to do the grocery shopping<br>Example: Faccio la spesa il sabato.",
+      "tags": [
+        "a1",
+        "expression",
+        "fare"
+      ]
     }
   ]
 }

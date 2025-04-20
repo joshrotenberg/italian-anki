@@ -1,0 +1,24 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "🎨 <b>bello</b>",
+      "back": "Meaning: beautiful<br>Example: Che bello questo posto! = What a beautiful place!",
+      "tags": [
+        "a1",
+        "adjective",
+        "aggettivo"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📏 <b>piccolo</b>",
+      "back": "Meaning: small<br>Example: Vivo in un piccolo appartamento.",
+      "tags": [
+        "a1",
+        "adjective",
+        "aggettivo"
+      ]
+    }
+  ]
+}
