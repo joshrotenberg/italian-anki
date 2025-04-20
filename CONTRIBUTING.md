@@ -1,73 +1,57 @@
-# 🇮🇹 Contributing to the Italian Anki Deck Project
+# 🧠 Contributing to the Italian A1 Anki Deck
 
-This project maintains high-quality, manually curated Anki decks for Italian language learning, beginning with the A1 level.
+We welcome expansions and new cards, especially for levels A1 and A2. This project is optimized for Anki learners who want high-quality, realistic, and well-structured decks.
 
-## 🧠 Deck Philosophy
+## ✅ Style Guide
 
-Each card should:
-- Represent **one clear idea** or concept
-- Include a **natural Italian example sentence**
-- Follow a consistent format across all categories
-- Be useful for real-world conversation or comprehension
+- Use only `"basic"` or `"cloze"` models
+- Do not use placeholders — all cards must be real, useful examples
+- Tag all cards with their level and category
+- Each file should contain the **full content** for that category (not diffs)
 
-## 🗂️ Project Structure
+## 🧱 Folder Structure
 
 ```
-italian-anki/
-├── decks/
-│   ├── a1/
-│   │   ├── verbi_presente.json
-│   │   ├── preposizioni.json
-│   │   └── ...
-│   └── a2/            ← New levels follow the same layout
-├── generate.py        ← Build the `.apkg` deck
-├── validate.py        ← Validates structure and formatting
-├── output/            ← Build artifacts
+decks/
+  └── a1/
+        aggettivi.json
+        verbi_presente.json
+        ...
 ```
 
-## 🃏 Card Format
-
-Each `.json` file contains:
+## 🗂 File Format
 
 ```json
 {
   "cards": [
     {
-      "model": "basic" | "cloze",
-      "front": "Front of the card",
-      "back": "Back of the card",
-      "tags": ["a1", "verb", "presente"]
+      "model": "basic",
+      "front": "📚 <b>libro</b>",
+      "back": "Meaning: book<br>Example: Ho letto un <b>libro</b>",
+      "tags": ["a1", "sostantivi"]
     }
   ]
 }
 ```
 
-### 🔤 Card Models
-- `"basic"` for standard front/back cards
-- `"cloze"` for fill-in-the-blank using `{{c1::word}}`
+## 🧪 Validation
 
-### 🏷️ Tagging Conventions
-- `a1`, `a2`, etc.
-- One tag for part of speech or grammar (e.g., `verb`, `noun`, `expression`)
-- Optionally: specific tense or category (e.g., `presente`, `articolata`)
+You can run:
 
-## ✅ Style Guidelines
+```
+python validate.py
+```
 
-- Examples must be **grammatically correct**
-- Use **Italian for examples**, **English for definitions**
-- Add emoji in the front if helpful
-- Capitalize proper names and punctuate sentences
-- No duplicate cards (deduped by `model + front`)
+Or just push — CI will check and reject invalid JSON, missing tags, or bad card shapes.
 
-## 🆕 Adding New Content
+## 🧠 Tips for Expanding
 
-To add A2 or other level decks:
-1. Create a new folder: `decks/a2/`
-2. Follow the same category layout (one `.json` file per topic)
-3. Tag all cards with `"a2"` and relevant grammar tags
-4. Run `generate.py --level a2` to build your deck
-5. Optionally validate: `python validate.py`
+- Add new categories in `decks/a1/`
+- Match the file and tag to the topic
+- Try to get ~20 quality cards per category
 
-## 💬 Questions or Suggestions?
+## 🔄 Replacements, Not Diffs
 
-Open an issue or pull request on GitHub. Contributions are welcome!
+All PRs should replace full files. This avoids merge conflicts and keeps the deck consistent.
+
+Grazie!

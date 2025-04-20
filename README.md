@@ -1,126 +1,70 @@
-# 🇮🇹 Italian Anki Decks
+# 🇮🇹 Italian Anki Deck: A1 Vocabulary & Grammar
 
-This project contains structured Anki decks for learning Italian, organized by CEFR levels (A1, A2, etc.). Each deck is built from a JSON file and converted to `.apkg` using [`genanki`](https://github.com/kerrickstaley/genanki).
+This repository contains a structured and taggable set of Anki decks for Italian learners, starting at the A1 level.
 
-## 📦 Project Structure
+## 📁 Structure
+
+Each Anki subdeck lives in:
 
 ```
-italian-anki/
-├── decks/
-│   └── a1/
-│       ├── verbi_presente.json
-│       ├── espressioni_fare.json
-│       ├── modi_di_dire.json
-│       ├── antonomi.json
-│       ├── sostantivi.json
-│       └── preposizioni.json
-├── output/
-├── generate.py
-└── README.md
-
-
-## 🧱 JSON Format & Schemas by Category
-
-Each `.json` file under `decks/a1/` should have this structure:
-
-```json
-{
-  "cards": [ ... ]
-}
+decks/a1/
+  ├── verbi_presente.json
+  ├── aggettivi.json
+  └── ...
 ```
 
-Each card can be of `model` type `basic` or `cloze`. Below are examples for each major category.
+Each JSON file includes a single object with a `cards` array. Each card must include:
+- a `model`: "basic" or "cloze"
+- a `front`: front side HTML
+- a `back`: back side HTML
+- a `tags` array with `a1` and the subcategory
 
----
+## 🃏 Card Models
 
-### 🔤 Sostantivi (Nouns)
+### Basic
 
 ```json
 {
   "model": "basic",
-  "front": "🍎 <b>mela</b>",
-  "back": "Meaning: apple<br>Example: Mangio una mela = I eat an apple",
-  "tags": ["a1", "noun", "sostantivo"]
+  "front": "🎨 <b>bello</b>",
+  "back": "Meaning: beautiful<br>Example: Questo quadro è <b>bello</b>",
+  "tags": ["a1", "aggettivi"]
 }
 ```
 
----
-
-### 🧠 Modi di dire (Idioms)
-
-```json
-{
-  "model": "basic",
-  "front": "🐺 <b>In bocca al lupo</b>",
-  "back": "Meaning: Good luck (literally: into the wolf's mouth)<br>Response: <b>Crepi!</b>",
-  "tags": ["a1", "expression", "idiom"]
-}
-```
-
----
-
-### 🛒 Espressioni con “fare”
-
-```json
-{
-  "model": "basic",
-  "front": "🍽 <b>Fare colazione</b>",
-  "back": "Meaning: to have breakfast<br>Example: Faccio colazione alle otto.",
-  "tags": ["a1", "expression", "fare"]
-}
-```
-
----
-
-### ⚖️ Antonimi (Antonyms)
-
-```json
-{
-  "model": "basic",
-  "front": "🔁 <b>alto</b> ↔ <b>basso</b>",
-  "back": "alto = tall/high<br>basso = short/low<br>Example: La montagna è alta, la valle è bassa.",
-  "tags": ["a1", "vocabulary", "antonym"]
-}
-```
-
----
-
-### 🗣 Verbi (Presente)
-
-```json
-{
-  "model": "basic",
-  "front": "🗣 <b>parlare</b>",
-  "back": "Definition: to speak<br>Present tense:<br><b>io parlo</b><br>Example: Io parlo italiano = I speak Italian",
-  "tags": ["a1", "verb", "presente"]
-}
-```
-
----
-
-### 🧩 Preposizioni (Cloze format)
+### Cloze
 
 ```json
 {
   "model": "cloze",
   "front": "Vado {{c1::al}} mercato.",
-  "back": "al = a + il = to the<br>Example: Vado al mercato = I go to the market.",
-  "tags": ["a1", "preposition", "cloze"]
+  "back": "<b>al</b> = a + il = to the<br>Example: Vado al mercato = I go to the market.",
+  "tags": ["a1", "preposizioni_articolate", "cloze"]
 }
 ```
 
----
+## 🏷 Tags
 
-### 🏷 Tagging Conventions
+Each card must have:
+- `"a1"` (or `"a2"`, etc. when we expand)
+- A second tag matching its subdeck: e.g. `"verbi_presente"`, `"avverbi"`, etc.
 
-- CEFR Level: `a1`, `a2`, etc.
-- Part of Speech: `verb`, `noun`, `adjective`, `expression`
-- Subcategories: `presente`, `fare`, `idiom`, `antonym`, `sostantivo`, etc.
-- Format tags: `cloze` for cloze-deletion cards
+You can optionally add part-of-speech or grammar function tags like `"verb"`, `"expression"`, `"cloze"`, `"noun"`, etc.
 
-## 🚀 Build Decks
+## 🚀 Build Tools
 
-```bash
-python generate.py --level a1
-python generate.py --all
-```
+- `generate.py` — Builds `.apkg` from folders by level (`--level a1`, `--all`)
+- `validate.py` — Ensures all `.json` files are valid
+- GitHub Actions workflow validates structure and builds `.apkg` from each push
+
+## ✅ Writing Guidelines
+
+- Use simple vocabulary and grammar (A1 level)
+- One concept per card
+- Use natural, full-sentence examples in Italian
+- Use emojis, bold, and line breaks to aid readability
+- Avoid duplicate examples or overloading the same term
+
+## 🤖 Model Integration Tips
+
+If you're using a new model like `o3-mini-high`, read all `*.json` files and continue adding new cards in the same format. You can regenerate any file with a complete overwrite — we do not merge. All card text must be realistic and well-formed.
