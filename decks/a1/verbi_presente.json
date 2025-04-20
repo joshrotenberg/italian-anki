@@ -2,22 +2,52 @@
   "cards": [
     {
       "model": "basic",
-      "front": "🗣 <b>parlare</b>",
-      "back": "Definition: to speak<br><b>io parlo</b><br>Example: Io parlo italiano = I speak Italian",
+      "front": "🗣 <b>parlare</b> — presente",
+      "back": "Definition: to speak<br><b>io parlo</b><br>Example: Io parlo italiano",
       "tags": [
         "a1",
-        "verb",
-        "presente"
+        "verbi_presente",
+        "verb"
       ]
     },
     {
       "model": "basic",
-      "front": "🏃 <b>correre</b>",
-      "back": "Definition: to run<br><b>io corro</b><br>Example: Corro ogni mattina = I run every morning",
+      "front": "✍️ <b>scrivere</b> — presente",
+      "back": "Definition: to write<br><b>tu scrivi</b><br>Example: Tu scrivi una cartolina",
       "tags": [
         "a1",
-        "verb",
-        "presente"
+        "verbi_presente",
+        "verb"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🏃 <b>correre</b> — presente",
+      "back": "Definition: to run<br><b>lui corre</b><br>Example: Marco corre ogni mattina",
+      "tags": [
+        "a1",
+        "verbi_presente",
+        "verb"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📚 <b>studiare</b> — presente",
+      "back": "Definition: to study<br><b>noi studiamo</b><br>Example: Noi studiamo insieme",
+      "tags": [
+        "a1",
+        "verbi_presente",
+        "verb"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🍝 <b>mangiare</b> — presente",
+      "back": "Definition: to eat<br><b>voi mangiate</b><br>Example: Voi mangiate la pasta",
+      "tags": [
+        "a1",
+        "verbi_presente",
+        "verb"
       ]
     }
   ]

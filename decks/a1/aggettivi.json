@@ -3,21 +3,46 @@
     {
       "model": "basic",
       "front": "🎨 <b>bello</b>",
-      "back": "Meaning: beautiful<br>Example: Che bello questo posto! = What a beautiful place!",
+      "back": "Meaning: beautiful<br>Example: Questo quadro è <b>bello</b>",
       "tags": [
         "a1",
-        "adjective",
-        "aggettivo"
+        "aggettivi"
       ]
     },
     {
       "model": "basic",
-      "front": "📏 <b>piccolo</b>",
-      "back": "Meaning: small<br>Example: Vivo in un piccolo appartamento.",
+      "front": "🏠 <b>grande</b>",
+      "back": "Meaning: big<br>Example: La mia casa è molto <b>grande</b>",
       "tags": [
         "a1",
-        "adjective",
-        "aggettivo"
+        "aggettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📏 <b>lungo</b>",
+      "back": "Meaning: long<br>Example: Il fiume è <b>lungo</b> e stretto",
+      "tags": [
+        "a1",
+        "aggettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "💡 <b>interessante</b>",
+      "back": "Meaning: interesting<br>Example: Il libro è <b>interessante</b>",
+      "tags": [
+        "a1",
+        "aggettivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "😄 <b>felice</b>",
+      "back": "Meaning: happy<br>Example: Oggi mi sento <b>felice</b>",
+      "tags": [
+        "a1",
+        "aggettivi"
       ]
     }
   ]

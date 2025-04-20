@@ -1,0 +1,49 @@
+{
+  "cards": [
+    {
+      "model": "basic",
+      "front": "1️⃣ <b>uno</b>",
+      "back": "Meaning: one<br>Example: Ho <b>uno</b> zaino",
+      "tags": [
+        "a1",
+        "numeri"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "2️⃣ <b>due</b>",
+      "back": "Meaning: two<br>Example: Abbiamo <b>due</b> gatti",
+      "tags": [
+        "a1",
+        "numeri"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "5️⃣ <b>cinque</b>",
+      "back": "Meaning: five<br>Example: Ci sono <b>cinque</b> studenti",
+      "tags": [
+        "a1",
+        "numeri"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔟 <b>dieci</b>",
+      "back": "Meaning: ten<br>Example: Sono le <b>dieci</b>",
+      "tags": [
+        "a1",
+        "numeri"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "💯 <b>cento</b>",
+      "back": "Meaning: one hundred<br>Example: La casa costa <b>cento</b> euro",
+      "tags": [
+        "a1",
+        "numeri"
+      ]
+    }
+  ]
+}

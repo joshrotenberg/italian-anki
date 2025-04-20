@@ -1,3 +1,49 @@
 {
-  "cards": []
+  "cards": [
+    {
+      "model": "basic",
+      "front": "🔁 <b>sempre</b>",
+      "back": "Meaning: always<br>Example: Studio <b>sempre</b> la sera",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "❌ <b>mai</b>",
+      "back": "Meaning: never<br>Example: Non bevo <b>mai</b> il caffè",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🕒 <b>spesso</b>",
+      "back": "Meaning: often<br>Example: Vado <b>spesso</b> al parco",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🔄 <b>qualche volta</b>",
+      "back": "Meaning: sometimes<br>Example: <b>Qualche volta</b> cucino la cena",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🕗 <b>presto</b>",
+      "back": "Meaning: early<br>Example: Mi sveglio <b>presto</b> ogni giorno",
+      "tags": [
+        "a1",
+        "avverbi"
+      ]
+    }
+  ]
 }

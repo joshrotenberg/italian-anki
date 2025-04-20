@@ -1,3 +1,54 @@
 {
-  "cards": []
+  "cards": [
+    {
+      "model": "basic",
+      "front": "🍕 <b>Mi piace</b> — singular",
+      "back": "Definition: I like<br>Example: <b>Mi piace</b> la pizza",
+      "tags": [
+        "a1",
+        "verbo_piace",
+        "expression"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🎶 <b>Ti piace</b> — singular",
+      "back": "Definition: You like<br>Example: <b>Ti piace</b> questa canzone?",
+      "tags": [
+        "a1",
+        "verbo_piace",
+        "expression"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🎬 <b>Gli piace</b> — singular (he)",
+      "back": "Definition: He likes<br>Example: <b>Gli piace</b> il film",
+      "tags": [
+        "a1",
+        "verbo_piace",
+        "expression"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📚 <b>Ci piacciono</b> — plural",
+      "back": "Definition: We like<br>Example: <b>Ci piacciono</b> i libri",
+      "tags": [
+        "a1",
+        "verbo_piace",
+        "expression"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🐱 <b>Le piacciono</b> — plural (she)",
+      "back": "Definition: She likes<br>Example: <b>Le piacciono</b> i gatti",
+      "tags": [
+        "a1",
+        "verbo_piace",
+        "expression"
+      ]
+    }
+  ]
 }

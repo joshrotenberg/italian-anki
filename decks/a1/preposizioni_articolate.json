@@ -1,3 +1,54 @@
 {
-  "cards": []
+  "cards": [
+    {
+      "model": "cloze",
+      "front": "Vado {{c1::al}} ristorante.",
+      "back": "<b>al</b> = a + il = to the<br>Example: Vado <b>al</b> ristorante",
+      "tags": [
+        "a1",
+        "preposizioni_articolate",
+        "cloze"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Studio {{c1::nel}} pomeriggio.",
+      "back": "<b>nel</b> = in + il = in the<br>Example: Studio <b>nel</b> pomeriggio",
+      "tags": [
+        "a1",
+        "preposizioni_articolate",
+        "cloze"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Il libro è {{c1::sul}} tavolo.",
+      "back": "<b>sul</b> = su + il = on the<br>Example: Il libro è <b>sul</b> tavolo",
+      "tags": [
+        "a1",
+        "preposizioni_articolate",
+        "cloze"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Vengo {{c1::dalla}} scuola.",
+      "back": "<b>dalla</b> = da + la = from the<br>Example: Vengo <b>dalla</b> scuola",
+      "tags": [
+        "a1",
+        "preposizioni_articolate",
+        "cloze"
+      ]
+    },
+    {
+      "model": "cloze",
+      "front": "Passeggio {{c1::tra}} gli alberi.",
+      "back": "<b>tra</b> = between<br>Example: Passeggio <b>tra</b> gli alberi",
+      "tags": [
+        "a1",
+        "preposizioni_articolate",
+        "cloze"
+      ]
+    }
+  ]
 }

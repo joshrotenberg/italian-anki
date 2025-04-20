@@ -1,3 +1,54 @@
 {
-  "cards": []
+  "cards": [
+    {
+      "model": "basic",
+      "front": "🍷 <b>bere</b> — presente",
+      "back": "Definition: to drink<br><b>io bevo</b><br>Example: Bevo un bicchiere di vino",
+      "tags": [
+        "a1",
+        "verbi_irregolari",
+        "verb"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🛠 <b>fare</b> — presente",
+      "back": "Definition: to do/make<br><b>tu fai</b><br>Example: Cosa <b>fai</b> domani?",
+      "tags": [
+        "a1",
+        "verbi_irregolari",
+        "verb"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📍 <b>stare</b> — presente",
+      "back": "Definition: to stay / to be<br><b>lui sta</b><br>Example: Lui <b>sta</b> a casa oggi",
+      "tags": [
+        "a1",
+        "verbi_irregolari",
+        "verb"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🛫 <b>andare</b> — presente",
+      "back": "Definition: to go<br><b>noi andiamo</b><br>Example: Andiamo al cinema",
+      "tags": [
+        "a1",
+        "verbi_irregolari",
+        "verb"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👂 <b>dire</b> — presente",
+      "back": "Definition: to say / tell<br><b>voi dite</b><br>Example: Cosa <b>dite</b> sempre?",
+      "tags": [
+        "a1",
+        "verbi_irregolari",
+        "verb"
+      ]
+    }
+  ]
 }

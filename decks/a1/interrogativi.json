@@ -1,3 +1,49 @@
 {
-  "cards": []
+  "cards": [
+    {
+      "model": "basic",
+      "front": "👤 <b>Chi</b>",
+      "back": "Meaning: Who<br>Example: <b>Chi</b> è lui?",
+      "tags": [
+        "a1",
+        "interrogativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📍 <b>Dove</b>",
+      "back": "Meaning: Where<br>Example: <b>Dove</b> abiti?",
+      "tags": [
+        "a1",
+        "interrogativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📆 <b>Quando</b>",
+      "back": "Meaning: When<br>Example: <b>Quando</b> parti?",
+      "tags": [
+        "a1",
+        "interrogativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "❓ <b>Perché</b>",
+      "back": "Meaning: Why<br>Example: <b>Perché</b> studi italiano?",
+      "tags": [
+        "a1",
+        "interrogativi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📦 <b>Cosa</b>",
+      "back": "Meaning: What<br>Example: <b>Cosa</b> fai domani?",
+      "tags": [
+        "a1",
+        "interrogativi"
+      ]
+    }
+  ]
 }

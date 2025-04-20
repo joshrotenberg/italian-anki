@@ -2,22 +2,47 @@
   "cards": [
     {
       "model": "basic",
-      "front": "🏫 <b>scuola</b>",
-      "back": "Meaning: school<br>Example: Vado a scuola ogni giorno = I go to school every day",
+      "front": "📚 <b>il libro</b>",
+      "back": "Meaning: the book<br>Example: Leggo <b>un libro</b> interessante",
       "tags": [
         "a1",
-        "noun",
-        "sostantivo"
+        "sostantivi"
       ]
     },
     {
       "model": "basic",
-      "front": "👦 <b>ragazzo</b>",
-      "back": "Meaning: boy<br>Example: Il ragazzo mangia una mela = The boy eats an apple",
+      "front": "🏠 <b>la casa</b>",
+      "back": "Meaning: the house<br>Example: Vivo in <b>una casa</b> grande",
       "tags": [
         "a1",
-        "noun",
-        "sostantivo"
+        "sostantivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "👨‍🏫 <b>l'insegnante</b>",
+      "back": "Meaning: the teacher<br>Example: L'<b>insegnante</b> è molto gentile",
+      "tags": [
+        "a1",
+        "sostantivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🐶 <b>il cane</b>",
+      "back": "Meaning: the dog<br>Example: Il mio <b>cane</b> è simpatico",
+      "tags": [
+        "a1",
+        "sostantivi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🍎 <b>la mela</b>",
+      "back": "Meaning: the apple<br>Example: Mangio <b>una mela</b>",
+      "tags": [
+        "a1",
+        "sostantivi"
       ]
     }
   ]

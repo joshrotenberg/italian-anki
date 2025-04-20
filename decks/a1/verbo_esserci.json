@@ -1,3 +1,49 @@
 {
-  "cards": []
+  "cards": [
+    {
+      "model": "basic",
+      "front": "🏡 <b>C’è</b> — singolare",
+      "back": "Meaning: there is<br>Example: <b>C’è</b> un problema",
+      "tags": [
+        "a1",
+        "verbo_esserci"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🏬 <b>Ci sono</b> — plurale",
+      "back": "Meaning: there are<br>Example: <b>Ci sono</b> molte persone",
+      "tags": [
+        "a1",
+        "verbo_esserci"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🎉 <b>C’è</b> una festa",
+      "back": "Meaning: There is a party<br>Example: <b>C’è</b> una festa stasera",
+      "tags": [
+        "a1",
+        "verbo_esserci"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📚 <b>Ci sono</b> dei libri",
+      "back": "Meaning: There are some books<br>Example: <b>Ci sono</b> dei libri sul tavolo",
+      "tags": [
+        "a1",
+        "verbo_esserci"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚫 <b>Non c’è</b> nessuno",
+      "back": "Meaning: There is no one<br>Example: <b>Non c’è</b> nessuno in classe",
+      "tags": [
+        "a1",
+        "verbo_esserci"
+      ]
+    }
+  ]
 }

@@ -2,22 +2,47 @@
   "cards": [
     {
       "model": "basic",
-      "front": "🔁 <b>alto</b> ↔ <b>basso</b>",
-      "back": "<b>alto</b> = tall/high<br><b>basso</b> = short/low<br>Example: Il palazzo è alto, la casa è bassa.",
+      "front": "🔥 <b>caldo</b> ↔ ❄️ <b>freddo</b>",
+      "back": "caldo = hot, freddo = cold<br>Example: Il tè è <b>caldo</b>, il gelato è <b>freddo</b>",
       "tags": [
         "a1",
-        "vocabulary",
-        "antonym"
+        "antonomi"
       ]
     },
     {
       "model": "basic",
-      "front": "🌡️ <b>caldo</b> ↔ <b>freddo</b>",
-      "back": "<b>caldo</b> = hot<br><b>freddo</b> = cold<br>Example: Il caffè è caldo, l’acqua è fredda.",
+      "front": "😀 <b>felice</b> ↔ 😞 <b>triste</b>",
+      "back": "felice = happy, triste = sad<br>Example: Lei è <b>felice</b>, lui è <b>triste</b>",
       "tags": [
         "a1",
-        "vocabulary",
-        "antonym"
+        "antonomi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🚪 <b>aperto</b> ↔ 🔒 <b>chiuso</b>",
+      "back": "aperto = open, chiuso = closed<br>Example: Il negozio è <b>aperto</b>, la banca è <b>chiusa</b>",
+      "tags": [
+        "a1",
+        "antonomi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📈 <b>alto</b> ↔ 📉 <b>basso</b>",
+      "back": "alto = high/tall, basso = low/short<br>Example: La torre è <b>alta</b>, la sedia è <b>bassa</b>",
+      "tags": [
+        "a1",
+        "antonomi"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "💪 <b>forte</b> ↔ 💤 <b>debole</b>",
+      "back": "forte = strong, debole = weak<br>Example: È un atleta <b>forte</b>, non è <b>debole</b>",
+      "tags": [
+        "a1",
+        "antonomi"
       ]
     }
   ]

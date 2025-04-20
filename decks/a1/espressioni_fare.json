@@ -2,22 +2,47 @@
   "cards": [
     {
       "model": "basic",
-      "front": "🍽 <b>Fare colazione</b>",
-      "back": "Meaning: to have breakfast<br>Example: Faccio colazione alle otto.",
+      "front": "☕ <b>fare colazione</b>",
+      "back": "Meaning: to have breakfast<br>Example: Faccio <b>colazione</b> alle otto",
       "tags": [
         "a1",
-        "expression",
-        "fare"
+        "espressioni_fare"
       ]
     },
     {
       "model": "basic",
-      "front": "🧺 <b>Fare la spesa</b>",
-      "back": "Meaning: to do the grocery shopping<br>Example: Faccio la spesa il sabato.",
+      "front": "📞 <b>fare una telefonata</b>",
+      "back": "Meaning: to make a phone call<br>Example: Devo <b>fare una telefonata</b>",
       "tags": [
         "a1",
-        "expression",
-        "fare"
+        "espressioni_fare"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "📷 <b>fare una foto</b>",
+      "back": "Meaning: to take a photo<br>Example: Posso <b>fare una foto</b>?",
+      "tags": [
+        "a1",
+        "espressioni_fare"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🛍 <b>fare la spesa</b>",
+      "back": "Meaning: to do the shopping<br>Example: Andiamo a <b>fare la spesa</b>",
+      "tags": [
+        "a1",
+        "espressioni_fare"
+      ]
+    },
+    {
+      "model": "basic",
+      "front": "🛠 <b>fare attenzione</b>",
+      "back": "Meaning: to pay attention<br>Example: <b>Fai attenzione</b> quando attraversi la strada",
+      "tags": [
+        "a1",
+        "espressioni_fare"
       ]
     }
   ]
