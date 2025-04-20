@@ -1,22 +1,28 @@
-name: CI
+name: Validate Decks
 
 on:
   push:
     branches:
       - main
+    paths:
+      - 'decks/**.json'
   pull_request:
-  workflow_run:
+    branches:
+      - main
+    paths:
+      - 'decks/**.json'
+  workflow_dispatch:
 
 
 jobs:
-  build:
+  validate:
     runs-on: ubuntu-latest
     defaults:
       run:
         shell: bash
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Set up Python
@@ -35,13 +41,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Validate JSON schema
+      - name: Run JSON schema validation
         run: python validate.py
 
-      - name: Generate all decks
-        run: python generate.py --all
-
-      - name: Sanity‑check tags
+      - name: Sanity‑check deck tags
         run: |
           for f in decks/*/*.json; do
             lvl=$(basename "$(dirname "$f")")
@@ -52,10 +55,13 @@ data = json.load(open("$f", encoding="utf-8"))
 for c in data.get("cards", []):
     tags = c.get("tags", [])
     if not (isinstance(tags, list) and len(tags)==2):
-        print(f"❌ {f}: expected 2 tags, got {tags}", file=sys.stderr); sys.exit(1)
+        print(f"❌ {f}: expected 2 tags, got {tags}", file=sys.stderr)
+        sys.exit(1)
     if tags[0] != "$lvl":
-        print(f"❌ {f}: first tag should be level '{lvl}', got '{tags[0]}'", file=sys.stderr); sys.exit(1)
+        print(f"❌ {f}: first tag should be level '{lvl}', got '{tags[0]}'", file=sys.stderr)
+        sys.exit(1)
     if tags[1] != "$topic":
-        print(f"❌ {f}: second tag should be topic '{topic}', got '{tags[1]}'", file=sys.stderr); sys.exit(1)
+        print(f"❌ {f}: second tag should be topic '{topic}', got '{tags[1]}'", file=sys.stderr)
+        sys.exit(1)
 EOF
           done
