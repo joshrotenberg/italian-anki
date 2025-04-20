@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -23,21 +23,16 @@ jobs:
 
       - name: Validate JSON format
         run: |
-          for f in decks/*.json; do
+          for f in decks/**/*.json; do
             echo "Validating $f"
             python -m json.tool < "$f" > /dev/null
           done
 
-      - name: Run generator
-        run: python generate.py
+      - name: Build all decks
+        run: python generate.py --all
 
-      - name: Confirm .apkg file was generated
-        run: |
-          ls -lh output
-          test -f output/Italiano_A1.apkg || (echo "❌ No .apkg file found!" && exit 1)
-
-      - name: Upload .apkg as artifact
+      - name: Upload all .apkg files
         uses: actions/upload-artifact@v3
         with:
-          name: italiano-a1-deck
-          path: output/Italiano_A1.apkg
+          name: anki-decks
+          path: output/*.apkg
