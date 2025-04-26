@@ -1,0 +1,53 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+    -   id: trailing-whitespace
+    -   id: end-of-file-fixer
+    -   id: check-yaml
+    -   id: check-json
+    -   id: check-added-large-files
+    -   id: check-toml
+    -   id: debug-statements
+
+-   repo: https://github.com/pycqa/isort
+    rev: 5.12.0
+    hooks:
+    -   id: isort
+
+-   repo: https://github.com/psf/black
+    rev: 25.1.0
+    hooks:
+    -   id: black
+        args: [--line-length=100]
+
+-   repo: https://github.com/pycqa/flake8
+    rev: 6.1.0
+    hooks:
+    -   id: flake8
+        additional_dependencies: [flake8-docstrings]
+
+-   repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.8.0
+    hooks:
+    -   id: mypy
+        additional_dependencies: [types-all]
+        exclude: ^tests/
+
+-   repo: https://github.com/PyCQA/bandit
+    rev: 1.7.7
+    hooks:
+    -   id: bandit
+        args: ['-c', 'pyproject.toml']
+        exclude: ^tests/
+
+-   repo: local
+    hooks:
+    -   id: validate-decks
+        name: validate-decks
+        entry: python validate.py
+        language: system
+        files: ^decks/.*\.json$
+        pass_filenames: false
