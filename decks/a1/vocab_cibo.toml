@@ -1,0 +1,222 @@
+deck = "a1::vocab_cibo"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "🍇 **uva**",
+    "Meaning: grapes\nExample: Mangio dell’**uva**",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "🥖 **pane**",
+    "Meaning: bread\nExample: Compro il **pane**",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "🍝 **pasta**",
+    "Meaning: pasta\nExample: Cucino la **pasta**",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "☕ **caffè**",
+    "Meaning: coffee\nExample: Bevo un **caffè**",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "🍷 **vino**",
+    "Meaning: wine\nExample: Assaggio il **vino**",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "🍺 **birra**",
+    "Meaning: beer\nExample: Ordino una **birra**",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "🥗 **insalata**",
+    "Meaning: salad\nExample: Preparo un’**insalata**",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "🍕 **pizza**",
+    "Meaning: pizza\nExample: Mangio la **pizza**",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "🍰 **torta**",
+    "Meaning: cake\nExample: La **torta** è dolce",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "🍎 **mela**",
+    "Meaning: apple\nExample: Mangio una **mela**",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "🧀 **formaggio**",
+    "Meaning: cheese\nExample: Compro del **formaggio**",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "🍫 **cioccolato**",
+    "Meaning: chocolate\nExample: Amo il **cioccolato**",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "🥩 **carne**",
+    "Meaning: meat\nExample: Cucino la **carne**",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "🐟 **pesce**",
+    "Meaning: fish\nExample: Vendo del **pesce** fresco",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "🥤 **bevanda**",
+    "Meaning: drink\nExample: Ordino una **bevanda**",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "🥛 **latte**",
+    "Meaning: milk\nExample: Bevo il **latte**",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "🍗 **pollo**",
+    "Meaning: chicken\nExample: Mangio il **pollo** arrosto",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "🍜 **zuppa**",
+    "Meaning: soup\nExample: Preparo una **zuppa** calda",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "🍹 **cocktail**",
+    "Meaning: cocktail\nExample: Ordino un **cocktail**",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "vocab_cibo",
+]
+fields = [
+    "💶 **conto**",
+    "Meaning: bill\nExample: Il **conto**, per favore",
+]

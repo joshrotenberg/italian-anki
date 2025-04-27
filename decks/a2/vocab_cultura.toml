@@ -1,0 +1,222 @@
+deck = "a2::vocab_cultura"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "🎨 **la cultura**",
+    "Meaning: culture\nExample: La cultura italiana è variegata",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "🏛️ **il patrimonio**",
+    "Meaning: heritage\nExample: L'arte è il patrimonio nazionale",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "🎭 **il teatro**",
+    "Meaning: theater\nExample: Vado al teatro stasera",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "📚 **la letteratura**",
+    "Meaning: literature\nExample: Studio la letteratura italiana",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "🖼️ **la pittura**",
+    "Meaning: painting\nExample: Adoro la pittura rinascimentale",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "🎶 **la musica**",
+    "Meaning: music\nExample: Ascolto la musica classica",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "🏺 **l'archeologia**",
+    "Meaning: archaeology\nExample: Lo studio dell'archeologia è affascinante",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "🕍 **il monumento**",
+    "Meaning: monument\nExample: Visito il monumento storico",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "📖 **il romanzo**",
+    "Meaning: novel\nExample: Leggo un romanzo giallo",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "📜 **la poesia**",
+    "Meaning: poetry\nExample: Amo la poesia moderna",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "🧳 **il turismo**",
+    "Meaning: tourism\nExample: Il turismo è importante per l'economia",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "📅 **la festività**",
+    "Meaning: holiday\nExample: La festività è nazionale",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "🛍️ **il costume**",
+    "Meaning: custom/tradition\nExample: Questo è un costume antico",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "🥘 **la gastronomia**",
+    "Meaning: gastronomy\nExample: La gastronomia regionale è varia",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "🏛️ **l'architettura**",
+    "Meaning: architecture\nExample: L'architettura barocca è spettacolare",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "🎬 **il cinema**",
+    "Meaning: cinema\nExample: Il cinema italiano è famoso",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "🎉 **la celebrazione**",
+    "Meaning: celebration\nExample: La celebrazione dura tutta la notte",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "👨‍👩‍👦 **la famiglia**",
+    "Meaning: family\nExample: La famiglia è importante",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "🗝️ **l'artigianato**",
+    "Meaning: craftsmanship\nExample: Amo l'artigianato locale",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "vocab_cultura",
+]
+fields = [
+    "⏳ **la storia**",
+    "Meaning: history\nExample: Studio la storia del paese",
+]

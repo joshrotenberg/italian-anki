@@ -1,0 +1,211 @@
+deck = "a1::antonomi"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "antonomi",
+]
+fields = [
+    "☀️ **caldo** ↔ ❄️ **freddo**",
+    "Meaning: hot ↔ cold\nExample: In casa fa **caldo**, ma fuori è **freddo**",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "antonomi",
+]
+fields = [
+    "😀 **felice** ↔ 😞 **triste**",
+    "Meaning: happy ↔ sad\nExample: Sono **felice**, non **triste**",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "antonomi",
+]
+fields = [
+    "📖 **aperto** ↔ 🔒 **chiuso**",
+    "Meaning: open ↔ closed\nExample: La porta è **aperta** o **chiusa**?",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "antonomi",
+]
+fields = [
+    "📈 **alto** ↔ 📉 **basso**",
+    "Meaning: tall/high ↔ low/short\nExample: Il muro è **alto**, non **basso**",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "antonomi",
+]
+fields = [
+    "💪 **forte** ↔ 💤 **debole**",
+    "Meaning: strong ↔ weak\nExample: Mi sento **forte**, non **debole**",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "antonomi",
+]
+fields = [
+    "🍽 **buono** ↔ 🤢 **cattivo**",
+    "Meaning: good ↔ bad\nExample: Il cibo è **buono**, non **cattivo**",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "antonomi",
+]
+fields = [
+    "👶 **giovane** ↔ 👴 **vecchio**",
+    "Meaning: young ↔ old\nExample: Mio nonno è **vecchio**, io sono **giovane**",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "antonomi",
+]
+fields = [
+    "↔️ **lungo** ↔ ↕️ **corto**",
+    "Meaning: long ↔ short\nExample: Il vestito è **lungo**, non **corto**",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "antonomi",
+]
+fields = [
+    "⚖️ **leggero** ↔ ⚖️ **pesante**",
+    "Meaning: light ↔ heavy\nExample: La valigia è **pesante**, non **leggera**",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "antonomi",
+]
+fields = [
+    "🧳 **pieno** ↔ 🕳 **vuoto**",
+    "Meaning: full ↔ empty\nExample: Il bicchiere è **pieno**, non **vuoto**",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "antonomi",
+]
+fields = [
+    "🏠 **vicino** ↔ 🌄 **lontano**",
+    "Meaning: near ↔ far\nExample: La scuola è **vicina**, non **lontana**",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "antonomi",
+]
+fields = [
+    "🧼 **pulito** ↔ 🧹 **sporco**",
+    "Meaning: clean ↔ dirty\nExample: La stanza è **pulita**, non **sporca**",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "antonomi",
+]
+fields = [
+    "✔️ **giusto** ↔ ❌ **sbagliato**",
+    "Meaning: right ↔ wrong\nExample: La risposta è **giusta**, non **sbagliata**",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "antonomi",
+]
+fields = [
+    "💰 **ricco** ↔ 💸 **povero**",
+    "Meaning: rich ↔ poor\nExample: Molti sono **ricchi**, altri **poveri**",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "antonomi",
+]
+fields = [
+    "❤️ **sano** ↔ 🤒 **malato**",
+    "Meaning: healthy ↔ sick\nExample: Oggi sto **sano**, non **malato**",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "antonomi",
+]
+fields = [
+    "🍔 **grasso** ↔ 🥗 **magro**",
+    "Meaning: fat ↔ thin\nExample: Il burro è **grasso**, l’insalata è **magra**",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "antonomi",
+]
+fields = [
+    "🏃‍♂️ **stretto** ↔ 🏰 **largo**",
+    "Meaning: tight ↔ wide\nExample: Il corridoio è **stretto**, la piazza è **larga**",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "antonomi",
+]
+fields = [
+    "🚪 **dentro** ↔ 🚪 **fuori**",
+    "Meaning: inside ↔ outside\nExample: Vieni **dentro**, non **fuori**",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "antonomi",
+]
+fields = [
+    "🍯 **dolce** ↔ ☕️ **amaro**",
+    "Meaning: sweet ↔ bitter\nExample: Il cioccolato è **dolce**, il caffè è **amaro**",
+]

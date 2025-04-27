@@ -1,0 +1,222 @@
+deck = "a1::verbo_piace"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "🍕 **Mi piace la pizza**",
+    "Meaning: I like pizza\nExample: Mi piace la pizza",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "❓ **Ti piace il gelato?**",
+    "Meaning: do you like ice cream?\nExample: Ti piace il gelato?",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "🎵 **Gli piace la musica**",
+    "Meaning: he likes music\nExample: A lui piace la musica",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "🎬 **Le piace il film**",
+    "Meaning: she likes the movie\nExample: A lei piace il film",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "✈️ **Ci piace viaggiare**",
+    "Meaning: we like traveling\nExample: Ci piace viaggiare",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "❓ **Vi piace studiare?**",
+    "Meaning: do you (pl.) like studying?\nExample: Vi piace studiare?",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "🌊 **A loro piace il mare**",
+    "Meaning: they like the sea\nExample: A loro piace il mare",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "❌ **Non mi piace il freddo**",
+    "Meaning: I don’t like the cold\nExample: Non mi piace il freddo",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "❓ **Non ti piace la pioggia?**",
+    "Meaning: don’t you like the rain?\nExample: Non ti piace la pioggia?",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "🔝 **Mi piace molto la pasta**",
+    "Meaning: I really like pasta\nExample: Mi piace molto la pasta",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "➖ **Ti piace poco la carne?**",
+    "Meaning: do you like meat little?\nExample: Ti piace poco la carne?",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "🔄 **Ci piace sempre la musica**",
+    "Meaning: we always like music\nExample: Ci piace sempre la musica",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "📚 **Mi piacciono i libri**",
+    "Meaning: I like books\nExample: Mi piacciono i libri",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "❓ **Ti piacciono le mele?**",
+    "Meaning: do you like apples?\nExample: Ti piacciono le mele?",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "👥 **Gli piacciono i gatti**",
+    "Meaning: he likes cats\nExample: A lui piacciono i gatti",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "❌ **Non ci piacciono i broccoli**",
+    "Meaning: we don’t like broccoli\nExample: Non ci piacciono i broccoli",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "👩‍🍳 **A mia madre piace cucinare**",
+    "Meaning: my mother likes cooking\nExample: A mia madre piace cucinare",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "❤️ **Mi piace quando studi**",
+    "Meaning: I like it when you study\nExample: Mi piace quando studi",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "❓ **Ti piace di più il caffè o il tè?**",
+    "Meaning: do you prefer coffee or tea?\nExample: Ti piace di più il caffè o il tè?",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "verbo_piace",
+]
+fields = [
+    "😊 **Ci piace essere qui**",
+    "Meaning: we like being here\nExample: Ci piace essere qui",
+]

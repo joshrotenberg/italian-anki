@@ -1,0 +1,242 @@
+deck = "a2::pronomi_relativi"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "Il libro {{c1::che}} leggo è interessante.",
+]
+back = "**che** = that, which"
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "La casa in {{c1::cui}} vivo è vecchia.",
+]
+back = "**cui** = in which"
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "L'uomo {{c1::il quale}} parla è mio zio.",
+]
+back = "**il quale** = who, which"
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "La donna {{c1::la quale}} ho visto è anziana.",
+]
+back = "**la quale** = who, which"
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "I ragazzi {{c1::i quali}} studiano sono in biblioteca.",
+]
+back = "**i quali** = who"
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "Le ragazze {{c1::le quali}} cantano sono talentuose.",
+]
+back = "**le quali** = who"
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "La città {{c1::dove}} sono nato è bellissima.",
+]
+back = "**dove** = where"
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "Il posto in {{c1::cui}} mangio spesso è chiuso.",
+]
+back = "**cui** = where"
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "Il motivo per {{c1::cui}} sono qui è importante.",
+]
+back = "**cui** = for which"
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "Il libro di {{c1::cui}} ti ho parlato è nuovo.",
+]
+back = "**cui** = of which"
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "Ho incontrato un amico {{c1::che}} vive all'estero.",
+]
+back = "**che** = who"
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "L'auto con {{c1::cui}} viaggio è efficiente.",
+]
+back = "**cui** = with which"
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "La strada per {{c1::la quale}} abbiamo camminato è lunga.",
+]
+back = "**la quale** = for which"
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "I dettagli sui {{c1::quali}} hai lavorato sono nel report.",
+]
+back = "**quali** = which"
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "La persona da {{c1::cui}} ho ricevuto aiuto è gentile.",
+]
+back = "**cui** = from whom"
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "Ho visitato il museo {{c1::che}} hai scelto.",
+]
+back = "**che** = that"
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "L'articolo nel {{c1::quale}} trovi informazioni.",
+]
+back = "**quale** = in which"
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "La casa in {{c1::cui}} abito è antica.",
+]
+back = "**cui** = in which"
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "Ieri ho incontrato chi {{c1::che}} pensavo.",
+]
+back = "**che** = that"
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "pronomi_relativi",
+]
+model = "cloze"
+fields = [
+    "Il problema per {{c1::cui}} lavoro è complesso.",
+]
+back = "**cui** = for which"

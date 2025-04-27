@@ -1,0 +1,222 @@
+deck = "a2::vocab_citta"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "🏛️ **la piazza**",
+    "Meaning: square\nExample: Tutti si incontrano in **la piazza**",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "🏘️ **il quartiere**",
+    "Meaning: neighborhood\nExample: Vivo in questo **quartiere**",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "🏙️ **il centro**",
+    "Meaning: downtown\nExample: Abito nel **centro** storico",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "🌳 **la periferia**",
+    "Meaning: outskirts\nExample: La mia casa è in **periferia**",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "🚶 **la strada**",
+    "Meaning: street\nExample: La **strada** è molto trafficata",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "🔎 **il vicolo**",
+    "Meaning: alley\nExample: Il **vicolo** è stretto",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "🚦 **il traffico**",
+    "Meaning: traffic\nExample: C'è molto **traffico** oggi",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "🌳 **il parco**",
+    "Meaning: park\nExample: Giochiamo nel **parco**",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "🚏 **la fermata**",
+    "Meaning: (bus/tram) stop\nExample: Aspetto alla **fermata**",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "🚥 **il semaforo**",
+    "Meaning: traffic light\nExample: Il **semaforo** è rosso",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "⛲️ **la fontana**",
+    "Meaning: fountain\nExample: La **fontana** è antica",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "🛣️ **la via**",
+    "Meaning: road\nExample: Questa **via** è lunga",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "🛍️ **il negozio**",
+    "Meaning: shop\nExample: Visito il **negozio** di scarpe",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "🍝 **il ristorante**",
+    "Meaning: restaurant\nExample: Ceniamo al **ristorante**",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "🏛️ **il monumento**",
+    "Meaning: monument\nExample: Adoro il **monumento** storico",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "🍏 **il mercato**",
+    "Meaning: market\nExample: Vado al **mercato** ogni sabato",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "🏢 **il municipio**",
+    "Meaning: town hall\nExample: Il **municipio** è vicino",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "⛪️ **la chiesa**",
+    "Meaning: church\nExample: La **chiesa** è aperta",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "🎥 **il cinema**",
+    "Meaning: cinema\nExample: Andiamo al **cinema** stasera",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "vocab_citta",
+]
+fields = [
+    "📚 **la biblioteca**",
+    "Meaning: library\nExample: Studio in **biblioteca**",
+]

@@ -1,0 +1,222 @@
+deck = "a2::comparativi_superlativi"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "Mario è **più alto** di Luca.",
+    "Comparativo di maggioranza",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "Luca è **meno alto** di Mario.",
+    "Comparativo di minoranza",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "Maria è **tanto intelligente quanto** Giulia.",
+    "Comparativo di uguaglianza",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "Questo libro è il **più interessante** che abbia mai letto.",
+    "Superlativo relativo di maggioranza",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "È il film **meno costoso** del catalogo.",
+    "Superlativo relativo di minoranza",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "Sono **importantissimo** per il progetto.",
+    "Superlativo assoluto con -issimo",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "È **bellissima** quella ragazza.",
+    "Superlativo assoluto",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "Oggi sono **poco stanco**.",
+    "Comparativo di minoranza con avverbio",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "Lavora **più velocemente** di me.",
+    "Comparativo di maggioranza con avverbio",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "Lui è **meno gentile** del solito.",
+    "Comparativo di minoranza con aggettivo",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "Maria è **più felice** oggi.",
+    "Comparativo di maggioranza semplice",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "Questa pizza è **meno buona** della tua.",
+    "Comparativo di minoranza semplice",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "Sono **moltissimo grato**.",
+    "Superlativo assoluto con molto",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "Questo compito è **facilissimo**.",
+    "Superlativo assoluto in -issimo",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "Oggi sono **più coraggioso** che mai.",
+    "Comparativo di maggioranza enfatico",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "È il giorno **meno importante** dell'anno.",
+    "Superlativo relativo di minoranza",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "Questo è un piatto **deliziosissimo**.",
+    "Superlativo assoluto in -issimo",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "Lei è **più esperta** di me.",
+    "Comparativo di maggioranza semplice",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "Questo problema è il **più difficile** che abbia mai affrontato.",
+    "Superlativo relativo di maggioranza",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "comparativi_superlativi",
+]
+fields = [
+    "Oggi sono **più felice** di ieri.",
+    "Comparativo di maggioranza semplice",
+]

@@ -1,0 +1,222 @@
+deck = "a1::professioni"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "👨‍🏫 **insegnante**",
+    "Meaning: teacher\nExample: L’insegnante è gentile",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "🎓 **studente**",
+    "Meaning: student\nExample: Lo studente studia italiano",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "👨‍⚕️ **medico**",
+    "Meaning: doctor\nExample: Il medico visita i pazienti",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "⚖️ **avvocato**",
+    "Meaning: lawyer\nExample: L’avvocato parla con il cliente",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "👨‍🍳 **cuoco**",
+    "Meaning: cook\nExample: Il cuoco prepara la cena",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "🎵 **musicista**",
+    "Meaning: musician\nExample: La musicista suona il violino",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "🛠 **meccanico**",
+    "Meaning: mechanic\nExample: Il meccanico ripara l’auto",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "🏗 **ingegnere**",
+    "Meaning: engineer\nExample: L’ingegnere disegna un ponte",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "🏥 **infermiere**",
+    "Meaning: nurse\nExample: L’infermiere aiuta i pazienti",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "👩‍🔬 **scienziato**",
+    "Meaning: scientist\nExample: Lo scienziato fa esperimenti",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "💻 **programmatore**",
+    "Meaning: programmer\nExample: Il programmatore scrive codice",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "📞 **segretario**",
+    "Meaning: secretary\nExample: La segretaria risponde al telefono",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "🚓 **poliziotto**",
+    "Meaning: police officer\nExample: Il poliziotto controlla il traffico",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "👨‍⚖️ **giudice**",
+    "Meaning: judge\nExample: Il giudice ascolta le testimonianze",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "🛍 **commesso**",
+    "Meaning: shop assistant\nExample: Il commesso aiuta i clienti",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "✈️ **pilota**",
+    "Meaning: pilot\nExample: Il pilota vola l’aereo",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "🚑 **paramedico**",
+    "Meaning: paramedic\nExample: Il paramedico soccorre le persone",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "🏢 **impiegato**",
+    "Meaning: office worker\nExample: L’impiegato lavora in un ufficio",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "🎨 **artista**",
+    "Meaning: artist\nExample: L’artista dipinge un quadro",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "professioni",
+]
+fields = [
+    "🚜 **contadino**",
+    "Meaning: farmer\nExample: Il contadino coltiva i campi",
+]

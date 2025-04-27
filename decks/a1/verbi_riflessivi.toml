@@ -1,0 +1,178 @@
+deck = "a1::verbi_riflessivi"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "verbi_riflessivi",
+]
+fields = [
+    "🚿 **alzarsi** — presente",
+    "Meaning: to get up\nExample: Mi alzo alle sette",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "verbi_riflessivi",
+]
+fields = [
+    "🧼 **lavarsi** — presente",
+    "Meaning: to wash oneself\nExample: Ti lavi le mani",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "verbi_riflessivi",
+]
+fields = [
+    "🛏 **addormentarsi** — presente",
+    "Meaning: to fall asleep\nExample: Si addormenta presto",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "verbi_riflessivi",
+]
+fields = [
+    "💄 **truccarsi** — presente",
+    "Meaning: to put on makeup\nExample: Ci trucchiamo insieme",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "verbi_riflessivi",
+]
+fields = [
+    "👔 **vestirsi** — presente",
+    "Meaning: to get dressed\nExample: Ti vesti prima della scuola",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "verbi_riflessivi",
+]
+fields = [
+    "🪥 **pettinarsi** — presente",
+    "Meaning: to comb one’s hair\nExample: Mi pettino i capelli",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "verbi_riflessivi",
+]
+fields = [
+    "🚶 **sedersi** — presente",
+    "Meaning: to sit down\nExample: Vi sedete qui",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "verbi_riflessivi",
+]
+fields = [
+    "👋 **chiamarsi** — presente",
+    "Meaning: to be called\nExample: Mi chiamo Maria",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "verbi_riflessivi",
+]
+fields = [
+    "🎯 **divertirsi** — presente",
+    "Meaning: to have fun\nExample: Si divertono alla festa",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "verbi_riflessivi",
+]
+fields = [
+    "📦 **sentirsi** — presente",
+    "Meaning: to feel (well/bad)\nExample: Ti senti bene?",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "verbi_riflessivi",
+]
+fields = [
+    "🌅 **svegliarsi** — presente",
+    "Meaning: to wake up\nExample: Ci svegliamo presto",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "verbi_riflessivi",
+]
+fields = [
+    "❓ **ricordarsi** — presente",
+    "Meaning: to remember\nExample: Ti ricordi il nome?",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "verbi_riflessivi",
+]
+fields = [
+    "🚪 **chiamarsi** — past",
+    "Meaning: to be called (past)\nExample: Si è chiamato Luigi",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "verbi_riflessivi",
+]
+fields = [
+    "🎬 **divertirsi** — past",
+    "Meaning: to have had fun\nExample: Si sono divertiti",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "verbi_riflessivi",
+]
+fields = [
+    "📦 **sentirsi** — past",
+    "Meaning: to have felt\nExample: Mi sono sentito stanco",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "verbi_riflessivi",
+]
+fields = [
+    "⏳ **svegliarsi** — past",
+    "Meaning: to have woken up\nExample: Mi sono svegliato tardi",
+]

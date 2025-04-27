@@ -1,0 +1,222 @@
+deck = "a1::sostantivi"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "🏠 **casa**",
+    "Meaning: house\nExample: La mia **casa** è grande",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "🚗 **macchina**",
+    "Meaning: car\nExample: La **macchina** è nuova",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "🏫 **scuola**",
+    "Meaning: school\nExample: Vado a **scuola** ogni giorno",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "👫 **amico**",
+    "Meaning: friend\nExample: Ho un **amico** italiano",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "👪 **famiglia**",
+    "Meaning: family\nExample: La mia **famiglia** è numerosa",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "🍽 **tavolo**",
+    "Meaning: table\nExample: Il **tavolo** è di legno",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "🪑 **sedia**",
+    "Meaning: chair\nExample: La **sedia** è comoda",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "📖 **libro**",
+    "Meaning: book\nExample: Leggo un **libro**",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "🖊 **penna**",
+    "Meaning: pen\nExample: Scrivo con una **penna**",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "🛣 **strada**",
+    "Meaning: road\nExample: La **strada** è larga",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "🍎 **cibo**",
+    "Meaning: food\nExample: Il **cibo** è delizioso",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "💧 **acqua**",
+    "Meaning: water\nExample: Bevo **acqua** fredda",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "🚪 **porta**",
+    "Meaning: door\nExample: Apri la **porta**",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "🪟 **finestra**",
+    "Meaning: window\nExample: La **finestra** è aperta",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "🌌 **spazio**",
+    "Meaning: space\nExample: C’è molto **spazio** qui",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "⏳ **tempo**",
+    "Meaning: time\nExample: Non ho abbastanza **tempo**",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "💼 **lavoro**",
+    "Meaning: work\nExample: Il **lavoro** è impegnativo",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "💶 **soldi**",
+    "Meaning: money\nExample: Non ho molti **soldi**",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "🏙 **città**",
+    "Meaning: city\nExample: Amo la mia **città**",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "sostantivi",
+]
+fields = [
+    "🌄 **paese**",
+    "Meaning: village/country\nExample: Vivo in un piccolo **paese**",
+]

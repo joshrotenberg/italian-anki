@@ -1,0 +1,222 @@
+deck = "a1::interrogativi"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "📅 **Quando**",
+    "Meaning: when\nExample: Quando parti?",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "📦 **Cosa**",
+    "Meaning: what\nExample: Cosa fai?",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "❓ **Perché**",
+    "Meaning: why\nExample: Perché ridi?",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "🗺 **Dove**",
+    "Meaning: where\nExample: Dove abiti?",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "👥 **Chi**",
+    "Meaning: who\nExample: Chi è?",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "🤔 **Come**",
+    "Meaning: how\nExample: Come stai?",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "💵 **Quanto**",
+    "Meaning: how much\nExample: Quanto costa?",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "✉️ **A che ora**",
+    "Meaning: at what time\nExample: A che ora arrivi?",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "👤 **Di chi**",
+    "Meaning: whose\nExample: Di chi è questo?",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "🤝 **Con chi**",
+    "Meaning: with whom\nExample: Con chi vai?",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "🏠 **Da dove**",
+    "Meaning: from where\nExample: Da dove vieni?",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "📚 **Su cosa**",
+    "Meaning: about what\nExample: Su cosa studi?",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "🗓 **Fino a quando**",
+    "Meaning: until when\nExample: Fino a quando resti?",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "⏳ **Per quanto tempo**",
+    "Meaning: for how long\nExample: Per quanto tempo studi?",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "🏃‍♂️ **Verso chi**",
+    "Meaning: towards whom\nExample: Verso chi corri?",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "🏡 **Su chi**",
+    "Meaning: on whom\nExample: Su chi conti?",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "🌍 **Di cosa**",
+    "Meaning: about what\nExample: Di cosa parli?",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "📦 **Quale**",
+    "Meaning: which\nExample: Quale preferisci?",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "📦 **Quali**",
+    "Meaning: which (pl.)\nExample: Quali libri hai?",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "interrogativi",
+]
+fields = [
+    "🚪 **A chi**",
+    "Meaning: to whom\nExample: A chi dai il libro?",
+]

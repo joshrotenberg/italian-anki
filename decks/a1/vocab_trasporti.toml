@@ -1,0 +1,233 @@
+deck = "a1::vocab_trasporti"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "🚗 **macchina**",
+    "Meaning: car\nExample: Vado in **macchina**",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "🚌 **autobus**",
+    "Meaning: bus\nExample: Prendo l’**autobus** per andare al lavoro",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "🚆 **treno**",
+    "Meaning: train\nExample: Il **treno** parte alle otto",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "🚕 **taxi**",
+    "Meaning: taxi\nExample: Chiamo un **taxi**",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "🚲 **bicicletta**",
+    "Meaning: bicycle\nExample: Vado in **bicicletta** al parco",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "✈️ **aereo**",
+    "Meaning: plane\nExample: Prenoto un biglietto per l’**aereo**",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "🚢 **nave**",
+    "Meaning: ship\nExample: Partiamo in **nave** domani",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "🏍 **moto**",
+    "Meaning: motorcycle\nExample: Guida la **moto** con casco",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "🚈 **metropolitana**",
+    "Meaning: subway\nExample: Prendo la **metropolitana** a Milano",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "🚞 **tram**",
+    "Meaning: tram\nExample: Salgo sul **tram**",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "🚏 **fermata**",
+    "Meaning: stop (bus/tram)\nExample: Aspetto alla **fermata**",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "🗺 **dritto**",
+    "Meaning: straight\nExample: Vai **dritto** fino al semaforo",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "➡️ **a destra**",
+    "Meaning: to the right\nExample: Svolta **a destra**",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "⬅️ **a sinistra**",
+    "Meaning: to the left\nExample: Gira **a sinistra**",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "🔙 **indietro**",
+    "Meaning: back\nExample: Torna **indietro** un attimo",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "↗️ **in alto**",
+    "Meaning: up\nExample: Guarda **in alto**",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "↘️ **in basso**",
+    "Meaning: down\nExample: Guarda **in basso**",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "🛣 **strada**",
+    "Meaning: road\nExample: La **strada** è lunga",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "🛤 **binario**",
+    "Meaning: platform/track\nExample: Il treno è al **binario** 5",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "📍 **mappa**",
+    "Meaning: map\nExample: Consulta la **mappa**",
+]
+
+[[notes]]
+note_id = 10021
+tags = [
+    "a1",
+    "vocab_trasporti",
+]
+fields = [
+    "⏱ **ritardo**",
+    "Meaning: delay\nExample: Il treno ha un **ritardo**",
+]

@@ -1,0 +1,222 @@
+deck = "a2::pronomi_oggetto_indiretto"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "**Mi** dai un consiglio?",
+    "Meaning: Do you give me advice? (to me)",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "Ti **ho parlato** ieri.",
+    "Meaning: I spoke to you yesterday (to you)",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "Gli **ho telefonato**.",
+    "Meaning: I called him (to him)",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "Le **scrivo** una mail.",
+    "Meaning: I write her an email (to her)",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "Ci **porti** il documento?",
+    "Meaning: Will you bring us the document? (to us)",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "Vi **mostro** il progetto.",
+    "Meaning: I show you (pl.) the project (to you all)",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "Gli **parlo** ogni giorno.",
+    "Meaning: I talk to them every day (to them)",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "Mi **prestano** la macchina.",
+    "Meaning: They lend me the car (to me)",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "Gli **chiediamo** un favore.",
+    "Meaning: We ask him a favor (to him)",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "Ti **offro** un caffè.",
+    "Meaning: I offer you a coffee (to you)",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "Ci **dicono** di muoverci.",
+    "Meaning: They tell us to move (to us)",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "Vi **chiedo** di attendere.",
+    "Meaning: I ask you all to wait (to you all)",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "Gli **mostro** il mio lavoro.",
+    "Meaning: I show them my work (to them)",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "Mi **forniscono** le chiavi.",
+    "Meaning: They supply me with the keys (to me)",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "Gli **scriviamo** spesso.",
+    "Meaning: We write to them often (to them)",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "Ti **spiego** il problema.",
+    "Meaning: I explain the problem to you (to you)",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "Ci **abbiamo parlato** ieri.",
+    "Meaning: We talked to each other yesterday (to us)",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "Vi **invitiamo** alla festa.",
+    "Meaning: We invite you all to the party (to you all)",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "Mi **portano** un regalo.",
+    "Meaning: They bring me a gift (to me)",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "pronomi_oggetto_indiretto",
+]
+fields = [
+    "Gli **spieghiamo** la situazione.",
+    "Meaning: We explain the situation to them (to them)",
+]

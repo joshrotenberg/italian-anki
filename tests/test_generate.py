@@ -1,11 +1,11 @@
 """Tests for the generate.py script."""
 
-import json
 import os
 import shutil
 import subprocess
 
 import pytest
+import tomli_w
 
 # Assume generate.py is in project root
 SCRIPT = "generate.py"
@@ -25,7 +25,7 @@ def setup_project(tmp_path, monkeypatch):
 
 
 def create_deck_file(proj, level, topic, cards):
-    """Create a JSON deck file for testing.
+    """Create a deck file for testing.
 
     Args:
         proj: Project directory path
@@ -36,11 +36,38 @@ def create_deck_file(proj, level, topic, cards):
     Returns:
         Path to the created file
     """
-    # Helper: write a JSON deck file
     lvl_dir = proj / "decks" / level
     lvl_dir.mkdir(parents=True, exist_ok=True)
-    file_path = lvl_dir / f"{topic}.json"
-    file_path.write_text(json.dumps({"cards": cards}, ensure_ascii=False, indent=2))
+
+    file_path = lvl_dir / f"{topic}.toml"
+
+    # Convert to TOML structure
+    toml_data = {"deck": f"{level}::{topic}", "model": "basic", "notes": []}  # Default model
+
+    for idx, card in enumerate(cards, start=1):
+        note = {
+            "note_id": 10000 + idx,
+            "tags": card.get("tags", []),
+        }
+
+        # Set model
+        model = card.get("model", "basic")
+        if model != toml_data["model"]:
+            note["model"] = model
+
+        # Set fields based on model
+        if model == "basic":
+            note["fields"] = [card.get("front", ""), card.get("back", "")]
+        else:  # cloze
+            note["fields"] = [card.get("front", "")]
+            if "back" in card:
+                note["back"] = card["back"]
+
+        toml_data["notes"].append(note)
+
+    with open(file_path, "wb") as f:
+        tomli_w.dump(toml_data, f)
+
     return file_path
 
 
@@ -49,10 +76,10 @@ def test_per_file_mode_single_card(setup_project, level):
     """Test per-file mode with a single card deck.
 
     Verifies that running generate.py in per-file mode creates
-    a separate deck file for each JSON file.
+    a separate deck file for each TOML file.
     """
     proj = setup_project
-    # Create a single-card JSON deck
+    # Create a single-card TOML deck
     create_deck_file(
         proj,
         level,
@@ -81,10 +108,10 @@ def test_per_level_mode_combines_files(setup_project, level):
     """Test per-level mode with multiple deck files.
 
     Verifies that running generate.py in per-level mode combines
-    all JSON files of a level into a single deck.
+    all TOML files of a level into a single deck.
     """
     proj = setup_project
-    # Create two JSON deck files
+    # Create two TOML deck files
     create_deck_file(
         proj,
         level,
@@ -118,7 +145,7 @@ def test_chunk_mode_splits_files(setup_project, level):
     decks with a specified number of files each.
     """
     proj = setup_project
-    # Create three JSON deck files
+    # Create three TOML deck files
     for name in ["a", "b", "c"]:
         create_deck_file(
             proj,
@@ -139,3 +166,29 @@ def test_chunk_mode_splits_files(setup_project, level):
     # Filenames should contain level
     for f in out_files:
         assert level in f.name
+
+
+def test_markdown_formatting(setup_project):
+    """Test that Markdown formatting is properly converted to HTML."""
+    proj = setup_project
+    level = "a1"
+    create_deck_file(
+        proj,
+        level,
+        "markdown",
+        [
+            {
+                "model": "basic",
+                "front": "**Bold text**",
+                "back": "- Item 1\n- Item 2",
+                "tags": [level, "markdown"],
+            }
+        ],
+    )
+    result = subprocess.run(["python3", SCRIPT, "--level", level], capture_output=True, text=True)
+    assert result.returncode == 0, result.stderr
+    # We can't easily check the HTML output in the .apkg file,
+    # but we can at least verify that the deck was created
+    out_files = list((proj / "output").glob("*.apkg"))
+    assert len(out_files) == 1
+    assert "markdown" in out_files[0].name

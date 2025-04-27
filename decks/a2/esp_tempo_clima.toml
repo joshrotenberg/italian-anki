@@ -1,0 +1,222 @@
+deck = "a2::esp_tempo_clima"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "🌞 **è soleggiato**",
+    "Meaning: it's sunny\nExample: Oggi è soleggiato",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "☁️ **è nuvoloso**",
+    "Meaning: it's cloudy\nExample: Domani è nuvoloso",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "🌧️ **piove**",
+    "Meaning: it's raining\nExample: Adesso piove forte",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "❄️ **nevica**",
+    "Meaning: it's snowing\nExample: In montagna nevica",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "💨 **c'è vento**",
+    "Meaning: it's windy\nExample: C'è vento sulla costa",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "🌡️ **fa caldo**",
+    "Meaning: it's hot\nExample: Stamattina fa caldo",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "🧊 **fa freddo**",
+    "Meaning: it's cold\nExample: In inverno fa freddo",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "🌦️ **è variabile**",
+    "Meaning: it's changeable\nExample: Il tempo è variabile",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "⚡ **c'è un temporale**",
+    "Meaning: there's a storm\nExample: C'è un temporale in arrivo",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "🌈 **c'è l'arcobaleno**",
+    "Meaning: there's a rainbow\nExample: C'è l'arcobaleno dopo la pioggia",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "⛅ **è parzialmente soleggiato**",
+    "Meaning: partly sunny\nExample: Oggi è parzialmente soleggiato",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "🌂 **serve l'ombrello**",
+    "Meaning: you need an umbrella\nExample: Domani serve l'ombrello",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "🔥 **fa afoso**",
+    "Meaning: it's muggy\nExample: In città fa afoso",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "❄️ **gela**",
+    "Meaning: it's freezing\nExample: Stanotte gela",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "💧 **c'è umidità**",
+    "Meaning: it's humid\nExample: C'è umidità in casa",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "🌫️ **c'è nebbia**",
+    "Meaning: it's foggy\nExample: Al mattino c'è nebbia",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "🌊 **c'è mare mosso**",
+    "Meaning: the sea is rough\nExample: C'è mare mosso oggi",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "🏜️ **c'è siccità**",
+    "Meaning: there's a drought\nExample: C'è siccità da mesi",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "⛈️ **c'è grandine**",
+    "Meaning: there's hail\nExample: Attento, c'è grandine",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "esp_tempo_clima",
+]
+fields = [
+    "🌬️ **soffia la brezza**",
+    "Meaning: the breeze blows\nExample: Soffia la brezza marina",
+]

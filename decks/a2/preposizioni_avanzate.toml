@@ -1,0 +1,222 @@
+deck = "a2::preposizioni_avanzate"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "🏞️ **tra**",
+    "Meaning: between\nExample: Vivo **tra** Milano e Roma",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "🏰 **fra**",
+    "Meaning: between\nExample: Passeggio **fra** gli alberi",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "🚦 **fino a**",
+    "Meaning: up to\nExample: Cammina **fino a** quel ponte",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "⚔️ **contro**",
+    "Meaning: against\nExample: Siamo **contro** l'ingiustizia",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "🧭 **verso**",
+    "Meaning: towards\nExample: Guido **verso** casa",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "⬆️ **sopra**",
+    "Meaning: above\nExample: Il quadro è **sopra** il divano",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "⬇️ **sotto**",
+    "Meaning: under\nExample: Il gatto è **sotto** il tavolo",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "🚧 **oltre**",
+    "Meaning: beyond\nExample: C'è un ponte **oltre** la collina",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "🚶‍♂️ **attraverso**",
+    "Meaning: through\nExample: Passiamo **attraverso** il parco",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "🛣️ **lungo**",
+    "Meaning: along\nExample: Corri **lungo** il fiume",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "🏦 **presso**",
+    "Meaning: near/at\nExample: Vivo **presso** la stazione",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "⚙️ **mediante**",
+    "Meaning: by means of\nExample: Pagare **mediante** carta di credito",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "🗺️ **ovunque**",
+    "Meaning: everywhere\nExample: Troverai negozi **ovunque**",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "🔄 **intorno a**",
+    "Meaning: around\nExample: Gira **intorno a** la piazza",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "🚪 **davanti a**",
+    "Meaning: in front of\nExample: Aspetto **davanti a** casa",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "🏡 **dietro**",
+    "Meaning: behind\nExample: Il giardino è **dietro** la casa",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "👥 **accanto a**",
+    "Meaning: next to\nExample: Siediti **accanto a** me",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "📏 **vicino a**",
+    "Meaning: close to\nExample: La scuola è **vicino a** casa",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "🚶‍♀️ **lontano da**",
+    "Meaning: far from\nExample: Vivo **lontano da** città",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "preposizioni_avanzate",
+]
+fields = [
+    "🆚 **rispetto a**",
+    "Meaning: compared to\nExample: È piccolo **rispetto a** quello",
+]

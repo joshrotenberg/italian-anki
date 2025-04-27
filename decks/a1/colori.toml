@@ -1,0 +1,222 @@
+deck = "a1::colori"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "🔴 **rosso**",
+    "Meaning: red\nExample: Il semaforo è **rosso**",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "🟠 **arancione**",
+    "Meaning: orange\nExample: L’auto è **arancione**",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "🟡 **giallo**",
+    "Meaning: yellow\nExample: Il sole è **giallo**",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "🟢 **verde**",
+    "Meaning: green\nExample: L’erba è **verde**",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "🔵 **blu**",
+    "Meaning: blue\nExample: Il cielo è **blu**",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "🟣 **viola**",
+    "Meaning: purple\nExample: La maglietta è **viola**",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "🟤 **marrone**",
+    "Meaning: brown\nExample: Il tavolo è **marrone**",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "⚫ **nero**",
+    "Meaning: black\nExample: La scarpa è **nera**",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "⚪ **bianco**",
+    "Meaning: white\nExample: Il muro è **bianco**",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "🔘 **grigio**",
+    "Meaning: gray\nExample: Il gatto è **grigio**",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "🌸 **rosa**",
+    "Meaning: pink\nExample: La maglia è **rosa**",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "☀️ **giallo chiaro**",
+    "Meaning: light yellow\nExample: Il vestito è **giallo chiaro**",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "🌊 **azzurro**",
+    "Meaning: light blue\nExample: La piscina è **azzurra**",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "🦄 **turchese**",
+    "Meaning: turquoise\nExample: Le onde sono **turchesi**",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "✨ **oro**",
+    "Meaning: gold\nExample: L’anello è **d’oro**",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "🌟 **argento**",
+    "Meaning: silver\nExample: Il bracciale è **argento**",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "🤎 **beige**",
+    "Meaning: beige\nExample: Il divano è **beige**",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "🎀 **lilla**",
+    "Meaning: lilac\nExample: La sciarpa è **lilla**",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "💖 **fucsia**",
+    "Meaning: fuchsia\nExample: La borsa è **fucsia**",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "colori",
+]
+fields = [
+    "🍃 **verde scuro**",
+    "Meaning: dark green\nExample: La foresta è **verde scuro**",
+]

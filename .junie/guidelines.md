@@ -12,9 +12,9 @@ This document provides specific information for developers working on the Italia
 
 2. **Project Structure**:
    - Deck files are organized by CEFR level (a1, a2, etc.) in the `decks/` directory
-   - Each deck file is a JSON file following the schema defined in `deck.schema.json`
-   - The `generate.py` script builds Anki decks from these JSON files
-   - The `validate.py` script validates the JSON files against the schema
+   - Each deck file is a TOML file following the schema requirements enforced by `validate.py`
+   - The `generate.py` script builds Anki decks from these TOML files
+   - The `validate.py` script validates the TOML files against the schema requirements
 
 ### Building Decks
 
@@ -77,42 +77,51 @@ When adding new tests:
 
 ### Example Test
 
-Here's a simple test that verifies a JSON file is valid:
+Here's a simple test that verifies a TOML file is valid:
 
 ```python
-import json
-import jsonschema
 import os
+import sys
 
-def test_validate_json_file():
-    # Load schema
-    with open('deck.schema.json', 'r', encoding='utf-8') as f:
-        schema = json.load(f)
+# Import appropriate TOML library based on Python version
+if sys.version_info >= (3, 11):
+    import tomllib
+else:
+    import tomli as tomllib
 
+def test_validate_toml_file():
     # Load a sample deck file
-    with open('decks/a1/alfabeto.json', 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    with open('decks/a1/alfabeto.toml', 'rb') as f:
+        data = tomllib.load(f)
 
-    # Validate against schema
-    jsonschema.validate(data, schema)
+    # Validate structure
+    assert 'deck' in data
+    assert data['deck'].startswith('a1::')
+    assert 'notes' in data
+    assert len(data['notes']) > 0
 
-    # Additional assertions
-    assert 'cards' in data
-    assert len(data['cards']) > 0
-    assert all(card['tags'][0] == 'a1' for card in data['cards'])
+    # Validate notes
+    for note in data['notes']:
+        assert 'tags' in note
+        assert len(note['tags']) >= 2
+        assert note['tags'][0] == 'a1'
+        assert note['tags'][1] == 'alfabeto'
+        assert 'fields' in note
+        assert len(note['fields']) >= 2 if note.get('model', 'basic') == 'basic' else 1
 ```
 
 ## Additional Development Information
 
-### JSON Schema
+### TOML Schema
 
-The `deck.schema.json` file defines the expected structure of the JSON deck files:
+The schema requirements enforced by `validate.py` define the expected structure of the TOML deck files:
 
-- Each deck file should have a "cards" array
-- Each card must have:
-  - "model": Either "basic" or "cloze"
-  - "front": The front content of the card
-  - "back": The back content of the card
+- Each deck file should have:
+  - "deck": The deck name (must start with the level followed by "::")
+  - "notes": An array of note objects
+- Each note must have:
+  - "model": Either "basic" or "cloze" (defaults to "basic" if not specified)
+  - "fields": An array with the content of the card (at least 2 fields for "basic" model)
   - "tags": An array with exactly 2 items:
     - First tag must be the level (a1, a2, b1)
     - Second tag must be the topic (matching the filename without extension)
@@ -153,23 +162,62 @@ This ensures that decks and models have consistent IDs across builds, which is i
 - Add docstrings to functions and classes
 - Keep functions small and focused on a single task
 
+### CI Test Requirements
+
+**Important**: All CI tests must be run manually before completing any work on Python scripts. This ensures that your changes meet the project's quality standards and don't introduce new issues.
+
+Run the following tests in order:
+
+1. **Validation**: Ensure all deck files are valid
+   ```bash
+   python validate.py
+   ```
+
+2. **Formatting**: Check and fix code formatting
+   ```bash
+   python format_with_black.py
+   ```
+
+3. **Linting**: Check and fix linting issues
+   ```bash
+   python lint.py --fix
+   ```
+
+4. **Type Checking**: Verify type annotations
+   ```bash
+   mypy --ignore-missing-imports *.py tests/*.py
+   ```
+
+5. **Security Scanning**: Check for security issues
+   ```bash
+   bandit -r . -x ./tests
+   safety check
+   ```
+
+6. **Unit Tests**: Run all tests to ensure functionality
+   ```bash
+   python -m pytest
+   ```
+
+Only after all these tests pass should you consider your work complete and ready for submission.
+
 ## Common CI Issues and Solutions
 
 The project uses a CI pipeline that performs various checks to ensure code quality. Here are common issues that might cause CI failures and how to fix them:
 
-### JSON Validation Issues
+### TOML Validation Issues
 
-The `validate.py` script checks that each card in the JSON deck files follows the project's schema requirements:
+The `validate.py` script checks that each note in the TOML deck files follows the project's schema requirements:
 
 - **Issue**: Tags don't follow the required structure
-  - **Solution**: Each card must have exactly 2 tags:
+  - **Solution**: Each note must have exactly 2 tags:
     1. First tag must match the level directory name (a1, a2, etc.)
     2. Second tag must match the filename (without extension)
   - **Fix**: Run `python fix_tags.py` to automatically fix tag issues
 
-- **Issue**: JSON syntax errors
-  - **Solution**: Ensure your JSON files are valid
-  - **Fix**: Use a JSON validator or editor with JSON validation
+- **Issue**: TOML syntax errors
+  - **Solution**: Ensure your TOML files are valid
+  - **Fix**: Use a TOML validator or editor with TOML validation
 
 ### Code Formatting Issues
 

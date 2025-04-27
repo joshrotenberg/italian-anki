@@ -2,9 +2,10 @@
 """
 generate.py.
 
-Builds Anki .apkg decks from JSON definitions under decks/<level>/*.json.
+Builds Anki .apkg decks from TOML definitions under decks/<level>/*.toml.
 Supports per-file, per-level, uber (all-in-one), and chunked modes.
 Embeds repo VERSION into deck titles and filenames.
+Supports Markdown formatting in card content.
 
 Usage examples:
   python generate.py --level a1                     # per-file on a1
@@ -16,12 +17,18 @@ Usage examples:
 """
 import argparse
 import hashlib
-import json
 import os
 import sys
 from typing import Any, Dict, List
 
 import genanki
+import markdown  # type: ignore
+
+# Import appropriate TOML library based on Python version
+if sys.version_info >= (3, 11):
+    import tomllib
+else:
+    import tomli as tomllib
 
 # Ensure script runs from its own directory
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
@@ -96,10 +103,10 @@ MODELS = {
 
 def load_deck_file(file_path: str) -> Dict[str, Any]:
     """
-    Load a JSON deck file.
+    Load a deck file (TOML).
 
     Args:
-        file_path: Path to the JSON file
+        file_path: Path to the deck file
 
     Returns:
         Dictionary containing the deck data
@@ -108,11 +115,40 @@ def load_deck_file(file_path: str) -> Dict[str, Any]:
         ValueError: If the file cannot be read or parsed
     """
     try:
-        with open(file_path, encoding="utf-8") as f:
-            data: Dict[str, Any] = json.load(f)
-            return data
-    except (json.JSONDecodeError, UnicodeDecodeError) as e:
-        raise ValueError(f"Failed to parse JSON in {file_path}: {str(e)}")
+        if file_path.endswith(".toml"):
+            with open(file_path, "rb") as f:
+                data = tomllib.load(f)
+
+                # Convert TOML structure to match internal structure
+                result: Dict[str, List[Dict[str, Any]]] = {"cards": []}
+
+                # Extract deck and model information
+                model_type = data.get("model", "basic")
+
+                # Process notes
+                for note in data.get("notes", []):
+                    card = {
+                        "model": note.get("model", model_type),
+                        "tags": note.get("tags", []),
+                        "note_id": note.get("note_id", None),
+                    }
+
+                    # Handle fields based on model type
+                    fields = note.get("fields", [])
+                    if card["model"] == "basic" and len(fields) >= 2:
+                        card["front"] = fields[0]
+                        card["back"] = fields[1]
+                    elif card["model"] == "cloze" and len(fields) >= 1:
+                        card["front"] = fields[0]
+                        card["back"] = note.get("back", "")
+
+                    result["cards"].append(card)
+
+                return result
+        else:
+            raise ValueError(f"Unsupported file format: {file_path}")
+    except UnicodeDecodeError as e:
+        raise ValueError(f"Failed to parse file {file_path}: {str(e)}")
     except FileNotFoundError:
         raise ValueError(f"File not found: {file_path}")
     except IOError as e:
@@ -151,6 +187,12 @@ def build_deck(level: str, topic: str, cards: List[Dict[str, Any]]) -> None:
         if not back:
             raise ValueError(f"Missing 'back' field in card: {card}")
 
+        # Convert Markdown to HTML for front and back fields
+        if front:
+            front = markdown.markdown(front)
+        if back:
+            back = markdown.markdown(back)
+
         if model_key == "basic":
             fields = [front, back]
         else:  # cloze
@@ -173,18 +215,18 @@ def build_deck(level: str, topic: str, cards: List[Dict[str, Any]]) -> None:
         print(f"Error writing deck to {path}: {str(e)}")
 
 
-def get_json_files(directory: str) -> List[str]:
+def get_deck_files(directory: str) -> List[str]:
     """
-    Get all JSON files in a directory.
+    Get all deck files (TOML) in a directory.
 
     Args:
         directory: Directory path
 
     Returns:
-        List of JSON filenames (without path)
+        List of filenames (without path)
     """
     try:
-        return [f for f in sorted(os.listdir(directory)) if f.endswith(".json")]
+        return [f for f in sorted(os.listdir(directory)) if f.endswith(".toml")]
     except FileNotFoundError:
         print(f"Directory not found: {directory}")
         return []
@@ -195,14 +237,14 @@ def get_json_files(directory: str) -> List[str]:
 
 def process_per_file_mode(levels: List[str]) -> None:
     """
-    Process decks in per-file mode (one deck per JSON file).
+    Process decks in per-file mode (one deck per TOML file).
 
     Args:
         levels: List of levels to process
     """
     for lvl in levels:
         lvl_dir = os.path.join("decks", lvl)
-        for fname in get_json_files(lvl_dir):
+        for fname in get_deck_files(lvl_dir):
             topic = os.path.splitext(fname)[0]
             file_path = os.path.join(lvl_dir, fname)
 
@@ -226,7 +268,7 @@ def process_per_level_mode(levels: List[str]) -> None:
         cards = []
         lvl_dir = os.path.join("decks", lvl)
 
-        for fname in get_json_files(lvl_dir):
+        for fname in get_deck_files(lvl_dir):
             file_path = os.path.join(lvl_dir, fname)
 
             try:
@@ -251,7 +293,7 @@ def process_uber_mode(levels: List[str]) -> None:
     for lvl in levels:
         lvl_dir = os.path.join("decks", lvl)
 
-        for fname in get_json_files(lvl_dir):
+        for fname in get_deck_files(lvl_dir):
             file_path = os.path.join(lvl_dir, fname)
 
             try:
@@ -280,7 +322,7 @@ def process_chunk_mode(levels: List[str], chunk_size: int) -> None:
 
     for lvl in levels:
         lvl_dir = os.path.join("decks", lvl)
-        files = get_json_files(lvl_dir)
+        files = get_deck_files(lvl_dir)
 
         for i in range(0, len(files), chunk_size):
             chunk = files[i : i + chunk_size]

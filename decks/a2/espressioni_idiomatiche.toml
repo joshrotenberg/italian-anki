@@ -1,0 +1,222 @@
+deck = "a2::espressioni_idiomatiche"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "🤲 **dare una mano**",
+    "Meaning: to give a hand (to help)\nExample: Puoi **darmi una mano** con i compiti?",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "🙏 **fare un favore**",
+    "Meaning: to do a favor\nExample: Mi fai un **favore**?",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "🔎 **mettere in evidenza**",
+    "Meaning: to highlight\nExample: Questo punto mette **in evidenza** il problema",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "👀 **dare un'occhiata**",
+    "Meaning: to take a look\nExample: Puoi **dargli un'occhiata**?",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "🐢 **tirare avanti**",
+    "Meaning: to get by\nExample: Con poco stipendio si fa fatica a **tirare avanti**",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "💭 **tenere in considerazione**",
+    "Meaning: to keep in mind\nExample: Dobbiamo **tenere in considerazione** le spese",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "📌 **fare il punto**",
+    "Meaning: to take stock\nExample: Facciamo il **punto** della situazione",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "💪 **mettercela tutta**",
+    "Meaning: to give it your all\nExample: In gara hanno **messo** tutta la loro forza",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "🗣️ **dare retta a**",
+    "Meaning: to listen to\nExample: Non gli **do** retta",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "😎 **tirarsela**",
+    "Meaning: to show off\nExample: Non **te la** tirare troppo",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "🤝 **andare d'accordo**",
+    "Meaning: to get along\nExample: Con lui **vado** sempre d'accordo",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "🎭 **fare un figurone**",
+    "Meaning: to make a great impression\nExample: Alla presentazione ho fatto un **figurone**",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "🧠 **mettere la testa a posto**",
+    "Meaning: to get one’s act together\nExample: Devo **mettermi** la testa a posto",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "🐜 **dare fastidio**",
+    "Meaning: to bother\nExample: Quel rumore mi **dà fastidio**",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "💬 **fare due chiacchiere**",
+    "Meaning: to have a chat\nExample: Vogliamo **fare due chiacchiere**?",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "🗝️ **tirare fuori**",
+    "Meaning: to take out\nExample: Puoi **tirar fuori** le chiavi?",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "❤️ **tenere a**",
+    "Meaning: to care about\nExample: Tengo molto **a** te",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "🛍️ **fare spese**",
+    "Meaning: to go shopping\nExample: Andiamo a **fare spese** domani",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "❓ **mettere in discussione**",
+    "Meaning: to question\nExample: Non voglio **mettere in discussione** le tue scelte",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "espressioni_idiomatiche",
+]
+fields = [
+    "🏠 **portare a casa**",
+    "Meaning: to bring home\nExample: Puoi **portare** questo a casa?",
+]

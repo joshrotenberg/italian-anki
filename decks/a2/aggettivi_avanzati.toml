@@ -1,0 +1,222 @@
+deck = "a2::aggettivi_avanzati"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "🌟 **affascinante**",
+    "Meaning: fascinating\nExample: Questo museo è davvero **affascinante**",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "⏳ **paziente**",
+    "Meaning: patient\nExample: Devi essere **paziente** con i bambini",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "⚡️ **impaziente**",
+    "Meaning: impatient\nExample: Sono **impaziente** di sapere il risultato",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "🎨 **creativo**",
+    "Meaning: creative\nExample: Mia sorella è molto **creativa**",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "🤝 **onesto**",
+    "Meaning: honest\nExample: È importante essere **onesti**",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "🦁 **coraggioso**",
+    "Meaning: courageous\nExample: Quella ragazza è veramente **coraggiosa**",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "🎁 **generoso**",
+    "Meaning: generous\nExample: Il mio amico è sempre stato **generoso**",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "🙈 **timido**",
+    "Meaning: shy\nExample: In classe sono un po’ **timido**",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "🎉 **socievole**",
+    "Meaning: sociable\nExample: Marco è molto **socievole**",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "🏔️ **ambizioso**",
+    "Meaning: ambitious\nExample: Ha progetti molto **ambiziosi**",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "🌈 **ottimista**",
+    "Meaning: optimistic\nExample: Nonostante tutto rimango **ottimista**",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "🌧️ **pessimista**",
+    "Meaning: pessimistic\nExample: A volte divento un po’ **pessimista**",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "🛀 **rilassato**",
+    "Meaning: relaxed\nExample: Dopo la spa mi sento **rilassato**",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "😬 **nervoso**",
+    "Meaning: nervous\nExample: Sono **nervoso** per l’esame",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "💖 **affettuoso**",
+    "Meaning: affectionate\nExample: Il mio cane è molto **affettuoso**",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "🩷 **sensibile**",
+    "Meaning: sensitive\nExample: Sei troppo **sensibile**",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "🗣️ **sincero**",
+    "Meaning: sincere\nExample: Apprezzo quando sei **sincero**",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "🎯 **determinato**",
+    "Meaning: determined\nExample: Lei è molto **determinata**",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "🔍 **curioso**",
+    "Meaning: curious\nExample: Sono **curioso** di sapere di più",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "aggettivi_avanzati",
+]
+fields = [
+    "🤷 **indeciso**",
+    "Meaning: indecisive\nExample: Sono ancora **indeciso** sulla scelta",
+]

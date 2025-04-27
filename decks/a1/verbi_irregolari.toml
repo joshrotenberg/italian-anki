@@ -1,0 +1,233 @@
+deck = "a1::verbi_irregolari"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "👤 **essere** — presente",
+    "Meaning: to be\nExample: Io sono felice",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "📦 **avere** — presente",
+    "Meaning: to have\nExample: Tu hai un amico",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "🚶 **andare** — presente",
+    "Meaning: to go\nExample: Lui va al lavoro",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "🏃 **venire** — presente",
+    "Meaning: to come\nExample: Noi veniamo con te",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "💼 **fare** — presente",
+    "Meaning: to do/make\nExample: Voi fate la spesa",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "🏠 **stare** — presente",
+    "Meaning: to stay/be\nExample: Loro stanno a casa",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "🤲 **dare** — presente",
+    "Meaning: to give\nExample: Io do un regalo",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "🗣 **dire** — presente",
+    "Meaning: to say\nExample: Tu dici la verità",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "👁 **vedere** — presente",
+    "Meaning: to see\nExample: Lui vede le stelle",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "🧠 **sapere** — presente",
+    "Meaning: to know\nExample: Noi sappiamo la risposta",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "🚪 **uscire** — presente",
+    "Meaning: to go out\nExample: Voi uscite stasera",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "⏳ **rimanere** — presente",
+    "Meaning: to remain\nExample: Loro rimangono qui",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "🔀 **scegliere** — presente",
+    "Meaning: to choose\nExample: Io scelgo un libro",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "🤝 **tenere** — presente",
+    "Meaning: to hold\nExample: Tu tieni la porta",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "🍷 **bere** — presente",
+    "Meaning: to drink\nExample: Lui beve acqua",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "❤️ **piacere** — presente",
+    "Meaning: to like\nExample: Mi piace la pizza",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "📦 **mettere** — presente",
+    "Meaning: to put\nExample: Noi mettiamo i libri",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "🏆 **vincere** — presente",
+    "Meaning: to win\nExample: Voi vincete spesso",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "⚰️ **morire** — presente",
+    "Meaning: to die\nExample: Questa pianta muore presto",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "📍 **porre** — presente",
+    "Meaning: to place\nExample: Loro pongono attenzione",
+]
+
+[[notes]]
+note_id = 10021
+tags = [
+    "a1",
+    "verbi_irregolari",
+]
+fields = [
+    "🤔 **conoscere** — presente",
+    "Meaning: to know (a person/place)\nExample: Conosco Roma",
+]

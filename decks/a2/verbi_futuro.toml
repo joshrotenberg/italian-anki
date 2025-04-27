@@ -1,0 +1,242 @@
+deck = "a2::verbi_futuro"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "Domani {{c1::andrò}} al mercato.",
+]
+back = "**andrò** = futuro semplice di andare (io)"
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "In futuro {{c1::leggerò}} di più.",
+]
+back = "**leggerò** = futuro semplice di leggere (io)"
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "Tra poco {{c1::farò}} una pausa.",
+]
+back = "**farò** = futuro semplice di fare (io)"
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "Stasera {{c1::parlerò}} con te.",
+]
+back = "**parlerò** = futuro semplice di parlare (io)"
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "Più tardi {{c1::scriverò}} un’email.",
+]
+back = "**scriverò** = futuro semplice di scrivere (io)"
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "Presto {{c1::usciranno}}.",
+]
+back = "**usciranno** = futuro semplice di uscire (loro)"
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "Domani {{c1::vedremo}} un film.",
+]
+back = "**vedremo** = futuro semplice di vedere (noi)"
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "Il mese prossimo {{c1::viaggerò}} in Italia.",
+]
+back = "**viaggerò** = futuro semplice di viaggiare (io)"
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "Dopo cena {{c1::mangeremo}} fuori.",
+]
+back = "**mangeremo** = futuro semplice di mangiare (noi)"
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "Presto {{c1::conoscerai}} nuovi amici.",
+]
+back = "**conoscerai** = futuro semplice di conoscere (tu)"
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "Domani {{c1::porterò}} i bagagli.",
+]
+back = "**porterò** = futuro semplice di portare (io)"
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "Tra poco {{c1::riceverai}} notizie.",
+]
+back = "**riceverai** = futuro semplice di ricevere (tu)"
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "Domani {{c1::avrò}} una riunione.",
+]
+back = "**avrò** = futuro semplice di avere (io)"
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "Dopo il lavoro {{c1::sarai}} libero.",
+]
+back = "**sarai** = futuro semplice di essere (tu)"
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "In estate {{c1::nuoterete}} al lago.",
+]
+back = "**nuoterete** = futuro semplice di nuotare (voi)"
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "Domani {{c1::darò}} una risposta.",
+]
+back = "**darò** = futuro semplice di dare (io)"
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "Tra poco {{c1::sapremo}} tutto.",
+]
+back = "**sapremo** = futuro semplice di sapere (noi)"
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "Domani {{c1::potranno}} aiutarti.",
+]
+back = "**potranno** = futuro semplice di potere (loro)"
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "In futuro {{c1::saprò}} la verità.",
+]
+back = "**saprò** = futuro semplice di sapere (io)"
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "verbi_futuro",
+]
+model = "cloze"
+fields = [
+    "Presto {{c1::verrai}} con noi.",
+]
+back = "**verrai** = futuro semplice di venire (tu)"

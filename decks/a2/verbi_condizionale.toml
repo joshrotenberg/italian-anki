@@ -1,0 +1,242 @@
+deck = "a2::verbi_condizionale"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Vorrei {{c1::parlare}} con te.",
+]
+back = "**parlare** = condizionale presente di parlare (io)"
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Mi piacerebbe {{c1::viaggiare}} in Grecia.",
+]
+back = "**viaggiare** = condizionale di viaggiare (io)"
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Potrei {{c1::spedire}} il pacco domani.",
+]
+back = "**spedire** = condizionale di spedire (io)"
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Vorremmo {{c1::visitare}} il museo.",
+]
+back = "**visitare** = condizionale di visitare (noi)"
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Potrebbero {{c1::aiutare}} tutti.",
+]
+back = "**aiutare** = condizionale di aiutare (loro)"
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Sarebbe {{c1::meglio}} studiare ora.",
+]
+back = "**meglio** = condizionale di essere (imp.)"
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Dovresti {{c1::fare}} più esercizio.",
+]
+back = "**fare** = condizionale di fare (tu)"
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Potresti {{c1::chiamarmi}} più tardi?",
+]
+back = "**chiamarmi** = condizionale di chiamare (tu)"
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Vorrebbero {{c1::mangiare}} fuori.",
+]
+back = "**mangiare** = condizionale di mangiare (loro)"
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Sarei {{c1::felice}} di aiutarti.",
+]
+back = "**felice** = condizionale di essere (io)"
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Ci piacerebbe {{c1::partecipare}}.",
+]
+back = "**partecipare** = condizionale di partecipare (noi)"
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Potremmo {{c1::comprare}} un regalo.",
+]
+back = "**comprare** = condizionale di comprare (noi)"
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Dovrebbero {{c1::arrivare}} presto.",
+]
+back = "**arrivare** = condizionale di arrivare (loro)"
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Potrei {{c1::chiedere}} un favore.",
+]
+back = "**chiedere** = condizionale di chiedere (io)"
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Sarebbe {{c1::utile}} sapere.",
+]
+back = "**utile** = condizionale di essere (imp.)"
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Vorresti {{c1::venire}} con noi?",
+]
+back = "**venire** = condizionale di venire (tu)"
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Potrebbero {{c1::studiare}} insieme.",
+]
+back = "**studiare** = condizionale di studiare (loro)"
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Saremmo {{c1::interessati}} all'offerta.",
+]
+back = "**interessati** = condizionale di essere (noi)"
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Potrei {{c1::prendere}} un giorno di ferie.",
+]
+back = "**prendere** = condizionale di prendere (io)"
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "verbi_condizionale",
+]
+model = "cloze"
+fields = [
+    "Vorrei {{c1::sapere}} di più.",
+]
+back = "**sapere** = condizionale di sapere (io)"

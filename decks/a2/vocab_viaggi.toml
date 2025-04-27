@@ -1,0 +1,222 @@
+deck = "a2::vocab_viaggi"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "🧳 **la valigia**",
+    "Meaning: suitcase\nExample: Preparo **la valigia** per le vacanze",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "🛂 **il passaporto**",
+    "Meaning: passport\nExample: Controllo la validità del **passaporto**",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "🎫 **il biglietto**",
+    "Meaning: ticket\nExample: Ho comprato **il biglietto** del treno",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "📅 **la prenotazione**",
+    "Meaning: reservation\nExample: Confermo **la prenotazione** in hotel",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "✈️ **il volo**",
+    "Meaning: flight\nExample: Il **volo** parte alle 9:00",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "🛩️ **l’aereo**",
+    "Meaning: airplane\nExample: Salgo sull’**aereo** per Londra",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "🚆 **il treno**",
+    "Meaning: train\nExample: Prendo **il treno** regionale",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "🌍 **il viaggio**",
+    "Meaning: trip, journey\nExample: Il **viaggio** è stato indimenticabile",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "🏨 **l’albergo**",
+    "Meaning: hotel\nExample: Alloggio in un **albergo** centrale",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "🛏️ **l’ostello**",
+    "Meaning: hostel\nExample: Dormo in **ostello** per risparmiare",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "🏕️ **il campeggio**",
+    "Meaning: campsite\nExample: Facciamo **campeggio** in montagna",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "🗺️ **la mappa**",
+    "Meaning: map\nExample: Guardo **la mappa** per orientarmi",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "📍 **l’itinerario**",
+    "Meaning: itinerary\nExample: Controllo **l’itinerario** del tour",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "🛄 **il bagaglio a mano**",
+    "Meaning: hand luggage\nExample: Metto lo zaino come **bagaglio a mano**",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "🚗 **il noleggio auto**",
+    "Meaning: car rental\nExample: Prenoto **il noleggio auto** online",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "🛫 **il check-in**",
+    "Meaning: check-in\nExample: Faccio **il check-in** al banco aeroportuale",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "🚉 **la partenza**",
+    "Meaning: departure\nExample: La **partenza** è prevista alle 18:00",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "🛬 **l’arrivo**",
+    "Meaning: arrival\nExample: L’**arrivo** è previsto alle 20:30",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "🧍‍♂️ **il turista**",
+    "Meaning: tourist\nExample: Il **turista** scatta molte foto",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "vocab_viaggi",
+]
+fields = [
+    "🏢 **l’agenzia di viaggi**",
+    "Meaning: travel agency\nExample: Prenoto tramite **l’agenzia di viaggi**",
+]

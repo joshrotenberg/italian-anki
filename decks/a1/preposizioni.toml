@@ -1,0 +1,244 @@
+deck = "a1::preposizioni"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "📍 **a**",
+    "Meaning: to/at\nExample: Vado a scuola",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "🏠 **in**",
+    "Meaning: in/at\nExample: Sono in ufficio",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "📦 **su**",
+    "Meaning: on\nExample: Il libro è su tavolo",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "🤝 **con**",
+    "Meaning: with\nExample: Parlo con Maria",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "🚶‍♂️ **da**",
+    "Meaning: from/by\nExample: Vengo da Roma",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "🎁 **per**",
+    "Meaning: for\nExample: Questo regalo è per te",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "⏳ **tra**",
+    "Meaning: between/among\nExample: Tra amici",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "🔄 **fra**",
+    "Meaning: between/among\nExample: Fra un'ora",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "📖 **di**",
+    "Meaning: of/from\nExample: Il colore di casa",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "🚫 **senza**",
+    "Meaning: without\nExample: Vado senza cappotto",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "⬆️ **sopra**",
+    "Meaning: above/over\nExample: Il gatto è sopra il mobile",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "⬇️ **sotto**",
+    "Meaning: under/below\nExample: La penna è sotto il tavolo",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "🏡 **davanti a**",
+    "Meaning: in front of\nExample: Sono davanti a casa",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "🏃‍♀️ **dietro a**",
+    "Meaning: behind\nExample: Il cane è dietro a me",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "🏘 **vicino a**",
+    "Meaning: near\nExample: Vivo vicino a scuola",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "🌄 **lontano da**",
+    "Meaning: far from\nExample: Abito lontano da qui",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "🛤 **attraverso**",
+    "Meaning: through\nExample: Cammino attraverso il parco",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "⚔️ **contro**",
+    "Meaning: against\nExample: È contro le regole",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "🌙 **durante**",
+    "Meaning: during\nExample: Durante la notte",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "➡️ **verso**",
+    "Meaning: towards\nExample: Cammino verso la stazione",
+]
+
+[[notes]]
+note_id = 10021
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "👥 **accanto a**",
+    "Meaning: next to\nExample: Sono accanto a te",
+]
+
+[[notes]]
+note_id = 10022
+tags = [
+    "a1",
+    "preposizioni",
+]
+fields = [
+    "🏛 **di fronte a**",
+    "Meaning: in front of\nExample: Sei di fronte a casa",
+]

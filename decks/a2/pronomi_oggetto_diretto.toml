@@ -1,0 +1,242 @@
+deck = "a2::pronomi_oggetto_diretto"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Vedo {{c1::il libro}} ogni giorno.",
+]
+back = "**il libro** = lo (I see it every day)"
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Ho chiamato {{c1::Maria}} ieri.",
+]
+back = "**Maria** = la (I called her yesterday)"
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Ho visto {{c1::i ragazzi}} al parco.",
+]
+back = "**i ragazzi** = li (I saw them at the park)"
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Conosco {{c1::le ragazze}}.",
+]
+back = "**le ragazze** = le (I know them)"
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Mangio {{c1::la mela}} ogni giorno.",
+]
+back = "**la mela** = la (I eat it every day)"
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Prendo {{c1::l'autobus}} ogni mattina.",
+]
+back = "**l'autobus** = lo (I take it every morning)"
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Chiedo {{c1::il permesso}} al docente.",
+]
+back = "**il permesso** = lo (I ask for it)"
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Cerco {{c1::le chiavi}}.",
+]
+back = "**le chiavi** = le (I'm looking for them)"
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Accendo {{c1::la luce}}.",
+]
+back = "**la luce** = la (I turn it on)"
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Ascolto {{c1::la musica}}.",
+]
+back = "**la musica** = la (I listen to it)"
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Prendo {{c1::i biscotti}}.",
+]
+back = "**i biscotti** = li (I take them)"
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Mangio {{c1::gli spaghetti}}.",
+]
+back = "**gli spaghetti** = li (I eat them)"
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Bevo {{c1::il caffè}}.",
+]
+back = "**il caffè** = lo (I drink it)"
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Invito {{c1::i miei amici}}.",
+]
+back = "**i miei amici** = li (I invite them)"
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Guardo {{c1::il film}} stasera.",
+]
+back = "**il film** = lo (I watch it tonight)"
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Apro {{c1::la porta}}.",
+]
+back = "**la porta** = la (I open it)"
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Lascio {{c1::le scarpe}} fuori.",
+]
+back = "**le scarpe** = le (I leave them outside)"
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Cerco {{c1::un lavoro}}.",
+]
+back = "**un lavoro** = lo (I'm looking for it)"
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Porto {{c1::il cane}} al parco.",
+]
+back = "**il cane** = lo (I take him to the park)"
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "pronomi_oggetto_diretto",
+]
+model = "cloze"
+fields = [
+    "Saluto {{c1::i vicini}}.",
+]
+back = "**i vicini** = li (I greet them)"

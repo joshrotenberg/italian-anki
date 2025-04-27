@@ -1,0 +1,233 @@
+deck = "a1::avverbi"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "🔁 **sempre**",
+    "Meaning: always\nExample: Vado **sempre** a scuola",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "❌ **mai**",
+    "Meaning: never\nExample: Non parlo **mai** spagnolo",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "🔄 **spesso**",
+    "Meaning: often\nExample: Vado **spesso** al cinema",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "⏳ **qualche volta**",
+    "Meaning: sometimes\nExample: **Qualche volta** mangio cioccolato",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "⏰ **presto**",
+    "Meaning: early/soon\nExample: Arrivo **presto** domani",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "🕒 **tardi**",
+    "Meaning: late\nExample: Torno **tardi** stasera",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "🗓️ **oggi**",
+    "Meaning: today\nExample: Studio italiano **oggi**",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "🌅 **domani**",
+    "Meaning: tomorrow\nExample: **Domani** vado al mare",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "🕰️ **ieri**",
+    "Meaning: yesterday\nExample: Sono stato a casa **ieri**",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "📍 **qui**",
+    "Meaning: here\nExample: Aspettami **qui**",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "📍 **lì**",
+    "Meaning: there\nExample: Il libro è **lì**",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "🔁 **ancora**",
+    "Meaning: again/still\nExample: Voglio **ancora** un gelato",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "✔️ **già**",
+    "Meaning: already\nExample: Ho **già** mangiato",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "🔝 **molto**",
+    "Meaning: very/much\nExample: Sono **molto** felice",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "➖ **poco**",
+    "Meaning: little\nExample: Ho **poco** tempo",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "👍 **bene**",
+    "Meaning: well\nExample: Sto **bene**, grazie",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "👎 **male**",
+    "Meaning: badly\nExample: Oggi sto **male**",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "😊 **volentieri**",
+    "Meaning: gladly\nExample: Vengo **volentieri** con te",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "🚀 **subito**",
+    "Meaning: immediately\nExample: Faccio la doccia **subito**",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "⏮️ **prima**",
+    "Meaning: before\nExample: Arriva **prima** di me",
+]
+
+[[notes]]
+note_id = 10021
+tags = [
+    "a1",
+    "avverbi",
+]
+fields = [
+    "⏭️ **dopo**",
+    "Meaning: after\nExample: Mangio **dopo** aver lavorato",
+]

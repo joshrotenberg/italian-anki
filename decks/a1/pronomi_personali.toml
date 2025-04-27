@@ -1,0 +1,222 @@
+deck = "a1::pronomi_personali"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "👤 **io**",
+    "Meaning: I\nExample: Io vado a scuola",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "🧑 **tu**",
+    "Meaning: you (sing.)\nExample: Tu mangi una mela",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "👨‍🦱 **lui**",
+    "Meaning: he\nExample: Lui è italiano",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "👩 **lei**",
+    "Meaning: she\nExample: Lei parla inglese",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "👥 **noi**",
+    "Meaning: we\nExample: Noi andiamo al mare",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "👨‍👩‍👧‍👦 **voi**",
+    "Meaning: you (pl.)\nExample: Voi leggete libri",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "🌍 **loro**",
+    "Meaning: they\nExample: Loro vivono qui",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "🫱 **mi**",
+    "Meaning: me (dir. obj.)\nExample: Vedi mi?",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "🫵 **ti**",
+    "Meaning: you (dir.)\nExample: Ti ascolto",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "📍 **lo**",
+    "Meaning: him/it (m.obj.)\nExample: Lo vedo",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "📍 **la**",
+    "Meaning: her/it (f.obj.)\nExample: La compri",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "🏠 **ci**",
+    "Meaning: us (dir.)\nExample: Ci vedi?",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "🏘 **vi**",
+    "Meaning: you (pl.dir.)\nExample: Vi chiamo domani",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "📕 **li**",
+    "Meaning: them (m.obj.)\nExample: Li incontro spesso",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "📗 **le**",
+    "Meaning: them (f.obj.)\nExample: Le vedo al parco",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "📞 **gli**",
+    "Meaning: to him (indir.)\nExample: Gli telefono stasera",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "📞 **le**",
+    "Meaning: to her (indir.)\nExample: Le scrivo una lettera",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "🍎 **ne**",
+    "Meaning: of them\nExample: Ne ho due",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "🚶 **ci**",
+    "Meaning: there\nExample: Ci vado domani",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "pronomi_personali",
+]
+fields = [
+    "🪞 **se**",
+    "Meaning: oneself\nExample: Se lava le mani",
+]

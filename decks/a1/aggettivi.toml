@@ -1,0 +1,222 @@
+deck = "a1::aggettivi"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "😊 **bello**",
+    "Meaning: beautiful\nExample: Il fiore è **bello**",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "😞 **brutto**",
+    "Meaning: ugly/bad\nExample: Che giorno **brutto**!",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "🧒 **piccolo**",
+    "Meaning: small\nExample: Ho un cane **piccolo**",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "🦍 **grande**",
+    "Meaning: big\nExample: La montagna è **grande**",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "🆕 **nuovo**",
+    "Meaning: new\nExample: Ho comprato un **libro** nuovo",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "📚 **vecchio**",
+    "Meaning: old\nExample: Questo giornale è **vecchio**",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "↔️ **lungo**",
+    "Meaning: long\nExample: Ha un vestito **lungo**",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "↕️ **corto**",
+    "Meaning: short\nExample: Ha capelli **corti**",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "🏔 **alto**",
+    "Meaning: tall/high\nExample: Il muro è **alto**",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "📉 **basso**",
+    "Meaning: low/short\nExample: Il tavolo è **basso**",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "🏎 **veloce**",
+    "Meaning: fast\nExample: La macchina è **veloce**",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "🐢 **lento**",
+    "Meaning: slow\nExample: Il treno è **lento**",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "😃 **simpatico**",
+    "Meaning: nice/friendly\nExample: Il professore è **simpatico**",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "🏋️‍♂️ **difficile**",
+    "Meaning: difficult\nExample: Questo esercizio è **difficile**",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "🆗 **facile**",
+    "Meaning: easy\nExample: La domanda è **facile**",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "😌 **calmo**",
+    "Meaning: calm\nExample: Il lago è **calmo**",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "🎉 **rumoroso**",
+    "Meaning: noisy\nExample: Il mercato è **rumoroso**",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "💰 **caro**",
+    "Meaning: expensive\nExample: Questo ristorante è **caro**",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "💸 **economico**",
+    "Meaning: cheap\nExample: Il biglietto è **economico**",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "aggettivi",
+]
+fields = [
+    "🙂 **felice**",
+    "Meaning: happy\nExample: Sono **felice** oggi",
+]

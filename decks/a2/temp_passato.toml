@@ -1,0 +1,222 @@
+deck = "a2::temp_passato"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **ieri**",
+    "Meaning: yesterday\nExample: Ieri sono andato al cinema",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **l'altro ieri**",
+    "Meaning: the day before yesterday\nExample: L'altro ieri ho incontrato Marco",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **stamattina**",
+    "Meaning: this morning\nExample: Stamattina ho fatto colazione tardi",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **ieri sera**",
+    "Meaning: last night\nExample: Ieri sera ho studiato fino a tardi",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **già**",
+    "Meaning: already\nExample: Ho già finito il lavoro",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **appena**",
+    "Meaning: just (recently)\nExample: Sono appena arrivato",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **ancora**",
+    "Meaning: still\nExample: Non ho ancora visto il film",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **prima**",
+    "Meaning: before\nExample: Prima di uscire, chiudo la porta",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **dopo**",
+    "Meaning: after\nExample: Dopo cena guardo la TV",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **poco fa**",
+    "Meaning: a little while ago\nExample: Poco fa ho sentito un rumore",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **da poco**",
+    "Meaning: recently\nExample: Studio italiano da poco",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **da quando**",
+    "Meaning: since\nExample: Non ci vediamo da quando era bambino",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **finora**",
+    "Meaning: until now\nExample: Finora tutto bene",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **mai**",
+    "Meaning: never (in past sense)\nExample: Non ho mai visitato Roma",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **spesso**",
+    "Meaning: often (past contexts)\nExample: Spesso andavo al mare da piccolo",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **raramente**",
+    "Meaning: rarely\nExample: Raramente mangiavo fuori",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **ultimamente**",
+    "Meaning: lately\nExample: Ultimamente non ho tempo libero",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **qualche volta**",
+    "Meaning: sometimes (past)\nExample: Qualche volta studiavo fino a tardi",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **spesso**",
+    "Meaning: often\nExample: Spesso ascoltavo la musica",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "temp_passato",
+]
+fields = [
+    "⌛ **tardi**",
+    "Meaning: late (past contexts)\nExample: Arrivavo tardi a scuola",
+]

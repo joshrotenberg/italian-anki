@@ -1,0 +1,112 @@
+deck = "a1::vocab_tempo_libero"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "vocab_tempo_libero",
+]
+fields = [
+    "⚽️ **giocare a calcio**",
+    "Meaning: to play soccer",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "vocab_tempo_libero",
+]
+fields = [
+    "🎮 **giocare ai videogiochi**",
+    "Meaning: to play video games",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "vocab_tempo_libero",
+]
+fields = [
+    "🎧 **ascoltare musica**",
+    "Meaning: to listen to music",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "vocab_tempo_libero",
+]
+fields = [
+    "📖 **leggere**",
+    "Meaning: to read",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "vocab_tempo_libero",
+]
+fields = [
+    "🎬 **guardare un film**",
+    "Meaning: to watch a movie",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "vocab_tempo_libero",
+]
+fields = [
+    "🚴 **andare in bicicletta**",
+    "Meaning: to ride a bicycle",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "vocab_tempo_libero",
+]
+fields = [
+    "🏊 **nuotare**",
+    "Meaning: to swim",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "vocab_tempo_libero",
+]
+fields = [
+    "🛹 **andare a pattinare**",
+    "Meaning: to go skating",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "vocab_tempo_libero",
+]
+fields = [
+    "🎨 **dipingere**",
+    "Meaning: to paint",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "vocab_tempo_libero",
+]
+fields = [
+    "📸 **fare foto**",
+    "Meaning: to take photos",
+]
