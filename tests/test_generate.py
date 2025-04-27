@@ -192,3 +192,63 @@ def test_markdown_formatting(setup_project):
     out_files = list((proj / "output").glob("*.apkg"))
     assert len(out_files) == 1
     assert "markdown" in out_files[0].name
+
+
+def test_auto_discover_mode(setup_project):
+    """Test automatic discovery of deck files.
+
+    Verifies that running generate.py with --auto-discover automatically
+    discovers all deck files and processes them correctly.
+    """
+    proj = setup_project
+
+    # Create deck files in different levels
+    create_deck_file(
+        proj,
+        "a1",
+        "auto1",
+        [{"model": "basic", "front": "auto1", "back": "auto1", "tags": ["a1", "auto1"]}],
+    )
+    create_deck_file(
+        proj,
+        "a2",
+        "auto2",
+        [{"model": "basic", "front": "auto2", "back": "auto2", "tags": ["a2", "auto2"]}],
+    )
+
+    # Create a nested directory structure to test recursive discovery
+    nested_dir = proj / "decks" / "a1" / "nested"
+    nested_dir.mkdir(parents=True, exist_ok=True)
+
+    # Create a TOML file in the nested directory
+    nested_toml_data = {
+        "deck": "a1::nested",
+        "model": "basic",
+        "notes": [
+            {
+                "note_id": 10001,
+                "tags": ["a1", "nested"],
+                "fields": ["nested", "nested content"],
+            }
+        ],
+    }
+
+    with open(nested_dir / "nested.toml", "wb") as f:
+        tomli_w.dump(nested_toml_data, f)
+
+    # Run with auto-discover mode
+    result = subprocess.run(
+        ["python3", SCRIPT, "--auto-discover"],
+        capture_output=True,
+        text=True,
+    )
+    assert result.returncode == 0, result.stderr
+
+    # Check that .apkg files were created for all discovered decks
+    out_files = list((proj / "output").glob("*.apkg"))
+    assert len(out_files) >= 2  # At least the a1 and a2 decks
+
+    # Check that the filenames contain the expected level and topic
+    filenames = [f.name for f in out_files]
+    assert any("a1" in f and "auto1" in f for f in filenames)
+    assert any("a2" in f and "auto2" in f for f in filenames)

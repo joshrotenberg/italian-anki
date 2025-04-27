@@ -6,6 +6,7 @@ Builds Anki .apkg decks from TOML definitions under decks/<level>/*.toml.
 Supports per-file, per-level, uber (all-in-one), and chunked modes.
 Embeds repo VERSION into deck titles and filenames.
 Supports Markdown formatting in card content.
+Supports automatic discovery of deck files with the --auto-discover option.
 
 Usage examples:
   python generate.py --level a1                     # per-file on a1
@@ -14,12 +15,15 @@ Usage examples:
   python generate.py --mode uber                    # one big deck with all cards
   python generate.py --mode chunk --chunk-size 10   # decks of 10 files each
   python generate.py --mode per-file --level a2     # per-file on a2
+  python generate.py --auto-discover                # auto-discover all deck files
+  python generate.py --auto-discover --mode uber    # auto-discover and build one big deck
 """
 import argparse
+import glob
 import hashlib
 import os
 import sys
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 import genanki
 import markdown  # type: ignore
@@ -235,84 +239,158 @@ def get_deck_files(directory: str) -> List[str]:
         return []
 
 
-def process_per_file_mode(levels: List[str]) -> None:
+def discover_deck_files() -> Dict[str, List[str]]:
+    """
+    Automatically discover all TOML deck files recursively.
+
+    Returns:
+        Dictionary mapping level names to lists of file paths
+    """
+    # Get all TOML files in the decks directory and its subdirectories
+    all_files = glob.glob("decks/**/*.toml", recursive=True)
+
+    # Group files by level
+    levels_dict: Dict[str, List[str]] = {}
+
+    for file_path in sorted(all_files):
+        # Extract level from path (e.g., "decks/a1/file.toml" -> "a1")
+        parts = file_path.split(os.sep)
+        if len(parts) >= 2 and parts[0] == "decks":  # Ensure path starts with "decks/"
+            level = parts[1]  # "decks/a1/file.toml" -> parts = ["decks", "a1", "file.toml"]
+            if level:  # Ensure level is not empty
+                if level not in levels_dict:
+                    levels_dict[level] = []
+                levels_dict[level].append(file_path)
+            else:
+                print(f"Warning: Skipping file with invalid level in path: {file_path}")
+        else:
+            print(f"Warning: Skipping file with unexpected path structure: {file_path}")
+
+    # Log discovered decks for debugging
+    for level, files in levels_dict.items():
+        print(f"Discovered {len(files)} deck files for level '{level}'")
+
+    return levels_dict
+
+
+def process_per_file_mode(levels: List[str], discovered_files: Optional[Dict[str, List[str]]] = None) -> None:
     """
     Process decks in per-file mode (one deck per TOML file).
 
     Args:
         levels: List of levels to process
+        discovered_files: Optional dictionary mapping level names to lists of file paths
     """
     for lvl in levels:
-        lvl_dir = os.path.join("decks", lvl)
-        for fname in get_deck_files(lvl_dir):
-            topic = os.path.splitext(fname)[0]
-            file_path = os.path.join(lvl_dir, fname)
+        if discovered_files and lvl in discovered_files:
+            # Use discovered files
+            for file_path in discovered_files[lvl]:
+                topic = os.path.splitext(os.path.basename(file_path))[0]
+                try:
+                    data = load_deck_file(file_path)
+                    cards = data.get("cards", [])
+                    if cards:
+                        build_deck(lvl, topic, cards)
+                except ValueError as e:
+                    print(f"Error processing {file_path}: {str(e)}")
+        else:
+            # Use traditional directory listing
+            lvl_dir = os.path.join("decks", lvl)
+            for fname in get_deck_files(lvl_dir):
+                topic = os.path.splitext(fname)[0]
+                file_path = os.path.join(lvl_dir, fname)
 
-            try:
-                data = load_deck_file(file_path)
-                cards = data.get("cards", [])
-                if cards:
-                    build_deck(lvl, topic, cards)
-            except ValueError as e:
-                print(f"Error processing {file_path}: {str(e)}")
+                try:
+                    data = load_deck_file(file_path)
+                    cards = data.get("cards", [])
+                    if cards:
+                        build_deck(lvl, topic, cards)
+                except ValueError as e:
+                    print(f"Error processing {file_path}: {str(e)}")
 
 
-def process_per_level_mode(levels: List[str]) -> None:
+def process_per_level_mode(
+    levels: List[str], discovered_files: Optional[Dict[str, List[str]]] = None
+) -> None:
     """
     Process decks in per-level mode (one deck per level).
 
     Args:
         levels: List of levels to process
+        discovered_files: Optional dictionary mapping level names to lists of file paths
     """
     for lvl in levels:
         cards = []
-        lvl_dir = os.path.join("decks", lvl)
 
-        for fname in get_deck_files(lvl_dir):
-            file_path = os.path.join(lvl_dir, fname)
+        if discovered_files and lvl in discovered_files:
+            # Use discovered files
+            for file_path in discovered_files[lvl]:
+                try:
+                    data = load_deck_file(file_path)
+                    cards.extend(data.get("cards", []))
+                except ValueError as e:
+                    print(f"Error processing {file_path}: {str(e)}")
+        else:
+            # Use traditional directory listing
+            lvl_dir = os.path.join("decks", lvl)
+            for fname in get_deck_files(lvl_dir):
+                file_path = os.path.join(lvl_dir, fname)
 
-            try:
-                data = load_deck_file(file_path)
-                cards.extend(data.get("cards", []))
-            except ValueError as e:
-                print(f"Error processing {file_path}: {str(e)}")
+                try:
+                    data = load_deck_file(file_path)
+                    cards.extend(data.get("cards", []))
+                except ValueError as e:
+                    print(f"Error processing {file_path}: {str(e)}")
 
         if cards:
             build_deck(lvl, lvl, cards)
 
 
-def process_uber_mode(levels: List[str]) -> None:
+def process_uber_mode(levels: List[str], discovered_files: Optional[Dict[str, List[str]]] = None) -> None:
     """
     Process decks in uber mode (one big deck with all cards).
 
     Args:
         levels: List of levels to process
+        discovered_files: Optional dictionary mapping level names to lists of file paths
     """
     cards = []
 
     for lvl in levels:
-        lvl_dir = os.path.join("decks", lvl)
+        if discovered_files and lvl in discovered_files:
+            # Use discovered files
+            for file_path in discovered_files[lvl]:
+                try:
+                    data = load_deck_file(file_path)
+                    cards.extend(data.get("cards", []))
+                except ValueError as e:
+                    print(f"Error processing {file_path}: {str(e)}")
+        else:
+            # Use traditional directory listing
+            lvl_dir = os.path.join("decks", lvl)
+            for fname in get_deck_files(lvl_dir):
+                file_path = os.path.join(lvl_dir, fname)
 
-        for fname in get_deck_files(lvl_dir):
-            file_path = os.path.join(lvl_dir, fname)
-
-            try:
-                data = load_deck_file(file_path)
-                cards.extend(data.get("cards", []))
-            except ValueError as e:
-                print(f"Error processing {file_path}: {str(e)}")
+                try:
+                    data = load_deck_file(file_path)
+                    cards.extend(data.get("cards", []))
+                except ValueError as e:
+                    print(f"Error processing {file_path}: {str(e)}")
 
     if cards:
         build_deck("all", "all", cards)
 
 
-def process_chunk_mode(levels: List[str], chunk_size: int) -> None:
+def process_chunk_mode(
+    levels: List[str], chunk_size: int, discovered_files: Optional[Dict[str, List[str]]] = None
+) -> None:
     """
     Process decks in chunk mode (decks with a specified number of files each).
 
     Args:
         levels: List of levels to process
         chunk_size: Number of files per deck
+        discovered_files: Optional dictionary mapping level names to lists of file paths
 
     Raises:
         ValueError: If chunk_size is <= 0
@@ -321,18 +399,26 @@ def process_chunk_mode(levels: List[str], chunk_size: int) -> None:
         raise ValueError("Chunk size must be greater than 0")
 
     for lvl in levels:
-        lvl_dir = os.path.join("decks", lvl)
-        files = get_deck_files(lvl_dir)
+        if discovered_files and lvl in discovered_files:
+            # Use discovered files
+            files = [os.path.basename(f) for f in discovered_files[lvl]]
+            file_paths = discovered_files[lvl]
+        else:
+            # Use traditional directory listing
+            lvl_dir = os.path.join("decks", lvl)
+            files = get_deck_files(lvl_dir)
+            file_paths = [os.path.join(lvl_dir, f) for f in files]
 
         for i in range(0, len(files), chunk_size):
-            chunk = files[i : i + chunk_size]
+            chunk_files = files[i : i + chunk_size]
+            chunk_paths = file_paths[i : i + chunk_size]
             cards = []
             topics = []
 
-            for fname in chunk:
+            for j, fname in enumerate(chunk_files):
                 topic = os.path.splitext(fname)[0]
                 topics.append(topic)
-                file_path = os.path.join(lvl_dir, fname)
+                file_path = chunk_paths[j]
 
                 try:
                     data = load_deck_file(file_path)
@@ -363,33 +449,57 @@ def main() -> int:
     parser.add_argument(
         "--chunk-size", type=int, default=0, help="number of files per deck in chunk mode"
     )
+    parser.add_argument(
+        "--auto-discover", action="store_true", help="automatically discover all deck files"
+    )
     args = parser.parse_args()
 
     try:
         # Determine levels
-        all_levels = sorted(
-            [d for d in os.listdir("decks") if os.path.isdir(os.path.join("decks", d))]
-        )
+        if args.auto_discover:
+            # Use automatic discovery
+            discovered_decks = discover_deck_files()
+            all_levels = sorted(discovered_decks.keys())
 
-        if args.level:
-            levels = [args.level]
-        elif args.all or args.mode:
-            levels = all_levels
+            if args.level:
+                if args.level in discovered_decks:
+                    levels = [args.level]
+                else:
+                    print(f"Warning: Level '{args.level}' not found in discovered decks")
+                    levels = []
+            else:
+                levels = all_levels
         else:
-            parser.error("Specify --level, --all, or --mode")
+            # Use traditional directory listing
+            all_levels = sorted(
+                [d for d in os.listdir("decks") if os.path.isdir(os.path.join("decks", d))]
+            )
+
+            if args.level:
+                levels = [args.level]
+            elif args.all or args.mode:
+                levels = all_levels
+            else:
+                parser.error("Specify --level, --all, --mode, or --auto-discover")
+
+        if not levels:
+            print("No levels to process")
+            return 0
 
         mode = args.mode or "per-file"
 
         # Process according to mode
+        discovered_files = discovered_decks if args.auto_discover else None
+
         if mode == "per-file":
-            process_per_file_mode(levels)
+            process_per_file_mode(levels, discovered_files)
         elif mode == "per-level":
-            process_per_level_mode(levels)
+            process_per_level_mode(levels, discovered_files)
         elif mode == "uber":
-            process_uber_mode(levels)
+            process_uber_mode(levels, discovered_files)
         elif mode == "chunk":
             try:
-                process_chunk_mode(levels, args.chunk_size)
+                process_chunk_mode(levels, args.chunk_size, discovered_files)
             except ValueError as e:
                 parser.error(str(e))
         else:
