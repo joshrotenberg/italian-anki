@@ -44,6 +44,12 @@ python generate.py --mode uber
 
 # Chunk mode: Creates decks with a specified number of files each
 python generate.py --mode chunk --chunk-size 10 --level a1
+
+# Auto-discover mode: Automatically discovers all deck files
+python generate.py --auto-discover
+
+# Auto-discover with uber mode: Discovers all deck files and creates one big deck
+python generate.py --auto-discover --mode uber
 ```
 
 ## 3. Run tests

@@ -11,7 +11,6 @@ italian-anki/
 │   └── a2/           # A2-level deck files (TOML)
 ├── generate.py       # Script to build .apkg Anki decks from TOML
 ├── validate.py       # Script to validate deck file format
-├── json_to_toml.py   # Script used to convert JSON files to TOML format (legacy)
 ├── lint.py           # Script to run linting checks
 ├── setup.cfg         # Tool configuration
 ├── pyproject.toml    # Modern Python packaging and tool configuration
@@ -46,6 +45,12 @@ python generate.py --all
 python generate.py --mode per-level  # One deck per level
 python generate.py --mode uber       # One big deck with all cards
 python generate.py --mode chunk --chunk-size 10  # Decks with 10 files each
+
+# Automatically discover and build all deck files:
+python generate.py --auto-discover
+
+# Automatically discover and build one big deck:
+python generate.py --auto-discover --mode uber
 ```
 
 Validate deck files:
@@ -109,7 +114,6 @@ The pre-commit hooks include:
 - Linting with flake8
 - Type checking with mypy
 - Security scanning with bandit
-- JSON deck validation
 
 ### Continuous Integration
 
