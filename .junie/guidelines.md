@@ -2,6 +2,11 @@
 
 This document provides specific information for developers working on the Italian Anki Decks project.
 
+## Repository Information
+
+- **Repository URL**: https://github.com/joshrotenberg/italian-anki
+- **Additional Context**: For more context, you can check the repository's Issues, Pull Requests, and commit history.
+
 ## Build/Configuration Instructions
 
 ### Environment Setup
@@ -20,12 +25,12 @@ This document provides specific information for developers working on the Italia
 
 The project supports multiple build modes:
 
-1. **Per-file mode** (default): Creates a separate deck for each JSON file
+1. **Per-file mode** (default): Creates a separate deck for each TOML file
    ```bash
    python generate.py --level a1
    ```
 
-2. **Per-level mode**: Combines all JSON files of a level into a single deck
+2. **Per-level mode**: Combines all TOML files of a level into a single deck
    ```bash
    python generate.py --mode per-level --level a1
    ```
@@ -125,6 +130,29 @@ The schema requirements enforced by `validate.py` define the expected structure 
   - "tags": An array with exactly 2 items:
     - First tag must be the level (a1, a2, b1)
     - Second tag must be the topic (matching the filename without extension)
+
+### Markdown Support
+
+The project supports Markdown formatting in TOML files:
+
+- **Basic Formatting**:
+  - Bold text: `**bold**`
+  - Italic text: `*italic*`
+  - Lists: Use `-` or `*` for bullet points, and `1.`, `2.`, etc. for numbered lists
+  - Line breaks: Use a blank line to create a new paragraph
+
+- **Usage in Cards**:
+  - Markdown is automatically converted to HTML when generating Anki decks
+  - Use Markdown instead of HTML for better readability and maintainability
+  - For cases where Markdown doesn't support required formatting, HTML can still be used
+
+- **Examples**:
+  ```toml
+  fields = [
+    "Come si dice **hello** in italiano?",
+    "Si dice *ciao* in italiano."
+  ]
+  ```
 
 ### Card Models
 
