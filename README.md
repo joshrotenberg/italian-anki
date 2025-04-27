@@ -1,16 +1,17 @@
 # Italian Anki Decks
 
-A collection of JSON files and scripts for generating Anki decks to learn Italian at different proficiency levels.
+A collection of deck files (TOML) and scripts for generating Anki decks to learn Italian at different proficiency levels. Supports Markdown formatting in card content.
 
 ## Repository Structure
 
 ```
 italian-anki/
 ├── decks/
-│   ├── a1/           # A1-level JSON deck files
-│   └── a2/           # A2-level JSON deck files
-├── generate.py       # Script to build .apkg Anki decks from JSON
-├── validate.py       # Script to validate JSON deck format
+│   ├── a1/           # A1-level deck files (TOML)
+│   └── a2/           # A2-level deck files (TOML)
+├── generate.py       # Script to build .apkg Anki decks from TOML
+├── validate.py       # Script to validate deck file format
+├── json_to_toml.py   # Script used to convert JSON files to TOML format (legacy)
 ├── lint.py           # Script to run linting checks
 ├── setup.cfg         # Tool configuration
 ├── pyproject.toml    # Modern Python packaging and tool configuration
@@ -35,14 +36,19 @@ Generate Anki decks:
 # Build A1 decks:
 python generate.py --level a1
 
-# Build A2 decks (core + extras):
+# Build A2 decks:
 python generate.py --level a2
 
 # Build all levels (if available):
-python generate.py --level all
+python generate.py --all
+
+# Build decks in different modes:
+python generate.py --mode per-level  # One deck per level
+python generate.py --mode uber       # One big deck with all cards
+python generate.py --mode chunk --chunk-size 10  # Decks with 10 files each
 ```
 
-Validate JSON files:
+Validate deck files:
 
 ```bash
 # Validate A1 decks
@@ -50,6 +56,9 @@ python validate.py decks/a1
 
 # Validate A2 decks
 python validate.py decks/a2
+
+# Validate a specific file
+python validate.py decks/a1/alfabeto.toml
 ```
 
 ## Development Tools
@@ -120,16 +129,47 @@ The CI workflow runs on every push to main and on pull requests.
 
 ### Adding New Decks
 
-1. Add new JSON file under `decks/<level>/`.
-2. Follow naming: `<topic>.json`.
-3. Each card must include:
-   - `model`: `basic` or `cloze`
-   - `front` and `back` HTML strings
-   - `tags`: `["<level>", "<topic>"]`
-4. Run validation:
-   ```bash
-   python validate.py decks/<level>
+Add new decks in TOML format:
+
+1. Add new TOML file under `decks/<level>/`.
+2. Follow naming: `<topic>.toml`.
+3. Include deck information:
+   ```toml
+   deck = "<level>::<topic>"
+   model = "basic"  # Default model for all notes
    ```
+4. Add notes:
+   ```toml
+   [[notes]]
+   note_id = 10001  # Optional unique ID
+   tags = ["<level>", "<topic>"]
+   fields = ["Front content", "Back content"]  # For basic model
+
+   [[notes]]
+   model = "cloze"  # Override default model
+   tags = ["<level>", "<topic>"]
+   fields = ["Text with {{c1::cloze}} deletions"]  # For cloze model
+   ```
+5. Run validation:
+   ```bash
+   python validate.py decks/<level>/<topic>.toml
+   ```
+
+#### Markdown Support
+
+TOML format supports Markdown formatting in card content:
+
+- **Bold text**: `**bold**`
+- *Italic text*: `*italic*`
+- Lists:
+  ```
+  - Item 1
+  - Item 2
+  ```
+- Links: `[text](url)`
+- And other standard Markdown syntax
+
+The Markdown is automatically converted to HTML when generating Anki decks.
 
 ### Development Workflow
 

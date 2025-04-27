@@ -1,0 +1,112 @@
+deck = "a1::frasi_reclami"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "frasi_reclami",
+]
+fields = [
+    "❗️ **Scusi, c’è un problema**",
+    "Meaning: Excuse me, there’s a problem",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "frasi_reclami",
+]
+fields = [
+    "❌ **Il cibo è freddo**",
+    "Meaning: The food is cold",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "frasi_reclami",
+]
+fields = [
+    "🚰 **Non c’è acqua**",
+    "Meaning: There’s no water",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "frasi_reclami",
+]
+fields = [
+    "⚠️ **Il servizio è lento**",
+    "Meaning: The service is slow",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "frasi_reclami",
+]
+fields = [
+    "💰 **Ho pagato troppo**",
+    "Meaning: I paid too much",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "frasi_reclami",
+]
+fields = [
+    "❓ **Posso parlare con il manager?**",
+    "Meaning: Can I speak to the manager?",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "frasi_reclami",
+]
+fields = [
+    "✅ **Grazie per l’aiuto**",
+    "Meaning: Thanks for the help",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "frasi_reclami",
+]
+fields = [
+    "🚫 **Non funziona**",
+    "Meaning: It doesn’t work",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "frasi_reclami",
+]
+fields = [
+    "🔄 **Possiamo cambiare tavolo?**",
+    "Meaning: Can we change table?",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "frasi_reclami",
+]
+fields = [
+    "🕓 **È molto tardi**",
+    "Meaning: It’s very late",
+]

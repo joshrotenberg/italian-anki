@@ -1,0 +1,222 @@
+deck = "a2::vocab_servizi"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "💊 **la farmacia**",
+    "Meaning: pharmacy\nExample: Devo andare in **farmacia**",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "🏦 **la banca**",
+    "Meaning: bank\nExample: Vado in **banca** per prelevare",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "🏥 **l'ospedale**",
+    "Meaning: hospital\nExample: L'**ospedale** è vicino alla stazione",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "📮 **la posta**",
+    "Meaning: post office\nExample: Manda la lettera alla **posta**",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "🛒 **il supermercato**",
+    "Meaning: supermarket\nExample: Faccio la spesa al **supermercato**",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "🧺 **la lavanderia**",
+    "Meaning: laundromat\nExample: Porto i vestiti in **lavanderia**",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "💇 **il parrucchiere**",
+    "Meaning: hairdresser\nExample: Prenoto un appuntamento dal **parrucchiere**",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "📚 **la biblioteca**",
+    "Meaning: library\nExample: Studio in **biblioteca**",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "🏨 **l'hotel**",
+    "Meaning: hotel\nExample: Abbiamo prenotato un **hotel** in centro",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "🚌 **l'autobus**",
+    "Meaning: bus service\nExample: Prendo l'**autobus** 22",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "🚕 **il taxi**",
+    "Meaning: taxi service\nExample: Chiamo un **taxi**",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "🚇 **la metropolitana**",
+    "Meaning: subway service\nExample: Prendo la **metropolitana** a Milano",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "🚲 **il bike sharing**",
+    "Meaning: bike sharing\nExample: Uso il **bike sharing** per andare al lavoro",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "👮 **la polizia**",
+    "Meaning: police service\nExample: Chiamo la **polizia** in caso di emergenza",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "🚒 **i vigili del fuoco**",
+    "Meaning: fire brigade\nExample: Richiamo i **vigili del fuoco**",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "🛠️ **l'idraulico**",
+    "Meaning: plumber service\nExample: Chiamo **l'idraulico** per la riparazione",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "💡 **l'elettricista**",
+    "Meaning: electrician service\nExample: Arriva l'**elettricista** alle 10",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "🔑 **il fabbro**",
+    "Meaning: locksmith\nExample: Chiama il **fabbro** per cambiare la serratura",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "📞 **l'assistenza clienti**",
+    "Meaning: customer service\nExample: Contatto **l'assistenza clienti**",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "vocab_servizi",
+]
+fields = [
+    "🚑 **il servizio d'emergenza**",
+    "Meaning: emergency services\nExample: Chiama **il servizio d'emergenza** 112",
+]

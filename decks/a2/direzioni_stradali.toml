@@ -1,0 +1,222 @@
+deck = "a2::direzioni_stradali"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "➡️ **Gira a destra**",
+    "Meaning: Turn right\nExample: Gira a destra dopo il semaforo",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "⬅️ **Gira a sinistra**",
+    "Meaning: Turn left\nExample: Gira a sinistra in via Roma",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "⬆️ **Vai dritto**",
+    "Meaning: Go straight\nExample: Vai dritto fino alla piazza",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "↗️ **Prendi la seconda a destra**",
+    "Meaning: Take the second right\nExample: Prendi la seconda a destra dopo il bar",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "↖️ **Prendi la prima a sinistra**",
+    "Meaning: Take the first left\nExample: Prendi la prima a sinistra dopo il negozio",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "⛔️ **Non è permesso girare qui**",
+    "Meaning: You cannot turn here\nExample: È un senso unico, non è permesso girare qui",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "🚧 **Attraversa la strada**",
+    "Meaning: Cross the street\nExample: Attraversa la strada con cautela",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "🔝 **Arriva in cima**",
+    "Meaning: Reach the top\nExample: Arriva in cima alla collina",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "🔙 **Torna indietro**",
+    "Meaning: Go back\nExample: Se sbagli strada, torna indietro",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "↔️ **Prosegui parallelo**",
+    "Meaning: Continue parallel\nExample: Prosegui parallelo al fiume",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "🏞️ **Segui il cartello**",
+    "Meaning: Follow the sign\nExample: Segui il cartello per il museo",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "🚏 **Scendi alla fermata**",
+    "Meaning: Get off at the stop\nExample: Scendi alla fermata successiva",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "🏠 **Svolta davanti alla casa gialla**",
+    "Meaning: Turn in front of the yellow house\nExample: Svolta davanti alla casa gialla",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "🛣️ **Segui la strada principale**",
+    "Meaning: Follow the main road\nExample: Segui la strada principale fino al ponte",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "🛤️ **Attraversa il ponte**",
+    "Meaning: Cross the bridge\nExample: Attraversa il ponte, poi gira a destra",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "🚶‍♂️ **Passeggia lungo il fiume**",
+    "Meaning: Walk along the river\nExample: Passeggia lungo il fiume fino al parco",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "🗺️ **Consulta la mappa**",
+    "Meaning: Check the map\nExample: Consulta la mappa per le indicazioni",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "📍 **Segna il punto di arrivo**",
+    "Meaning: Mark the arrival point\nExample: Segna il punto di arrivo sulla mappa",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "📏 **È a 200 metri**",
+    "Meaning: It's 200 meters away\nExample: L'ufficio è a 200 metri da qui",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "direzioni_stradali",
+]
+fields = [
+    "⌛ **Ci vorranno 5 minuti**",
+    "Meaning: It will take 5 minutes\nExample: Ci vorranno 5 minuti a piedi",
+]

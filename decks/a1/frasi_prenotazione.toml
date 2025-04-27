@@ -1,0 +1,112 @@
+deck = "a1::frasi_prenotazione"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "frasi_prenotazione",
+]
+fields = [
+    "📞 **Vorrei prenotare un tavolo**",
+    "Meaning: I would like to book a table",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "frasi_prenotazione",
+]
+fields = [
+    "❓ **Avete un tavolo per due?**",
+    "Meaning: Do you have a table for two?",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "frasi_prenotazione",
+]
+fields = [
+    "⏰ **Per che ora?**",
+    "Meaning: For what time?",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "frasi_prenotazione",
+]
+fields = [
+    "❗️ **Alle otto, per favore**",
+    "Meaning: At eight, please",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "frasi_prenotazione",
+]
+fields = [
+    "❓ **Posso vedere il menu?**",
+    "Meaning: Can I see the menu?",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "frasi_prenotazione",
+]
+fields = [
+    "📋 **Il vostro menu del giorno**",
+    "Meaning: Your daily menu",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "frasi_prenotazione",
+]
+fields = [
+    "✅ **Confermo la prenotazione**",
+    "Meaning: I confirm the reservation",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "frasi_prenotazione",
+]
+fields = [
+    "❌ **Devo cancellare**",
+    "Meaning: I have to cancel",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "frasi_prenotazione",
+]
+fields = [
+    "🔄 **Posso cambiare?**",
+    "Meaning: Can I change it?",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "frasi_prenotazione",
+]
+fields = [
+    "📞 **Chiamo più tardi**",
+    "Meaning: I’ll call later",
+]

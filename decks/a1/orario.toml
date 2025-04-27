@@ -1,0 +1,222 @@
+deck = "a1::orario"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "🕐 **l’una**",
+    "Meaning: one o’clock",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "🕑 **le due**",
+    "Meaning: two o’clock",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "🕒 **le tre**",
+    "Meaning: three o’clock",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "🕓 **le quattro**",
+    "Meaning: four o’clock",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "🕔 **le cinque**",
+    "Meaning: five o’clock",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "🕕 **le sei**",
+    "Meaning: six o’clock",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "🕖 **le sette**",
+    "Meaning: seven o’clock",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "🕗 **le otto**",
+    "Meaning: eight o’clock",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "🕘 **le nove**",
+    "Meaning: nine o’clock",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "🕙 **le dieci**",
+    "Meaning: ten o’clock",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "🕚 **le undici**",
+    "Meaning: eleven o’clock",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "🕛 **le dodici**",
+    "Meaning: twelve o’clock",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "🌅 **mattina**",
+    "Meaning: morning",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "🌇 **sera**",
+    "Meaning: evening",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "☀️ **giorno**",
+    "Meaning: daytime",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "🌙 **notte**",
+    "Meaning: night",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "🔜 **presto**",
+    "Meaning: early/soon",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "🔚 **tardi**",
+    "Meaning: late",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "⏰ **mezzogiorno**",
+    "Meaning: noon",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "orario",
+]
+fields = [
+    "🌃 **mezzanotte**",
+    "Meaning: midnight",
+]

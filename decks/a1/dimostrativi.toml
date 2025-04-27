@@ -1,0 +1,222 @@
+deck = "a1::dimostrativi"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "📘 **questo libro**",
+    "Meaning: this book\nExample: Prendo **questo libro**",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "👗 **questa gonna**",
+    "Meaning: this skirt\nExample: Provo **questa gonna**",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "📚 **questi libri**",
+    "Meaning: these books\nExample: Leggo **questi libri**",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "👠 **queste scarpe**",
+    "Meaning: these shoes\nExample: Indosso **queste scarpe**",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "📕 **quel libro**",
+    "Meaning: that book\nExample: Vedo **quel libro**",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "🏠 **quella casa**",
+    "Meaning: that house\nExample: Visito **quella casa**",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "👞 **quei pantaloni**",
+    "Meaning: those trousers\nExample: Lavo **quei pantaloni**",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "🌷 **quelle rose**",
+    "Meaning: those roses\nExample: Colgo **quelle rose**",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "👨‍🦳 **quest'uomo**",
+    "Meaning: this man\nExample: Parlo con **quest'uomo**",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "👩‍🦰 **quest'amica**",
+    "Meaning: this friend (f.)\nExample: Vedo **quest'amica**",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "👨 **quell'uomo**",
+    "Meaning: that man\nExample: Conosco **quell'uomo**",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "👩 **quell'amica**",
+    "Meaning: that friend (f.)\nExample: Invito **quell'amica**",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "🌞 **questo giorno**",
+    "Meaning: this day\nExample: Amo **questo giorno**",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "🌛 **quella sera**",
+    "Meaning: that evening\nExample: Ricordo **quella sera**",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "🗓 **questi giorni**",
+    "Meaning: these days\nExample: Studio **questi giorni**",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "🌙 **quelle sere**",
+    "Meaning: those evenings\nExample: Esco **quelle sere**",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "⏰ **quest'ora**",
+    "Meaning: this hour\nExample: Aspetta **quest'ora**",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "🕰 **quell'ora**",
+    "Meaning: that hour\nExample: Arrivo a **quell'ora**",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "👫 **questi amici**",
+    "Meaning: these friends\nExample: Invito **questi amici**",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "dimostrativi",
+]
+fields = [
+    "👥 **quelle persone**",
+    "Meaning: those people\nExample: Incontro **quelle persone**",
+]

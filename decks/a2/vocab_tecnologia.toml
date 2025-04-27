@@ -1,0 +1,233 @@
+deck = "a2::vocab_tecnologia"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "💻 **il computer**",
+    "Meaning: computer\nExample: Uso **il computer** per lavorare",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "📱 **il telefono**",
+    "Meaning: telephone/cellphone\nExample: Ho rotto il mio **telefono**",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "🖥️ **il monitor**",
+    "Meaning: monitor\nExample: Controllo i dati sul **monitor**",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "⌨️ **la tastiera**",
+    "Meaning: keyboard\nExample: Scrivo con la **tastiera**",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "🖱️ **il mouse**",
+    "Meaning: mouse\nExample: Clicco con il **mouse**",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "🖨️ **la stampante**",
+    "Meaning: printer\nExample: Stampo il documento con la **stampante**",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "💾 **il file**",
+    "Meaning: file\nExample: Salvo il **file** sul desktop",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "📂 **la cartella**",
+    "Meaning: folder\nExample: Metto le foto nella **cartella**",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "🌐 **il browser**",
+    "Meaning: browser\nExample: Apro il **browser** per navigare",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "📧 **l'email**",
+    "Meaning: email\nExample: Controllo la **email** ogni mattina",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "🔌 **la presa di corrente**",
+    "Meaning: power outlet\nExample: Collego il caricabatteria alla **presa di corrente**",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "🔋 **la batteria**",
+    "Meaning: battery\nExample: La **batteria** del telefono è scarica",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "📡 **il Wi-Fi**",
+    "Meaning: Wi-Fi\nExample: Cerco una rete **Wi-Fi** gratuita",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "📶 **il segnale**",
+    "Meaning: signal\nExample: Il **segnale** è debole in montagna",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "🎧 **le cuffie**",
+    "Meaning: headphones\nExample: Ascolto musica con le **cuffie**",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "🎤 **il microfono**",
+    "Meaning: microphone\nExample: Parlo al **microfono** durante la conferenza",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "⚙️ **l'applicazione**",
+    "Meaning: application\nExample: Installo una nuova **applicazione**",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "💡 **l'algoritmo**",
+    "Meaning: algorithm\nExample: L'**algoritmo** analizza i dati",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "🔒 **la sicurezza**",
+    "Meaning: security\nExample: Faccio attenzione alla **sicuramentica** online",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "☁️ **il cloud**",
+    "Meaning: cloud\nExample: Salvo i documenti sul **cloud**",
+]
+
+[[notes]]
+note_id = 10021
+tags = [
+    "a2",
+    "vocab_tecnologia",
+]
+fields = [
+    "🌐 **il sito web**",
+    "Meaning: website\nExample: Visito un **sito web** di notizie",
+]

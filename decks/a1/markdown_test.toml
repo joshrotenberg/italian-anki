@@ -1,0 +1,13 @@
+deck = "a1::markdown_test"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "markdown_test",
+]
+fields = [
+    "**Bold text**",
+    "- Item 1\n- Item 2\n\n*Italic text*\n\n[Link](https://example.com)",
+]

@@ -1,0 +1,112 @@
+deck = "a1::numeri_extended"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "numeri_extended",
+]
+fields = [
+    "0️⃣ **zero**",
+    "Meaning: zero\nExample: Ho **zero** euro",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "numeri_extended",
+]
+fields = [
+    "2️⃣0️⃣ **venti**",
+    "Meaning: twenty\nExample: Ho **venti** anni",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "numeri_extended",
+]
+fields = [
+    "3️⃣0️⃣ **trenta**",
+    "Meaning: thirty\nExample: Sono **trenta** giorni",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "numeri_extended",
+]
+fields = [
+    "4️⃣0️⃣ **quaranta**",
+    "Meaning: forty\nExample: Ho **quaranta** libri",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "numeri_extended",
+]
+fields = [
+    "5️⃣0️⃣ **cinquanta**",
+    "Meaning: fifty\nExample: Ci sono **cinquanta** persone",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "numeri_extended",
+]
+fields = [
+    "6️⃣0️⃣ **sessanta**",
+    "Meaning: sixty\nExample: Ha **sessanta** minuti",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "numeri_extended",
+]
+fields = [
+    "7️⃣0️⃣ **settanta**",
+    "Meaning: seventy\nExample: Settanta è un numero",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "numeri_extended",
+]
+fields = [
+    "8️⃣0️⃣ **ottanta**",
+    "Meaning: eighty\nExample: Ci vuole **ottanta** euro",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "numeri_extended",
+]
+fields = [
+    "9️⃣0️⃣ **novanta**",
+    "Meaning: ninety\nExample: Novanta minuti di partita",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "numeri_extended",
+]
+fields = [
+    "1️⃣0️⃣0️⃣ **cento**",
+    "Meaning: hundred\nExample: Costo **cento** euro",
+]

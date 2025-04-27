@@ -1,0 +1,242 @@
+deck = "a2::verbi_imperfetto"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Quando ero piccolo, {{c1::andavo}} al parco.",
+]
+back = "**andavo** = imperfetto di andare (io)"
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Da giovane, {{c1::leggevo}} molti libri.",
+]
+back = "**leggevo** = imperfetto di leggere (io)"
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Ogni estate {{c1::nuotavamo}} in mare.",
+]
+back = "**nuotavamo** = imperfetto di nuotare (noi)"
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Da bambino, {{c1::giocavo}} a calcio.",
+]
+back = "**giocavo** = imperfetto di giocare (io)"
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Spesso {{c1::scrivevo}} lettere.",
+]
+back = "**scrivevo** = imperfetto di scrivere (io)"
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Ogni giorno {{c1::parlavano}} al telefono.",
+]
+back = "**parlavano** = imperfetto di parlare (loro)"
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Quando pioveva, {{c1::restavamo}} a casa.",
+]
+back = "**restavamo** = imperfetto di restare (noi)"
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Spesso {{c1::facevo}} dolci con mia madre.",
+]
+back = "**facevo** = imperfetto di fare (io)"
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Ogni mattina {{c1::bevevo}} un caffè.",
+]
+back = "**bevevo** = imperfetto di bere (io)"
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Quando studiavo, {{c1::ascoltavo}} musica.",
+]
+back = "**ascoltavo** = imperfetto di ascoltare (io)"
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Da piccolo {{c1::dormivo}} presto.",
+]
+back = "**dormivo** = imperfetto di dormire (io)"
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Spesso {{c1::sceglievi}} un gelato.",
+]
+back = "**sceglievi** = imperfetto di scegliere (tu)"
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Ogni sera {{c1::cantavamo}} insieme.",
+]
+back = "**cantavamo** = imperfetto di cantare (noi)"
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Quando vivevo a Roma, {{c1::conoscevo}} molte persone.",
+]
+back = "**conoscevo** = imperfetto di conoscere (io)"
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Ogni anno {{c1::viaggiavano}} in Italia.",
+]
+back = "**viaggiavano** = imperfetto di viaggiare (loro)"
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Spesso {{c1::capivamo}} la situazione.",
+]
+back = "**capivamo** = imperfetto di capire (noi)"
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Quando ero stanco, {{c1::riposavo}} un po'.",
+]
+back = "**riposavo** = imperfetto di riposare (io)"
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Da ragazzo {{c1::suonavi}} la chitarra.",
+]
+back = "**suonavi** = imperfetto di suonare (tu)"
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Spesso {{c1::benediceva}} la tavola.",
+]
+back = "**benediceva** = imperfetto di benedire (lui)"
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "verbi_imperfetto",
+]
+model = "cloze"
+fields = [
+    "Ogni domenica {{c1::mangiavamo}} insieme.",
+]
+back = "**mangiavamo** = imperfetto di mangiare (noi)"

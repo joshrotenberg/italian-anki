@@ -1,0 +1,222 @@
+deck = "a1::aggettivi_nazionalita"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇮🇹 **italiano**",
+    "Meaning: Italian (m.)\nExample: Lui è **italiano**",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇮🇹 **italiana**",
+    "Meaning: Italian (f.)\nExample: Lei è **italiana**",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇫🇷 **francese**",
+    "Meaning: French (m/f)\nExample: Sono **francese**",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇪🇸 **spagnolo**",
+    "Meaning: Spanish (m.)\nExample: Amico **spagnolo**",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇪🇸 **spagnola**",
+    "Meaning: Spanish (f.)\nExample: Insegnante **spagnola**",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇩🇪 **tedesco**",
+    "Meaning: German (m.)\nExample: Lui parla **tedesco**",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇩🇪 **tedesca**",
+    "Meaning: German (f.)\nExample: Lei è **tedesca**",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇬🇧 **inglese**",
+    "Meaning: English (m/f)\nExample: Lei è **inglese**",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇺🇸 **americano**",
+    "Meaning: American (m.)\nExample: Amico **americano**",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇺🇸 **americana**",
+    "Meaning: American (f.)\nExample: Studentessa **americana**",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇨🇳 **cinese**",
+    "Meaning: Chinese (m/f)\nExample: Collega **cinese**",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇯🇵 **giapponese**",
+    "Meaning: Japanese (m/f)\nExample: Studente **giapponese**",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇷🇺 **russo**",
+    "Meaning: Russian (m.)\nExample: Lui è **russo**",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇷🇺 **russa**",
+    "Meaning: Russian (f.)\nExample: Lei è **russa**",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇧🇷 **brasiliano**",
+    "Meaning: Brazilian (m.)\nExample: Amico **brasiliano**",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇧🇷 **brasiliana**",
+    "Meaning: Brazilian (f.)\nExample: Lei è **brasiliana**",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇲🇽 **messicano**",
+    "Meaning: Mexican (m.)\nExample: Lui è **messicano**",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇲🇽 **messicana**",
+    "Meaning: Mexican (f.)\nExample: Lei è **messicana**",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇨🇦 **canadese**",
+    "Meaning: Canadian (m/f)\nExample: Studente **canadese**",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "aggettivi_nazionalita",
+]
+fields = [
+    "🇦🇺 **australiano**",
+    "Meaning: Australian (m.)\nExample: Lui è **australiano**",
+]

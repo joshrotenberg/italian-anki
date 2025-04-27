@@ -1,0 +1,222 @@
+deck = "a1::verbo_esserci"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "🏠 **C’è un cane nel parco**",
+    "Meaning: there is a dog\nExample: C’è un cane nel parco",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "🐱 **Ci sono due gatti in giardino**",
+    "Meaning: there are two cats\nExample: Ci sono due gatti in giardino",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "🍞 **Non c’è pane in casa**",
+    "Meaning: there isn’t any bread\nExample: Non c’è pane in casa",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "💺 **Non ci sono sedie nella stanza**",
+    "Meaning: there aren’t any chairs\nExample: Non ci sono sedie nella stanza",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "❓ **C’è una stazione qui vicino?**",
+    "Meaning: is there a station nearby?\nExample: C’è una stazione qui vicino?",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "🚻 **Ci sono i bagni?**",
+    "Meaning: are the restrooms there?\nExample: Ci sono i bagni?",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "📍 **Dove c’è il supermercato?**",
+    "Meaning: where is the supermarket?\nExample: Dove c’è il supermercato?",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "❓ **Perché non ci sono libri?**",
+    "Meaning: why aren’t there books?\nExample: Perché non ci sono libri?",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "📦 **C’è qualche problema?**",
+    "Meaning: is there a problem?\nExample: C’è qualche problema?",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "🚗 **C’è sempre traffico qui**",
+    "Meaning: there is always traffic\nExample: C’è sempre traffico qui",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "🌙 **Non c’è mai luce al mattino**",
+    "Meaning: there is never light\nExample: Non c’è mai luce al mattino",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "🎓 **Ci sono molti studenti all’università**",
+    "Meaning: there are many students\nExample: Ci sono molti studenti all’università",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "🎫 **Non ci sono più biglietti**",
+    "Meaning: there aren’t any tickets left\nExample: Non ci sono più biglietti",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "🍷 **C’è del vino sulla tavola**",
+    "Meaning: there is some wine\nExample: C’è del vino sulla tavola",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "💺 **Ci sono delle sedie in giardino**",
+    "Meaning: there are some chairs\nExample: Ci sono delle sedie in giardino",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "👥 **C’è chi parla inglese**",
+    "Meaning: some speak English\nExample: C’è chi parla inglese",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "🍽 **Ci sono molti ristoranti qui**",
+    "Meaning: there are many restaurants\nExample: Ci sono molti ristoranti qui",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "🚶 **C’è una persona alla tua destra**",
+    "Meaning: there is a person to your right\nExample: C’è una persona alla tua destra",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "🔢 **Ci sono otto persone al tavolo**",
+    "Meaning: there are eight people\nExample: Ci sono otto persone al tavolo",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "verbo_esserci",
+]
+fields = [
+    "💶 **Non ci sono soldi**",
+    "Meaning: there is no money\nExample: Non ci sono soldi",
+]

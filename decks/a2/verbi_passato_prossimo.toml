@@ -1,0 +1,242 @@
+deck = "a2::verbi_passato_prossimo"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri ho {{c1::mangiato}} una pasta.",
+]
+back = "**mangiato** = passato prossimo di mangiare (io)"
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri ho {{c1::letto}} un libro.",
+]
+back = "**letto** = passato prossimo di leggere (io)"
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri ho {{c1::parlato}} al telefono.",
+]
+back = "**parlato** = passato prossimo di parlare (io)"
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri ho {{c1::bevuto}} un caffè.",
+]
+back = "**bevuto** = passato prossimo di bere (io)"
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri ho {{c1::fatto}} i compiti.",
+]
+back = "**fatto** = passato prossimo di fare (io)"
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri sono {{c1::andato}} al cinema.",
+]
+back = "**andato** = passato prossimo di andare (io)"
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri sono {{c1::venuto}} a casa tua.",
+]
+back = "**venuto** = passato prossimo di venire (io)"
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri ho {{c1::visto}} un documentario.",
+]
+back = "**visto** = passato prossimo di vedere (io)"
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri ho {{c1::preso}} l'autobus.",
+]
+back = "**preso** = passato prossimo di prendere (io)"
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri ho {{c1::detto}} la verità.",
+]
+back = "**detto** = passato prossimo di dire (io)"
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri ho {{c1::rimasto}} a casa.",
+]
+back = "**rimasto** = passato prossimo di rimanere (io)"
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri sono {{c1::uscito}} con gli amici.",
+]
+back = "**uscito** = passato prossimo di uscire (io)"
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri ho {{c1::dormito}} profondamente.",
+]
+back = "**dormito** = passato prossimo di dormire (io)"
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri ho {{c1::guardato}} la TV.",
+]
+back = "**guardato** = passato prossimo di guardare (io)"
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri ho {{c1::completato}} il progetto.",
+]
+back = "**completato** = passato prossimo di completare (io)"
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri ho {{c1::aspettato}} l'autobus.",
+]
+back = "**aspettato** = passato prossimo di aspettare (io)"
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri ho {{c1::pagato}} il conto.",
+]
+back = "**pagato** = passato prossimo di pagare (io)"
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri ho {{c1::disegnato}} un paesaggio.",
+]
+back = "**disegnato** = passato prossimo di disegnare (io)"
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri ho {{c1::costruito}} un castello di sabbia.",
+]
+back = "**costruito** = passato prossimo di costruire (io)"
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "verbi_passato_prossimo",
+]
+model = "cloze"
+fields = [
+    "Ieri ho {{c1::pulito}} la casa.",
+]
+back = "**pulito** = passato prossimo di pulire (io)"

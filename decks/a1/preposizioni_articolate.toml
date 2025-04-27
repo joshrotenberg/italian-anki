@@ -1,0 +1,242 @@
+deck = "a1::preposizioni_articolate"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "Vado {{c1::al}} cinema.",
+]
+back = "**al** = a + il = to the"
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "Torno {{c1::alla}} stazione.",
+]
+back = "**alla** = a + la = to the"
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "Gioco {{c1::allo}} stadio.",
+]
+back = "**allo** = a + lo = to the"
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "Dò i fiori {{c1::ai}} miei amici.",
+]
+back = "**ai** = a + i = to the"
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "Parlo {{c1::agli}} studenti.",
+]
+back = "**agli** = a + gli = to the"
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "Scrivo {{c1::alle}} ragazze.",
+]
+back = "**alle** = a + le = to the"
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "Il titolo {{c1::del}} libro.",
+]
+back = "**del** = di + il = of the"
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "La copertina {{c1::della}} rivista.",
+]
+back = "**della** = di + la = of the"
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "Il fondo {{c1::dello}} schermo.",
+]
+back = "**dello** = di + lo = of the"
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "Le pagine {{c1::dei}} documenti.",
+]
+back = "**dei** = di + i = of the"
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "Le foto {{c1::degli}} amici.",
+]
+back = "**degli** = di + gli = of the"
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "La fine {{c1::delle}} storie.",
+]
+back = "**delle** = di + le = of the"
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "Abito {{c1::nel}} centro.",
+]
+back = "**nel** = in + il = in the"
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "Studio {{c1::nella}} biblioteca.",
+]
+back = "**nella** = in + la = in the"
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "Il numero {{c1::nello}} specchio.",
+]
+back = "**nello** = in + lo = in the"
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "I libri {{c1::nei}} scaffali.",
+]
+back = "**nei** = in + i = in the"
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "Le chiavi {{c1::nelle}} tasche.",
+]
+back = "**nelle** = in + le = in the"
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "Il gatto {{c1::sul}} divano.",
+]
+back = "** sul** = su + il = on the"
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "La tazza {{c1::sulla}} scrivania.",
+]
+back = "**sulla** = su + la = on the"
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "preposizioni_articolate",
+]
+model = "cloze"
+fields = [
+    "Il logo {{c1::sullo}} sfondo.",
+]
+back = "**sullo** = su + lo = on the"

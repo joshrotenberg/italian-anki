@@ -1,0 +1,222 @@
+deck = "a1::articoli"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "📖 **il**",
+    "Meaning: the (masc. sing.)\nExample: il libro",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "📖 **lo**",
+    "Meaning: the (masc. sing. before s+cons./z)\nExample: lo studente",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "📖 **la**",
+    "Meaning: the (fem. sing.)\nExample: la casa",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "📖 **l’**",
+    "Meaning: the (before vowel)\nExample: l’amico",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "📖 **i**",
+    "Meaning: the (masc. pl.)\nExample: i libri",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "📖 **gli**",
+    "Meaning: the (masc. pl. before vowel/s+cons.)\nExample: gli studenti",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "📖 **le**",
+    "Meaning: the (fem. pl.)\nExample: le case",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "➕ **un**",
+    "Meaning: a/an (masc.)\nExample: un gatto",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "➕ **uno**",
+    "Meaning: a/an (masc. before s+cons./z)\nExample: uno studente",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "➕ **una**",
+    "Meaning: a/an (fem.)\nExample: una mela",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "➕ **un’**",
+    "Meaning: a/an (fem. before vowel)\nExample: un’amica",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "🔄 **del**",
+    "Meaning: some (masc. sing.)\nExample: del pane",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "🔄 **dello**",
+    "Meaning: some (masc. sing. s+cons./z)\nExample: dello zucchero",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "🔄 **della**",
+    "Meaning: some (fem. sing.)\nExample: della frutta",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "🔄 **dell’**",
+    "Meaning: some (before vowel)\nExample: dell’acqua",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "🔄 **dei**",
+    "Meaning: some (masc. pl.)\nExample: dei libri",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "🔄 **degli**",
+    "Meaning: some (masc. pl. s+cons./vowel)\nExample: degli studenti",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "🔄 **delle**",
+    "Meaning: some (fem. pl.)\nExample: delle case",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "❓ **Quale articolo** per \"amico\"?",
+    "Example: l’amico",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "articoli",
+]
+fields = [
+    "❓ **Quale articolo** per \"scuola\"?",
+    "Example: la scuola",
+]

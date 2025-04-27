@@ -1,0 +1,222 @@
+deck = "a2::proverbi_modi_dire"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "🐢 **Chi va piano va sano e va lontano**",
+    "Meaning: Slow and steady wins the race",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "⏳ **Meglio tardi che mai**",
+    "Meaning: Better late than never",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "💧 **Ogni lasciata è persa**",
+    "Meaning: You snooze you lose",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "🌧️ **Non c'è rosa senza spine**",
+    "Meaning: Every rose has its thorn",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "🗣️ **Chi dorme non piglia pesci**",
+    "Meaning: He who sleeps catches no fish",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "🍎 **Pane al pane, vino al vino**",
+    "Meaning: Call a spade a spade",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "👥 **L'unione fa la forza**",
+    "Meaning: Unity is strength",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "📚 **Impara l'arte e mettila da parte**",
+    "Meaning: Learn a skill and keep it",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "🤑 **Soldi non fanno la felicità**",
+    "Meaning: Money doesn't buy happiness",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "🌲 **Tra il dire e il fare c'è di mezzo il mare**",
+    "Meaning: Easier said than done",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "🏃 **Chi cerca trova**",
+    "Meaning: Seek and you shall find",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "💡 **Non tutte le ciambelle escono col buco**",
+    "Meaning: You can't always get what you want",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "⛈️ **Dopo la pioggia torna il sereno**",
+    "Meaning: After the rain comes the sun",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "🐑 **Occhio non vede, cuore non duole**",
+    "Meaning: Ignorance is bliss",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "🦺 **Prevenire è meglio che curare**",
+    "Meaning: Prevention is better than cure",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "🎁 **Non è tutto oro quel che luccica**",
+    "Meaning: All that glitters is not gold",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "⌛ **Chi ha tempo non aspetti tempo**",
+    "Meaning: Make hay while the sun shines",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "🔒 **Tra moglie e marito non mettere il dito**",
+    "Meaning: Don't interfere in others' disputes",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "🍵 **Chi ben comincia è a metà dell'opera**",
+    "Meaning: A good start is half the work",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "proverbi_modi_dire",
+]
+fields = [
+    "🥇 **La pratica rende perfetti**",
+    "Meaning: Practice makes perfect",
+]

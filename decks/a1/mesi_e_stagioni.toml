@@ -1,0 +1,222 @@
+deck = "a1::mesi_e_stagioni"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "🗓 **gennaio**",
+    "Meaning: January\nExample: Gennaio è freddo",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "🗓 **febbraio**",
+    "Meaning: February\nExample: Febbraio ha 28 giorni",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "🗓 **marzo**",
+    "Meaning: March\nExample: Marzo è primavera",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "🗓 **aprile**",
+    "Meaning: April\nExample: Ad aprile piove spesso",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "🗓 **maggio**",
+    "Meaning: May\nExample: Maggio è mese dei fiori",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "🗓 **giugno**",
+    "Meaning: June\nExample: Giugno è estate",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "🗓 **luglio**",
+    "Meaning: July\nExample: A luglio fa molto caldo",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "🗓 **agosto**",
+    "Meaning: August\nExample: Agosto è mese di ferie",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "🗓 **settembre**",
+    "Meaning: September\nExample: A settembre inizia la scuola",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "🗓 **ottobre**",
+    "Meaning: October\nExample: Ottobre è autunnale",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "🗓 **novembre**",
+    "Meaning: November\nExample: Novembre è piovoso",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "🗓 **dicembre**",
+    "Meaning: December\nExample: Dicembre ha il Natale",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "❄️ **inverno**",
+    "Meaning: winter\nExample: L’inverno è freddo",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "🌸 **primavera**",
+    "Meaning: spring\nExample: La primavera è fiorita",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "🌞 **estate**",
+    "Meaning: summer\nExample: L’estate è calda",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "🍂 **autunno**",
+    "Meaning: autumn\nExample: L’autunno è ventoso",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "📆 **ogni mese**",
+    "Meaning: every month\nExample: Visito nonno **ogni mese**",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "📅 **questo mese**",
+    "Meaning: this month\nExample: **Questo mese** imparo l’italiano",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "📉 **mese scorso**",
+    "Meaning: last month\nExample: **Mese scorso** ho viaggiato",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "mesi_e_stagioni",
+]
+fields = [
+    "📈 **mese prossimo**",
+    "Meaning: next month\nExample: **Mese prossimo** farò una festa",
+]

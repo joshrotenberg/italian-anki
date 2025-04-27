@@ -1,0 +1,222 @@
+deck = "a2::vocab_cucina"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "🍲 **la pentola**",
+    "Meaning: pot\nExample: Metto l'acqua nella **pentola** per la pasta",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "🍳 **la padella**",
+    "Meaning: frying pan\nExample: Riscaldo l'olio nella **padella**",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "🔪 **il coltello**",
+    "Meaning: knife\nExample: Taglio il pane con il **coltello**",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "🍴 **la forchetta**",
+    "Meaning: fork\nExample: Mangio la pasta con la **forchetta**",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "🥄 **il cucchiaio**",
+    "Meaning: spoon\nExample: Mescolo la zuppa con il **cucchiaio**",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "🍽️ **il piatto**",
+    "Meaning: plate\nExample: Metto il dolce sul **piatto**",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "🥛 **il bicchiere**",
+    "Meaning: glass\nExample: Riempio il **bicchiere** di acqua",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "☕ **la tazza**",
+    "Meaning: cup\nExample: Bevo il caffè nella **tazza**",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "🔥 **il forno**",
+    "Meaning: oven\nExample: Inforno la torta nel **forno**",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "❄️ **il frigorifero**",
+    "Meaning: refrigerator\nExample: Metto il latte nel **frigorifero**",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "📡 **il microonde**",
+    "Meaning: microwave\nExample: Scaldo la minestra nel **microonde**",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "🍽️ **il tavolo**",
+    "Meaning: table\nExample: Apparecchio il **tavolo** per cena",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "💺 **la sedia**",
+    "Meaning: chair\nExample: Sposto la **sedia** vicino al tavolo",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "🏠 **la cucina**",
+    "Meaning: kitchen\nExample: Passo molto tempo in **cucina**",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "🚰 **il lavandino**",
+    "Meaning: sink\nExample: Lavo i piatti nel **lavandino**",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "🔪 **il tagliere**",
+    "Meaning: cutting board\nExample: Taglio le verdure sul **tagliere**",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "🥄 **il mestolo**",
+    "Meaning: ladle\nExample: Servo la zuppa con il **mestolo**",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "🧀 **la grattugia**",
+    "Meaning: grater\nExample: Grattugio il formaggio con la **grattugia**",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "⚖️ **la bilancia**",
+    "Meaning: scale\nExample: Peso gli ingredienti con la **bilancia**",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "vocab_cucina",
+]
+fields = [
+    "🥤 **il frullatore**",
+    "Meaning: blender\nExample: Preparo un frullato con il **frullatore**",
+]

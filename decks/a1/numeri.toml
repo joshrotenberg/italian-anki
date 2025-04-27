@@ -1,0 +1,222 @@
+deck = "a1::numeri"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "1️⃣ **uno**",
+    "Meaning: one\nExample: Ho **uno** libro",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "2️⃣ **due**",
+    "Meaning: two\nExample: Ci sono **due** sedie",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "3️⃣ **tre**",
+    "Meaning: three\nExample: Vedo **tre** amici",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "4️⃣ **quattro**",
+    "Meaning: four\nExample: Ho **quattro** penne",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "5️⃣ **cinque**",
+    "Meaning: five\nExample: Mangio **cinque** mele",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "6️⃣ **sei**",
+    "Meaning: six\nExample: Ci sono **sei** finestre",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "7️⃣ **sette**",
+    "Meaning: seven\nExample: Ho **sette** giorni di vacanza",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "8️⃣ **otto**",
+    "Meaning: eight\nExample: Sono le **otto** di sera",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "9️⃣ **nove**",
+    "Meaning: nine\nExample: Vedo **nove** palloncini",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "🔟 **dieci**",
+    "Meaning: ten\nExample: Ho **dieci** dita",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "🔢 **undici**",
+    "Meaning: eleven\nExample: Undici studenti in classe",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "🔟🔟 **dodici**",
+    "Meaning: twelve\nExample: Dodici mesi in un anno",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "1️⃣3️⃣ **tredici**",
+    "Meaning: thirteen\nExample: Ho **tredici** anni",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "1️⃣4️⃣ **quattordici**",
+    "Meaning: fourteen\nExample: Sono **quattordici** studenti",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "1️⃣5️⃣ **quindici**",
+    "Meaning: fifteen\nExample: Quindici giorni di ferie",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "1️⃣6️⃣ **sedici**",
+    "Meaning: sixteen\nExample: Sedici pagine nel capitolo",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "1️⃣7️⃣ **diciassette**",
+    "Meaning: seventeen\nExample: Diciassette persone al parco",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "1️⃣8️⃣ **diciotto**",
+    "Meaning: eighteen\nExample: Ho **diciotto** anni",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "1️⃣9️⃣ **diciannove**",
+    "Meaning: nineteen\nExample: Diciannove pagine lette",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a1",
+    "numeri",
+]
+fields = [
+    "2️⃣0️⃣ **venti**",
+    "Meaning: twenty\nExample: Venti minuti di pausa",
+]

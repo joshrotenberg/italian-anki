@@ -1,0 +1,242 @@
+deck = "a2::verbi_avanzati"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Io {{c1::preferisco}} il tè al caffè.",
+]
+back = "**preferisco** = preferire (isc)"
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Noi {{c1::finivamo}} sempre tardi.",
+]
+back = "**finivamo** = finire (isc)"
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Loro {{c1::pulivano}} la casa ogni settimana.",
+]
+back = "**pulivano** = pulire (isc)"
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Tu {{c1::capisci}} la lezione?",
+]
+back = "**capisci** = capire (isc)"
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Lei {{c1::costruisce}} castelli di sabbia.",
+]
+back = "**costruisce** = costruire (isc)"
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Mi {{c1::sveglio}} alle 7:00.",
+]
+back = "**sveglio** = svegliarsi (riflessivo)"
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Ci {{c1::incontriamo}} ogni lunedì.",
+]
+back = "**incontriamo** = incontrarsi (riflessivo)"
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Mi {{c1::diverto}} al cinema.",
+]
+back = "**diverto** = divertirsi (riflessivo)"
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Ci {{c1::ricordiamo}} del compleanno.",
+]
+back = "**ricordiamo** = ricordarsi (riflessivo)"
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Loro si {{c1::sono lamentati}} del servizio.",
+]
+back = "**si sono lamentati** = lamentarsi (riflessivo passato)"
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Io {{c1::ho deciso}} di partire.",
+]
+back = "**ho deciso** = decidere (composto)"
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Tu {{c1::hai promesso}} di aiutarmi.",
+]
+back = "**hai promesso** = promettere (composto)"
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Lei {{c1::ha scelto}} un vestito elegante.",
+]
+back = "**ha scelto** = scegliere (composto)"
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Noi {{c1::abbiamo scoperto}} un errore.",
+]
+back = "**abbiamo scoperto** = scoprire (composto)"
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Loro {{c1::hanno deciso}} di restare.",
+]
+back = "**hanno deciso** = decidere (composto)"
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Io {{c1::mi sono alzato}} presto.",
+]
+back = "**mi sono alzato** = alzarsi (riflessivo passato)"
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Tu {{c1::ti sei vestito}} in fretta.",
+]
+back = "**ti sei vestito** = vestirsi (riflessivo passato)"
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Lei {{c1::si è addormentata}} subito.",
+]
+back = "**si è addormentata** = addormentarsi (riflessivo passato)"
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Ci {{c1::siamo divertiti}} alla festa.",
+]
+back = "**siamo divertiti** = divertirsi (riflessivo passato)"
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "verbi_avanzati",
+]
+model = "cloze"
+fields = [
+    "Loro {{c1::si ricordano}} di noi.",
+]
+back = "**si ricordano** = ricordarsi (riflessivo)"

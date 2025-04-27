@@ -1,0 +1,236 @@
+deck = "a2::partitivi_ne"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+fields = [
+    "🥖 **del** pane",
+    "Meaning: some bread (di + il)",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+fields = [
+    "🍎 **delle** mele",
+    "Meaning: some apples (di + le)",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+fields = [
+    "🍌 **dei** banane",
+    "Meaning: some bananas (di + i)",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+fields = [
+    "🍫 **dello** cioccolato",
+    "Meaning: some chocolate (di + lo)",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+fields = [
+    "🍕 **della** pizza",
+    "Meaning: some pizza (di + la)",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+fields = [
+    "🔑 **degli** errori",
+    "Meaning: some mistakes (di + gli)",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+model = "cloze"
+fields = [
+    "Quanti libri hai? {{c1::Ne}} ho tre.",
+]
+back = "**ne** = of them"
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+model = "cloze"
+fields = [
+    "Vuoi un dolce? Sì, {{c1::ne}} vorrei uno.",
+]
+back = "**ne** = of it"
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+model = "cloze"
+fields = [
+    "Parli di politica? Non {{c1::ne}} parlo mai.",
+]
+back = "**ne** = of it"
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+model = "cloze"
+fields = [
+    "Hai visto i film? Sì, {{c1::ne}} ho visti molti.",
+]
+back = "**ne** = of them"
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+model = "cloze"
+fields = [
+    "Hai bisogno di aiuto? No, non {{c1::ne}} ho bisogno.",
+]
+back = "**ne** = of it"
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+model = "cloze"
+fields = [
+    "Quante persone? {{c1::Ne}} sono cinque.",
+]
+back = "**ne** = of them"
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+model = "cloze"
+fields = [
+    "Hai mangiato dei biscotti? Sì, {{c1::ne}} ho mangiati due.",
+]
+back = "**ne** = of them"
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+model = "cloze"
+fields = [
+    "Parli di quel progetto? No, non {{c1::ne}} parlo.",
+]
+back = "**ne** = of it"
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+model = "cloze"
+fields = [
+    "Vuoi più acqua? Sì, {{c1::ne}} voglio un po'.",
+]
+back = "**ne** = of it"
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+model = "cloze"
+fields = [
+    "Parli di viaggi? Sì, {{c1::ne}} parlo spesso.",
+]
+back = "**ne** = of it"
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+model = "cloze"
+fields = [
+    "Hai ricevuto email? Sì, {{c1::ne}} ho ricevute molte.",
+]
+back = "**ne** = of them"
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+model = "cloze"
+fields = [
+    "Quante volte? {{c1::Ne}} sono state tre.",
+]
+back = "**ne** = of them"
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+model = "cloze"
+fields = [
+    "Hai parlato di burocrazia? No, non {{c1::ne}} ho parlato.",
+]
+back = "**ne** = of it"
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "partitivi_ne",
+]
+model = "cloze"
+fields = [
+    "Vuoi altro formaggio? Sì, {{c1::ne}} vorrei ancora.",
+]
+back = "**ne** = of it"

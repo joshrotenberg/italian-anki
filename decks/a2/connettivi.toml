@@ -1,0 +1,222 @@
+deck = "a2::connettivi"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "➕ **inoltre**",
+    "Meaning: moreover\nExample: Studio, inoltre lavoro part-time",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "➖ **tuttavia**",
+    "Meaning: however\nExample: È carino, tuttavia caro",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "⚖️ **perciò**",
+    "Meaning: therefore\nExample: Piove, perciò resto a casa",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "🔄 **comunque**",
+    "Meaning: anyway\nExample: Comunque verrò più tardi",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "🎯 **infatti**",
+    "Meaning: in fact\nExample: Infatti ho ragione",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "🚀 **dunque**",
+    "Meaning: thus\nExample: Dunque partiamo domani",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "📍 **ossia**",
+    "Meaning: that is\nExample: Parlo d'italiano, ossia la lingua",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "📌 **cioè**",
+    "Meaning: that is to say\nExample: Studio, cioè imparo",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "🔗 **pertanto**",
+    "Meaning: therefore\nExample: Studio, pertanto imparo",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "⚔️ **nonostante**",
+    "Meaning: despite\nExample: Nonostante piova, esco",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "⚠️ **poiché**",
+    "Meaning: since/because\nExample: Non vado poiché piove",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "🌟 **in primo luogo**",
+    "Meaning: in the first place\nExample: In primo luogo studio italiano",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "🔚 **in secondo luogo**",
+    "Meaning: secondly\nExample: In secondo luogo pratico la lingua",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "🏁 **in conclusione**",
+    "Meaning: in conclusion\nExample: In conclusione, bene così",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "🔄 **quindi**",
+    "Meaning: so/therefore\nExample: Piove, quindi resto a casa",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "⚙️ **conseguentemente**",
+    "Meaning: consequently\nExample: Conseguentemente, agisco",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "🗣️ **a proposito**",
+    "Meaning: by the way\nExample: A proposito, hai visto?",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "📝 **in realtà**",
+    "Meaning: actually\nExample: In realtà ho sbagliato",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "❓ **a tal proposito**",
+    "Meaning: on that note\nExample: A tal proposito, ti ricordi?",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "a2",
+    "connettivi",
+]
+fields = [
+    "🔄 **d'altronde**",
+    "Meaning: on the other hand\nExample: D'altronde, hai ragione",
+]
