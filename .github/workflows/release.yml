@@ -31,9 +31,10 @@ jobs:
       - name: Generate all decks
         run: python generate.py --all
 
-      - name: Create GitHub Release
-        uses: ncipollo/release-action@v1
+      - name: Check output folder contents
+        run: ls -lh output/
+
+      - name: Upload .apkg files
+        uses: softprops/action-gh-release@v2
         with:
-          tag: ${{ github.ref_name }}
-          files: |
-            output/*.apkg
+          files: output/*.apkg
