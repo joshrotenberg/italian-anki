@@ -189,6 +189,7 @@ This ensures that decks and models have consistent IDs across builds, which is i
 - Use meaningful variable and function names
 - Add docstrings to functions and classes
 - Keep functions small and focused on a single task
+- **Always run tests and linting tools after making changes to any code files**
 
 ### CI Test Requirements
 

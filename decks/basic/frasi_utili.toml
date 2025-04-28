@@ -1,0 +1,200 @@
+deck = "basic::frasi_utili"
+model = "basic"
+
+[[notes]]
+note_id = 20401
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "🍽️ **Vorrei ordinare, per favore.**",
+    "Meaning: I would like to order, please.\nExample: **Vorrei ordinare** un caffè, per favore. (I would like to order a coffee, please.)",
+]
+
+[[notes]]
+note_id = 20402
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "🍽️ **Il conto, per favore.**",
+    "Meaning: The bill, please.\nExample: Cameriere, **il conto, per favore**. (Waiter, the bill, please.)",
+]
+
+[[notes]]
+note_id = 20403
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "🗺️ **Dov'è il bagno?**",
+    "Meaning: Where is the bathroom?\nExample: Scusi, **dov'è il bagno**? (Excuse me, where is the bathroom?)",
+]
+
+[[notes]]
+note_id = 20404
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "🗺️ **Come si arriva a...?**",
+    "Meaning: How do you get to...?\nExample: **Come si arriva a** Piazza San Marco? (How do you get to St. Mark's Square?)",
+]
+
+[[notes]]
+note_id = 20405
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "🗺️ **Quanto dista...?**",
+    "Meaning: How far is...?\nExample: **Quanto dista** la stazione? (How far is the station?)",
+]
+
+[[notes]]
+note_id = 20406
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "🛒 **Quanto costa?**",
+    "Meaning: How much does it cost?\nExample: **Quanto costa** questa maglietta? (How much does this T-shirt cost?)",
+]
+
+[[notes]]
+note_id = 20407
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "🛒 **Vorrei comprare...**",
+    "Meaning: I would like to buy...\nExample: **Vorrei comprare** un souvenir. (I would like to buy a souvenir.)",
+]
+
+[[notes]]
+note_id = 20408
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "🗣️ **Non capisco.**",
+    "Meaning: I don't understand.\nExample: Mi dispiace, **non capisco**. (I'm sorry, I don't understand.)",
+]
+
+[[notes]]
+note_id = 20409
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "🗣️ **Può parlare più lentamente?**",
+    "Meaning: Can you speak more slowly?\nExample: **Può parlare più lentamente**, per favore? (Can you speak more slowly, please?)",
+]
+
+[[notes]]
+note_id = 20410
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "🗣️ **Come si dice ... in italiano?**",
+    "Meaning: How do you say ... in Italian?\nExample: **Come si dice** 'hello' **in italiano**? (How do you say 'hello' in Italian?)",
+]
+
+[[notes]]
+note_id = 20411
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "🗣️ **Parla inglese?**",
+    "Meaning: Do you speak English?\nExample: Scusi, **parla inglese**? (Excuse me, do you speak English?)",
+]
+
+[[notes]]
+note_id = 20412
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "🚆 **A che ora parte il treno?**",
+    "Meaning: What time does the train leave?\nExample: **A che ora parte il treno** per Roma? (What time does the train to Rome leave?)",
+]
+
+[[notes]]
+note_id = 20413
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "🚆 **Dove posso comprare un biglietto?**",
+    "Meaning: Where can I buy a ticket?\nExample: **Dove posso comprare un biglietto** per il museo? (Where can I buy a ticket for the museum?)",
+]
+
+[[notes]]
+note_id = 20414
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "📱 **Posso usare il tuo telefono?**",
+    "Meaning: Can I use your phone?\nExample: **Posso usare il tuo telefono** per una chiamata? (Can I use your phone for a call?)",
+]
+
+[[notes]]
+note_id = 20415
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "🏨 **Vorrei prenotare una camera.**",
+    "Meaning: I would like to book a room.\nExample: **Vorrei prenotare una camera** per due notti. (I would like to book a room for two nights.)",
+]
+
+[[notes]]
+note_id = 20416
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "🏥 **Ho bisogno di un medico.**",
+    "Meaning: I need a doctor.\nExample: **Ho bisogno di un medico**, non mi sento bene. (I need a doctor, I don't feel well.)",
+]
+
+[[notes]]
+note_id = 20417
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "🙏 **Mi scusi.**",
+    "Meaning: Excuse me/I'm sorry.\nExample: **Mi scusi**, ho fatto un errore. (I'm sorry, I made a mistake.)",
+]
+
+[[notes]]
+note_id = 20418
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "👋 **Piacere di conoscerti.**",
+    "Meaning: Nice to meet you.\nExample: Mi chiamo Marco. **Piacere di conoscerti**. (My name is Marco. Nice to meet you.)",
+]

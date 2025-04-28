@@ -1,0 +1,145 @@
+deck = "basic::colori"
+model = "basic"
+
+[[notes]]
+note_id = 20301
+tags = [
+    "basic",
+    "colori",
+]
+fields = [
+    "🔴 **Rosso**",
+    "Meaning: Red\nExample: Il semaforo è **rosso**. (The traffic light is red.)",
+]
+
+[[notes]]
+note_id = 20302
+tags = [
+    "basic",
+    "colori",
+]
+fields = [
+    "🟠 **Arancione**",
+    "Meaning: Orange\nExample: L'arancia è **arancione**. (The orange is orange.)",
+]
+
+[[notes]]
+note_id = 20303
+tags = [
+    "basic",
+    "colori",
+]
+fields = [
+    "🟡 **Giallo**",
+    "Meaning: Yellow\nExample: Il sole è **giallo**. (The sun is yellow.)",
+]
+
+[[notes]]
+note_id = 20304
+tags = [
+    "basic",
+    "colori",
+]
+fields = [
+    "🟢 **Verde**",
+    "Meaning: Green\nExample: L'erba è **verde**. (The grass is green.)",
+]
+
+[[notes]]
+note_id = 20305
+tags = [
+    "basic",
+    "colori",
+]
+fields = [
+    "🔵 **Blu**",
+    "Meaning: Blue\nExample: Il cielo è **blu**. (The sky is blue.)",
+]
+
+[[notes]]
+note_id = 20306
+tags = [
+    "basic",
+    "colori",
+]
+fields = [
+    "🌊 **Azzurro**",
+    "Meaning: Light blue\nExample: Il mare è **azzurro**. (The sea is light blue.)",
+]
+
+[[notes]]
+note_id = 20307
+tags = [
+    "basic",
+    "colori",
+]
+fields = [
+    "🟣 **Viola**",
+    "Meaning: Purple\nExample: L'uva è **viola**. (The grape is purple.)",
+]
+
+[[notes]]
+note_id = 20308
+tags = [
+    "basic",
+    "colori",
+]
+fields = [
+    "🟤 **Marrone**",
+    "Meaning: Brown\nExample: Il cioccolato è **marrone**. (Chocolate is brown.)",
+]
+
+[[notes]]
+note_id = 20309
+tags = [
+    "basic",
+    "colori",
+]
+fields = [
+    "⚫ **Nero**",
+    "Meaning: Black\nExample: La notte è **nera**. (The night is black.)",
+]
+
+[[notes]]
+note_id = 20310
+tags = [
+    "basic",
+    "colori",
+]
+fields = [
+    "⚪ **Bianco**",
+    "Meaning: White\nExample: La neve è **bianca**. (The snow is white.)",
+]
+
+[[notes]]
+note_id = 20311
+tags = [
+    "basic",
+    "colori",
+]
+fields = [
+    "🔘 **Grigio**",
+    "Meaning: Gray\nExample: Le nuvole sono **grigie**. (The clouds are gray.)",
+]
+
+[[notes]]
+note_id = 20312
+tags = [
+    "basic",
+    "colori",
+]
+fields = [
+    "🌸 **Rosa**",
+    "Meaning: Pink\nExample: Il fiore è **rosa**. (The flower is pink.)",
+]
+
+[[notes]]
+note_id = 20313
+tags = [
+    "basic",
+    "colori",
+]
+fields = [
+    "🎨 **I colori**",
+    "Meaning: The colors\nExample: **I colori** dell'arcobaleno sono sette. (The colors of the rainbow are seven.)",
+]

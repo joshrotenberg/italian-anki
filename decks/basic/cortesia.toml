@@ -1,0 +1,35 @@
+deck = "basic::saluti"
+model = "basic"
+
+[[notes]]
+note_id = 10010
+tags = [
+    "basic",
+    "cortesia",
+]
+fields = [
+    "🙏 **Per favore**",
+    "Meaning: Please\nExample: Un caffè, **per favore**.",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "basic",
+    "cortesia",
+]
+fields = [
+    "🙏 **Grazie**",
+    "Meaning: Thank you\nExample: **Grazie** per l'aiuto.",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "basic",
+    "cortesia",
+]
+fields = [
+    "🙏 **Prego**",
+    "Meaning: You're welcome\nExample: \"Grazie!\" \"**Prego**!\"",
+]

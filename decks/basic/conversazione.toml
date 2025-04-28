@@ -1,0 +1,79 @@
+deck = "basic::conversazione"
+model = "basic"
+
+[[notes]]
+note_id = 10013
+tags = [
+    "basic",
+    "conversazione",
+]
+fields = [
+    "❓ **Come stai?**",
+    "Meaning: How are you?\nExample: Ciao, **come stai**?",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "basic",
+    "conversazione",
+]
+fields = [
+    "👍 **Sto bene**",
+    "Meaning: I'm fine/I'm well\nExample: **Sto bene**, grazie.",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "basic",
+    "conversazione",
+]
+fields = [
+    "👎 **Non sto bene**",
+    "Meaning: I'm not well\nExample: Oggi **non sto bene**.",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "basic",
+    "conversazione",
+]
+fields = [
+    "❓ **Come ti chiami?**",
+    "Meaning: What's your name?\nExample: **Come ti chiami**?",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "basic",
+    "conversazione",
+]
+fields = [
+    "👤 **Mi chiamo...**",
+    "Meaning: My name is...\nExample: **Mi chiamo** Marco.",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "basic",
+    "conversazione",
+]
+fields = [
+    "❓ **Di dove sei?**",
+    "Meaning: Where are you from?\nExample: **Di dove sei**?",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "basic",
+    "conversazione",
+]
+fields = [
+    "🌍 **Sono di...**",
+    "Meaning: I'm from...\nExample: **Sono di** Roma.",
+]
