@@ -201,3 +201,26 @@ The Markdown is automatically converted to HTML when generating Anki decks.
 5. Update `generate.py` if adding new levels or modes.
 
 6. Submit a pull request. The CI workflow will automatically validate your changes.
+
+### Release Process
+
+The project uses [release-please](https://github.com/googleapis/release-please) for automated version management and release creation:
+
+1. **Conventional Commits**: Use [conventional commit messages](https://www.conventionalcommits.org/) when making changes:
+   - `feat: add new feature` - for new features (triggers minor version bump)
+   - `fix: resolve bug` - for bug fixes (triggers patch version bump)
+   - `docs: update documentation` - for documentation changes
+   - `refactor: improve code structure` - for code refactoring
+   - `chore: update dependencies` - for maintenance tasks
+
+2. **Automated Release PRs**: When commits are pushed to the main branch, release-please automatically:
+   - Determines the next version based on conventional commits
+   - Creates or updates a release PR with:
+     - Updated VERSION file
+     - Generated CHANGELOG.md entries
+
+3. **Creating Releases**: When the release PR is merged:
+   - A new GitHub release is automatically created
+   - The release workflow builds and attaches Anki deck files to the release
+
+This automated process ensures consistent versioning and comprehensive release notes.

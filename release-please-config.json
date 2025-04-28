@@ -1,0 +1,14 @@
+{
+  "packages": {
+    ".": {
+      "release-type": "simple",
+      "package-name": "italian-anki",
+      "extra-files": [
+        {
+          "type": "plain-text",
+          "path": "VERSION"
+        }
+      ]
+    }
+  }
+}

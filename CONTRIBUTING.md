@@ -63,4 +63,40 @@ pytest
 
 If you add new levels or change output modes, update `generate.py` accordingly.
 
+## 5. Use conventional commits
+
+This project uses [conventional commits](https://www.conventionalcommits.org/) to automate versioning and changelog generation. When making changes, format your commit messages like this:
+
+```
+<type>: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+Common types:
+- `feat`: A new feature (triggers minor version bump)
+- `fix`: A bug fix (triggers patch version bump)
+- `docs`: Documentation changes
+- `style`: Code style changes (formatting, etc.)
+- `refactor`: Code changes that neither fix bugs nor add features
+- `test`: Adding or updating tests
+- `chore`: Maintenance tasks, dependency updates, etc.
+
+Examples:
+```
+feat: add new vocabulary deck for food items
+fix: correct typo in alfabeto.toml
+docs: update README with new usage examples
+refactor: improve deck loading performance
+```
+
+Breaking changes should be noted with `!` and a footer:
+```
+feat!: change deck file format
+
+BREAKING CHANGE: The deck file format has changed and requires updates to existing files.
+```
+
 Once all checks pass, submit a pull request. Thank you! 🎉
