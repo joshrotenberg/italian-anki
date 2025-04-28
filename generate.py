@@ -192,10 +192,13 @@ def build_deck(level: str, topic: str, cards: List[Dict[str, Any]]) -> None:
             raise ValueError(f"Missing 'back' field in card: {card}")
 
         # Convert Markdown to HTML for front and back fields
+        # Use nl2br extension to convert newlines to HTML break tags
+        # This ensures that line breaks in the text (e.g., "Meaning: one\nExample: Ho uno libro")
+        # are properly rendered as visual line breaks in the HTML output
         if front:
-            front = markdown.markdown(front)
+            front = markdown.markdown(front, extensions=["nl2br"])
         if back:
-            back = markdown.markdown(back)
+            back = markdown.markdown(back, extensions=["nl2br"])
 
         if model_key == "basic":
             fields = [front, back]
@@ -273,7 +276,9 @@ def discover_deck_files() -> Dict[str, List[str]]:
     return levels_dict
 
 
-def process_per_file_mode(levels: List[str], discovered_files: Optional[Dict[str, List[str]]] = None) -> None:
+def process_per_file_mode(
+    levels: List[str], discovered_files: Optional[Dict[str, List[str]]] = None
+) -> None:
     """
     Process decks in per-file mode (one deck per TOML file).
 
@@ -346,7 +351,9 @@ def process_per_level_mode(
             build_deck(lvl, lvl, cards)
 
 
-def process_uber_mode(levels: List[str], discovered_files: Optional[Dict[str, List[str]]] = None) -> None:
+def process_uber_mode(
+    levels: List[str], discovered_files: Optional[Dict[str, List[str]]] = None
+) -> None:
     """
     Process decks in uber mode (one big deck with all cards).
 
@@ -440,7 +447,7 @@ def main() -> int:
     """
     parser = argparse.ArgumentParser(description="Generate Anki decks")
     parser.add_argument(
-        "--level", choices=["a1", "a2", "b1"], help="legacy: per-file on a single level"
+        "--level", choices=["a1", "a2", "b1", "basic"], help="legacy: per-file on a single level"
     )
     parser.add_argument("--all", action="store_true", help="legacy: per-file on all levels")
     parser.add_argument(

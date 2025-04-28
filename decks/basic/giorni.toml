@@ -1,0 +1,123 @@
+deck = "basic::giorni"
+model = "basic"
+
+[[notes]]
+note_id = 20101
+tags = [
+    "basic",
+    "giorni",
+]
+fields = [
+    "📅 **Lunedì**",
+    "Meaning: Monday\nExample: **Lunedì** è il primo giorno della settimana. (Monday is the first day of the week.)",
+]
+
+[[notes]]
+note_id = 20102
+tags = [
+    "basic",
+    "giorni",
+]
+fields = [
+    "📅 **Martedì**",
+    "Meaning: Tuesday\nExample: **Martedì** ho lezione d'italiano. (On Tuesday I have an Italian lesson.)",
+]
+
+[[notes]]
+note_id = 20103
+tags = [
+    "basic",
+    "giorni",
+]
+fields = [
+    "📅 **Mercoledì**",
+    "Meaning: Wednesday\nExample: **Mercoledì** vado al cinema. (On Wednesday I go to the cinema.)",
+]
+
+[[notes]]
+note_id = 20104
+tags = [
+    "basic",
+    "giorni",
+]
+fields = [
+    "📅 **Giovedì**",
+    "Meaning: Thursday\nExample: **Giovedì** lavoro fino a tardi. (On Thursday I work until late.)",
+]
+
+[[notes]]
+note_id = 20105
+tags = [
+    "basic",
+    "giorni",
+]
+fields = [
+    "📅 **Venerdì**",
+    "Meaning: Friday\nExample: **Venerdì** è l'ultimo giorno lavorativo. (Friday is the last working day.)",
+]
+
+[[notes]]
+note_id = 20106
+tags = [
+    "basic",
+    "giorni",
+]
+fields = [
+    "📅 **Sabato**",
+    "Meaning: Saturday\nExample: **Sabato** vado al ristorante. (On Saturday I go to the restaurant.)",
+]
+
+[[notes]]
+note_id = 20107
+tags = [
+    "basic",
+    "giorni",
+]
+fields = [
+    "📅 **Domenica**",
+    "Meaning: Sunday\nExample: **Domenica** è un giorno di riposo. (Sunday is a day of rest.)",
+]
+
+[[notes]]
+note_id = 20108
+tags = [
+    "basic",
+    "giorni",
+]
+fields = [
+    "📅 **Oggi**",
+    "Meaning: Today\nExample: **Oggi** fa bel tempo. (Today the weather is nice.)",
+]
+
+[[notes]]
+note_id = 20109
+tags = [
+    "basic",
+    "giorni",
+]
+fields = [
+    "📅 **Domani**",
+    "Meaning: Tomorrow\nExample: **Domani** vado in vacanza. (Tomorrow I'm going on vacation.)",
+]
+
+[[notes]]
+note_id = 20110
+tags = [
+    "basic",
+    "giorni",
+]
+fields = [
+    "📅 **Ieri**",
+    "Meaning: Yesterday\nExample: **Ieri** ho studiato italiano. (Yesterday I studied Italian.)",
+]
+
+[[notes]]
+note_id = 20111
+tags = [
+    "basic",
+    "giorni",
+]
+fields = [
+    "📅 **La settimana**",
+    "Meaning: The week\nExample: **La settimana** ha sette giorni. (The week has seven days.)",
+]

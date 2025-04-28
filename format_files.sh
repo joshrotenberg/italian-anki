@@ -5,10 +5,10 @@
 pip install black
 
 # Format the files
-black test_validate.py fix_tags.py validate.py generate.py
+black tests/test_validate.py fix_tags.py validate.py generate.py
 
 # Check if all files are properly formatted
 echo "Checking if all files are properly formatted..."
-black --check test_validate.py fix_tags.py validate.py generate.py
+black --check tests/test_validate.py fix_tags.py validate.py generate.py
 
 echo "Formatting complete!"

@@ -1,0 +1,222 @@
+deck = "basic::numeri"
+model = "basic"
+
+[[notes]]
+note_id = 10001
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "1️⃣ **Uno**",
+    "Meaning: One\nExample: Ho **uno** libro. (I have one book.)",
+]
+
+[[notes]]
+note_id = 10002
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "2️⃣ **Due**",
+    "Meaning: Two\nExample: Ci sono **due** sedie. (There are two chairs.)",
+]
+
+[[notes]]
+note_id = 10003
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "3️⃣ **Tre**",
+    "Meaning: Three\nExample: Vedo **tre** amici. (I see three friends.)",
+]
+
+[[notes]]
+note_id = 10004
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "4️⃣ **Quattro**",
+    "Meaning: Four\nExample: Ho **quattro** penne. (I have four pens.)",
+]
+
+[[notes]]
+note_id = 10005
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "5️⃣ **Cinque**",
+    "Meaning: Five\nExample: Mangio **cinque** mele. (I eat five apples.)",
+]
+
+[[notes]]
+note_id = 10006
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "6️⃣ **Sei**",
+    "Meaning: Six\nExample: Ci sono **sei** finestre. (There are six windows.)",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "7️⃣ **Sette**",
+    "Meaning: Seven\nExample: Ho **sette** giorni di vacanza. (I have seven days of vacation.)",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "8️⃣ **Otto**",
+    "Meaning: Eight\nExample: Sono le **otto** di sera. (It's eight in the evening.)",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "9️⃣ **Nove**",
+    "Meaning: Nine\nExample: Vedo **nove** palloncini. (I see nine balloons.)",
+]
+
+[[notes]]
+note_id = 10010
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "🔟 **Dieci**",
+    "Meaning: Ten\nExample: Ho **dieci** dita. (I have ten fingers.)",
+]
+
+[[notes]]
+note_id = 10011
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "1️⃣1️⃣ **Undici**",
+    "Meaning: Eleven\nExample: Ci sono **undici** studenti in classe. (There are eleven students in class.)",
+]
+
+[[notes]]
+note_id = 10012
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "1️⃣2️⃣ **Dodici**",
+    "Meaning: Twelve\nExample: Ci sono **dodici** mesi in un anno. (There are twelve months in a year.)",
+]
+
+[[notes]]
+note_id = 10013
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "1️⃣3️⃣ **Tredici**",
+    "Meaning: Thirteen\nExample: Ho **tredici** anni. (I am thirteen years old.)",
+]
+
+[[notes]]
+note_id = 10014
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "1️⃣4️⃣ **Quattordici**",
+    "Meaning: Fourteen\nExample: Sono **quattordici** studenti. (There are fourteen students.)",
+]
+
+[[notes]]
+note_id = 10015
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "1️⃣5️⃣ **Quindici**",
+    "Meaning: Fifteen\nExample: Ho **quindici** giorni di ferie. (I have fifteen days of vacation.)",
+]
+
+[[notes]]
+note_id = 10016
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "1️⃣6️⃣ **Sedici**",
+    "Meaning: Sixteen\nExample: Ci sono **sedici** pagine nel capitolo. (There are sixteen pages in the chapter.)",
+]
+
+[[notes]]
+note_id = 10017
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "1️⃣7️⃣ **Diciassette**",
+    "Meaning: Seventeen\nExample: Ci sono **diciassette** persone al parco. (There are seventeen people at the park.)",
+]
+
+[[notes]]
+note_id = 10018
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "1️⃣8️⃣ **Diciotto**",
+    "Meaning: Eighteen\nExample: Ho **diciotto** anni. (I am eighteen years old.)",
+]
+
+[[notes]]
+note_id = 10019
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "1️⃣9️⃣ **Diciannove**",
+    "Meaning: Nineteen\nExample: Ho letto **diciannove** pagine. (I read nineteen pages.)",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "basic",
+    "numeri",
+]
+fields = [
+    "2️⃣0️⃣ **Venti**",
+    "Meaning: Twenty\nExample: Facciamo una pausa di **venti** minuti. (Let's take a twenty-minute break.)",
+]

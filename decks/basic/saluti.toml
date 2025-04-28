@@ -1,0 +1,112 @@
+deck = "basic::saluti"
+model = "basic"
+
+[[notes]]
+note_id = 10006
+tags = [
+    "basic",
+    "saluti",
+]
+fields = [
+    "👋 **Ciao**",
+    "Meaning: Hello/Hi/Bye\nExample: **Ciao**, come stai?",
+]
+
+[[notes]]
+note_id = 10007
+tags = [
+    "basic",
+    "saluti",
+]
+fields = [
+    "👋 **Buongiorno**",
+    "Meaning: Good morning/Good day\nExample: **Buongiorno**, come va?",
+]
+
+[[notes]]
+note_id = 10008
+tags = [
+    "basic",
+    "saluti",
+]
+fields = [
+    "👋 **Buonasera**",
+    "Meaning: Good evening\nExample: **Buonasera**, signore.",
+]
+
+[[notes]]
+note_id = 10009
+tags = [
+    "basic",
+    "saluti",
+]
+fields = [
+    "👋 **Arrivederci**",
+    "Meaning: Goodbye\nExample: **Arrivederci**, a domani!",
+]
+
+[[notes]]
+note_id = 10020
+tags = [
+    "basic",
+    "saluti",
+]
+fields = [
+    "👋 **A presto**",
+    "Meaning: See you soon\nExample: Ciao, **a presto**!",
+]
+
+[[notes]]
+note_id = 10021
+tags = [
+    "basic",
+    "saluti",
+]
+fields = [
+    "👋 **Buonanotte**",
+    "Meaning: Good night\nExample: **Buonanotte**, a domani!",
+]
+
+[[notes]]
+note_id = 10022
+tags = [
+    "basic",
+    "saluti",
+]
+fields = [
+    "👋 **Salve**",
+    "Meaning: Hello (formal)\nExample: **Salve**, come sta?",
+]
+
+[[notes]]
+note_id = 10023
+tags = [
+    "basic",
+    "saluti",
+]
+fields = [
+    "👋 **A domani**",
+    "Meaning: See you tomorrow\nExample: Ciao, **a domani**!",
+]
+
+[[notes]]
+note_id = 10024
+tags = [
+    "basic",
+    "saluti",
+]
+fields = [
+    "👋 **A più tardi**",
+    "Meaning: See you later\nExample: **A più tardi**, devo andare ora.",
+]
+
+[[notes]]
+note_id = 10025
+tags = [
+    "basic",
+    "saluti",
+]
+fields = [
+    "👋 **Benvenuto/a**",
+    "Meaning: Welcome\nExample: **Benvenuto** in Italia! (to a man) / **Benvenuta** in Italia! (to a woman)",
+]

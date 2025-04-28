@@ -1,0 +1,189 @@
+deck = "basic::mesi"
+model = "basic"
+
+[[notes]]
+note_id = 20201
+tags = [
+    "basic",
+    "mesi",
+]
+fields = [
+    "🗓 **Gennaio**",
+    "Meaning: January\nExample: **Gennaio** è il primo mese dell'anno. (January is the first month of the year.)",
+]
+
+[[notes]]
+note_id = 20202
+tags = [
+    "basic",
+    "mesi",
+]
+fields = [
+    "🗓 **Febbraio**",
+    "Meaning: February\nExample: **Febbraio** ha 28 giorni. (February has 28 days.)",
+]
+
+[[notes]]
+note_id = 20203
+tags = [
+    "basic",
+    "mesi",
+]
+fields = [
+    "🗓 **Marzo**",
+    "Meaning: March\nExample: In **marzo** inizia la primavera. (Spring begins in March.)",
+]
+
+[[notes]]
+note_id = 20204
+tags = [
+    "basic",
+    "mesi",
+]
+fields = [
+    "🗓 **Aprile**",
+    "Meaning: April\nExample: In **aprile** piove spesso. (It often rains in April.)",
+]
+
+[[notes]]
+note_id = 20205
+tags = [
+    "basic",
+    "mesi",
+]
+fields = [
+    "🗓 **Maggio**",
+    "Meaning: May\nExample: **Maggio** è il mese dei fiori. (May is the month of flowers.)",
+]
+
+[[notes]]
+note_id = 20206
+tags = [
+    "basic",
+    "mesi",
+]
+fields = [
+    "🗓 **Giugno**",
+    "Meaning: June\nExample: In **giugno** inizia l'estate. (Summer begins in June.)",
+]
+
+[[notes]]
+note_id = 20207
+tags = [
+    "basic",
+    "mesi",
+]
+fields = [
+    "🗓 **Luglio**",
+    "Meaning: July\nExample: In **luglio** fa molto caldo. (It's very hot in July.)",
+]
+
+[[notes]]
+note_id = 20208
+tags = [
+    "basic",
+    "mesi",
+]
+fields = [
+    "🗓 **Agosto**",
+    "Meaning: August\nExample: **Agosto** è il mese delle vacanze. (August is the vacation month.)",
+]
+
+[[notes]]
+note_id = 20209
+tags = [
+    "basic",
+    "mesi",
+]
+fields = [
+    "🗓 **Settembre**",
+    "Meaning: September\nExample: A **settembre** inizia la scuola. (School starts in September.)",
+]
+
+[[notes]]
+note_id = 20210
+tags = [
+    "basic",
+    "mesi",
+]
+fields = [
+    "🗓 **Ottobre**",
+    "Meaning: October\nExample: **Ottobre** è un mese autunnale. (October is an autumn month.)",
+]
+
+[[notes]]
+note_id = 20211
+tags = [
+    "basic",
+    "mesi",
+]
+fields = [
+    "🗓 **Novembre**",
+    "Meaning: November\nExample: **Novembre** è spesso piovoso. (November is often rainy.)",
+]
+
+[[notes]]
+note_id = 20212
+tags = [
+    "basic",
+    "mesi",
+]
+fields = [
+    "🗓 **Dicembre**",
+    "Meaning: December\nExample: **Dicembre** è il mese del Natale. (December is the month of Christmas.)",
+]
+
+[[notes]]
+note_id = 20213
+tags = [
+    "basic",
+    "mesi",
+]
+fields = [
+    "❄️ **Inverno**",
+    "Meaning: Winter\nExample: L'**inverno** è freddo. (Winter is cold.)",
+]
+
+[[notes]]
+note_id = 20214
+tags = [
+    "basic",
+    "mesi",
+]
+fields = [
+    "🌸 **Primavera**",
+    "Meaning: Spring\nExample: La **primavera** è la stagione dei fiori. (Spring is the season of flowers.)",
+]
+
+[[notes]]
+note_id = 20215
+tags = [
+    "basic",
+    "mesi",
+]
+fields = [
+    "🌞 **Estate**",
+    "Meaning: Summer\nExample: L'**estate** è calda. (Summer is hot.)",
+]
+
+[[notes]]
+note_id = 20216
+tags = [
+    "basic",
+    "mesi",
+]
+fields = [
+    "🍂 **Autunno**",
+    "Meaning: Autumn/Fall\nExample: L'**autunno** è la stagione delle foglie che cadono. (Autumn is the season of falling leaves.)",
+]
+
+[[notes]]
+note_id = 20217
+tags = [
+    "basic",
+    "mesi",
+]
+fields = [
+    "🌍 **Le stagioni**",
+    "Meaning: The seasons\nExample: In Italia ci sono quattro **stagioni**. (In Italy there are four seasons.)",
+]

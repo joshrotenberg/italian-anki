@@ -1,0 +1,233 @@
+deck = "basic::alfabeto"
+model = "basic"
+
+[[notes]]
+note_id = 20001
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "A",
+    "Pronunciation: /a/\nExample: A come **albero** (tree)",
+]
+
+[[notes]]
+note_id = 20002
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "B",
+    "Pronunciation: /bi/\nExample: B come **bicicletta** (bicycle)",
+]
+
+[[notes]]
+note_id = 20003
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "C",
+    "Pronunciation: /tʃi/\nExample: C come **casa** (house)",
+]
+
+[[notes]]
+note_id = 20004
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "D",
+    "Pronunciation: /di/\nExample: D come **dado** (dice)",
+]
+
+[[notes]]
+note_id = 20005
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "E",
+    "Pronunciation: /e/\nExample: E come **elefante** (elephant)",
+]
+
+[[notes]]
+note_id = 20006
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "F",
+    "Pronunciation: /ɛffe/\nExample: F come **fiore** (flower)",
+]
+
+[[notes]]
+note_id = 20007
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "G",
+    "Pronunciation: /dʒi/\nExample: G come **gatto** (cat)",
+]
+
+[[notes]]
+note_id = 20008
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "H",
+    "Pronunciation: /akka/\nExample: H is silent in Italian",
+]
+
+[[notes]]
+note_id = 20009
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "I",
+    "Pronunciation: /i/\nExample: I come **isola** (island)",
+]
+
+[[notes]]
+note_id = 20010
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "L",
+    "Pronunciation: /elle/\nExample: L come **luna** (moon)",
+]
+
+[[notes]]
+note_id = 20011
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "M",
+    "Pronunciation: /emme/\nExample: M come **mare** (sea)",
+]
+
+[[notes]]
+note_id = 20012
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "N",
+    "Pronunciation: /enne/\nExample: N come **nave** (ship)",
+]
+
+[[notes]]
+note_id = 20013
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "O",
+    "Pronunciation: /o/\nExample: O come **orologio** (clock)",
+]
+
+[[notes]]
+note_id = 20014
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "P",
+    "Pronunciation: /pi/\nExample: P come **pane** (bread)",
+]
+
+[[notes]]
+note_id = 20015
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "Q",
+    "Pronunciation: /ku/\nExample: Q come **quadro** (painting)",
+]
+
+[[notes]]
+note_id = 20016
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "R",
+    "Pronunciation: /erre/\nExample: R come **rosa** (rose)",
+]
+
+[[notes]]
+note_id = 20017
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "S",
+    "Pronunciation: /esse/\nExample: S come **sole** (sun)",
+]
+
+[[notes]]
+note_id = 20018
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "T",
+    "Pronunciation: /ti/\nExample: T come **tavolo** (table)",
+]
+
+[[notes]]
+note_id = 20019
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "U",
+    "Pronunciation: /u/\nExample: U come **uva** (grape)",
+]
+
+[[notes]]
+note_id = 20020
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "V",
+    "Pronunciation: /vu/\nExample: V come **vino** (wine)",
+]
+
+[[notes]]
+note_id = 20021
+tags = [
+    "basic",
+    "alfabeto",
+]
+fields = [
+    "Z",
+    "Pronunciation: /dzeta/\nExample: Z come **zucchero** (sugar)",
+]
