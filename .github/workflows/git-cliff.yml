@@ -1,0 +1,29 @@
+name: Generate Changelog
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  changelog:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install git-cliff
+        uses: taiki-e/install-action@v2
+        with:
+          tool: git-cliff
+
+      - name: Generate CHANGELOG.md
+        run: git-cliff --config cliff.toml --output CHANGELOG.md
+
+      - name: Check if CHANGELOG.md updated
+        run: |
+          git diff --exit-code CHANGELOG.md || (echo "::error::CHANGELOG.md is out of date. Run 'git-cliff --output CHANGELOG.md' and commit the result." && exit 1)
+
