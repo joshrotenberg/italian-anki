@@ -38,6 +38,17 @@ else:
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 os.chdir(SCRIPT_DIR)
 
+# Define the path to the decks directory
+# First check if it exists in the current directory
+if os.path.isdir(os.path.join(SCRIPT_DIR, "decks")):
+    DECKS_DIR = os.path.join(SCRIPT_DIR, "decks")
+# If not, check the parent directory
+elif os.path.isdir(os.path.join(os.path.dirname(SCRIPT_DIR), "decks")):
+    DECKS_DIR = os.path.join(os.path.dirname(SCRIPT_DIR), "decks")
+# If neither exists, default to the parent directory (it will be created if needed)
+else:
+    DECKS_DIR = os.path.join(os.path.dirname(SCRIPT_DIR), "decks")
+
 
 def read_version() -> str:
     """
@@ -251,18 +262,18 @@ def discover_deck_files() -> Dict[str, List[str]]:
         Dictionary mapping level names to lists of file paths
     """
     # Get all TOML files in the decks directory and its subdirectories
-    all_files = glob.glob("decks/**/*.toml", recursive=True)
+    all_files = glob.glob(os.path.join(DECKS_DIR, "**/*.toml"), recursive=True)
 
     # Group files by level
     levels_dict: Dict[str, List[str]] = {}
 
     for file_path in sorted(all_files):
-        # Extract level from path (e.g., "decks/a1/file.toml" -> "a1")
-        parts = file_path.split(os.sep)
-        if len(parts) >= 2 and parts[0] == "decks":  # Ensure path starts with "decks/"
-            level = parts[
-                1
-            ]  # "decks/a1/file.toml" -> parts = ["decks", "a1", "file.toml"]
+        # Extract level from path (e.g., "/path/to/decks/a1/file.toml" -> "a1")
+        # Get the relative path from DECKS_DIR
+        rel_path = os.path.relpath(file_path, DECKS_DIR)
+        parts = rel_path.split(os.sep)
+        if len(parts) >= 1:  # Ensure there's at least one part (the level)
+            level = parts[0]  # "a1/file.toml" -> parts = ["a1", "file.toml"]
             if level:  # Ensure level is not empty
                 if level not in levels_dict:
                     levels_dict[level] = []
@@ -303,7 +314,7 @@ def process_per_file_mode(
                     print(f"Error processing {file_path}: {str(e)}")
         else:
             # Use traditional directory listing
-            lvl_dir = os.path.join("decks", lvl)
+            lvl_dir = os.path.join(DECKS_DIR, lvl)
             for fname in get_deck_files(lvl_dir):
                 topic = os.path.splitext(fname)[0]
                 file_path = os.path.join(lvl_dir, fname)
@@ -340,7 +351,7 @@ def process_per_level_mode(
                     print(f"Error processing {file_path}: {str(e)}")
         else:
             # Use traditional directory listing
-            lvl_dir = os.path.join("decks", lvl)
+            lvl_dir = os.path.join(DECKS_DIR, lvl)
             for fname in get_deck_files(lvl_dir):
                 file_path = os.path.join(lvl_dir, fname)
 
@@ -377,7 +388,7 @@ def process_uber_mode(
                     print(f"Error processing {file_path}: {str(e)}")
         else:
             # Use traditional directory listing
-            lvl_dir = os.path.join("decks", lvl)
+            lvl_dir = os.path.join(DECKS_DIR, lvl)
             for fname in get_deck_files(lvl_dir):
                 file_path = os.path.join(lvl_dir, fname)
 
@@ -417,7 +428,7 @@ def process_chunk_mode(
             file_paths = discovered_files[lvl]
         else:
             # Use traditional directory listing
-            lvl_dir = os.path.join("decks", lvl)
+            lvl_dir = os.path.join(DECKS_DIR, lvl)
             files = get_deck_files(lvl_dir)
             file_paths = [os.path.join(lvl_dir, f) for f in files]
 
@@ -497,8 +508,8 @@ def main() -> int:
             all_levels = sorted(
                 [
                     d
-                    for d in os.listdir("decks")
-                    if os.path.isdir(os.path.join("decks", d))
+                    for d in os.listdir(DECKS_DIR)
+                    if os.path.isdir(os.path.join(DECKS_DIR, d))
                 ]
             )
 
