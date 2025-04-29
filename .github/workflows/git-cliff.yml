@@ -9,21 +9,22 @@ on:
 
 jobs:
   changelog:
+    name: Generate changelog
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Install git-cliff
-        uses: taiki-e/install-action@v2
         with:
-          tool: git-cliff
+          fetch-depth: 0
 
-      - name: Generate CHANGELOG.md
-        run: git-cliff --config cliff.toml --output CHANGELOG.md
+      - name: Generate a changelog
+        uses: orhun/git-cliff-action@v4
+        id: git-cliff
+        with:
+          config: cliff.toml
+          args: --verbose
+        env:
+          OUTPUT: CHANGELOG.md
 
-      - name: Check if CHANGELOG.md updated
-        run: |
-          git diff --exit-code CHANGELOG.md || (echo "::error::CHANGELOG.md is out of date. Run 'git-cliff --output CHANGELOG.md' and commit the result." && exit 1)
-
+      - name: Print the changelog
+        run: cat "${{ steps.git-cliff.outputs.changelog }}"
