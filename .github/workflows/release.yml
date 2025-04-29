@@ -31,7 +31,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Generate all decks
-        run: python generate.py --all
+        run: python src/generate.py --all
 
       - name: Check output folder contents
         run: ls -lh output/

@@ -43,16 +43,16 @@ jobs:
           echo "deck_dirs=$DECK_DIRS" >> $GITHUB_OUTPUT
 
       - name: Validate all decks
-        run: python validate.py ${{ steps.find-decks.outputs.deck_dirs }}
+        run: python src/validate.py ${{ steps.find-decks.outputs.deck_dirs }}
 
       - name: Run code formatting
         run: black .
 
       - name: Run linting
-        run: python lint.py
+        run: python src/lint.py
 
       - name: Run type checking
-        run: mypy --ignore-missing-imports *.py tests/*.py
+        run: mypy --ignore-missing-imports src/*.py tests/*.py
 
       - name: Run security scanning
         run: |
@@ -96,8 +96,8 @@ jobs:
 
       - name: Build decks
         run: |
-          python generate.py --mode per-level
-          python generate.py --mode uber
+          python src/generate.py --mode per-level
+          python src/generate.py --mode uber
 
       - name: Archive production artifacts
         uses: actions/upload-artifact@v4

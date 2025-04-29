@@ -46,7 +46,8 @@ def read_version() -> str:
     Returns:
         Version string, or '0.0.0' if file not found
     """
-    version_file = os.path.join(SCRIPT_DIR, "VERSION")
+    # VERSION file is in the parent directory (root)
+    version_file = os.path.join(os.path.dirname(SCRIPT_DIR), "VERSION")
     try:
         with open(version_file, encoding="utf-8") as vf:
             return vf.read().strip()
@@ -417,8 +418,8 @@ def process_chunk_mode(
             file_paths = [os.path.join(lvl_dir, f) for f in files]
 
         for i in range(0, len(files), chunk_size):
-            chunk_files = files[i : i + chunk_size]
-            chunk_paths = file_paths[i : i + chunk_size]
+            chunk_files = files[i: i + chunk_size]
+            chunk_paths = file_paths[i: i + chunk_size]
             cards = []
             topics = []
 

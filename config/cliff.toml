@@ -2,7 +2,7 @@
 # Where to generate the changelog
 path = "CHANGELOG.md"
 # Generate changelog from all tags
-tag_pattern = "v[0-9]*"
+tag_pattern = "[0-9]*"
 # How many commits to show if no tag found
 max_commits = 100
 # Whether to sort commits under each version
@@ -12,9 +12,9 @@ skip_empty = true
 
 [git]
 # How to find tags
-tag_pattern = "v[0-9]*"
+tag_pattern = "[0-9]*"
 # Where to start if no tag is found
-initial_tag = "v0.0.0"
+initial_tag = "0.0.0"
 
 [template]
 # Header per version

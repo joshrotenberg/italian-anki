@@ -102,7 +102,7 @@ def main():
         files = [f for f in args.files if f.endswith(".py") and os.path.isfile(f)]
     else:
         # Find all Python files in the project
-        files = glob("*.py") + glob("tests/*.py")
+        files = glob("src/*.py") + glob("tests/*.py")
 
     if args.fix:
         # Fix mode: run isort to fix import order
