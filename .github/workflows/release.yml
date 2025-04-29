@@ -34,9 +34,9 @@ jobs:
         run: python src/generate.py --all
 
       - name: Check output folder contents
-        run: ls -lh output/
+        run: ls -lh src/output/
 
       - name: Upload .apkg files
         uses: softprops/action-gh-release@v2
         with:
-          files: output/*.apkg
+          files: src/output/*.apkg
