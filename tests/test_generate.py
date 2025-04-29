@@ -7,8 +7,8 @@ import subprocess
 import pytest
 import tomli_w
 
-# Assume generate.py is in project root
-SCRIPT = "generate.py"
+# generate.py is in the src directory
+SCRIPT = "src/generate.py"
 
 
 @pytest.fixture(autouse=True)
@@ -17,6 +17,15 @@ def setup_project(tmp_path, monkeypatch):
     # Create a temporary project structure
     proj = tmp_path / "proj"
     proj.mkdir()
+    # Create src directory
+    src_dir = proj / "src"
+    src_dir.mkdir()
+    # Create decks directory inside src directory
+    decks_dir = src_dir / "decks"
+    decks_dir.mkdir()
+    # Create output directory inside src directory
+    output_dir = src_dir / "output"
+    output_dir.mkdir()
     # Copy the generate script into the project directory
     shutil.copy(os.path.join(os.getcwd(), SCRIPT), proj / SCRIPT)
     # Ensure any working-dir calls happen inside proj
@@ -36,7 +45,7 @@ def create_deck_file(proj, level, topic, cards):
     Returns:
         Path to the created file
     """
-    lvl_dir = proj / "decks" / level
+    lvl_dir = proj / "src" / "decks" / level
     lvl_dir.mkdir(parents=True, exist_ok=True)
 
     file_path = lvl_dir / f"{topic}.toml"
@@ -103,7 +112,7 @@ def test_per_file_mode_single_card(setup_project, level):
     )
     assert result.returncode == 0, result.stderr
     # Check that exactly one .apkg exists matching topic
-    out_files = list((proj / "output").glob("*.apkg"))
+    out_files = list((proj / "src" / "output").glob("*.apkg"))
     assert len(out_files) == 1
     assert "testtopic" in out_files[0].name
     assert level in out_files[0].name
@@ -138,7 +147,7 @@ def test_per_level_mode_combines_files(setup_project, level):
     )
     assert result.returncode == 0, result.stderr
     # Check exactly one .apkg exists with level in name
-    out_files = list((proj / "output").glob("*.apkg"))
+    out_files = list((proj / "src" / "output").glob("*.apkg"))
     assert len(out_files) == 1
     assert level in out_files[0].name
 
@@ -167,7 +176,7 @@ def test_chunk_mode_splits_files(setup_project, level):
     )
     assert result.returncode == 0, result.stderr
     # Expect two .apkg files
-    out_files = list((proj / "output").glob("*.apkg"))
+    out_files = list((proj / "src" / "output").glob("*.apkg"))
     assert len(out_files) == 2
     # Filenames should contain level
     for f in out_files:
@@ -197,7 +206,7 @@ def test_markdown_formatting(setup_project):
     assert result.returncode == 0, result.stderr
     # We can't easily check the HTML output in the .apkg file,
     # but we can at least verify that the deck was created
-    out_files = list((proj / "output").glob("*.apkg"))
+    out_files = list((proj / "src" / "output").glob("*.apkg"))
     assert len(out_files) == 1
     assert "markdown" in out_files[0].name
 
@@ -267,7 +276,7 @@ def test_auto_discover_mode(setup_project):
     assert result.returncode == 0, result.stderr
 
     # Check that .apkg files were created for all discovered decks
-    out_files = list((proj / "output").glob("*.apkg"))
+    out_files = list((proj / "src" / "output").glob("*.apkg"))
     assert len(out_files) >= 2  # At least the a1 and a2 decks
 
     # Check that the filenames contain the expected level and topic

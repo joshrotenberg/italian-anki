@@ -15,7 +15,7 @@ def test_multiple_paths():
     print("Testing validate.py with multiple path arguments...")
 
     # Get absolute path to validate.py
-    validate_script = os.path.abspath("validate.py")
+    validate_script = os.path.abspath("src/validate.py")
 
     # Verify paths exist
     for path in ["decks/a1", "decks/a2"]:
