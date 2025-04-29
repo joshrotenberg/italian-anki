@@ -1,0 +1,57 @@
+deck = "basic::cibo"
+model = "basic"
+
+[[notes]]
+note_id = 40021
+tags = [
+    "basic",
+    "cibo",
+]
+fields = [
+    "🍽️ **Ho fame.**",
+    "Meaning: I'm hungry.\nExample: **Ho fame**, andiamo a mangiare? (I'm hungry, shall we go eat?)",
+]
+
+[[notes]]
+note_id = 40022
+tags = [
+    "basic",
+    "cibo",
+]
+fields = [
+    "🍽️ **Ho sete.**",
+    "Meaning: I'm thirsty.\nExample: **Ho sete**, posso avere dell'acqua? (I'm thirsty, can I have some water?)",
+]
+
+[[notes]]
+note_id = 40023
+tags = [
+    "basic",
+    "cibo",
+]
+fields = [
+    "🍝 **Cosa mi consiglia?**",
+    "Meaning: What do you recommend?\nExample: **Cosa mi consiglia** di speciale oggi? (What do you recommend that's special today?)",
+]
+
+[[notes]]
+note_id = 40024
+tags = [
+    "basic",
+    "cibo",
+]
+fields = [
+    "🍕 **Sono vegetariano/a.**",
+    "Meaning: I am vegetarian.\nExample: **Sono vegetariano**, avete piatti senza carne? (I am vegetarian, do you have dishes without meat?)",
+]
+
+[[notes]]
+note_id = 40025
+tags = [
+    "basic",
+    "cibo",
+]
+fields = [
+    "🍷 **Buon appetito!**",
+    "Meaning: Enjoy your meal!\nExample: A tutti, **buon appetito**! (To everyone, enjoy your meal!)",
+]

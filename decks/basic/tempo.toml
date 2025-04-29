@@ -1,0 +1,57 @@
+deck = "basic::tempo"
+model = "basic"
+
+[[notes]]
+note_id = 40026
+tags = [
+    "basic",
+    "tempo",
+]
+fields = [
+    "☀️ **Che tempo fa?**",
+    "Meaning: What's the weather like?\nExample: **Che tempo fa** oggi a Roma? (What's the weather like today in Rome?)",
+]
+
+[[notes]]
+note_id = 40027
+tags = [
+    "basic",
+    "tempo",
+]
+fields = [
+    "☔ **Sta piovendo.**",
+    "Meaning: It's raining.\nExample: Non uscire, **sta piovendo** forte. (Don't go out, it's raining heavily.)",
+]
+
+[[notes]]
+note_id = 40028
+tags = [
+    "basic",
+    "tempo",
+]
+fields = [
+    "❄️ **Fa freddo.**",
+    "Meaning: It's cold.\nExample: Metti il cappotto, **fa freddo** fuori. (Put on your coat, it's cold outside.)",
+]
+
+[[notes]]
+note_id = 40029
+tags = [
+    "basic",
+    "tempo",
+]
+fields = [
+    "🔥 **Fa caldo.**",
+    "Meaning: It's hot.\nExample: **Fa caldo** oggi, prendiamo un gelato? (It's hot today, shall we get an ice cream?)",
+]
+
+[[notes]]
+note_id = 40030
+tags = [
+    "basic",
+    "tempo",
+]
+fields = [
+    "⏰ **Che ore sono?**",
+    "Meaning: What time is it?\nExample: Scusa, **che ore sono**? (Excuse me, what time is it?)",
+]

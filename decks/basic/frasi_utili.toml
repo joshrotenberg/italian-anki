@@ -198,3 +198,80 @@ fields = [
     "👋 **Piacere di conoscerti.**",
     "Meaning: Nice to meet you.\nExample: Mi chiamo Marco. **Piacere di conoscerti**. (My name is Marco. Nice to meet you.)",
 ]
+
+[[notes]]
+note_id = 40014
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "📱 **C'è il Wi-Fi qui?**",
+    "Meaning: Is there Wi-Fi here?\nExample: Scusi, **c'è il Wi-Fi qui** in questo bar? (Excuse me, is there Wi-Fi here in this bar?)",
+]
+
+[[notes]]
+note_id = 40015
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "📱 **Qual è la password del Wi-Fi?**",
+    "Meaning: What's the Wi-Fi password?\nExample: **Qual è la password del Wi-Fi**, per favore? (What's the Wi-Fi password, please?)",
+]
+
+[[notes]]
+note_id = 40016
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "🚕 **Posso chiamare un taxi?**",
+    "Meaning: Can I call a taxi?\nExample: **Posso chiamare un taxi** da qui? (Can I call a taxi from here?)",
+]
+
+[[notes]]
+note_id = 40017
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "💳 **Accettate carte di credito?**",
+    "Meaning: Do you accept credit cards?\nExample: **Accettate carte di credito** o solo contanti? (Do you accept credit cards or only cash?)",
+]
+
+[[notes]]
+note_id = 40018
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "🔑 **Ho perso le chiavi.**",
+    "Meaning: I've lost my keys.\nExample: Aiuto, **ho perso le chiavi** della mia camera! (Help, I've lost the keys to my room!)",
+]
+
+[[notes]]
+note_id = 40019
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "🚶 **Posso andare a piedi?**",
+    "Meaning: Can I walk there?\nExample: **Posso andare a piedi** al centro storico? (Can I walk to the historic center?)",
+]
+
+[[notes]]
+note_id = 40020
+tags = [
+    "basic",
+    "frasi_utili",
+]
+fields = [
+    "⏰ **A che ora apre/chiude?**",
+    "Meaning: What time does it open/close?\nExample: **A che ora apre** il museo domani? / **A che ora chiude** il supermercato? (What time does the museum open tomorrow? / What time does the supermarket close?)",
+]
