@@ -418,8 +418,8 @@ def process_chunk_mode(
             file_paths = [os.path.join(lvl_dir, f) for f in files]
 
         for i in range(0, len(files), chunk_size):
-            chunk_files = files[i : i + chunk_size]
-            chunk_paths = file_paths[i : i + chunk_size]
+            chunk_files = files[i: i + chunk_size]
+            chunk_paths = file_paths[i: i + chunk_size]
             cards = []
             topics = []
 
