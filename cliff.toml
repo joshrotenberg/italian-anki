@@ -1,0 +1,45 @@
+[changelog]
+# Where to generate the changelog
+path = "CHANGELOG.md"
+# Generate changelog from all tags
+tag_pattern = "v[0-9]*"
+# How many commits to show if no tag found
+max_commits = 100
+# Whether to sort commits under each version
+sort_commits = true
+
+[git]
+# How to find tags
+tag_pattern = "v[0-9]*"
+# Where to start if no tag is found
+initial_tag = "v0.0.0"
+
+[template]
+# Header per version
+header = """
+## {{ version }}
+_{{ timestamp | date(format="%Y-%m-%d") }}_
+"""
+
+# How each commit looks
+commit = """
+- {{ commit.message | split(pat="\\n") | first }}
+"""
+
+# Grouping rules
+group_by = "type"
+
+[group_order]
+order = ["feat", "feature", "fix", "refactor", "docs", "chore", "test", "build", "ci"]
+
+[groups]
+feat = { title = "Features" }
+feature = { title = "Features" }
+fix = { title = "Bug Fixes" }
+refactor = { title = "Refactorings" }
+docs = { title = "Documentation" }
+chore = { title = "Chores" }
+test = { title = "Testing" }
+build = { title = "Build System" }
+ci = { title = "Continuous Integration" }
+
