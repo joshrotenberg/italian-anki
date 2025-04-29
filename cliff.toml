@@ -7,6 +7,8 @@ tag_pattern = "v[0-9]*"
 max_commits = 100
 # Whether to sort commits under each version
 sort_commits = true
+skip_empty = true
+
 
 [git]
 # How to find tags
