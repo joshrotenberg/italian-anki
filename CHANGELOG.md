@@ -4,6 +4,13 @@
 
 - Version with a v
 
+## [1.0.4](https://github.com/joshrotenberg/italian-anki/compare/v1.0.3...v1.0.4) (2025-04-29)
+
+
+### Bug Fixes
+
+* **bug:** src/output here too ([#41](https://github.com/joshrotenberg/italian-anki/issues/41)) ([9808e50](https://github.com/joshrotenberg/italian-anki/commit/9808e501c0d0f003d0690acc1c522dfe7c7f4e19))
+
 ## [1.0.3](https://github.com/joshrotenberg/italian-anki/compare/v1.0.2...v1.0.3) (2025-04-29)
 
 
