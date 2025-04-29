@@ -1,0 +1,332 @@
+deck = "basic::famiglia"
+model = "basic"
+
+[[notes]]
+note_id = 30001
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👨 **Padre**",
+    "Meaning: Father\nExample: Mio **padre** si chiama Giovanni. (My father's name is Giovanni.)",
+]
+
+[[notes]]
+note_id = 30002
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👩 **Madre**",
+    "Meaning: Mother\nExample: Mia **madre** è molto gentile. (My mother is very kind.)",
+]
+
+[[notes]]
+note_id = 30003
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👦 **Figlio**",
+    "Meaning: Son\nExample: Il mio **figlio** ha dieci anni. (My son is ten years old.)",
+]
+
+[[notes]]
+note_id = 30004
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👧 **Figlia**",
+    "Meaning: Daughter\nExample: La mia **figlia** studia italiano. (My daughter studies Italian.)",
+]
+
+[[notes]]
+note_id = 30005
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👨‍👩‍👧‍👦 **Famiglia**",
+    "Meaning: Family\nExample: La mia **famiglia** è molto unita. (My family is very close.)",
+]
+
+[[notes]]
+note_id = 30006
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👴 **Nonno**",
+    "Meaning: Grandfather\nExample: Mio **nonno** racconta belle storie. (My grandfather tells nice stories.)",
+]
+
+[[notes]]
+note_id = 30007
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👵 **Nonna**",
+    "Meaning: Grandmother\nExample: Mia **nonna** cucina molto bene. (My grandmother cooks very well.)",
+]
+
+[[notes]]
+note_id = 30008
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👦👦 **Fratello**",
+    "Meaning: Brother\nExample: Mio **fratello** è più grande di me. (My brother is older than me.)",
+]
+
+[[notes]]
+note_id = 30009
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👧👧 **Sorella**",
+    "Meaning: Sister\nExample: Mia **sorella** vive a Roma. (My sister lives in Rome.)",
+]
+
+[[notes]]
+note_id = 30010
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👨‍👩‍👧‍👦 **Genitori**",
+    "Meaning: Parents\nExample: I miei **genitori** sono in vacanza. (My parents are on vacation.)",
+]
+
+[[notes]]
+note_id = 30011
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👶 **Bambino/a**",
+    "Meaning: Child\nExample: Il **bambino** gioca nel parco. (The child plays in the park.)",
+]
+
+[[notes]]
+note_id = 30012
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👨‍👩‍👧‍👦 **Figli**",
+    "Meaning: Children (sons and daughters)\nExample: Hanno due **figli**. (They have two children.)",
+]
+
+[[notes]]
+note_id = 30013
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👴👵 **Nonni**",
+    "Meaning: Grandparents\nExample: I miei **nonni** vivono in campagna. (My grandparents live in the countryside.)",
+]
+
+[[notes]]
+note_id = 30014
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👨‍👨‍👧‍👦 **Zio**",
+    "Meaning: Uncle\nExample: Mio **zio** è il fratello di mio padre. (My uncle is my father's brother.)",
+]
+
+[[notes]]
+note_id = 30015
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👩‍👩‍👧‍👦 **Zia**",
+    "Meaning: Aunt\nExample: Mia **zia** mi ha regalato un libro. (My aunt gave me a book.)",
+]
+
+[[notes]]
+note_id = 30016
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👦👦 **Cugino**",
+    "Meaning: Cousin (male)\nExample: Mio **cugino** vive in un'altra città. (My cousin lives in another city.)",
+]
+
+[[notes]]
+note_id = 30017
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👧👧 **Cugina**",
+    "Meaning: Cousin (female)\nExample: Mia **cugina** parla tre lingue. (My cousin speaks three languages.)",
+]
+
+[[notes]]
+note_id = 30018
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👶 **Nipote**",
+    "Meaning: Grandchild/Nephew/Niece\nExample: Il **nipote** di Maria ha cinque anni. (Maria's grandchild/nephew is five years old.)",
+]
+
+[[notes]]
+note_id = 30019
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👨‍👩‍👧‍👦 **Parenti**",
+    "Meaning: Relatives\nExample: I miei **parenti** vengono a trovarci domenica. (My relatives are coming to visit us on Sunday.)",
+]
+
+[[notes]]
+note_id = 30020
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "💍 **Marito**",
+    "Meaning: Husband\nExample: Il **marito** di Anna lavora in banca. (Anna's husband works in a bank.)",
+]
+
+[[notes]]
+note_id = 30021
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "💍 **Moglie**",
+    "Meaning: Wife\nExample: La **moglie** di Paolo è insegnante. (Paolo's wife is a teacher.)",
+]
+
+[[notes]]
+note_id = 30022
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👫 **Fidanzato**",
+    "Meaning: Boyfriend/Fiancé\nExample: Il mio **fidanzato** è italiano. (My boyfriend/fiancé is Italian.)",
+]
+
+[[notes]]
+note_id = 30023
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👫 **Fidanzata**",
+    "Meaning: Girlfriend/Fiancée\nExample: La mia **fidanzata** studia medicina. (My girlfriend/fiancée studies medicine.)",
+]
+
+[[notes]]
+note_id = 30024
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👨‍👩‍👧‍👦 **Suocero**",
+    "Meaning: Father-in-law\nExample: Mio **suocero** è in pensione. (My father-in-law is retired.)",
+]
+
+[[notes]]
+note_id = 30025
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👨‍👩‍👧‍👦 **Suocera**",
+    "Meaning: Mother-in-law\nExample: Mia **suocera** vive con noi. (My mother-in-law lives with us.)",
+]
+
+[[notes]]
+note_id = 30026
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👨‍👩‍👧‍👦 **Cognato**",
+    "Meaning: Brother-in-law\nExample: Mio **cognato** è molto simpatico. (My brother-in-law is very nice.)",
+]
+
+[[notes]]
+note_id = 30027
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👨‍👩‍👧‍👦 **Cognata**",
+    "Meaning: Sister-in-law\nExample: Mia **cognata** è avvocato. (My sister-in-law is a lawyer.)",
+]
+
+[[notes]]
+note_id = 30028
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👨‍👩‍👧‍👦 **Gemelli**",
+    "Meaning: Twins\nExample: I miei fratelli sono **gemelli**. (My brothers are twins.)",
+]
+
+[[notes]]
+note_id = 30029
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👨‍👩‍👧‍👦 **Patrigno**",
+    "Meaning: Stepfather\nExample: Il mio **patrigno** è molto gentile. (My stepfather is very kind.)",
+]
+
+[[notes]]
+note_id = 30030
+tags = [
+    "basic",
+    "famiglia",
+]
+fields = [
+    "👨‍👩‍👧‍👦 **Matrigna**",
+    "Meaning: Stepmother\nExample: La mia **matrigna** mi ha cresciuto. (My stepmother raised me.)",
+]
