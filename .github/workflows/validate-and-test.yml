@@ -103,4 +103,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: anki-decks
-          path: output/*.apkg
+          path: src/output/*.apkg
