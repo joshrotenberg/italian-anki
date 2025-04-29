@@ -42,7 +42,11 @@ def create_deck_file(proj, level, topic, cards):
     file_path = lvl_dir / f"{topic}.toml"
 
     # Convert to TOML structure
-    toml_data = {"deck": f"{level}::{topic}", "model": "basic", "notes": []}  # Default model
+    toml_data = {
+        "deck": f"{level}::{topic}",
+        "model": "basic",
+        "notes": [],
+    }  # Default model
 
     for idx, card in enumerate(cards, start=1):
         note = {
@@ -94,7 +98,9 @@ def test_per_file_mode_single_card(setup_project, level):
         ],
     )
     # Run generate.py for this level
-    result = subprocess.run(["python3", SCRIPT, "--level", level], capture_output=True, text=True)
+    result = subprocess.run(
+        ["python3", SCRIPT, "--level", level], capture_output=True, text=True
+    )
     assert result.returncode == 0, result.stderr
     # Check that exactly one .apkg exists matching topic
     out_files = list((proj / "output").glob("*.apkg"))
@@ -185,7 +191,9 @@ def test_markdown_formatting(setup_project):
             }
         ],
     )
-    result = subprocess.run(["python3", SCRIPT, "--level", level], capture_output=True, text=True)
+    result = subprocess.run(
+        ["python3", SCRIPT, "--level", level], capture_output=True, text=True
+    )
     assert result.returncode == 0, result.stderr
     # We can't easily check the HTML output in the .apkg file,
     # but we can at least verify that the deck was created
@@ -207,13 +215,27 @@ def test_auto_discover_mode(setup_project):
         proj,
         "a1",
         "auto1",
-        [{"model": "basic", "front": "auto1", "back": "auto1", "tags": ["a1", "auto1"]}],
+        [
+            {
+                "model": "basic",
+                "front": "auto1",
+                "back": "auto1",
+                "tags": ["a1", "auto1"],
+            }
+        ],
     )
     create_deck_file(
         proj,
         "a2",
         "auto2",
-        [{"model": "basic", "front": "auto2", "back": "auto2", "tags": ["a2", "auto2"]}],
+        [
+            {
+                "model": "basic",
+                "front": "auto2",
+                "back": "auto2",
+                "tags": ["a2", "auto2"],
+            }
+        ],
     )
 
     # Create a nested directory structure to test recursive discovery

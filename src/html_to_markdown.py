@@ -90,7 +90,9 @@ def process_toml_file(path: str, dry_run: bool = False) -> Tuple[int, int]:
                 converted = convert_html_to_markdown(back)
                 if converted != back:
                     if dry_run:
-                        print(f"Would convert in {path} [note {processed_notes}, back field]:")
+                        print(
+                            f"Would convert in {path} [note {processed_notes}, back field]:"
+                        )
                         print(f"  From: {back}")
                         print(f"  To:   {converted}")
                     else:
@@ -138,8 +140,12 @@ def main() -> int:
     Returns:
         Exit code (0 for success, non-zero for errors)
     """
-    parser = argparse.ArgumentParser(description="Convert HTML to Markdown in TOML deck files")
-    parser.add_argument("--path", help="Path to a specific file or directory to process")
+    parser = argparse.ArgumentParser(
+        description="Convert HTML to Markdown in TOML deck files"
+    )
+    parser.add_argument(
+        "--path", help="Path to a specific file or directory to process"
+    )
     parser.add_argument(
         "--dry-run",
         action="store_true",

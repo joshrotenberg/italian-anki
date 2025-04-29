@@ -31,7 +31,9 @@ def test_level(level):
     # Run the generate.py script with the specified level
     print(f"Running generate.py with --level {level}...")
     result = subprocess.run(
-        [sys.executable, "generate.py", "--level", level], capture_output=True, text=True
+        [sys.executable, "generate.py", "--level", level],
+        capture_output=True,
+        text=True,
     )
 
     # Print the output
@@ -45,7 +47,9 @@ def test_level(level):
     # Check if any level files were created
     if os.path.exists(output_dir):
         level_files = [
-            f for f in os.listdir(output_dir) if f.startswith(f"{level}-") and f.endswith(".apkg")
+            f
+            for f in os.listdir(output_dir)
+            if f.startswith(f"{level}-") and f.endswith(".apkg")
         ]
         if level_files:
             print(f"\nSuccess! {len(level_files)} {level} level files were created:")
@@ -70,7 +74,9 @@ def main():
 
     # Report overall success
     if basic_success and a1_success:
-        print("\nAll tests passed! The generate script can handle both basic and a1 levels.")
+        print(
+            "\nAll tests passed! The generate script can handle both basic and a1 levels."
+        )
         return 0
     else:
         print("\nSome tests failed. Please check the output above for details.")

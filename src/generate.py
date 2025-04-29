@@ -260,7 +260,9 @@ def discover_deck_files() -> Dict[str, List[str]]:
         # Extract level from path (e.g., "decks/a1/file.toml" -> "a1")
         parts = file_path.split(os.sep)
         if len(parts) >= 2 and parts[0] == "decks":  # Ensure path starts with "decks/"
-            level = parts[1]  # "decks/a1/file.toml" -> parts = ["decks", "a1", "file.toml"]
+            level = parts[
+                1
+            ]  # "decks/a1/file.toml" -> parts = ["decks", "a1", "file.toml"]
             if level:  # Ensure level is not empty
                 if level not in levels_dict:
                     levels_dict[level] = []
@@ -390,7 +392,9 @@ def process_uber_mode(
 
 
 def process_chunk_mode(
-    levels: List[str], chunk_size: int, discovered_files: Optional[Dict[str, List[str]]] = None
+    levels: List[str],
+    chunk_size: int,
+    discovered_files: Optional[Dict[str, List[str]]] = None,
 ) -> None:
     """
     Process decks in chunk mode (decks with a specified number of files each).
@@ -418,8 +422,8 @@ def process_chunk_mode(
             file_paths = [os.path.join(lvl_dir, f) for f in files]
 
         for i in range(0, len(files), chunk_size):
-            chunk_files = files[i: i + chunk_size]
-            chunk_paths = file_paths[i: i + chunk_size]
+            chunk_files = files[i : i + chunk_size]
+            chunk_paths = file_paths[i : i + chunk_size]
             cards = []
             topics = []
 
@@ -448,17 +452,26 @@ def main() -> int:
     """
     parser = argparse.ArgumentParser(description="Generate Anki decks")
     parser.add_argument(
-        "--level", choices=["a1", "a2", "b1", "basic"], help="legacy: per-file on a single level"
+        "--level",
+        choices=["a1", "a2", "b1", "basic"],
+        help="legacy: per-file on a single level",
     )
-    parser.add_argument("--all", action="store_true", help="legacy: per-file on all levels")
+    parser.add_argument(
+        "--all", action="store_true", help="legacy: per-file on all levels"
+    )
     parser.add_argument(
         "--mode", choices=["per-file", "per-level", "uber", "chunk"], help="build mode"
     )
     parser.add_argument(
-        "--chunk-size", type=int, default=0, help="number of files per deck in chunk mode"
+        "--chunk-size",
+        type=int,
+        default=0,
+        help="number of files per deck in chunk mode",
     )
     parser.add_argument(
-        "--auto-discover", action="store_true", help="automatically discover all deck files"
+        "--auto-discover",
+        action="store_true",
+        help="automatically discover all deck files",
     )
     args = parser.parse_args()
 
@@ -473,14 +486,20 @@ def main() -> int:
                 if args.level in discovered_decks:
                     levels = [args.level]
                 else:
-                    print(f"Warning: Level '{args.level}' not found in discovered decks")
+                    print(
+                        f"Warning: Level '{args.level}' not found in discovered decks"
+                    )
                     levels = []
             else:
                 levels = all_levels
         else:
             # Use traditional directory listing
             all_levels = sorted(
-                [d for d in os.listdir("decks") if os.path.isdir(os.path.join("decks", d))]
+                [
+                    d
+                    for d in os.listdir("decks")
+                    if os.path.isdir(os.path.join("decks", d))
+                ]
             )
 
             if args.level:

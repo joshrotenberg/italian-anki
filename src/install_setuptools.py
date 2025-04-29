@@ -14,7 +14,9 @@ def main():
     print("Installing setuptools...")
     try:
         # nosec B603 - Command uses only fixed strings and sys.executable
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "setuptools>=65.5.0"])
+        subprocess.check_call(
+            [sys.executable, "-m", "pip", "install", "setuptools>=65.5.0"]
+        )
         print("setuptools installed successfully!")
         return 0
     except subprocess.CalledProcessError as e:
