@@ -1,4 +1,4 @@
-deck = "basic::saluti"
+deck = "basic::cortesia"
 model = "basic"
 
 [[notes]]
@@ -32,4 +32,59 @@ tags = [
 fields = [
     "🙏 **Prego**",
     "Meaning: You're welcome\nExample: \"Grazie!\" \"**Prego**!\"",
+]
+
+[[notes]]
+note_id = 40001
+tags = [
+    "basic",
+    "cortesia",
+]
+fields = [
+    "🙏 **Scusi**",
+    "Meaning: Excuse me (formal)\nExample: **Scusi**, dov'è la stazione?",
+]
+
+[[notes]]
+note_id = 40002
+tags = [
+    "basic",
+    "cortesia",
+]
+fields = [
+    "🙏 **Scusa**",
+    "Meaning: Excuse me (informal)\nExample: **Scusa**, hai l'ora?",
+]
+
+[[notes]]
+note_id = 40003
+tags = [
+    "basic",
+    "cortesia",
+]
+fields = [
+    "🙏 **Mi dispiace**",
+    "Meaning: I'm sorry\nExample: **Mi dispiace** per il ritardo.",
+]
+
+[[notes]]
+note_id = 40004
+tags = [
+    "basic",
+    "cortesia",
+]
+fields = [
+    "🙏 **Permesso**",
+    "Meaning: Excuse me (when passing through)\nExample: **Permesso**, posso passare?",
+]
+
+[[notes]]
+note_id = 40005
+tags = [
+    "basic",
+    "cortesia",
+]
+fields = [
+    "🙏 **Grazie mille**",
+    "Meaning: Thank you very much\nExample: **Grazie mille** per il tuo aiuto!",
 ]

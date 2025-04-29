@@ -77,3 +77,91 @@ fields = [
     "🌍 **Sono di...**",
     "Meaning: I'm from...\nExample: **Sono di** Roma.",
 ]
+
+[[notes]]
+note_id = 40006
+tags = [
+    "basic",
+    "conversazione",
+]
+fields = [
+    "❓ **Quanti anni hai?**",
+    "Meaning: How old are you?\nExample: **Quanti anni hai**?",
+]
+
+[[notes]]
+note_id = 40007
+tags = [
+    "basic",
+    "conversazione",
+]
+fields = [
+    "👤 **Ho ... anni**",
+    "Meaning: I am ... years old\nExample: **Ho venticinque anni**.",
+]
+
+[[notes]]
+note_id = 40008
+tags = [
+    "basic",
+    "conversazione",
+]
+fields = [
+    "❓ **Cosa fai?**",
+    "Meaning: What do you do? (profession)\nExample: **Cosa fai** di lavoro?",
+]
+
+[[notes]]
+note_id = 40009
+tags = [
+    "basic",
+    "conversazione",
+]
+fields = [
+    "👤 **Sono un/una...**",
+    "Meaning: I am a... (profession)\nExample: **Sono un** insegnante. / **Sono una** studentessa.",
+]
+
+[[notes]]
+note_id = 40010
+tags = [
+    "basic",
+    "conversazione",
+]
+fields = [
+    "❓ **Parli italiano?**",
+    "Meaning: Do you speak Italian?\nExample: **Parli italiano** bene?",
+]
+
+[[notes]]
+note_id = 40011
+tags = [
+    "basic",
+    "conversazione",
+]
+fields = [
+    "👤 **Parlo un po' di italiano**",
+    "Meaning: I speak a little Italian\nExample: **Parlo un po' di italiano**, ma non molto bene.",
+]
+
+[[notes]]
+note_id = 40012
+tags = [
+    "basic",
+    "conversazione",
+]
+fields = [
+    "❓ **Da quanto tempo studi l'italiano?**",
+    "Meaning: How long have you been studying Italian?\nExample: **Da quanto tempo studi l'italiano**?",
+]
+
+[[notes]]
+note_id = 40013
+tags = [
+    "basic",
+    "conversazione",
+]
+fields = [
+    "👤 **Studio l'italiano da...**",
+    "Meaning: I've been studying Italian for...\nExample: **Studio l'italiano da** sei mesi.",
+]
