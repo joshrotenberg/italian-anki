@@ -86,7 +86,9 @@ def fix_tags_in_file(path: str, dry_run: bool = False) -> int:
     return fixed_count
 
 
-def find_deck_files(levels: Optional[List[str]] = None, path: Optional[str] = None) -> List[str]:
+def find_deck_files(
+    levels: Optional[List[str]] = None, path: Optional[str] = None
+) -> List[str]:
     """
     Find all deck files to fix.
 

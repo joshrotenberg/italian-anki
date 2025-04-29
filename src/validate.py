@@ -132,7 +132,9 @@ def main() -> int:
         Exit code (0 for success, 1 for validation errors)
     """
     parser = argparse.ArgumentParser(description="Validate deck files (TOML)")
-    parser.add_argument("path", nargs="*", help="Path to a specific file or directory to validate")
+    parser.add_argument(
+        "path", nargs="*", help="Path to a specific file or directory to validate"
+    )
     args = parser.parse_args()
 
     files = []

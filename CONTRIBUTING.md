@@ -4,7 +4,7 @@ Thanks for helping improve the Italian‑Anki project! Please follow these guide
 
 ## 1. Add or update a deck
 
-1. Place your TOML file in the correct folder: `decks/<level>/` (e.g., `decks/a1/` or `decks/a2/`).
+1. Place your TOML file in the correct folder: `decks/<level>/` (e.g., `decks/a1/`, `decks/a2/`, `decks/b1/`, or `decks/basic/`).
 2. Name it `<topic>.toml` (e.g., `vocab_alimentari.toml`).
 3. Follow the TOML schema:
    ```toml
@@ -22,7 +22,7 @@ Thanks for helping improve the Italian‑Anki project! Please follow these guide
    ```
 4. Validate your file:
    ```bash
-   python validate.py decks/<level>
+   python src/validate.py decks/<level>
    ```
 
 ## 2. Generate Anki decks
@@ -30,26 +30,28 @@ Thanks for helping improve the Italian‑Anki project! Please follow these guide
 Use `generate.py` to build `.apkg` files:
 ```bash
 # Default mode (per-file): Creates a separate deck for each TOML file
-python generate.py --level <level>
+python src/generate.py --level <level>
 # e.g.
-python generate.py --level a1
-python generate.py --level a2
-python generate.py --all  # All levels
+python src/generate.py --level a1
+python src/generate.py --level a2
+python src/generate.py --level b1
+python src/generate.py --level basic
+python src/generate.py --all  # All levels
 
 # Per-level mode: Combines all TOML files of a level into a single deck
-python generate.py --mode per-level --level a1
+python src/generate.py --mode per-level --level a1
 
 # Uber mode: Creates one big deck with all cards from all levels
-python generate.py --mode uber
+python src/generate.py --mode uber
 
 # Chunk mode: Creates decks with a specified number of files each
-python generate.py --mode chunk --chunk-size 10 --level a1
+python src/generate.py --mode chunk --chunk-size 10 --level a1
 
 # Auto-discover mode: Automatically discovers all deck files
-python generate.py --auto-discover
+python src/generate.py --auto-discover
 
 # Auto-discover with uber mode: Discovers all deck files and creates one big deck
-python generate.py --auto-discover --mode uber
+python src/generate.py --auto-discover --mode uber
 ```
 
 ## 3. Run tests
@@ -61,9 +63,16 @@ pytest
 
 ## 4. Update scripts
 
-If you add new levels or change output modes, update `generate.py` accordingly.
+If you add new levels or change output modes, update `src/generate.py` accordingly.
 
-## 5. Use conventional commits
+## 5. Fix tags
+
+If you need to fix tags in deck files:
+```bash
+python src/fix_tags.py
+```
+
+## 6. Use conventional commits
 
 This project uses [conventional commits](https://www.conventionalcommits.org/) to automate versioning and changelog generation. When making changes, format your commit messages like this:
 

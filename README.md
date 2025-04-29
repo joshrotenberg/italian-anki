@@ -8,10 +8,21 @@ A collection of deck files (TOML) and scripts for generating Anki decks to learn
 italian-anki/
 ├── decks/
 │   ├── a1/           # A1-level deck files (TOML)
-│   └── a2/           # A2-level deck files (TOML)
-├── generate.py       # Script to build .apkg Anki decks from TOML
-├── validate.py       # Script to validate deck file format
-├── lint.py           # Script to run linting checks
+│   ├── a2/           # A2-level deck files (TOML)
+│   ├── b1/           # B1-level deck files (TOML)
+│   └── basic/        # Basic-level deck files (TOML)
+├── src/              # Python scripts
+│   ├── generate.py   # Script to build .apkg Anki decks from TOML
+│   ├── validate.py   # Script to validate deck file format
+│   ├── lint.py       # Script to run linting checks
+│   ├── fix_tags.py   # Script to fix tags in deck files
+│   └── format_with_black.py # Script to format code with black
+├── config/           # Configuration files
+│   └── cliff.toml    # Configuration for git-cliff
+├── media/            # Media files for Anki decks
+├── output/           # Generated Anki decks (.apkg files)
+├── styles.css        # CSS styles for Anki cards
+├── VERSION           # Current version of the project
 ├── setup.cfg         # Tool configuration
 ├── pyproject.toml    # Modern Python packaging and tool configuration
 ├── .pre-commit-config.yaml # Pre-commit hooks configuration
@@ -33,37 +44,49 @@ Generate Anki decks:
 
 ```bash
 # Build A1 decks:
-python generate.py --level a1
+python src/generate.py --level a1
 
 # Build A2 decks:
-python generate.py --level a2
+python src/generate.py --level a2
 
-# Build all levels (if available):
-python generate.py --all
+# Build B1 decks:
+python src/generate.py --level b1
+
+# Build basic decks:
+python src/generate.py --level basic
+
+# Build all levels:
+python src/generate.py --all
 
 # Build decks in different modes:
-python generate.py --mode per-level  # One deck per level
-python generate.py --mode uber       # One big deck with all cards
-python generate.py --mode chunk --chunk-size 10  # Decks with 10 files each
+python src/generate.py --mode per-level  # One deck per level
+python src/generate.py --mode uber       # One big deck with all cards
+python src/generate.py --mode chunk --chunk-size 10  # Decks with 10 files each
 
 # Automatically discover and build all deck files:
-python generate.py --auto-discover
+python src/generate.py --auto-discover
 
 # Automatically discover and build one big deck:
-python generate.py --auto-discover --mode uber
+python src/generate.py --auto-discover --mode uber
 ```
 
 Validate deck files:
 
 ```bash
 # Validate A1 decks
-python validate.py decks/a1
+python src/validate.py decks/a1
 
 # Validate A2 decks
-python validate.py decks/a2
+python src/validate.py decks/a2
+
+# Validate B1 decks
+python src/validate.py decks/b1
+
+# Validate basic decks
+python src/validate.py decks/basic
 
 # Validate a specific file
-python validate.py decks/a1/alfabeto.toml
+python src/validate.py decks/a1/alfabeto.toml
 ```
 
 ## Development Tools
@@ -74,16 +97,16 @@ The project uses several tools to maintain code quality and consistency:
 
 ```bash
 # Check all Python files for linting issues
-./lint.py
+python src/lint.py
 
 # Check specific files
-./lint.py generate.py validate.py
+python src/lint.py src/generate.py src/validate.py
 
 # Automatically fix issues where possible
-./lint.py --fix
+python src/lint.py --fix
 
 # Format code with black
-black .
+python src/format_with_black.py
 ```
 
 The code quality tools include:
@@ -135,7 +158,7 @@ The CI workflow runs on every push to main and on pull requests.
 
 Add new decks in TOML format:
 
-1. Add new TOML file under `decks/<level>/`.
+1. Add new TOML file under `decks/<level>/` (e.g., `decks/a1/`, `decks/a2/`, `decks/b1/`, or `decks/basic/`).
 2. Follow naming: `<topic>.toml`.
 3. Include deck information:
    ```toml
@@ -156,7 +179,7 @@ Add new decks in TOML format:
    ```
 5. Run validation:
    ```bash
-   python validate.py decks/<level>/<topic>.toml
+   python src/validate.py decks/<level>/<topic>.toml
    ```
 
 #### Markdown Support
@@ -195,12 +218,17 @@ The Markdown is automatically converted to HTML when generating Anki decks.
 
 4. Run linting manually if needed:
    ```bash
-   ./lint.py
+   python src/lint.py
    ```
 
-5. Update `generate.py` if adding new levels or modes.
+5. Update `src/generate.py` if adding new levels or modes.
 
-6. Submit a pull request. The CI workflow will automatically validate your changes.
+6. Fix tags in deck files if needed:
+   ```bash
+   python src/fix_tags.py
+   ```
+
+7. Submit a pull request. The CI workflow will automatically validate your changes.
 
 ### Release Process
 
@@ -222,7 +250,7 @@ The project uses [release-please](https://github.com/googleapis/release-please) 
 
 3. **CHANGELOG Validation**: The GitHub Actions workflow automatically regenerates and validates the `CHANGELOG.md` file on every pull request.
    - PRs will fail CI if the changelog is outdated
-   - Run `make changelog` or `git-cliff --output CHANGELOG.md` locally to update it before committing
+   - Run `git-cliff --config config/cliff.toml --output CHANGELOG.md` locally to update it before committing
 
 4. **Creating Releases**: When a release PR is merged:
    - A new GitHub Release is automatically created
@@ -233,4 +261,3 @@ The project uses [release-please](https://github.com/googleapis/release-please) 
 ---
 
 This automated process ensures consistent versioning, changelog quality, and artifact publishing with minimal manual intervention.
-

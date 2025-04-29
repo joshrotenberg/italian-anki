@@ -91,9 +91,13 @@ def main():
     parser = argparse.ArgumentParser(description="Format Python files using Black")
     parser.add_argument("files", nargs="*", help="Files to format")
     parser.add_argument(
-        "--check", action="store_true", help="Don't write the files back, return the status"
+        "--check",
+        action="store_true",
+        help="Don't write the files back, return the status",
     )
-    parser.add_argument("--diff", action="store_true", help="Show the diff of what would change")
+    parser.add_argument(
+        "--diff", action="store_true", help="Show the diff of what would change"
+    )
 
     args = parser.parse_args()
 
