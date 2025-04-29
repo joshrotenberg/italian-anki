@@ -8,6 +8,8 @@ on:
       - 'v*'
   workflow_dispatch: { }
 
+permissions:
+  contents: write
 
 jobs:
   build-and-publish:
@@ -15,7 +17,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -23,7 +25,7 @@ jobs:
           python-version: '3.x'
 
       - name: Cache pip
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
