@@ -61,6 +61,9 @@ def read_version() -> str:
 
 VERSION = read_version()
 
+# Global variable to store the current mode
+CURRENT_MODE = "per-file"  # Default mode
+
 
 def stable_id(name: str) -> int:
     """
@@ -217,7 +220,14 @@ def build_deck(level: str, topic: str, cards: List[Dict[str, Any]]) -> None:
 
     out_dir = os.path.join(SCRIPT_DIR, "output")
     os.makedirs(out_dir, exist_ok=True)
-    filename = f"{level}-{topic}-v{VERSION}.apkg"
+    # Use different filename formats based on the mode
+    if CURRENT_MODE == "per-level" or CURRENT_MODE == "uber":
+        # For per-level and uber modes, use a simple filename without topic
+        filename = f"italian-{level}.apkg"
+    else:
+        # For per-file and chunk modes, include the topic to avoid overwriting
+        filename = f"italian-{level}-{topic}.apkg"
+
     path = os.path.join(out_dir, filename)
 
     try:
@@ -518,6 +528,10 @@ def main() -> int:
             return 0
 
         mode = args.mode or "per-file"
+
+        # Set the global mode variable
+        global CURRENT_MODE
+        CURRENT_MODE = mode
 
         # Process according to mode
         discovered_files = discovered_decks if args.auto_discover else None
