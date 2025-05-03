@@ -1,5 +1,17 @@
 ## [unreleased]
 
+## [1.2.0](https://github.com/joshrotenberg/italian-anki/compare/v1.1.3...v1.2.0) (2025-05-03)
+
+
+### Features
+
+* add docs ([#55](https://github.com/joshrotenberg/italian-anki/issues/55)) ([98985f6](https://github.com/joshrotenberg/italian-anki/commit/98985f61fca790e8d0f58319c847f634b372f27e))
+
+
+### Bug Fixes
+
+* fix changelog ([#53](https://github.com/joshrotenberg/italian-anki/issues/53)) ([6e644b8](https://github.com/joshrotenberg/italian-anki/commit/6e644b81f0887a584fa0dc15a44fd3d046c165e8))
+
 ## [1.1.3](https://github.com/joshrotenberg/italian-anki/compare/v1.1.2...v1.1.3) (2025-05-03)
 
 
