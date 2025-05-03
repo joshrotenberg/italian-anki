@@ -1,0 +1,58 @@
+site_name: Italian Anki Decks
+site_description: Documentation for the Italian Anki Decks project
+site_author: Italian Anki Decks Contributors
+repo_url: https://github.com/joshrotenberg/italian-anki
+repo_name: joshrotenberg/italian-anki
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.indexes
+    - content.code.copy
+    - content.code.annotate
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - User Guide:
+    - Getting Started: user-guide/getting-started.md
+    - Using Anki Decks: user-guide/using-anki-decks.md
+  - Grammar Reference:
+    - Overview: grammar-reference/index.md
+    - Articles: grammar-reference/articles.md
+    - Nouns: grammar-reference/nouns.md
+    - Adjectives: grammar-reference/adjectives.md
+    - Present Tense: grammar-reference/present-tense.md
+    - Past Tense: grammar-reference/past-tense.md
+    - Prepositions: grammar-reference/prepositions.md
+  - Developer Guide:
+    - Contributing: developer-guide/contributing.md
+    - Development Setup: developer-guide/development-setup.md
+    - Deck Format: developer-guide/deck-format.md
+  - Reference:
+    - Command Line Interface: reference/cli.md
+    - API Reference: reference/api.md
+  - About:
+    - Release Notes: about/release-notes.md
+    - License: about/license.md
+
+plugins:
+  - search

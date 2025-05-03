@@ -55,10 +55,11 @@ jobs:
         run: mypy --ignore-missing-imports src/*.py tests/*.py
 
       - name: Run security scanning
+        env:
+          SAFETY_API_KEY: ${{ secrets.SAFETY_API_KEY }}
         run: |
           bandit -r . -x ./tests --severity-level high
-          # Try the new scan command first, fall back to check if it fails
-          safety scan || safety check
+          safety check
 
       - name: Run tests with coverage
         run: pytest --cov=. --cov-report=xml
