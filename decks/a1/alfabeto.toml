@@ -231,3 +231,69 @@ fields = [
     "Z",
     "Pronunciation: /dzeta/\nExample: Z come **zucchero**",
 ]
+
+[[notes]]
+note_id = 10022
+tags = [
+    "a1",
+    "alfabeto",
+]
+fields = [
+    "CH",
+    "Pronunciation: /k/\nExample: **ch**iave (key)\n\nThe combination 'ch' is always pronounced as a hard 'k' sound, regardless of the following vowel.",
+]
+
+[[notes]]
+note_id = 10023
+tags = [
+    "a1",
+    "alfabeto",
+]
+fields = [
+    "GH",
+    "Pronunciation: /g/\nExample: **gh**iaccio (ice)\n\nThe combination 'gh' is always pronounced as a hard 'g' sound, regardless of the following vowel.",
+]
+
+[[notes]]
+note_id = 10024
+tags = [
+    "a1",
+    "alfabeto",
+]
+fields = [
+    "SC",
+    "Pronunciation: /ʃ/ before 'i' and 'e', /sk/ before other vowels\nExamples:\n- **sc**i (ski): /ʃi/\n- **sc**elta (choice): /ʃelta/\n- **sc**ala (ladder): /skala/",
+]
+
+[[notes]]
+note_id = 10025
+tags = [
+    "a1",
+    "alfabeto",
+]
+fields = [
+    "SCH",
+    "Pronunciation: /sk/\nExample: **sch**ermo (screen)\n\nThe combination 'sch' is always pronounced as /sk/, regardless of the following vowel.",
+]
+
+[[notes]]
+note_id = 10026
+tags = [
+    "a1",
+    "alfabeto",
+]
+fields = [
+    "GLI",
+    "Pronunciation: /ʎ/\nExample: **gli** (the, masculine plural): /ʎi/\n\nThe combination 'gli' is pronounced similar to the 'lli' in English 'million'.",
+]
+
+[[notes]]
+note_id = 10027
+tags = [
+    "a1",
+    "alfabeto",
+]
+fields = [
+    "GN",
+    "Pronunciation: /ɲ/\nExample: **gn**occhi: /ɲokki/\n\nThe combination 'gn' is pronounced similar to the 'ny' in English 'canyon'.",
+]
