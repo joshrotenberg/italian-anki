@@ -59,6 +59,7 @@ jobs:
           SAFETY_API_KEY: ${{ secrets.SAFETY_API_KEY }}
         run: |
           bandit -r . -x ./tests --severity-level high --exit-zero
+
           safety check
 
       - name: Run tests with coverage
