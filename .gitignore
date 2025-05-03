@@ -29,4 +29,6 @@ output/
 # Log files
 *.log
 
+*test_sample.toml
+
 

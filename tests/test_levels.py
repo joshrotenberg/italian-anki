@@ -55,7 +55,7 @@ fields = ["Sample front", "Sample back"]
 
     # Clean up any existing output files for the level
     for filename in os.listdir(output_dir):
-        if filename.startswith(f"{level}-") and filename.endswith(".apkg"):
+        if "italian" in filename and level in filename and filename.endswith(".apkg"):
             os.remove(os.path.join(output_dir, filename))
             print(f"Removed existing file: {filename}")
 
@@ -81,7 +81,7 @@ fields = ["Sample front", "Sample back"]
     level_files = [
         f
         for f in os.listdir(output_dir)
-        if f.startswith(f"{level}-") and f.endswith(".apkg")
+        if "italian" in f and level in f and f.endswith(".apkg")
     ]
 
     assert level_files, f"No {level} level files were created."

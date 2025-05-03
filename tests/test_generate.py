@@ -114,8 +114,9 @@ def test_per_file_mode_single_card(setup_project, level):
     # Check that exactly one .apkg exists matching topic
     out_files = list((proj / "src" / "output").glob("*.apkg"))
     assert len(out_files) == 1
-    assert "testtopic" in out_files[0].name
+    assert "italian" in out_files[0].name
     assert level in out_files[0].name
+    assert "testtopic" in out_files[0].name
 
 
 @pytest.mark.parametrize("level", ["a1", "a2"])
@@ -149,6 +150,7 @@ def test_per_level_mode_combines_files(setup_project, level):
     # Check exactly one .apkg exists with level in name
     out_files = list((proj / "src" / "output").glob("*.apkg"))
     assert len(out_files) == 1
+    assert "italian" in out_files[0].name
     assert level in out_files[0].name
 
 
@@ -178,8 +180,9 @@ def test_chunk_mode_splits_files(setup_project, level):
     # Expect two .apkg files
     out_files = list((proj / "src" / "output").glob("*.apkg"))
     assert len(out_files) == 2
-    # Filenames should contain level
+    # Filenames should contain "italian" and level
     for f in out_files:
+        assert "italian" in f.name
         assert level in f.name
 
 
@@ -208,6 +211,7 @@ def test_markdown_formatting(setup_project):
     # but we can at least verify that the deck was created
     out_files = list((proj / "src" / "output").glob("*.apkg"))
     assert len(out_files) == 1
+    assert "italian" in out_files[0].name
     assert "markdown" in out_files[0].name
 
 
@@ -279,7 +283,7 @@ def test_auto_discover_mode(setup_project):
     out_files = list((proj / "src" / "output").glob("*.apkg"))
     assert len(out_files) >= 2  # At least the a1 and a2 decks
 
-    # Check that the filenames contain the expected level and topic
+    # Check that the filenames contain "italian" and the expected level and topic
     filenames = [f.name for f in out_files]
-    assert any("a1" in f and "auto1" in f for f in filenames)
-    assert any("a2" in f and "auto2" in f for f in filenames)
+    assert any("italian" in f and "a1" in f and "auto1" in f for f in filenames)
+    assert any("italian" in f and "a2" in f and "auto2" in f for f in filenames)
