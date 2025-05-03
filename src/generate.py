@@ -79,6 +79,7 @@ def stable_id(name: str) -> int:
     """
     # The usedforsecurity parameter is available in Python 3.9+
     # but mypy might not recognize it, so we use type: ignore
+    # This is explicitly not used for security purposes, only for generating stable IDs
     digest = hashlib.md5(name.encode("utf-8"), usedforsecurity=False).hexdigest()  # type: ignore
     return int(digest[:10], 16)
 
