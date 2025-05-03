@@ -1,9 +1,5 @@
 ## [unreleased]
 
-### Fix
-
-- Version with a v
-
 ## [1.1.3](https://github.com/joshrotenberg/italian-anki/compare/v1.1.2...v1.1.3) (2025-05-03)
 
 
