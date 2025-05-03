@@ -182,7 +182,8 @@ def build_deck(level: str, topic: str, cards: List[Dict[str, Any]]) -> None:
     """
     deck_name = f"Italiano::{level}/{topic}"
     deck_id = stable_id(deck_name)
-    deck_title = f"{deck_name} v{VERSION}"
+    # Don't include version in deck title to ensure Anki treats it as the same deck across versions
+    deck_title = deck_name
     deck = genanki.Deck(deck_id, deck_title)
 
     for card in cards:
@@ -224,10 +225,10 @@ def build_deck(level: str, topic: str, cards: List[Dict[str, Any]]) -> None:
     # Use different filename formats based on the mode
     if CURRENT_MODE == "per-level" or CURRENT_MODE == "uber":
         # For per-level and uber modes, use a simple filename without topic
-        filename = f"italian-{level}.apkg"
+        filename = f"italian-{level}-v{VERSION}.apkg"
     else:
         # For per-file and chunk modes, include the topic to avoid overwriting
-        filename = f"italian-{level}-{topic}.apkg"
+        filename = f"italian-{level}-{topic}-v{VERSION}.apkg"
 
     path = os.path.join(out_dir, filename)
 
