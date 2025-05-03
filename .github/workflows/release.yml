@@ -35,8 +35,14 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Generate all decks
-        run: python src/generate.py --all
+      - name: Generate a1 deck
+        run: python src/generate.py --mode per-level --level a1
+
+      - name: Generate a2 deck
+        run: python src/generate.py --mode per-level --level a2
+
+      - name: Generate basic deck
+        run: python src/generate.py --mode per-level --level basic
 
       - name: Check output folder contents
         run: ls -lh src/output/

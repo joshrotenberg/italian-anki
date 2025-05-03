@@ -254,7 +254,8 @@ The project uses [release-please](https://github.com/googleapis/release-please) 
 
 4. **Creating Releases**: When a release PR is merged:
    - A new GitHub Release is automatically created
-   - The release workflow generates and attaches `.apkg` Anki deck files to the release artifacts
+   - The release workflow builds each top-level deck (a1, a2, basic) separately using per-level mode
+   - Each deck is uploaded as a separate artifact to the release
 
 5. **Manual Rebuilds**: A manual workflow (`Release`) is available under GitHub Actions to manually rebuild and reattach deck files without requiring a new version bump.
 
