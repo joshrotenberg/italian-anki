@@ -1,5 +1,17 @@
 ## [unreleased]
 
+## [1.3.0](https://github.com/joshrotenberg/italian-anki/compare/v1.2.0...v1.3.0) (2025-05-03)
+
+
+### Features
+
+* add more grammar sections ([#58](https://github.com/joshrotenberg/italian-anki/issues/58)) ([3c8a2b3](https://github.com/joshrotenberg/italian-anki/commit/3c8a2b388bbb1e7c1dc976d4eb5947332f095e41))
+
+
+### Bug Fixes
+
+* bandit warn ([#56](https://github.com/joshrotenberg/italian-anki/issues/56)) ([b184440](https://github.com/joshrotenberg/italian-anki/commit/b18444020913441b6aded4f937a13d659ee61845))
+
 ## [1.2.0](https://github.com/joshrotenberg/italian-anki/compare/v1.1.3...v1.2.0) (2025-05-03)
 
 
