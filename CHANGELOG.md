@@ -4,6 +4,19 @@
 
 - Version with a v
 
+## [1.1.0](https://github.com/joshrotenberg/italian-anki/compare/v1.0.4...v1.1.0) (2025-05-03)
+
+
+### Features
+
+* **deck:** build release artifacts ([#46](https://github.com/joshrotenberg/italian-anki/issues/46)) ([d74469b](https://github.com/joshrotenberg/italian-anki/commit/d74469bdc1f369eda3ff0499b17cbdee5b2e6ba6))
+
+
+### Bug Fixes
+
+* decks directory location ([#45](https://github.com/joshrotenberg/italian-anki/issues/45)) ([ae784fc](https://github.com/joshrotenberg/italian-anki/commit/ae784fcf760ce0e1467351fc430dabd266453b65))
+* **workflow:** update release workflow ([#43](https://github.com/joshrotenberg/italian-anki/issues/43)) ([cda470a](https://github.com/joshrotenberg/italian-anki/commit/cda470a538aaa92368f14f2671f4cac2bd732d2e))
+
 ## [1.0.4](https://github.com/joshrotenberg/italian-anki/compare/v1.0.3...v1.0.4) (2025-04-29)
 
 
