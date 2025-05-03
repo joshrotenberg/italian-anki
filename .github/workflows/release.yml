@@ -7,6 +7,8 @@ on:
     tags:
       - 'v*'
   workflow_dispatch: { }
+  repository_dispatch:
+    types: [release-created]
 
 permissions:
   contents: write
