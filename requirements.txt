@@ -25,5 +25,5 @@ pre-commit==3.5.0
 black==25.1.0  # For code formatting
 
 # Documentation
-mkdocs==1.5.3
-mkdocs-material==9.5.3
+mkdocs==1.6.1
+mkdocs-material==9.5.32
