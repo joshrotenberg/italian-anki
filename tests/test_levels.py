@@ -26,16 +26,16 @@ def test_level(level):
     if not os.path.exists("src"):
         os.makedirs("src")
 
-    # Create src/decks directory if it doesn't exist
-    if not os.path.exists("src/decks"):
-        os.makedirs("src/decks")
+    # Create decks directory if it doesn't exist
+    if not os.path.exists("decks"):
+        os.makedirs("decks")
 
-    # Create src/decks/level directory if it doesn't exist
-    if not os.path.exists(f"src/decks/{level}"):
-        os.makedirs(f"src/decks/{level}")
+    # Create decks/level directory if it doesn't exist
+    if not os.path.exists(f"decks/{level}"):
+        os.makedirs(f"decks/{level}")
 
     # Create a sample TOML file in the level directory
-    sample_toml_path = f"src/decks/{level}/test_sample.toml"
+    sample_toml_path = f"decks/{level}/test_sample.toml"
     with open(sample_toml_path, "w") as f:
         f.write(f"""
 deck = "{level}::test_sample"

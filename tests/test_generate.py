@@ -20,8 +20,8 @@ def setup_project(tmp_path, monkeypatch):
     # Create src directory
     src_dir = proj / "src"
     src_dir.mkdir()
-    # Create decks directory inside src directory
-    decks_dir = src_dir / "decks"
+    # Create decks directory at the root level
+    decks_dir = proj / "decks"
     decks_dir.mkdir()
     # Create output directory inside src directory
     output_dir = src_dir / "output"
@@ -45,7 +45,7 @@ def create_deck_file(proj, level, topic, cards):
     Returns:
         Path to the created file
     """
-    lvl_dir = proj / "src" / "decks" / level
+    lvl_dir = proj / "decks" / level
     lvl_dir.mkdir(parents=True, exist_ok=True)
 
     file_path = lvl_dir / f"{topic}.toml"
