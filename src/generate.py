@@ -39,15 +39,8 @@ SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 os.chdir(SCRIPT_DIR)
 
 # Define the path to the decks directory
-# First check if it exists in the current directory
-if os.path.isdir(os.path.join(SCRIPT_DIR, "decks")):
-    DECKS_DIR = os.path.join(SCRIPT_DIR, "decks")
-# If not, check the parent directory
-elif os.path.isdir(os.path.join(os.path.dirname(SCRIPT_DIR), "decks")):
-    DECKS_DIR = os.path.join(os.path.dirname(SCRIPT_DIR), "decks")
-# If neither exists, default to the parent directory (it will be created if needed)
-else:
-    DECKS_DIR = os.path.join(os.path.dirname(SCRIPT_DIR), "decks")
+# The decks directory is in the parent directory (root)
+DECKS_DIR = os.path.join(os.path.dirname(SCRIPT_DIR), "decks")
 
 
 def read_version() -> str:
