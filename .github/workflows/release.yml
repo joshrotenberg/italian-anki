@@ -53,3 +53,4 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: src/output/*.apkg
+          tag_name: ${{ github.event.client_payload.tag_name || github.ref_name }}
