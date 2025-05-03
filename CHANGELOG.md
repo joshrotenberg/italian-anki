@@ -1,5 +1,12 @@
 ## [unreleased]
 
+## [1.3.1](https://github.com/joshrotenberg/italian-anki/compare/v1.3.0...v1.3.1) (2025-05-03)
+
+
+### Bug Fixes
+
+* merge decks ([#59](https://github.com/joshrotenberg/italian-anki/issues/59)) ([1f7f0f9](https://github.com/joshrotenberg/italian-anki/commit/1f7f0f9bbeff1de49138c0c2002718da3be4a5de))
+
 ## [1.3.0](https://github.com/joshrotenberg/italian-anki/compare/v1.2.0...v1.3.0) (2025-05-03)
 
 
