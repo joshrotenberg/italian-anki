@@ -168,7 +168,7 @@ The project supports two card models:
 ### Version Control
 
 - The version is stored in the `VERSION` file in the project root
-- This version is embedded in deck titles and filenames
+- This version is embedded in filenames only (not in deck titles) to ensure Anki treats new versions as updates to existing decks
 - When updating the project, increment the version number in this file
 
 ### Stable IDs
