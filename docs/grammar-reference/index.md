@@ -12,12 +12,21 @@ This reference covers the most common grammar concepts you'll encounter when lea
 
 Here you'll find explanations and examples for the following grammar concepts:
 
+### Fundamentals
+
+- [Italian Grammar Basics](basics.md) - Essential concepts for beginners
 - [Articles](articles.md) - Definite and indefinite articles in Italian
 - [Nouns](nouns.md) - Gender, number, and other properties of Italian nouns
 - [Adjectives](adjectives.md) - How adjectives work and agree with nouns
+- [Prepositions](prepositions.md) - Common prepositions and their uses
+
+### Verb Tenses
+
+- [Verb Tenses Overview](verb-tenses.md) - Introduction to Italian verb tenses
 - [Present Tense](present-tense.md) - Conjugation of verbs in the present tense
 - [Past Tense](past-tense.md) - Basic past tense forms in Italian
-- [Prepositions](prepositions.md) - Common prepositions and their uses
+- [Future Tense](future-tense.md) - Simple future and future perfect tenses
+- [Conditional Tense](conditional-tense.md) - Present and past conditional tenses
 
 ## How to Use This Reference
 
